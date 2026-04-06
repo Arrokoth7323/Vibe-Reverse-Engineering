@@ -8,6 +8,9 @@
 # Allow looking into subdirectories
 !*/
 
+# Allow asi
+!*.asi
+
 # Source code
 !*.cpp
 !*.hpp
