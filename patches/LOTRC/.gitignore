@@ -36,6 +36,3 @@
 # Documentation
 !*.md
 !LICENSE
-
-# Re-ignore build output (overrides the above)
-build/
