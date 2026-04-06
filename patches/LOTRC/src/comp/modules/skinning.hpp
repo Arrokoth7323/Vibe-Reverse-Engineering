@@ -3,13 +3,11 @@
 namespace comp
 {
 	/*
-	 * Optional skinning module for FFP conversion.
+	 * Skinning module for FFP conversion.
 	 *
-	 * When enabled via [Skinning] Enabled=1 in remix-comp-proxy.ini, this module
-	 * handles skinned mesh rendering by CPU-skinning vertices (applying bone
-	 * blending on the CPU) and passing pre-transformed geometry to FFP.
-	 *
-	 * Only enable after rigid FFP geometry works correctly.
+	 * CPU-skins vertices (bone blending on the CPU), outputs pre-transformed
+	 * geometry to FFP. Hash stability comes from Remix config excluding positions
+	 * from the asset hash (rtx.geometryAssetHashRuleString = "indices,geometrydescriptor").
 	 */
 	class skinning final : public shared::common::loader::component_module
 	{
@@ -41,12 +39,10 @@ namespace comp
 
 		IDirect3DVertexDeclaration9* skin_exp_decl_ = nullptr;
 
-		// Expanded vertex buffer cache — keyed per VB+offset+bone state
+		// Expanded vertex buffer cache
 		IDirect3DVertexBuffer9* skin_exp_vb_[SKIN_CACHE_SIZE] = {};
 		unsigned int skin_exp_key_[SKIN_CACHE_SIZE] = {};
 		unsigned int skin_exp_nv_[SKIN_CACHE_SIZE] = {};
-
-		int skin_call_count_ = 0;
 
 		// Pre-computed bone_world matrices for current draw
 		float bone_world_[MAX_BONES][16];

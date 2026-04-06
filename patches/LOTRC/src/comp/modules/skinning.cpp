@@ -43,8 +43,6 @@ namespace comp
 			}
 		}
 
-		skin_call_count_++;
-
 		if (!skin_exp_decl_)
 			create_expanded_decl(dev);
 
@@ -57,7 +55,7 @@ namespace comp
 		// Pre-compute bone matrices (model-space for crowd, world-space for regular)
 		prepare_bone_matrices();
 
-		// CPU-skin vertices (model-space for crowd, world-space for regular)
+		// CPU-skin vertices
 		auto* src_vb = ffp.stream_vb(0);
 		UINT stride = ffp.stream_stride(0);
 		UINT soff = ffp.stream_offset(0);
@@ -69,7 +67,7 @@ namespace comp
 			return dev->DrawIndexedPrimitive(pt, base_vtx, min_vtx, num_verts, start_idx, prim_count);
 		}
 
-		// Engage FFP: null shaders, decompose c239→View/Proj, setup textures/lighting.
+		// Engage FFP: null shaders, decompose c239->View/Proj, setup textures/lighting.
 		ffp.engage(dev);
 
 		IDirect3DVertexDeclaration9* orig_decl = nullptr;
@@ -97,7 +95,7 @@ namespace comp
 
 			if (!inst_vb || inst_stride == 0 || inst_count == 0)
 			{
-				// No instance data — draw once with identity
+				// No instance data - draw once with identity
 				static const D3DMATRIX identity = { 1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1 };
 				dev->SetTransform(D3DTS_WORLD, &identity);
 				hr = dev->DrawIndexedPrimitive(pt, -static_cast<INT>(min_vtx),
@@ -223,7 +221,7 @@ namespace comp
 		{
 			const float* b = &vs_const[(bone_start + i * regs_per_bone) * 4];
 
-			// Transpose shader 3x4 row-major bone → D3D 4x4 for row-vector multiply
+			// Transpose shader 3x4 row-major bone -> D3D 4x4 for row-vector multiply
 			float bone[16];
 			if (regs_per_bone == 3)
 			{
@@ -239,8 +237,7 @@ namespace comp
 
 			if (is_crowd_inst_)
 			{
-				// Crowd: bones operate in model-space only, no world bake.
-				// Instance transform applied per-vertex from stream 1 TEXCOORD5.
+				// Crowd: bones operate in model-space only
 				std::memcpy(bone_world_[i], bone, sizeof(float) * 16);
 			}
 			else
@@ -254,18 +251,13 @@ namespace comp
 	void skinning::build_crowd_world(const float* tc5, float* world)
 	{
 		// TEXCOORD5 = (inst_x, inst_y, inst_z, rotation_angle)
-		// Build RotY(angle) + translate(xyz) matrix for row-vector multiply
 		float angle = tc5[3];
 		float s = std::sin(angle);
 		float c = std::cos(angle);
 
-		// Row 0: rotated X axis
 		world[0] = c;     world[1] = 0.0f;  world[2] = s;     world[3] = 0.0f;
-		// Row 1: Y axis (unchanged)
 		world[4] = 0.0f;  world[5] = 1.0f;  world[6] = 0.0f;  world[7] = 0.0f;
-		// Row 2: rotated Z axis
 		world[8] = -s;    world[9] = 0.0f;  world[10] = c;    world[11] = 0.0f;
-		// Row 3: translation
 		world[12] = tc5[0]; world[13] = tc5[1]; world[14] = tc5[2]; world[15] = 1.0f;
 	}
 
@@ -275,8 +267,8 @@ namespace comp
 	{
 		if (!src_vb || stride == 0 || num_verts == 0) return nullptr;
 
-		// No caching — bone matrices change every frame, so we must re-skin.
-		// Use slot based on VB identity for buffer reuse (same size → reuse allocation).
+		// Re-skin every frame: bone matrices change with animation.
+		// Reuse VB allocation when possible (same slot = same size).
 		unsigned int key = static_cast<unsigned int>(reinterpret_cast<uintptr_t>(src_vb));
 		key ^= num_verts * 0x517CC1B7u;
 		int slot = key % SKIN_CACHE_SIZE;
@@ -340,7 +332,7 @@ namespace comp
 
 		if (bw_type == D3DDECLTYPE_D3DCOLOR)
 		{
-			// Memory [B,G,R,A] → GPU RGBA: x=R(byte2), y=G(byte1), z=B(byte0)
+			// Memory [B,G,R,A] -> GPU RGBA: x=R(byte2), y=G(byte1), z=B(byte0)
 			auto* bw = &src[bw_off];
 			w[0] = bw[2] / 255.0f;
 			w[1] = bw[1] / 255.0f;
@@ -386,7 +378,7 @@ namespace comp
 		// Write position (model-space for crowd, world-space for regular)
 		dst[0] = lx; dst[1] = ly; dst[2] = lz;
 
-		// Normal — decode and rotate by first bone (approximation)
+		// Normal - decode and rotate by first bone (approximation)
 		float nx, ny, nz;
 		if (ffp.cur_decl_has_normal())
 		{
@@ -478,7 +470,7 @@ namespace comp
 		}
 		case D3DDECLTYPE_D3DCOLOR:
 		{
-			// Memory [B,G,R,A] → GPU RGBA: x=R(byte2), y=G(byte1), z=B(byte0)
+			// Memory [B,G,R,A] -> GPU RGBA: x=R(byte2), y=G(byte1), z=B(byte0)
 			out[0] = src[2] / 127.5f - 1.0f;
 			out[1] = src[1] / 127.5f - 1.0f;
 			out[2] = src[0] / 127.5f - 1.0f;
