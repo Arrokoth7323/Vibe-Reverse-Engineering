@@ -1,0 +1,62 @@
+{
+  "vals": [
+    {
+      "t_start": 5.41,
+      "t_end": 10.09,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 144
+    },
+    {
+      "t_start": 10.09,
+      "t_end": 13.44,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 224
+    },
+    {
+      "t_start": 13.45,
+      "t_end": 16.91,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 312
+    },
+    {
+      "t_start": 16.93,
+      "t_end": 20.41,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 402
+    },
+    {
+      "t_start": 20.41,
+      "t_end": 23.44,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 496
+    },
+    {
+      "t_start": 23.44,
+      "t_end": 27.56,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 570
+    },
+    {
+      "t_start": 27.56,
+      "t_end": 30.9,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 676
+    }
+  ],
+  "strings": [
+    "Till slut har Morgoths Balrog besegrats\u0000",
+    "och kastats ner i Morias bottenlösa schakt.\u0000",
+    "Dvärgarnas förfäders hem har nu återerövrats\u0000",
+    "och ohyran som fanns där flyr undan vår vrede.\u0000",
+    "Men Morias befriare törs inte dröja,\u0000",
+    "för Sauron har nu släppt lös sina arméer mot världen\u0000",
+    "och alla de fria folken måste skynda till dess försvar.\u0000"
+  ]
+}

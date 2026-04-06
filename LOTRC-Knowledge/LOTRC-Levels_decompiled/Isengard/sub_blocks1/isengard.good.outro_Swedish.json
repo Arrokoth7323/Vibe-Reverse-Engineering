@@ -1,0 +1,86 @@
+{
+  "vals": [
+    {
+      "t_start": 5.47,
+      "t_end": 7.27,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 204
+    },
+    {
+      "t_start": 7.27,
+      "t_end": 11.2,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 250
+    },
+    {
+      "t_start": 11.23,
+      "t_end": 14.44,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 376
+    },
+    {
+      "t_start": 14.44,
+      "t_end": 17.81,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 452
+    },
+    {
+      "t_start": 17.81,
+      "t_end": 21.5,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 514
+    },
+    {
+      "t_start": 21.52,
+      "t_end": 24.98,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 630
+    },
+    {
+      "t_start": 25.0,
+      "t_end": 27.42,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 718
+    },
+    {
+      "t_start": 27.42,
+      "t_end": 30.23,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 802
+    },
+    {
+      "t_start": 30.24,
+      "t_end": 34.73,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 900
+    },
+    {
+      "t_start": 34.73,
+      "t_end": 36.93,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 962
+    }
+  ],
+  "strings": [
+    "Hans kraft var bruten,\u0000",
+    "och Saruman kunde inte segra mot det mod som enades mot honom…\u0000",
+    "…och till slut blev hans svek hämnat.\u0000",
+    "Lavskägge är nu Orthancs herre\u0000",
+    "och Isengårds hålor har renats från Sarumans vidrigheter.\u0000",
+    "Men Mörkrets furstes makt har inte brutits,\u0000",
+    "för Saruman tjänade bara som en spelpjäs,\u0000",
+    "en distraktion för att försvaga Gondors gränser.\u0000",
+    "I Mordor växer Saurons arméer,\u0000",
+    "och hans krig har knappt börjat.\u0000"
+  ]
+}

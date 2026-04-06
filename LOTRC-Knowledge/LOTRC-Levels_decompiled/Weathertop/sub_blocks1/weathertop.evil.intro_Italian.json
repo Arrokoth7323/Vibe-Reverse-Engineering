@@ -1,0 +1,86 @@
+{
+  "vals": [
+    {
+      "t_start": 4.8,
+      "t_end": 8.22,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 204
+    },
+    {
+      "t_start": 8.22,
+      "t_end": 10.15,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 328
+    },
+    {
+      "t_start": 10.15,
+      "t_end": 11.94,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 388
+    },
+    {
+      "t_start": 11.94,
+      "t_end": 15.06,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 436
+    },
+    {
+      "t_start": 15.18,
+      "t_end": 19.03,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 564
+    },
+    {
+      "t_start": 19.15,
+      "t_end": 22.3,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 684
+    },
+    {
+      "t_start": 22.31,
+      "t_end": 25.46,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 764
+    },
+    {
+      "t_start": 25.46,
+      "t_end": 27.11,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 878
+    },
+    {
+      "t_start": 27.23,
+      "t_end": 29.7,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 938
+    },
+    {
+      "t_start": 29.82,
+      "t_end": 32.15,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1026
+    }
+  ],
+  "strings": [
+    "Gli eserciti dell'Ovest dovranno opporre un'ultima resistenza\u0000",
+    "tra le rovine di Colle Vento.\u0000",
+    "Qui, nelle ere passate,\u0000",
+    "il Re Stregone ha guidato il suo signore a una grande vittoria.\u0000",
+    "E qui gli eserciti degli Uomini del Nord furono annientati,\u0000",
+    "la torre di Amon Sûl ridotta in rovine.\u0000",
+    "Ora le pietre spezzate di questo luogo saranno testimoni\u0000",
+    "di un'ultima disperata lotta.\u0000",
+    "Perché ormai non è più possibile ritirarsi,\u0000",
+    "dinanzi all'avanzata delle forze delle tenebre.\u0000"
+  ]
+}

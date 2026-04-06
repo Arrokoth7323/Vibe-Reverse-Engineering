@@ -1,0 +1,46 @@
+{
+  "vals": [
+    {
+      "t_start": 5.07,
+      "t_end": 8.2,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 104
+    },
+    {
+      "t_start": 8.85,
+      "t_end": 11.69,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 200
+    },
+    {
+      "t_start": 12.2,
+      "t_end": 14.06,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 282
+    },
+    {
+      "t_start": 14.65,
+      "t_end": 19.9,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 332
+    },
+    {
+      "t_start": 19.9,
+      "t_end": 24.4,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 498
+    }
+  ],
+  "strings": [
+    "Mein Volk konnte die Orkhorden nicht bezwingen.\u0000",
+    "Nur eine Handvoll Elben hatten überlebt.\u0000",
+    "Ich war einer von ihnen.\u0000",
+    "Nur noch die gütigsten und reinsten Wesen Mittelerdes sind noch nicht geschwunden,\u0000",
+    "doch nun droht der Schatten des Dunklen Herrschers auch sie zu verschlingen.\u0000"
+  ]
+}

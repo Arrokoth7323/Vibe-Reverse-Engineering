@@ -1,0 +1,86 @@
+{
+  "vals": [
+    {
+      "t_start": 5.19,
+      "t_end": 8.31,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 204
+    },
+    {
+      "t_start": 8.32,
+      "t_end": 12.64,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 276
+    },
+    {
+      "t_start": 12.66,
+      "t_end": 16.43,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 406
+    },
+    {
+      "t_start": 16.44,
+      "t_end": 19.04,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 526
+    },
+    {
+      "t_start": 19.05,
+      "t_end": 23.08,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 616
+    },
+    {
+      "t_start": 23.08,
+      "t_end": 26.56,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 734
+    },
+    {
+      "t_start": 26.57,
+      "t_end": 28.2,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 832
+    },
+    {
+      "t_start": 28.2,
+      "t_end": 31.59,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 896
+    },
+    {
+      "t_start": 31.59,
+      "t_end": 33.39,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1004
+    },
+    {
+      "t_start": 33.4,
+      "t_end": 36.3,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1070
+    }
+  ],
+  "strings": [
+    "Ora la tenebra discende su Gondor e\u0000",
+    "Minas Tirith viene circondata da un'orribile e malvagia fiumana.\u0000",
+    "Grandi torri d'assedio si avvicinano alle mura della città,\u0000",
+    "ognuna carica di orribili e feroci Orchetti.\u0000",
+    "\"L'Oscuro Sire scatena Grond contro l'ingresso principale;\u0000",
+    "un orrendo ariete, forgiato a immagine di lupo.\"\u0000",
+    "Se vogliono riuscire a vincere,\u0000",
+    "i guerrieri di Gondor devono difendere il più a lungo\u0000",
+    "possibile i livelli della città,\u0000",
+    "prima di ritirarsi nel suo cuore fiammeggiante.\u0000"
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "vals": [
+    {
+      "t_start": 5.2,
+      "t_end": 9.18,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 244
+    },
+    {
+      "t_start": 9.18,
+      "t_end": 11.67,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 362
+    },
+    {
+      "t_start": 11.67,
+      "t_end": 15.02,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 430
+    },
+    {
+      "t_start": 15.02,
+      "t_end": 19.76,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 528
+    },
+    {
+      "t_start": 19.76,
+      "t_end": 22.76,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 628
+    },
+    {
+      "t_start": 22.76,
+      "t_end": 26.77,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 712
+    },
+    {
+      "t_start": 26.77,
+      "t_end": 29.72,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 814
+    },
+    {
+      "t_start": 29.73,
+      "t_end": 32.23,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 896
+    },
+    {
+      "t_start": 32.23,
+      "t_end": 35.55,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1022
+    },
+    {
+      "t_start": 35.55,
+      "t_end": 39.39,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1142
+    },
+    {
+      "t_start": 39.39,
+      "t_end": 40.82,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1264
+    },
+    {
+      "t_start": 40.82,
+      "t_end": 44.87,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1350
+    }
+  ],
+  "strings": [
+    "Osgiliath skal nok en gang spille en rolle i denne krigen.\u0000",
+    " Faramir bragte Ringbæreren hit, \u0000",
+    "men var klok og lot ham fortsette sitt oppdrag. \u0000",
+    "Nå holder en garnison av Gondors forsvarere vakt.\u0000",
+    "Krigerne som holder denne utposten håper \u0000",
+    "i all hemmelighet på at Faramir og hans ithiliske \u0000",
+    "skogfolk skal komme tilbake ved daggry. \u0000",
+    "Men orkene blir stadig flere, og håp alene er til liten hjelp.\u0000",
+    "Stillheten ligger som et teppe langs kysten av Anduin hvor \u0000",
+    "Osgiliaths nervøse forsvarsstyrker er overlatt til seg selv.\u0000",
+    "I det frembrytende mørket kan ikke daggry \u0000",
+    "komme tidsnok for disse modige mennene fra Gondor.\u0000"
+  ]
+}

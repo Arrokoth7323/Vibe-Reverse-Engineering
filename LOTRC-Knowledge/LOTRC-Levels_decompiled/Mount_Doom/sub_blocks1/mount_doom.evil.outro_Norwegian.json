@@ -1,0 +1,102 @@
+{
+  "vals": [
+    {
+      "t_start": 4.94,
+      "t_end": 6.79,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 244
+    },
+    {
+      "t_start": 6.79,
+      "t_end": 11.43,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 364
+    },
+    {
+      "t_start": 11.44,
+      "t_end": 13.56,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 440
+    },
+    {
+      "t_start": 13.56,
+      "t_end": 15.76,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 532
+    },
+    {
+      "t_start": 15.76,
+      "t_end": 18.04,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 588
+    },
+    {
+      "t_start": 18.05,
+      "t_end": 20.56,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 682
+    },
+    {
+      "t_start": 20.56,
+      "t_end": 24.23,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 760
+    },
+    {
+      "t_start": 24.24,
+      "t_end": 28.94,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 904
+    },
+    {
+      "t_start": 28.94,
+      "t_end": 32.08,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1062
+    },
+    {
+      "t_start": 32.09,
+      "t_end": 37.65,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1150
+    },
+    {
+      "t_start": 37.65,
+      "t_end": 42.08,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1262
+    },
+    {
+      "t_start": 42.08,
+      "t_end": 44.5,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1364
+    }
+  ],
+  "strings": [
+    "Uten hensyn til hva det vil koste har tjenerne til Mørkets \u0000",
+    "herre gjenvunnet ham Den Ene Ringen. \u0000",
+    "Midgards frie folk sanser at vinden har snudd\u0000",
+    "og de vil nå være nødt til \u0000",
+    "å trekke seg tilbake for å forsvare sine land.\u0000",
+    "Saurons makt har blitt gjenopprettet, \u0000",
+    "og de færreste av dem som har overlevd denne krigen våger å trosse ham.\u0000",
+    "Men stoltheten til Mørkets herre er fortsatt såret etter Gondors siste seirer,\u0000",
+    "og han akter å slå tilbake med full styrke.\u0000",
+    "Med nye enorme krefter blåser Sauron liv i sitt velde. \u0000",
+    "Han vekker til live mange av sine mørkeste helter \u0000",
+    "og mesterkrigere som enda en gang skal drepe i hans navn.\u0000"
+  ]
+}

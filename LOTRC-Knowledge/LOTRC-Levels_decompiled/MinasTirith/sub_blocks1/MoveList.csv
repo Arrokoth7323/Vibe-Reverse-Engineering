@@ -1,0 +1,307 @@
+list,Archer,
+move,Melee Attack,X_Ranged
+move,Jump Attack,A X
+move,Rising Attack,X_Ranged
+move,Shoot Bow,RT
+move,Zoom,LT
+move,Multi-Arrow,LB
+move,Poison Arrow,Y RT
+move,Fire Arrow,B RT
+move,Sample Tactic,ST_Archer1
+move,Sample Tactic,ST_Archer2
+list,Mage,
+move,Melee Attack,X X X_Ranged
+move,Jump Attack,A X
+move,Rising Attack,X_Ranged
+move,Lightning,RT
+move,Defensive Shield,LT
+move,Heal,LB
+move,Shockwave,Y
+move,Fire Wall,B
+move,Sample Tactic,ST_Mage1
+move,Sample Tactic,ST_Mage2
+list,Scout,
+move,Light Attack,X X X X
+move,Medium Attack,Y Y
+move,Heavy Attack,B B
+move,Jump Attack,A X/Y/B
+move,Rising Attack,X/Y/B 
+move,Sprint Attack,LS+X/Y/B 
+move,Cloak Backstab,LB RB 
+move,Satchel Bomb,RT_Throw
+move,Block,LT
+move,Roll,LT+LS
+move,CrowdBreaker,LT+B
+move,Foe Hewer,LB+X
+move,Foe Hammer,LB+Y(Y Y X)
+move,Blasting Powder,LB+B
+move,Sample Tactic,ST_Scout1
+move,Sample Tactic,ST_Scout2
+list,Warrior,
+move,Light Attack,X X X
+move,Medium Attack,Y Y
+move,Heavy Attack,B
+move,Jump Attack,A X/Y/B
+move,Rising Attack,X/Y/B 
+move,Sprint Attack,LS+X/Y/B 
+move,Throwing Axe,RT_Throw
+move,Block,LT
+move,Evade,LT+LS
+move,CrowdBreaker,LT+B
+move,Fire Strike,LB+X
+move,Whirlwind Sweep,LB+Y(Y Y Y Y)
+move,Flame of Fury,LB+B
+move,Sample Tactic,ST_Warrior1
+move,Sample Tactic,ST_Warrior2
+list,Ent,
+move,Light Attack,X
+move,Heavy Attack,Y
+move,Regenerate Health,A
+move,Defense Rally,B
+move,Grab,RT_Throw
+list,Troll,
+move,Light Attack,X
+move,Heavy Attack,Y
+move,Regenerate Health,A
+move,Attack Rally,B
+move,Grab,RT_Throw
+list,Aragorn,
+move,Light Attack,X X X
+move,Medium Attack,Y Y
+move,Heavy Attack,B
+move,Jump Attack,A X/Y/B
+move,Rising Attack,X/Y/B 
+move,Sprint Attack,LS+X/Y/B 
+move,Throwing Axe,RT_Throw
+move,Block,LT
+move,Evade,LT+LS
+move,CrowdBreaker,LT+B
+move,Dunharrow Dash,LB+X
+move,Anduril's Spirit,LB+Y
+move,Wave of Undead,LB+B
+move,Sample Tactic,ST_Aragorn1
+move,Sample Tactic,ST_Aragorn2
+list,Balrog,
+move,Light Attack,X X
+move,Medium Attack,Y
+move,Heavy Attack,B
+move,Regenerate Energy,A
+move,Grab,RT_Throw
+move,Trample Attack,LB+X
+move,Breath of Morgoth,LB+Y
+move,Valaraukar Smash,LB+B
+move,Sample Tactic,ST_Balrog1
+move,Sample Tactic,ST_Balrog2
+list,Elrond,
+move,Light Attack,X X X
+move,Medium Attack,Y Y
+move,Heavy Attack,B
+move,Jump Attack,A X/Y/B
+move,Rising Attack,X/Y/B 
+move,Sprint Attack,LS+X/Y/B 
+move,Throwing Axe,RT_Throw
+move,Block,LT
+move,Evade,LT+LS
+move,CrowdBreaker,LT+B
+move,Tsunami Blade,LB+X
+move,River of Bruinen,LB+Y
+move,Water Sphere,LB+B
+move,Sample Tactic,ST_Elrond1
+move,Sample Tactic,ST_Elrond2
+list,Eowyn,
+move,Light Attack,X X X X
+move,Medium Attack,Y Y
+move,Heavy Attack,B B
+move,Jump Attack,A X/Y/B
+move,Rising Attack,X/Y/B 
+move,Sprint Attack,LS+X/Y/B 
+move,Cloak Backstab,LB RB 
+move,Satchel Bomb,RT_Throw
+move,Block,LT
+move,Roll,LT+LS
+move,CrowdBreaker,LT+B
+move,Ederas Dash,LB+X
+move,Whirling Dervish,LB+Y
+move,Blasting Powder,LB+B
+move,Sample Tactic,ST_Eowyn1
+move,Sample Tactic,ST_Eowyn2
+list,Faramir,
+move,Light Attack,X X
+move,Medium Attack,Y Y
+move,Heavy Attack,B
+move,Jump Attack,A X/Y/B
+move,Rising Attack,X/Y/B 
+move,Sprint Attack,LS+X/Y/B 
+move,Throwing Axe,RT_Throw
+move,Block,LT
+move,Evade,LT+LS
+move,CrowdBreaker,LT+B
+move,Ranger's Fire,LB+X(X X X X)
+move,Gondorian Courage,LB+Y(Y Y Y Y)
+move,Steward of Gondor,LB+B(B B B B)
+move,Sample Tactic,ST_Faramir1
+move,Sample Tactic,ST_Faramir2
+list,Frodo,
+move,Light Attack,X X X X
+move,Medium Attack,Y Y
+move,Heavy Attack,B B
+move,Jump Attack,A X/Y/B
+move,Rising Attack,X/Y/B 
+move,Sprint Attack,LS+X/Y/B 
+move,Cloak Backstab,LB RB 
+move,Satchel Bomb,RT_Throw
+move,Block,LT
+move,Roll,LT+LS
+move,CrowdBreaker,LT+B
+move,Sting's Fury,LB+X
+move,Underhill Roll,LB+Y
+move,Blasting Powder,LB+B
+move,Sample Tactic,ST_Frodo1
+move,Sample Tactic,ST_Frodo2
+list,Gandalf,
+move,Melee Attack,X X X_Ranged
+move,Jump Attack,A X
+move,Rising Attack,X_Ranged
+move,Lightning,RT
+move,Defensive Shield,LT
+move,Healing Wisdom,LB
+move,You shall not PASS!,Y
+move,Cleansing Fire,B
+move,Sample Tactic,ST_Mage1
+move,Sample Tactic,ST_Mage2
+list,Gimli,
+move,Light Attack,X X X
+move,Medium Attack,Y Y Y
+move,Heavy Attack,B
+move,Jump Attack,A X/Y/B
+move,Rising Attack,X/Y/B 
+move,Sprint Attack,LS+X/Y/B 
+move,Satchel Bomb,RT_Throw
+move,Block,LT
+move,Evade,LT+LS
+move,CrowdBreaker,LT+B
+move,Dwarven Run,LB+X(X X X X X)
+move,Balin's Revenge,LB+Y
+move,Longbeard Pound,LB+B
+move,Sample Tactic,ST_Gimli1
+move,Sample Tactic,ST_Gimli2
+list,Isildur,
+move,Light Attack,X X X
+move,Medium Attack,Y Y
+move,Heavy Attack,B
+move,Jump Attack,A X/Y/B
+move,Rising Attack,X/Y/B 
+move,Sprint Attack,LS+X/Y/B 
+move,Throwing Axe,RT_Throw
+move,Block,LT
+move,Evade,LT+LS
+move,CrowdBreaker,LT+B
+move,Aeglo's Sharp,LB+X
+move,Blade of the Mark,LB+Y(Y Y Y Y)
+move,Narsil Spike,LB+B
+move,Sample Tactic,ST_Isildur1
+move,Sample Tactic,ST_Isildur2
+list,Legolas,
+move,Melee Attack,X_Ranged
+move,Jump Attack,A X
+move,Rising Attack,X_Ranged
+move,Shoot Bow,RT
+move,Zoom,LT
+move,Multi-Arrow,LB
+move,Poison Arrow,Y RT
+move,Fire Arrow,B RT
+move,Sample Tactic,ST_Archer1
+move,Sample Tactic,ST_Archer2
+list,Lurtz,
+move,Melee Attack,X_Ranged
+move,Jump Attack,A X
+move,Rising Attack,X_Ranged
+move,Shoot Bow,RT
+move,Zoom,LT
+move,Multi-Arrow,LB
+move,Poison Arrow,Y RT
+move,Fire Arrow,B RT
+move,Sample Tactic,ST_Lurtz1
+move,Sample Tactic,ST_Archer2
+list,MouthofSauron,
+move,Melee Attack,X X X_Ranged
+move,Jump Attack,A X
+move,Rising Attack,X_Ranged
+move,Lightning,RT
+move,Defensive Shield,LT
+move,Heal,LB
+move,Barad-dur Fury,Y
+move,Fire Wall,B
+move,Sample Tactic,ST_MoS1
+move,Sample Tactic,ST_Mage2
+list,Nazgul,
+move,Light Attack,X X X
+move,Medium Attack,Y Y
+move,Heavy Attack,B
+move,Jump Attack,A X/Y/B
+move,Rising Attack,X/Y/B 
+move,Sprint Attack,LS+X/Y/B 
+move,Throwing Axe,RT_Throw
+move,Block,LT
+move,Evade,LT+LS
+move,CrowdBreaker,LT+B
+move,Flurry of Terror,LB+X
+move,Black Breath,LB+Y(Y Y Y Y)
+move,Power of the Nine,LB+B
+move,Sample Tactic,ST_Nazgul1
+move,Sample Tactic,ST_Nasgul2
+list,Saruman,
+move,Melee Attack,X X X_Ranged
+move,Jump Attack,A X
+move,Rising Attack,X_Ranged
+move,Lightning,RT
+move,Defensive Shield,LT
+move,Heal,LB
+move,Isengard Blast,Y
+move,Fire Ball,B
+move,Sample Tactic,ST_Saruman1
+move,Sample Tactic,ST_Saruman2
+list,Sauron,
+move,Light Attack,X X
+move,Medium Attack,Y Y
+move,Heavy Attack,B
+move,Jump Attack,A X/Y/B
+move,Throwing Axe,RT_Throw
+move,Heart of Horror,LB+X
+move,Mordor Pound,LB+Y
+move,Soul Collector,LB+B
+move,Sample Tactic,ST_Sauron1
+move,Sample Tactic,ST_Sauron2
+list,Witch King,
+move,Light Attack,X X X
+move,Medium Attack,Y Y
+move,Heavy Attack,B
+move,Jump Attack,A X/Y/B
+move,Rising Attack,X/Y/B 
+move,Sprint Attack,LS+X/Y/B 
+move,Throwing Axe,RT_Throw
+move,Block,LT
+move,Evade,LT+LS
+move,CrowdBreaker,LT+B
+move,Angmar Flurry,LB+X
+move,Black Breath,LB+Y(Y Y Y Y)
+move,Terror Quake,LB+B
+move,Sample Tactic,ST_WitchKing1
+move,Sample Tactic,ST_WitchKing2
+list,Wormtongue,
+move,Light Attack,X X X X
+move,Medium Attack,Y Y
+move,Heavy Attack,B B
+move,Jump Attack,A X/Y/B
+move,Rising Attack,X/Y/B 
+move,Sprint Attack,LS+X/Y/B 
+move,Cloak Backstab,LB RB 
+move,Satchel Bomb,RT_Throw
+move,Block,LT
+move,Roll,LT+LS
+move,CrowdBreaker,LT+B
+move,Powder Keg,LB+X
+move,Deception Strike,LB+Y
+move,Soul Punch,LB+B
+move,Sample Tactic,ST_Wormtongue1
+move,Sample Tactic,ST_Wormtongue2

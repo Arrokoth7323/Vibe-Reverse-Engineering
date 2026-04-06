@@ -1,0 +1,102 @@
+{
+  "vals": [
+    {
+      "t_start": 4.94,
+      "t_end": 6.79,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 244
+    },
+    {
+      "t_start": 6.79,
+      "t_end": 11.43,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 298
+    },
+    {
+      "t_start": 11.44,
+      "t_end": 13.56,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 434
+    },
+    {
+      "t_start": 13.56,
+      "t_end": 15.76,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 510
+    },
+    {
+      "t_start": 15.76,
+      "t_end": 18.04,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 584
+    },
+    {
+      "t_start": 18.05,
+      "t_end": 20.56,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 694
+    },
+    {
+      "t_start": 20.56,
+      "t_end": 24.23,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 770
+    },
+    {
+      "t_start": 24.24,
+      "t_end": 28.94,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 936
+    },
+    {
+      "t_start": 28.94,
+      "t_end": 32.08,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1098
+    },
+    {
+      "t_start": 32.09,
+      "t_end": 37.65,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1176
+    },
+    {
+      "t_start": 37.65,
+      "t_end": 42.08,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1306
+    },
+    {
+      "t_start": 42.08,
+      "t_end": 44.5,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1438
+    }
+  ],
+  "strings": [
+    "Sin importarles el precio,\u0000",
+    "los siervos del Señor Oscuro han devuelto a Sauron el Anillo Único.\u0000",
+    "Los pueblos libres de la Tierra Media\u0000",
+    "intuyen que las tornas han cambiado.\u0000",
+    "Deben retirarse y prepararse para defender sus reinos.\u0000",
+    "El poder de Sauron ha sido restaurado\u0000",
+    "y pocos son los que han sobrevivido a la guerra y se atreven a oponer resistencia.\u0000",
+    "Pero al orgullo del Señor Oscuro aún le duelen las recientes victorias de Gondor\u0000",
+    "y pretende cobrarse cumplida venganza.\u0000",
+    "Con nuevos y grandes poderes, Sauron resucita sus caídos restos.\u0000",
+    "Llama a la vida a muchos de sus oscuros guerreros y héroes caídos\u0000",
+    "para volver a matar en su nombre.\u0000"
+  ]
+}

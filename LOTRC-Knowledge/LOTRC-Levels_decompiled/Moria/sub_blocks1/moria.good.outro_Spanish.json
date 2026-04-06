@@ -1,0 +1,62 @@
+{
+  "vals": [
+    {
+      "t_start": 5.41,
+      "t_end": 10.09,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 144
+    },
+    {
+      "t_start": 10.09,
+      "t_end": 13.44,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 222
+    },
+    {
+      "t_start": 13.45,
+      "t_end": 16.91,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 320
+    },
+    {
+      "t_start": 16.93,
+      "t_end": 20.41,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 424
+    },
+    {
+      "t_start": 20.41,
+      "t_end": 23.44,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 540
+    },
+    {
+      "t_start": 23.44,
+      "t_end": 27.56,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 656
+    },
+    {
+      "t_start": 27.56,
+      "t_end": 30.9,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 802
+    }
+  ],
+  "strings": [
+    "Por fin ha caído el Balrog de Morgoth,\u0000",
+    "ha sido devuelto a los pozos sin fondo de Moria.\u0000",
+    "El hogar ancestral de los enanos ha sido recuperado\u0000",
+    "y las criaturas que lo infestaban huyen ante nuestra ira.\u0000",
+    "Pero los liberadores de Moria no se atreven a retrasarse,\u0000",
+    "porque el Señor Oscuro Sauron ha lanzado a sus ejércitos contra el mundo\u0000",
+    "y todos los pueblos libres deben apresurarse a defenderse.\u0000"
+  ]
+}

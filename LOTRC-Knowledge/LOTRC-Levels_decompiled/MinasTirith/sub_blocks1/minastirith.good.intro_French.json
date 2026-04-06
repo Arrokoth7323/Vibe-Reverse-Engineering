@@ -1,0 +1,86 @@
+{
+  "vals": [
+    {
+      "t_start": 5.19,
+      "t_end": 8.31,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 204
+    },
+    {
+      "t_start": 8.32,
+      "t_end": 12.64,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 300
+    },
+    {
+      "t_start": 12.66,
+      "t_end": 16.43,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 414
+    },
+    {
+      "t_start": 16.44,
+      "t_end": 19.04,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 562
+    },
+    {
+      "t_start": 19.05,
+      "t_end": 23.08,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 674
+    },
+    {
+      "t_start": 23.08,
+      "t_end": 26.56,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 798
+    },
+    {
+      "t_start": 26.57,
+      "t_end": 28.2,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 868
+    },
+    {
+      "t_start": 28.2,
+      "t_end": 31.59,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 912
+    },
+    {
+      "t_start": 31.59,
+      "t_end": 33.39,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1056
+    },
+    {
+      "t_start": 33.4,
+      "t_end": 36.3,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1104
+    }
+  ],
+  "strings": [
+    "A présent les ténèbres s'abattent sur le Gondor\u0000",
+    "et Minas Tirith est encerclée par des forces maléfiques.\u0000",
+    "D'immenses tours de siège roulent lentement vers les murailles assiégées,\u0000",
+    "chacune transportant un chargement d'orques meurtriers.\u0000",
+    "Sur la grande porte, le Seigneur des ténèbres déchaîne Grond,\u0000",
+    "un terrible bélier à tête de loup.\u0000",
+    "Pour espérer vaincre,\u0000",
+    "les guerriers du Gondor doivent tenir chaque niveau de leur ville aussi\u0000",
+    "longtemps que possible,\u0000",
+    "avant de se retirer plus profondément dans leur citadelle en flammes.\u0000"
+  ]
+}

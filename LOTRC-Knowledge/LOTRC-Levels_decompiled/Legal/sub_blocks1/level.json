@@ -1,0 +1,144 @@
+{
+  "gamemodemask": -1,
+  "objs": [
+    {
+      "type": "templateLevel",
+      "layer": 0,
+      "fields": {
+        "GUID": 9001272,
+        "ParentGUID": 0,
+        "GameModeMask": -1,
+        "Name": "legal",
+        "Atmosphere": 0,
+        "Atmosphere_Low": 0,
+        "Radiosity": "Full Radiosity",
+        "convergence": 0.07500000298023224,
+        "multiplier": 1.0,
+        "DrawDistance": 750.0,
+        "CullDistance": -1.0,
+        "CullDistanceLowQuality": -1.0,
+        "LodFactor": 1.0,
+        "ClearColor": "0xFF808080",
+        "Music": 0,
+        "RumbleDefinition": 0,
+        "SoundEnvironment": 0,
+        "HavokBroadphase": 0,
+        "target": "legal",
+        "Layers": [],
+        "LevelSpecificBanks": []
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "templateLevel",
+      "fields": [
+        {
+          "name": "Atmosphere",
+          "type": "GUID",
+          "offset": 16
+        },
+        {
+          "name": "CullDistance",
+          "type": "float",
+          "offset": 40
+        },
+        {
+          "name": "HavokBroadphase",
+          "type": "GUID",
+          "offset": 68
+        },
+        {
+          "name": "Music",
+          "type": "GUID",
+          "offset": 56
+        },
+        {
+          "name": "RumbleDefinition",
+          "type": "GUID",
+          "offset": 60
+        },
+        {
+          "name": "Atmosphere_Low",
+          "type": "GUID",
+          "offset": 20
+        },
+        {
+          "name": "CullDistanceLowQuality",
+          "type": "float",
+          "offset": 44
+        },
+        {
+          "name": "Name",
+          "type": "crc",
+          "offset": 12
+        },
+        {
+          "name": "GameModeMask",
+          "type": "int",
+          "offset": 8
+        },
+        {
+          "name": "Layers",
+          "type": "objectlist",
+          "offset": 76
+        },
+        {
+          "name": "convergence",
+          "type": "float",
+          "offset": 28
+        },
+        {
+          "name": "LodFactor",
+          "type": "float",
+          "offset": 48
+        },
+        {
+          "name": "ParentGUID",
+          "type": "GUID",
+          "offset": 4
+        },
+        {
+          "name": "LevelSpecificBanks",
+          "type": "stringlist",
+          "offset": 80
+        },
+        {
+          "name": "ClearColor",
+          "type": "Color",
+          "offset": 52
+        },
+        {
+          "name": "GUID",
+          "type": "GUID",
+          "offset": 0
+        },
+        {
+          "name": "multiplier",
+          "type": "float",
+          "offset": 32
+        },
+        {
+          "name": "target",
+          "type": "string",
+          "offset": 72
+        },
+        {
+          "name": "SoundEnvironment",
+          "type": "GUID",
+          "offset": 64
+        },
+        {
+          "name": "Radiosity",
+          "type": "crc",
+          "offset": 24
+        },
+        {
+          "name": "DrawDistance",
+          "type": "float",
+          "offset": 36
+        }
+      ]
+    }
+  ]
+}

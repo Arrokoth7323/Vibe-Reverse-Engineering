@@ -1,0 +1,3630 @@
+{
+  "info": {
+    "key": "MGL_BL_FrontGateDoors_Test_idle_closed",
+    "gamemodemask": 2,
+    "offset": 5664224,
+    "size": 2048,
+    "kind": 3,
+    "unk_5": 0.16666667,
+    "vals_num": 79,
+    "vals2_num": 0,
+    "unk_8": 0,
+    "vala": 6,
+    "unk_10": 1,
+    "unk_11": 256,
+    "data_offset": 316,
+    "unk_13": 8.5,
+    "unk_14": 0.11764706,
+    "t_scale": 0.033333335,
+    "block_starts_offset": 0,
+    "block_starts_num": 1,
+    "block_starts2_offset": 4,
+    "block_starts2_num": 1,
+    "obj_c3_offset": 8,
+    "obj_c3_num": 0,
+    "obj_c4_offset": 8,
+    "obj_c4_num": 0,
+    "block_offset": 8,
+    "block_size": 1712,
+    "obj3_num": 0,
+    "obj3_offset": 0,
+    "bones_num1": 79,
+    "unk_29": 79,
+    "obj1_num": 0,
+    "bones_offset": 1720,
+    "unk_32": 3491227316,
+    "obj1_offset": 0,
+    "obj2_offset": 0,
+    "obj2_num": 0,
+    "obj5_offset": 0
+  },
+  "obj1": [],
+  "obj2": [],
+  "events": [],
+  "bones": [
+    "",
+    "MGL_FrontGateDoor_01",
+    "Bone_all",
+    "bone_door_left",
+    "bone_door_left_last",
+    "bone_door_left_tilt",
+    "bone_door_right",
+    "bone_door_right_last",
+    "bone_door_right_tilt",
+    "Collision",
+    "collision_door",
+    "p_FX_MGL_PR_MainGateDust12",
+    "p_FX_MGL_PR_MainGateDust13",
+    "p_FX_MGL_PR_MainGateDust14",
+    "p_FX_MGL_PR_MainGateDust15",
+    "p_FX_MGL_PR_MainGateDust16",
+    "p_FX_MGL_PR_MainGateDust17",
+    "p_FX_MGL_PR_MainGateHinge10",
+    "p_FX_MGL_PR_MainGateHinge11",
+    "p_FX_MGL_PR_MainGateHinge8",
+    "p_FX_MGL_PR_MainGateHinge9",
+    "p_FX_MGL_PR_MainGateSplinters13",
+    "p_FX_MGL_PR_MainGateSplinters14",
+    "p_FX_MGL_PR_MainGateSplinters15",
+    "p_FX_MGL_PR_MainGateSplinters16",
+    "p_FX_MGL_PR_MainGateSplinters17",
+    "p_FX_MGL_PR_MainGateSplinters18",
+    "COLLISION3",
+    "p_FX_MGL_PR_MainGateDust1",
+    "p_FX_MGL_PR_MainGateDust10",
+    "p_FX_MGL_PR_MainGateDust3",
+    "p_FX_MGL_PR_MainGateDust5",
+    "p_FX_MGL_PR_MainGateDust6",
+    "p_FX_MGL_PR_MainGateDust9",
+    "p_FX_MGL_PR_MainGateHinge",
+    "p_FX_MGL_PR_MainGateHinge3",
+    "p_FX_MGL_PR_MainGateHinge5",
+    "p_FX_MGL_PR_MainGateHinge7",
+    "p_FX_MGL_PR_MainGateSplinters",
+    "p_FX_MGL_PR_MainGateSplinters10",
+    "p_FX_MGL_PR_MainGateSplinters12",
+    "p_FX_MGL_PR_MainGateSplinters2",
+    "p_FX_MGL_PR_MainGateSplinters5",
+    "p_FX_MGL_PR_MainGateSplinters6",
+    "Collision4",
+    "collision_door1",
+    "p_FX_MGL_PR_MainGateDust18",
+    "p_FX_MGL_PR_MainGateDust19",
+    "p_FX_MGL_PR_MainGateDust20",
+    "p_FX_MGL_PR_MainGateDust21",
+    "p_FX_MGL_PR_MainGateDust22",
+    "p_FX_MGL_PR_MainGateHinge12",
+    "p_FX_MGL_PR_MainGateHinge13",
+    "p_FX_MGL_PR_MainGateHinge14",
+    "p_FX_MGL_PR_MainGateHinge15",
+    "p_FX_MGL_PR_MainGateSplinters19",
+    "p_FX_MGL_PR_MainGateSplinters20",
+    "p_FX_MGL_PR_MainGateSplinters21",
+    "p_FX_MGL_PR_MainGateSplinters22",
+    "p_FX_MGL_PR_MainGateSplinters23",
+    "p_FX_MGL_PR_MainGateSplinters24",
+    "p_FX_MGL_PR_MainGateSplinters25",
+    "COLLISION2",
+    "p_FX_MGL_PR_MainGateDust",
+    "p_FX_MGL_PR_MainGateDust11",
+    "p_FX_MGL_PR_MainGateDust2",
+    "p_FX_MGL_PR_MainGateDust4",
+    "p_FX_MGL_PR_MainGateDust7",
+    "p_FX_MGL_PR_MainGateHinge1",
+    "p_FX_MGL_PR_MainGateHinge2",
+    "p_FX_MGL_PR_MainGateHinge4",
+    "p_FX_MGL_PR_MainGateHinge6",
+    "p_FX_MGL_PR_MainGateSplinters1",
+    "p_FX_MGL_PR_MainGateSplinters11",
+    "p_FX_MGL_PR_MainGateSplinters3",
+    "p_FX_MGL_PR_MainGateSplinters4",
+    "p_FX_MGL_PR_MainGateSplinters7",
+    "p_FX_MGL_PR_MainGateSplinters8",
+    "p_FX_MGL_PR_MainGateSplinters9"
+  ],
+  "obj5_a": [],
+  "obj5_b": [],
+  "obj_c3": [],
+  "obj_c4": [],
+  "blocks": [
+    [
+      [
+        [
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 8,
+            "flags": 5,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              0.194659,
+              5.5
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              0.1947,
+              -18.0,
+              5.5
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              0.1947,
+              -18.0,
+              5.5
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 8,
+            "flags": 5,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              0.1947,
+              -5.5
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              0.1947,
+              -18.0,
+              -5.5
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              0.1947,
+              -18.0,
+              -5.5
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 8,
+            "flags": 5,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              -0.194659,
+              -5.5
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 8,
+            "flags": 5,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              -0.1947,
+              -5.5
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              0.14877401,
+              9.751859,
+              -2.6114092
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 15,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 10,
+                  "b": 104,
+                  "c": 108,
+                  "d": 56,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              -0.69556105,
+              3.8799472,
+              -4.1142826
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 15,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 10,
+                  "b": 104,
+                  "c": 108,
+                  "d": 56,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              -0.83366793,
+              2.3461301,
+              -4.0498424
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 15,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 10,
+                  "b": 104,
+                  "c": 108,
+                  "d": 56,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              0.271802,
+              4.5979877,
+              -2.5806923
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 15,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 10,
+                  "b": 104,
+                  "c": 108,
+                  "d": 56,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              -0.290421,
+              7.512143,
+              -4.0394096
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 15,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 10,
+                  "b": 104,
+                  "c": 108,
+                  "d": 56,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              -0.013397,
+              0.049102005,
+              -2.75104
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 15,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 10,
+                  "b": 104,
+                  "c": 108,
+                  "d": 56,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              0.31630203,
+              4.642983,
+              -0.104213
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 15,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 10,
+                  "b": 104,
+                  "c": 108,
+                  "d": 56,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              0.46260402,
+              1.024117,
+              -0.118122
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 15,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 10,
+                  "b": 104,
+                  "c": 108,
+                  "d": 56,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              0.116544,
+              9.58409,
+              -0.085222
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 15,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 10,
+                  "b": 104,
+                  "c": 108,
+                  "d": 56,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              0.217822,
+              7.0789447,
+              -0.09485101
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 15,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 10,
+                  "b": 104,
+                  "c": 108,
+                  "d": 56,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              -0.43685907,
+              3.920824,
+              -3.6680963
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 15,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 0,
+                  "b": 152,
+                  "c": 140,
+                  "d": 57,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              -0.344144,
+              6.2446947,
+              -4.1111484
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 15,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 5,
+                  "b": 168,
+                  "c": 123,
+                  "d": 57,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              0.17658,
+              7.538129,
+              -2.4756613
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 15,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 6,
+                  "b": 152,
+                  "c": 122,
+                  "d": 57,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              -0.62242407,
+              3.8828425,
+              -4.0981445
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 14,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 255,
+                  "b": 7,
+                  "c": 145,
+                  "d": 57,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              0.251189,
+              4.596926,
+              -2.5213811
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 4,
+                  "b": 168,
+                  "c": 129,
+                  "d": 57,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              0.347198,
+              2.3745232,
+              -2.2604253
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 15,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 2,
+                  "b": 248,
+                  "c": 132,
+                  "d": 57,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 8,
+            "flags": 5,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              -0.1947,
+              -5.5
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              -0.089242,
+              9.722261,
+              -2.7221332
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 253,
+                  "b": 231,
+                  "c": 124,
+                  "d": 20,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              0.051509,
+              0.026372,
+              -2.7033422
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 253,
+                  "b": 231,
+                  "c": 124,
+                  "d": 20,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              -0.64673805,
+              3.862373,
+              -3.970062
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 253,
+                  "b": 231,
+                  "c": 124,
+                  "d": 20,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              -0.63961405,
+              2.3333452,
+              -3.861613
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 253,
+                  "b": 231,
+                  "c": 124,
+                  "d": 20,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              -0.089075,
+              4.5673785,
+              -2.646971
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 253,
+                  "b": 231,
+                  "c": 124,
+                  "d": 20,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              -0.278669,
+              7.4830675,
+              -4.017369
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 253,
+                  "b": 231,
+                  "c": 124,
+                  "d": 20,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              0.33405,
+              9.5765915,
+              -0.23006402
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 253,
+                  "b": 231,
+                  "c": 124,
+                  "d": 20,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              0.370443,
+              7.0696497,
+              -0.22520499
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 253,
+                  "b": 231,
+                  "c": 124,
+                  "d": 20,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              0.40583,
+              4.631943,
+              -0.22048101
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 253,
+                  "b": 231,
+                  "c": 124,
+                  "d": 20,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              0.45840102,
+              1.010482,
+              -0.213462
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 253,
+                  "b": 231,
+                  "c": 124,
+                  "d": 20,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              -0.415381,
+              3.900124,
+              -3.578798
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 15,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 249,
+                  "b": 7,
+                  "c": 157,
+                  "d": 19,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              -0.098585,
+              4.56736,
+              -2.584896
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 15,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 251,
+                  "b": 39,
+                  "c": 146,
+                  "d": 19,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              -0.011266,
+              2.34546,
+              -2.316704
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 15,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 250,
+                  "b": 119,
+                  "c": 149,
+                  "d": 19,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              -0.209953,
+              6.216928,
+              -4.061617
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 15,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 251,
+                  "b": 39,
+                  "c": 140,
+                  "d": 19,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              -0.09151201,
+              7.509788,
+              -2.5647962
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 15,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 251,
+                  "b": 23,
+                  "c": 139,
+                  "d": 19,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              -0.571837,
+              3.863465,
+              -3.9675012
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 15,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 249,
+                  "b": 103,
+                  "c": 161,
+                  "d": 19,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 8,
+            "flags": 5,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              -0.1947,
+              5.5
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 8,
+            "flags": 5,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              -0.1947,
+              5.5
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              -0.704075,
+              6.665142,
+              4.519598
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 15,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 247,
+                  "b": 167,
+                  "c": 140,
+                  "d": 34,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              0.022306,
+              3.8885512,
+              1.7300832
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 15,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 247,
+                  "b": 167,
+                  "c": 140,
+                  "d": 34,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              -0.279153,
+              1.6469821,
+              3.0165982
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 15,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 247,
+                  "b": 167,
+                  "c": 140,
+                  "d": 34,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              -0.96637404,
+              3.913794,
+              4.57673
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 15,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 247,
+                  "b": 167,
+                  "c": 140,
+                  "d": 34,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              -0.421249,
+              0.008138001,
+              2.973302
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 15,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 247,
+                  "b": 167,
+                  "c": 140,
+                  "d": 34,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              0.19754001,
+              9.426455,
+              0.068229
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 15,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 247,
+                  "b": 167,
+                  "c": 140,
+                  "d": 34,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              0.25730002,
+              6.9981737,
+              0.079106
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 15,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 247,
+                  "b": 167,
+                  "c": 140,
+                  "d": 34,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              0.319935,
+              4.45308,
+              0.09050601
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 15,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 247,
+                  "b": 167,
+                  "c": 140,
+                  "d": 34,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              0.40516204,
+              0.989954,
+              0.106019005
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 15,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 247,
+                  "b": 167,
+                  "c": 140,
+                  "d": 34,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              -0.45799,
+              6.213346,
+              3.738194
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 15,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 252,
+                  "b": 23,
+                  "c": 111,
+                  "d": 35,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              -0.52998304,
+              3.9782417,
+              3.692379
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 15,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 252,
+                  "b": 55,
+                  "c": 112,
+                  "d": 35,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              -1.0746131,
+              2.2799692,
+              4.296319
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 15,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 12,
+                  "b": 88,
+                  "c": 114,
+                  "d": 247,
+                  "e": 55
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              0.038317,
+              3.893686,
+              2.7883792
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 15,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 252,
+                  "b": 215,
+                  "c": 114,
+                  "d": 34,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              -0.93726104,
+              3.9144921,
+              4.572607
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 15,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 254,
+                  "b": 103,
+                  "c": 105,
+                  "d": 35,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              -0.06079,
+              8.712809,
+              2.826537
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 15,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 247,
+                  "b": 167,
+                  "c": 140,
+                  "d": 34,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              -0.81320804,
+              5.699697,
+              4.608262
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 14,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 255,
+                  "b": 183,
+                  "c": 94,
+                  "d": 35,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 8,
+            "flags": 5,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              -0.1947,
+              5.5
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              -0.747736,
+              6.6354136,
+              4.475764
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 3,
+                  "b": 24,
+                  "c": 130,
+                  "d": 13,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              -0.252646,
+              -0.011394001,
+              2.9040341
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 3,
+                  "b": 24,
+                  "c": 130,
+                  "d": 13,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              -0.12577,
+              3.872627,
+              1.761096
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 3,
+                  "b": 24,
+                  "c": 130,
+                  "d": 13,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              -0.60587305,
+              1.6247141,
+              2.9805303
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 3,
+                  "b": 24,
+                  "c": 130,
+                  "d": 13,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              -0.97522205,
+              3.887883,
+              4.473507
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 3,
+                  "b": 24,
+                  "c": 130,
+                  "d": 13,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              0.318113,
+              9.42152,
+              0.188332
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 3,
+                  "b": 24,
+                  "c": 130,
+                  "d": 13,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              0.34273502,
+              6.992616,
+              0.180947
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 3,
+                  "b": 24,
+                  "c": 130,
+                  "d": 13,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              0.368543,
+              4.446869,
+              0.17320701
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 3,
+                  "b": 24,
+                  "c": 130,
+                  "d": 13,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              0.40365896,
+              0.982854,
+              0.16267501
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 3,
+                  "b": 24,
+                  "c": 130,
+                  "d": 13,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              -0.572804,
+              6.1868014,
+              3.723658
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 15,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 5,
+                  "b": 152,
+                  "c": 100,
+                  "d": 12,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              -0.91812,
+              5.670967,
+              4.541131
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 15,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 6,
+                  "b": 104,
+                  "c": 84,
+                  "d": 12,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              -0.434581,
+              3.9534993,
+              3.6466422
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 15,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 5,
+                  "b": 184,
+                  "c": 101,
+                  "d": 12,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              -0.90298504,
+              2.2583463,
+              4.16551
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 15,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 25,
+                  "b": 216,
+                  "c": 103,
+                  "d": 226,
+                  "e": 55
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              -0.233058,
+              3.868338,
+              2.814065
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 15,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 5,
+                  "b": 72,
+                  "c": 104,
+                  "d": 12,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              -0.94582,
+              3.8881834,
+              4.472806
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 15,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 6,
+                  "b": 248,
+                  "c": 94,
+                  "d": 12,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 12,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              -0.269524,
+              8.687889,
+              2.8903232
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 5,
+            "flags": 7,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 3,
+                  "b": 24,
+                  "c": 130,
+                  "d": 13,
+                  "e": 56
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ]
+      ],
+      []
+    ]
+  ]
+}

@@ -1,0 +1,417 @@
+{
+  "info": {
+    "key": "Helm'sDeep_Collision_198010881",
+    "gamemodemask": -1,
+    "mat_offset": 4108736,
+    "buffer_info_offset": 677436,
+    "bounding_box": {
+      "center": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "unk_3": 0.0,
+      "half_width": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "unk_7": 0.0
+    },
+    "mesh_order_offset": 4109320,
+    "lod0": {
+      "start": 0,
+      "static_end": 0,
+      "skinned_end": 0,
+      "physics_end": 0,
+      "breakable_end": 0
+    },
+    "lod1": {
+      "start": 0,
+      "static_end": 0,
+      "skinned_end": 0,
+      "physics_end": 0,
+      "breakable_end": 0
+    },
+    "lod2": {
+      "start": 0,
+      "static_end": 0,
+      "skinned_end": 0,
+      "physics_end": 0,
+      "breakable_end": 0
+    },
+    "lod3": {
+      "start": 0,
+      "static_end": 0,
+      "skinned_end": 0,
+      "physics_end": 0,
+      "breakable_end": 0
+    },
+    "mat_num": 0,
+    "bones_offset": 4108608,
+    "bone_parents_offset": 4108656,
+    "bone_transforms_offset": 4108672,
+    "bones_num": 1,
+    "skin_binds_offset": 4108656,
+    "skin_binds_num": 0,
+    "skin_order_offset": 0,
+    "vbuff_offset": 4109328,
+    "vbuff_num": 0,
+    "ibuff_offset": 4109328,
+    "ibuff_num": 0,
+    "mesh_bounding_boxes_offset": 4109328,
+    "unk_46": 0.0,
+    "variation_counts": 0,
+    "vals_j_num": 0,
+    "vals_j_offset": 4108656,
+    "block_offset": 0,
+    "vals_k_offset": 0,
+    "asset_key": "Helm'sDeep_Collision_198010881",
+    "asset_type": 0,
+    "unk_54": 1,
+    "unk_55": 0,
+    "shape_offset": 1036872,
+    "shape_num": 1,
+    "hk_constraint_data_offset": 0,
+    "hk_constraint_data_num": 0,
+    "hk_constraint_offset": 0,
+    "slots_offset": 0,
+    "slot_map_offset": 0,
+    "bone_bounding_boxes_offset": 4108624
+  },
+  "bone_parents": [
+    -1
+  ],
+  "bones": [
+    ""
+  ],
+  "bone_transforms": [
+    {
+      "x": {
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "y": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "z": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0,
+        "w": 0.0
+      },
+      "w": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      }
+    }
+  ],
+  "bone_bounding_boxes": [
+    {
+      "center": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "unk_3": 0.0,
+      "half_width": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "unk_7": 0.0
+    }
+  ],
+  "mat_order": [],
+  "mesh_order": [],
+  "mesh_bounding_boxes": [],
+  "skin_binds": [],
+  "vals_j": [],
+  "val_k_header": [],
+  "vals_k": [],
+  "skin_order": [],
+  "slots": [],
+  "slot_map": [],
+  "block_header": null,
+  "block_offsets": [],
+  "blocks": [],
+  "mats": [],
+  "mat_extras": [],
+  "buffer_infos": [],
+  "hk_constraint": null,
+  "hk_constraint_datas": [],
+  "shapes": [
+    {
+      "info": {
+        "offset": 0,
+        "kind": 1,
+        "unk_2": 0,
+        "unk_3": 0.0,
+        "unk_4": 0.0,
+        "unk_5": 0.0,
+        "translation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "unk_13": 1.0,
+        "unk_14": 0.0,
+        "unk_15": 0.0,
+        "unk_16": 0.0,
+        "unk_17": 1.0,
+        "unk_18": 0.0,
+        "unk_19": 0.0,
+        "unk_20": 0.0,
+        "unk_21": 1.0,
+        "unk_22": 0.0,
+        "unk_23": 0.5,
+        "unk_24": 0.0,
+        "unk_25": 0.0,
+        "unk_26": 0.0,
+        "hk_shape_num": 1,
+        "hk_shape_offset": 1065712,
+        "unk_29a": 0,
+        "unk_29b": 0,
+        "unk_29c": 0,
+        "unk_29d": 0,
+        "unk_30": -1.0
+      },
+      "extra": null,
+      "hk_shapes": [
+        {
+          "BVTreeMesh": {
+            "info": {
+              "translation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+              },
+              "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "key": "",
+              "offset": {
+                "x": -8.292,
+                "y": -0.05,
+                "z": -0.535
+              },
+              "tree_scale": 1375714.4
+            },
+            "shape": {
+              "tree": "2800e12700ff2600ef12817540107f7c192807781237340926197f1ca27c01373626001c139b3a01383910b7b40928000a18bf5a013534124b480926b4e91b926501333226e6ef14bf5a01303110918e3c104e4b1c2875bb1565630926001013bb5c013a3b28a4bb260c4e178725013c3d28a4e1159a9709264b5713d36d013e3f28dae126549117ab4701404110d0cd0928b6e11a905c014243287eb91ab279014445",
+              "verts": [
+                {
+                  "x": 3.03,
+                  "y": 0.0,
+                  "z": 5.552
+                },
+                {
+                  "x": 3.03,
+                  "y": 12.0,
+                  "z": 5.552
+                },
+                {
+                  "x": 2.731,
+                  "y": 0.0,
+                  "z": 2.95
+                },
+                {
+                  "x": 2.731,
+                  "y": 12.0,
+                  "z": 2.95
+                },
+                {
+                  "x": 0.337,
+                  "y": 0.0,
+                  "z": -0.485
+                },
+                {
+                  "x": 0.337,
+                  "y": 12.0,
+                  "z": -0.485
+                },
+                {
+                  "x": -2.334,
+                  "y": 0.0,
+                  "z": -0.151
+                },
+                {
+                  "x": -2.334,
+                  "y": 12.0,
+                  "z": -0.151
+                },
+                {
+                  "x": -7.024,
+                  "y": 0.0,
+                  "z": 2.018
+                },
+                {
+                  "x": -7.024,
+                  "y": 12.0,
+                  "z": 2.018
+                },
+                {
+                  "x": -8.242,
+                  "y": 0.0,
+                  "z": 5.1
+                },
+                {
+                  "x": -8.242,
+                  "y": 12.0,
+                  "z": 5.1
+                },
+                {
+                  "x": -7.626,
+                  "y": 0.0,
+                  "z": 8.307
+                },
+                {
+                  "x": -7.626,
+                  "y": 12.0,
+                  "z": 8.307
+                },
+                {
+                  "x": -4.656,
+                  "y": 0.0,
+                  "z": 7.362
+                },
+                {
+                  "x": -4.656,
+                  "y": 12.0,
+                  "z": 7.362
+                },
+                {
+                  "x": -4.213,
+                  "y": 0.0,
+                  "z": 9.908
+                },
+                {
+                  "x": -4.213,
+                  "y": 12.0,
+                  "z": 9.908
+                },
+                {
+                  "x": -1.45,
+                  "y": 0.0,
+                  "z": 10.091
+                },
+                {
+                  "x": -1.45,
+                  "y": 12.0,
+                  "z": 10.091
+                },
+                {
+                  "x": 1.542,
+                  "y": 0.0,
+                  "z": 8.22
+                },
+                {
+                  "x": 1.542,
+                  "y": 12.0,
+                  "z": 8.22
+                },
+                {
+                  "x": 3.03,
+                  "y": 0.0,
+                  "z": 5.552
+                },
+                {
+                  "x": 3.03,
+                  "y": 12.0,
+                  "z": 5.552
+                }
+              ],
+              "inds": [
+                0,
+                2,
+                1,
+                1,
+                2,
+                3,
+                2,
+                4,
+                3,
+                3,
+                4,
+                5,
+                4,
+                6,
+                5,
+                5,
+                6,
+                7,
+                6,
+                8,
+                7,
+                7,
+                8,
+                9,
+                8,
+                10,
+                9,
+                9,
+                10,
+                11,
+                10,
+                12,
+                11,
+                11,
+                12,
+                13,
+                12,
+                14,
+                13,
+                13,
+                14,
+                15,
+                14,
+                16,
+                15,
+                15,
+                16,
+                17,
+                16,
+                18,
+                17,
+                17,
+                18,
+                19,
+                18,
+                20,
+                19,
+                19,
+                20,
+                21,
+                20,
+                22,
+                21,
+                21,
+                22,
+                23
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "vertex_data": [],
+  "index_data": []
+}

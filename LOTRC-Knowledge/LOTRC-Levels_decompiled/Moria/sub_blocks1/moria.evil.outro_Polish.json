@@ -1,0 +1,54 @@
+{
+  "vals": [
+    {
+      "t_start": 4.9,
+      "t_end": 8.93,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 124
+    },
+    {
+      "t_start": 8.94,
+      "t_end": 13.61,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 254
+    },
+    {
+      "t_start": 13.61,
+      "t_end": 16.24,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 424
+    },
+    {
+      "t_start": 16.25,
+      "t_end": 20.4,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 488
+    },
+    {
+      "t_start": 20.41,
+      "t_end": 23.25,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 636
+    },
+    {
+      "t_start": 23.25,
+      "t_end": 26.51,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 718
+    }
+  ],
+  "strings": [
+    "Płomień z Udûnu ponownie został wypuszczony na świat Śródziemia.\u0000",
+    "I jak jego pobratymcy, Gimli i wszyscy, którzy za nim ośmielili się podążyć w mroki,\u0000",
+    "zostali zabici przez tę istotę.\u0000",
+    "Moria na wieki pozostanie siedzibą złą, do której nikt się nie zapuszcza.\u0000",
+    "A teraz jego Nazgûl raz jeszcze wyrusza,\u0000",
+    "by odszukać ostatnie ofiary Władcy Ciemności.\u0000"
+  ]
+}

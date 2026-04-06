@@ -1,0 +1,78 @@
+{
+  "vals": [
+    {
+      "t_start": 6.38,
+      "t_end": 9.95,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 184
+    },
+    {
+      "t_start": 9.95,
+      "t_end": 14.09,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 288
+    },
+    {
+      "t_start": 14.09,
+      "t_end": 15.69,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 396
+    },
+    {
+      "t_start": 15.69,
+      "t_end": 17.91,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 476
+    },
+    {
+      "t_start": 17.91,
+      "t_end": 21.78,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 544
+    },
+    {
+      "t_start": 21.78,
+      "t_end": 25.28,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 628
+    },
+    {
+      "t_start": 25.28,
+      "t_end": 29.77,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 790
+    },
+    {
+      "t_start": 29.77,
+      "t_end": 32.51,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 902
+    },
+    {
+      "t_start": 32.51,
+      "t_end": 35.05,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 962
+    }
+  ],
+  "strings": [
+    "Zaczęło się to dawno temu, gdy Czarny Władca Sauron\u0000",
+    "wykuł Pierścień Mocy, aby zniewolić świat Śródziemia.\u0000",
+    "Aby przeciwstawić się jego nieprawości,\u0000",
+    "ostatnie przymierze ludzi i elfów\u0000",
+    "wymaszerowało naprzeciw armiom Ciemności.\u0000",
+    "Tangado a chadad ... Leitho I philinn! (Gotowi do strzału ... Wypuścić strzały!)\u0000",
+    "W dolinach Mordoru walczyliśmy o nasze życie i wolność.\u0000",
+    "Poznaj dobrze sztukę walki...\u0000",
+    "gdyż w niej nasza jedyna nadzieja na zwycięstwo.\u0000"
+  ]
+}

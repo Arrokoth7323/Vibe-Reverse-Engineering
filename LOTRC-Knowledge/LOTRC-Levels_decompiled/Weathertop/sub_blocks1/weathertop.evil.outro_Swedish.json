@@ -1,0 +1,54 @@
+{
+  "vals": [
+    {
+      "t_start": 4.36,
+      "t_end": 10.3,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 124
+    },
+    {
+      "t_start": 10.3,
+      "t_end": 12.46,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 254
+    },
+    {
+      "t_start": 12.46,
+      "t_end": 16.35,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 304
+    },
+    {
+      "t_start": 16.35,
+      "t_end": 21.16,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 416
+    },
+    {
+      "t_start": 21.16,
+      "t_end": 26.83,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 516
+    },
+    {
+      "t_start": 26.83,
+      "t_end": 31.33,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 634
+    }
+  ],
+  "strings": [
+    "Aragorn, ättling till Isildur och kung över alla de fria folken,\u0000",
+    "blev till sist besegrad.\u0000",
+    "Vårt sista och största hopp för seger fälldes till slut\u0000",
+    "av samma barbariska varelser som dräpte hans far.\u0000",
+    "Nu sväller Saurons led som en flodvåg av illvilja och hat.\u0000",
+    "Allt kommer att sköljas bort av den enorma, svarta vågen.\u0000"
+  ]
+}

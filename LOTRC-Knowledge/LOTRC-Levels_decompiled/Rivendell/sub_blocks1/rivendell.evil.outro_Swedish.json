@@ -1,0 +1,46 @@
+{
+  "vals": [
+    {
+      "t_start": 5.07,
+      "t_end": 8.2,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 104
+    },
+    {
+      "t_start": 8.2,
+      "t_end": 11.81,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 186
+    },
+    {
+      "t_start": 11.81,
+      "t_end": 14.65,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 298
+    },
+    {
+      "t_start": 14.65,
+      "t_end": 19.9,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 370
+    },
+    {
+      "t_start": 19.9,
+      "t_end": 24.4,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 498
+    }
+  ],
+  "strings": [
+    "Mitt folk kunde inte besegra orchhorden.\u0000",
+    "Endast en handfull överlevde för att fortsätta striden.\u0000",
+    "Jag var en av dessa olycksaliga få.\u0000",
+    "Endast de vänligaste och renaste av Midgårds invånare återstår,\u0000",
+    "och nu förbereder sig Mörkrets furstes skugga för att falla över dem också.\u0000"
+  ]
+}

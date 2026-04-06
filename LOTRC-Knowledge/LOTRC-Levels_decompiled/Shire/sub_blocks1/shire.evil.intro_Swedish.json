@@ -1,0 +1,110 @@
+{
+  "vals": [
+    {
+      "t_start": 4.63,
+      "t_end": 9.47,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 264
+    },
+    {
+      "t_start": 9.47,
+      "t_end": 11.15,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 358
+    },
+    {
+      "t_start": 11.15,
+      "t_end": 14.33,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 394
+    },
+    {
+      "t_start": 14.33,
+      "t_end": 17.28,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 446
+    },
+    {
+      "t_start": 17.28,
+      "t_end": 20.06,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 564
+    },
+    {
+      "t_start": 20.06,
+      "t_end": 23.92,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 654
+    },
+    {
+      "t_start": 23.92,
+      "t_end": 27.3,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 738
+    },
+    {
+      "t_start": 27.3,
+      "t_end": 29.42,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 840
+    },
+    {
+      "t_start": 29.42,
+      "t_end": 32.33,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 932
+    },
+    {
+      "t_start": 32.33,
+      "t_end": 37.58,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1022
+    },
+    {
+      "t_start": 37.58,
+      "t_end": 42.06,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1136
+    },
+    {
+      "t_start": 42.06,
+      "t_end": 47.27,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1242
+    },
+    {
+      "t_start": 47.27,
+      "t_end": 48.47,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1390
+    }
+  ],
+  "strings": [
+    "Till sist griper Saurons järnnäve efter Fylke.\u0000",
+    "För hoberna finns\u0000",
+    "ingen flykt undan kriget.\u0000",
+    "De sista fria människorna kanske kan försöka undsätta dem,\u0000",
+    "men alla måste de möta en övermäktig fiende.\u0000",
+    "Vargryttare och enorma krigsbestar samlas\u0000",
+    "inför anfallet och ingen kan stå emot deras kraft.\u0000",
+    "Kanske träder till slut Mörkrets furste själv\u0000",
+    "fram för att skadeglatt betrakta sin triumf.\u0000",
+    "Kanske kan vi med Gandalfs hjälp då sälja våra liv dyrt.\u0000",
+    "I desperation leder Lavskägge enternas sista marsch.\u0000",
+    "Med deras hjälp och många halvlingsbågskyttar kan kanske Fylke stå emot -\u0000",
+    "ett kort tag.\u0000"
+  ]
+}

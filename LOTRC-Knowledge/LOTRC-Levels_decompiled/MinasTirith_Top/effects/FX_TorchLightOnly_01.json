@@ -1,0 +1,587 @@
+{
+  "gamemodemask": -1,
+  "objs": [
+    {
+      "type": "templateEffect",
+      "layer": 0,
+      "fields": {
+        "GUID": 11012156,
+        "ParentGUID": 0,
+        "GameModeMask": -1,
+        "Name": "FX_TorchLightOnly_01",
+        "Duration": 1000,
+        "Looping": false,
+        "0x6FC132F2": true,
+        "FarLod": false,
+        "MinLOD": 0.05000000074505806,
+        "DensityLOD": 0.00800000037997961,
+        "FarDensityLOD": 0.009999999776482582,
+        "SizeLOD": 1.5,
+        "MaxLOD": 1.0,
+        "0x55609F53": 20.0,
+        "WorldSpace": true,
+        "UseDistanceBasedRejection": false,
+        "RejectionDistance": 25.0,
+        "RejectIfNotVisible": false,
+        "FreezeSimulationWhenOffscreen": false,
+        "IgnoreTranslation": false,
+        "IgnoreRotationX": false,
+        "IgnoreRotationY": false,
+        "IgnoreRotationZ": false,
+        "IgnoreSurfaceRotationX": false,
+        "IgnoreSurfaceRotationY": false,
+        "IgnoreSurfaceRotationZ": false,
+        "CastShadow": false,
+        "ReceiveShadow": false,
+        "SoftClip": false,
+        "InvSoftClip": false,
+        "SortParticles": false,
+        "HalfSizeBuffer": false,
+        "HalfSizeDistance": 4.0,
+        "QuarterSizeBuffer": false,
+        "QuarterSizeDistance": 2.0
+      }
+    },
+    {
+      "type": "tracksFolder",
+      "layer": 11012156,
+      "fields": {
+        "GUID": 11012157,
+        "ParentGUID": 0,
+        "GameModeMask": -1,
+        "Name": "Tracks",
+        "Tracks": [
+          11012158,
+          11012159
+        ]
+      }
+    },
+    {
+      "type": "effectTrack",
+      "layer": 11012156,
+      "fields": {
+        "GUID": 11012158,
+        "ParentGUID": 0,
+        "GameModeMask": -1,
+        "Name": "track"
+      }
+    },
+    {
+      "type": "effectTrack",
+      "layer": 11012156,
+      "fields": {
+        "GUID": 11012159,
+        "ParentGUID": 0,
+        "GameModeMask": -1,
+        "Name": "track"
+      }
+    },
+    {
+      "type": "EffectLight",
+      "layer": 11012156,
+      "fields": {
+        "GUID": 11012161,
+        "ParentGUID": 0,
+        "GameModeMask": -1,
+        "Name": "EffectLight",
+        "WorldTransform": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "Controllers": [],
+        "Transform": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "Color": "0xFFF79209",
+        "ColorScale": 2.0,
+        "Radius": 10.0,
+        "InnerRadius": 0.0,
+        "Type": "Point",
+        "LinearAttenuationScale": 1.0,
+        "QuadraticAttenuationScale": 1.0,
+        "AffectStaticObjects": true,
+        "AffectDynamicObjects": true
+      }
+    },
+    {
+      "type": "effectSound",
+      "layer": 11012156,
+      "fields": {
+        "GUID": 224002484,
+        "ParentGUID": 0,
+        "GameModeMask": -1,
+        "Name": "effectSound",
+        "WorldTransform": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "Controllers": [],
+        "Transform": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "Color": "0xFF404040",
+        "Type": "Sphere",
+        "Outer": 0.0,
+        "Texture": "",
+        "cue": "Amb_Fire_Sml",
+        "StopSound": "",
+        "event": ""
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "templateEffect",
+      "fields": [
+        {
+          "name": "FarDensityLOD",
+          "type": "float",
+          "offset": 40
+        },
+        {
+          "name": "IgnoreRotationX",
+          "type": "bool",
+          "offset": 80
+        },
+        {
+          "name": "IgnoreRotationY",
+          "type": "bool",
+          "offset": 84
+        },
+        {
+          "name": "IgnoreRotationZ",
+          "type": "bool",
+          "offset": 88
+        },
+        {
+          "name": "Duration",
+          "type": "int",
+          "offset": 16
+        },
+        {
+          "name": "QuarterSizeBuffer",
+          "type": "bool",
+          "offset": 132
+        },
+        {
+          "name": "FarLod",
+          "type": "bool",
+          "offset": 28
+        },
+        {
+          "name": "FreezeSimulationWhenOffscreen",
+          "type": "bool",
+          "offset": 72
+        },
+        {
+          "name": "0x55609F53",
+          "type": "float",
+          "offset": 52
+        },
+        {
+          "name": "Name",
+          "type": "crc",
+          "offset": 12
+        },
+        {
+          "name": "ReceiveShadow",
+          "type": "bool",
+          "offset": 108
+        },
+        {
+          "name": "GameModeMask",
+          "type": "int",
+          "offset": 8
+        },
+        {
+          "name": "CastShadow",
+          "type": "bool",
+          "offset": 104
+        },
+        {
+          "name": "WorldSpace",
+          "type": "bool",
+          "offset": 56
+        },
+        {
+          "name": "0x6FC132F2",
+          "type": "bool",
+          "offset": 24
+        },
+        {
+          "name": "DensityLOD",
+          "type": "float",
+          "offset": 36
+        },
+        {
+          "name": "SoftClip",
+          "type": "bool",
+          "offset": 112
+        },
+        {
+          "name": "QuarterSizeDistance",
+          "type": "float",
+          "offset": 136
+        },
+        {
+          "name": "SizeLOD",
+          "type": "float",
+          "offset": 44
+        },
+        {
+          "name": "ParentGUID",
+          "type": "GUID",
+          "offset": 4
+        },
+        {
+          "name": "MaxLOD",
+          "type": "float",
+          "offset": 48
+        },
+        {
+          "name": "IgnoreSurfaceRotationX",
+          "type": "bool",
+          "offset": 92
+        },
+        {
+          "name": "IgnoreSurfaceRotationY",
+          "type": "bool",
+          "offset": 96
+        },
+        {
+          "name": "IgnoreSurfaceRotationZ",
+          "type": "bool",
+          "offset": 100
+        },
+        {
+          "name": "HalfSizeDistance",
+          "type": "float",
+          "offset": 128
+        },
+        {
+          "name": "GUID",
+          "type": "GUID",
+          "offset": 0
+        },
+        {
+          "name": "InvSoftClip",
+          "type": "bool",
+          "offset": 116
+        },
+        {
+          "name": "RejectIfNotVisible",
+          "type": "bool",
+          "offset": 68
+        },
+        {
+          "name": "SortParticles",
+          "type": "bool",
+          "offset": 120
+        },
+        {
+          "name": "HalfSizeBuffer",
+          "type": "bool",
+          "offset": 124
+        },
+        {
+          "name": "Looping",
+          "type": "bool",
+          "offset": 20
+        },
+        {
+          "name": "RejectionDistance",
+          "type": "float",
+          "offset": 64
+        },
+        {
+          "name": "UseDistanceBasedRejection",
+          "type": "bool",
+          "offset": 60
+        },
+        {
+          "name": "IgnoreTranslation",
+          "type": "bool",
+          "offset": 76
+        },
+        {
+          "name": "MinLOD",
+          "type": "float",
+          "offset": 32
+        }
+      ]
+    },
+    {
+      "name": "tracksFolder",
+      "fields": [
+        {
+          "name": "Tracks",
+          "type": "objectlist",
+          "offset": 16
+        },
+        {
+          "name": "Name",
+          "type": "crc",
+          "offset": 12
+        },
+        {
+          "name": "GameModeMask",
+          "type": "int",
+          "offset": 8
+        },
+        {
+          "name": "ParentGUID",
+          "type": "GUID",
+          "offset": 4
+        },
+        {
+          "name": "GUID",
+          "type": "GUID",
+          "offset": 0
+        }
+      ]
+    },
+    {
+      "name": "effectTrack",
+      "fields": [
+        {
+          "name": "Name",
+          "type": "crc",
+          "offset": 12
+        },
+        {
+          "name": "GameModeMask",
+          "type": "int",
+          "offset": 8
+        },
+        {
+          "name": "ParentGUID",
+          "type": "GUID",
+          "offset": 4
+        },
+        {
+          "name": "GUID",
+          "type": "GUID",
+          "offset": 0
+        }
+      ]
+    },
+    {
+      "name": "EffectLight",
+      "fields": [
+        {
+          "name": "Type",
+          "type": "string",
+          "offset": 176
+        },
+        {
+          "name": "WorldTransform",
+          "type": "matrix4x4",
+          "offset": 16
+        },
+        {
+          "name": "InnerRadius",
+          "type": "float",
+          "offset": 172
+        },
+        {
+          "name": "Name",
+          "type": "crc",
+          "offset": 12
+        },
+        {
+          "name": "QuadraticAttenuationScale",
+          "type": "float",
+          "offset": 184
+        },
+        {
+          "name": "GameModeMask",
+          "type": "int",
+          "offset": 8
+        },
+        {
+          "name": "AffectStaticObjects",
+          "type": "bool",
+          "offset": 188
+        },
+        {
+          "name": "Transform",
+          "type": "matrix4x4",
+          "offset": 96
+        },
+        {
+          "name": "ParentGUID",
+          "type": "GUID",
+          "offset": 4
+        },
+        {
+          "name": "GUID",
+          "type": "GUID",
+          "offset": 0
+        },
+        {
+          "name": "LinearAttenuationScale",
+          "type": "float",
+          "offset": 180
+        },
+        {
+          "name": "Controllers",
+          "type": "objectlist",
+          "offset": 80
+        },
+        {
+          "name": "AffectDynamicObjects",
+          "type": "bool",
+          "offset": 192
+        },
+        {
+          "name": "Radius",
+          "type": "float",
+          "offset": 168
+        },
+        {
+          "name": "Color",
+          "type": "Color",
+          "offset": 160
+        },
+        {
+          "name": "ColorScale",
+          "type": "float",
+          "offset": 164
+        }
+      ]
+    },
+    {
+      "name": "effectSound",
+      "fields": [
+        {
+          "name": "Type",
+          "type": "string",
+          "offset": 164
+        },
+        {
+          "name": "Outer",
+          "type": "float",
+          "offset": 168
+        },
+        {
+          "name": "WorldTransform",
+          "type": "matrix4x4",
+          "offset": 16
+        },
+        {
+          "name": "cue",
+          "type": "crc",
+          "offset": 176
+        },
+        {
+          "name": "Name",
+          "type": "crc",
+          "offset": 12
+        },
+        {
+          "name": "GameModeMask",
+          "type": "int",
+          "offset": 8
+        },
+        {
+          "name": "event",
+          "type": "crc",
+          "offset": 184
+        },
+        {
+          "name": "Texture",
+          "type": "string",
+          "offset": 172
+        },
+        {
+          "name": "Transform",
+          "type": "matrix4x4",
+          "offset": 96
+        },
+        {
+          "name": "ParentGUID",
+          "type": "GUID",
+          "offset": 4
+        },
+        {
+          "name": "StopSound",
+          "type": "crc",
+          "offset": 180
+        },
+        {
+          "name": "GUID",
+          "type": "GUID",
+          "offset": 0
+        },
+        {
+          "name": "Controllers",
+          "type": "objectlist",
+          "offset": 80
+        },
+        {
+          "name": "Color",
+          "type": "Color",
+          "offset": 160
+        }
+      ]
+    }
+  ]
+}

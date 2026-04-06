@@ -1,0 +1,86 @@
+{
+  "vals": [
+    {
+      "t_start": 4.95,
+      "t_end": 8.22,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 204
+    },
+    {
+      "t_start": 8.22,
+      "t_end": 10.15,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 320
+    },
+    {
+      "t_start": 10.15,
+      "t_end": 11.94,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 368
+    },
+    {
+      "t_start": 11.94,
+      "t_end": 15.72,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 418
+    },
+    {
+      "t_start": 15.72,
+      "t_end": 18.95,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 512
+    },
+    {
+      "t_start": 18.95,
+      "t_end": 22.3,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 592
+    },
+    {
+      "t_start": 22.31,
+      "t_end": 25.46,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 664
+    },
+    {
+      "t_start": 25.46,
+      "t_end": 28.13,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 734
+    },
+    {
+      "t_start": 28.13,
+      "t_end": 29.96,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 784
+    },
+    {
+      "t_start": 29.96,
+      "t_end": 32.36,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 850
+    }
+  ],
+  "strings": [
+    "Västarmén har tvingats sätta sig till slutgiltigt motvärn\u0000",
+    "vid Väderklints ruiner.\u0000",
+    "Här ledde i svunna tider\u0000",
+    "Häxkungen sin hord till en fruktansvärd seger.\u0000",
+    "Människornas nordliga arméer utplånades\u0000",
+    "och tornet Amon Sûl lades i ruiner.\u0000",
+    "Nu ska de brutna stenarna bevittna\u0000",
+    "en sista desperat strid.\u0000",
+    "Det går inte längre att retirera\u0000",
+    "från Mörkrets framrusande styrkor.\u0000"
+  ]
+}

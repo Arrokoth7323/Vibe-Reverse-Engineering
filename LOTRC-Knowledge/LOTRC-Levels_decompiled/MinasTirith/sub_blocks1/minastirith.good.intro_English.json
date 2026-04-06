@@ -1,0 +1,86 @@
+{
+  "vals": [
+    {
+      "t_start": 5.19,
+      "t_end": 8.31,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 204
+    },
+    {
+      "t_start": 8.32,
+      "t_end": 12.64,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 280
+    },
+    {
+      "t_start": 12.66,
+      "t_end": 16.43,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 402
+    },
+    {
+      "t_start": 16.44,
+      "t_end": 19.04,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 514
+    },
+    {
+      "t_start": 19.05,
+      "t_end": 23.08,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 592
+    },
+    {
+      "t_start": 23.08,
+      "t_end": 26.56,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 696
+    },
+    {
+      "t_start": 26.57,
+      "t_end": 28.2,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 786
+    },
+    {
+      "t_start": 28.2,
+      "t_end": 31.59,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 826
+    },
+    {
+      "t_start": 31.59,
+      "t_end": 33.39,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 930
+    },
+    {
+      "t_start": 33.4,
+      "t_end": 36.3,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 994
+    }
+  ],
+  "strings": [
+    "Now the darkness falls upon Gondor...\u0000",
+    "and Minas Tirith is encircled by a ring of iron-shod malice.\u0000",
+    "Great siege towers lumber toward the beleaguered walls.\u0000",
+    "Each burdened with a deadly Orc horde.\u0000",
+    "Upon the main gate the Dark Lord unleashes Grond...\u0000",
+    "a terrible battering ram of wolf-like wrath.\u0000",
+    "For hope of victory\u0000",
+    "Gondor's warriors must hold each ring of their city\u0000",
+    "for as long as they are able...\u0000",
+    "before retreating deeper within their burning citadel.\u0000"
+  ]
+}

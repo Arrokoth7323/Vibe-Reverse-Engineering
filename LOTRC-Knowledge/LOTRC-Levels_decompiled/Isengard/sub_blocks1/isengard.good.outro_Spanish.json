@@ -1,0 +1,86 @@
+{
+  "vals": [
+    {
+      "t_start": 5.47,
+      "t_end": 7.27,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 204
+    },
+    {
+      "t_start": 7.27,
+      "t_end": 11.2,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 252
+    },
+    {
+      "t_start": 11.23,
+      "t_end": 14.44,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 376
+    },
+    {
+      "t_start": 14.44,
+      "t_end": 17.81,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 456
+    },
+    {
+      "t_start": 17.81,
+      "t_end": 21.5,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 526
+    },
+    {
+      "t_start": 21.52,
+      "t_end": 24.98,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 672
+    },
+    {
+      "t_start": 25.0,
+      "t_end": 27.42,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 778
+    },
+    {
+      "t_start": 27.42,
+      "t_end": 30.23,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 842
+    },
+    {
+      "t_start": 30.24,
+      "t_end": 34.73,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 954
+    },
+    {
+      "t_start": 34.73,
+      "t_end": 36.93,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1070
+    }
+  ],
+  "strings": [
+    "Con su poder doblegado,\u0000",
+    "Saruman no podía triunfar ante el valor que se le enfrentó...\u0000",
+    "... y su traición acabó siendo vengada.\u0000",
+    "Ahora es Bárbol el amo de Orthanc.\u0000",
+    "Los fosos de Isengard deberán ser limpiados de la inmundicia de Saruman.\u0000",
+    "Pero el poder del Señor Oscuro no ha sido derrotado.\u0000",
+    "Saruman no era más que un peón,\u0000",
+    "una distracción para debilitar las fronteras de Gondor.\u0000",
+    "En el interior de Mordor, los ejércitos de Sauron crecen.\u0000",
+    "Esta guerra apenas ha comenzado.\u0000"
+  ]
+}

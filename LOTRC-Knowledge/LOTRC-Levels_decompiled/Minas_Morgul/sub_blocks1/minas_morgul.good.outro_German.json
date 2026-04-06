@@ -1,0 +1,62 @@
+{
+  "vals": [
+    {
+      "t_start": 3.94,
+      "t_end": 8.85,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 144
+    },
+    {
+      "t_start": 8.97,
+      "t_end": 13.05,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 304
+    },
+    {
+      "t_start": 13.17,
+      "t_end": 14.91,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 470
+    },
+    {
+      "t_start": 15.03,
+      "t_end": 19.51,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 512
+    },
+    {
+      "t_start": 19.52,
+      "t_end": 22.44,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 640
+    },
+    {
+      "t_start": 22.56,
+      "t_end": 25.08,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 732
+    },
+    {
+      "t_start": 25.1,
+      "t_end": 29.68,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 790
+    }
+  ],
+  "strings": [
+    "Zahllose Kreaturen wurden von den mutigen Kriegern aus Minas Morgul vertrieben,\u0000",
+    "doch das Böse, das über die Stadt herrscht, kann nicht gänzlich vernichtet werden.\u0000",
+    "Solange Sauron lebt,\u0000",
+    "wird kein Mensch es je wagen, die Ruinen der Stadt zu betreten.\u0000",
+    "Und so ist unsere Prüfung noch nicht zu Ende,\u0000",
+    "denn um Sauron zu bezwingen,\u0000",
+    "muss der Ringträger den Einen Ring den Feuern des Schicksalsberges übergeben.\u0000"
+  ]
+}

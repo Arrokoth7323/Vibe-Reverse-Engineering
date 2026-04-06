@@ -1,0 +1,62 @@
+{
+  "vals": [
+    {
+      "t_start": 5.41,
+      "t_end": 8.88,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 144
+    },
+    {
+      "t_start": 9.0,
+      "t_end": 12.88,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 244
+    },
+    {
+      "t_start": 13.0,
+      "t_end": 16.91,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 340
+    },
+    {
+      "t_start": 16.93,
+      "t_end": 20.41,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 462
+    },
+    {
+      "t_start": 20.41,
+      "t_end": 23.44,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 574
+    },
+    {
+      "t_start": 23.44,
+      "t_end": 27.56,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 668
+    },
+    {
+      "t_start": 27.56,
+      "t_end": 31.06,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 788
+    }
+  ],
+  "strings": [
+    "Finalmente il Balrog di Morgoth è stato sconfitto\u0000",
+    "e ricacciato negli abissi senza fondo di Moria.\u0000",
+    "L'antica dimora dei Nani è stata riconquistata e le creature\u0000",
+    "che la infestavano fuggono dinanzi alla nostra collera.\u0000",
+    "I liberatori di Moria non possono però gioire,\u0000",
+    "perché l'Oscuro Sire, Sauron, ha scatenato i suoi eserciti.\u0000",
+    "Le Genti Libere devono prepararsi a resistere.\u0000"
+  ]
+}

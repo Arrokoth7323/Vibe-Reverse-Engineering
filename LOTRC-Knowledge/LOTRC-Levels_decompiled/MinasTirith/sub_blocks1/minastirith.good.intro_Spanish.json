@@ -1,0 +1,86 @@
+{
+  "vals": [
+    {
+      "t_start": 5.18,
+      "t_end": 8.31,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 204
+    },
+    {
+      "t_start": 8.32,
+      "t_end": 12.64,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 274
+    },
+    {
+      "t_start": 12.66,
+      "t_end": 16.43,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 424
+    },
+    {
+      "t_start": 16.44,
+      "t_end": 19.04,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 560
+    },
+    {
+      "t_start": 19.05,
+      "t_end": 23.08,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 642
+    },
+    {
+      "t_start": 23.08,
+      "t_end": 26.56,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 758
+    },
+    {
+      "t_start": 26.57,
+      "t_end": 28.2,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 838
+    },
+    {
+      "t_start": 28.2,
+      "t_end": 31.59,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 906
+    },
+    {
+      "t_start": 31.59,
+      "t_end": 33.39,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 996
+    },
+    {
+      "t_start": 33.4,
+      "t_end": 36.3,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1128
+    }
+  ],
+  "strings": [
+    "La oscuridad se abate sobre Gondor\u0000",
+    "y Minas Tirith se ve rodeada por un anillo de maldad incrustada en hierro.\u0000",
+    "Grandes torres de asedio se desplazan hacia las asediadas murallas,\u0000",
+    "todas llenas de hordas de letales orcos.\u0000",
+    "Sobre la puerta principal, el Señor Oscuro lanza a Grond,\u0000",
+    "un terrible ariete con aspecto de lobo.\u0000",
+    "Si quieren soñar con la victoria,\u0000",
+    "antes de retirarse a los niveles interiores,\u0000",
+    "los guerreros de Gondor deberán defender cada anillo de su ciudad\u0000",
+    "todo el tiempo que puedan.\u0000"
+  ]
+}

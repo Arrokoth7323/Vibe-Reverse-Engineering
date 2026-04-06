@@ -1,0 +1,86 @@
+{
+  "vals": [
+    {
+      "t_start": 5.24,
+      "t_end": 9.64,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 204
+    },
+    {
+      "t_start": 9.64,
+      "t_end": 13.96,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 354
+    },
+    {
+      "t_start": 13.96,
+      "t_end": 16.69,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 472
+    },
+    {
+      "t_start": 16.69,
+      "t_end": 19.09,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 556
+    },
+    {
+      "t_start": 19.1,
+      "t_end": 21.19,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 626
+    },
+    {
+      "t_start": 21.19,
+      "t_end": 24.46,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 690
+    },
+    {
+      "t_start": 24.46,
+      "t_end": 27.68,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 782
+    },
+    {
+      "t_start": 27.68,
+      "t_end": 32.11,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 870
+    },
+    {
+      "t_start": 32.11,
+      "t_end": 34.8,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1046
+    },
+    {
+      "t_start": 34.8,
+      "t_end": 39.18,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1152
+    }
+  ],
+  "strings": [
+    "I god tro om at hans armé hadde tilintetgjort Théodens folk i Helmsdjupet,\u0000",
+    "følte Sarumann seg viss på egen trygghet i tårnet Orthanc.\u0000",
+    "Men Jarnagards ringmur var intet forsvar \u0000",
+    "mot hevnlystne enter og mennesker.\u0000",
+    "Og i Sarumanns fangehull ventet\u0000",
+    "mange vrede rohanske fanger på sin befrielse.\u0000",
+    "Mens hans maskineri spyr ut forpestet damp,\u0000",
+    "befinner Sarumann seg ovenpå hvor han dirigerer sitt forsvar og forvalter sin trolldom.\u0000",
+    "For i dette slaget er ingenting avgjort på forhånd, \u0000",
+    "og nå må både enter og Rohirrim sammen trosse Sarumanns vrede.\u0000"
+  ]
+}

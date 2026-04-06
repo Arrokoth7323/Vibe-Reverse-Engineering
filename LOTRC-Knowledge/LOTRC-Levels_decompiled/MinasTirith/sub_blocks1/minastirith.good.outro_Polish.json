@@ -1,0 +1,54 @@
+{
+  "vals": [
+    {
+      "t_start": 5.04,
+      "t_end": 9.31,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 124
+    },
+    {
+      "t_start": 9.31,
+      "t_end": 14.35,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 256
+    },
+    {
+      "t_start": 14.36,
+      "t_end": 18.76,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 390
+    },
+    {
+      "t_start": 18.77,
+      "t_end": 23.5,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 524
+    },
+    {
+      "t_start": 23.52,
+      "t_end": 27.01,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 650
+    },
+    {
+      "t_start": 27.01,
+      "t_end": 29.72,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 708
+    }
+  ],
+  "strings": [
+    "W najczarniejszej godzinie głos rogu odbija się echem po mieście.\u0000",
+    "Starożytna przysięga została wypełniona i Rohan w końcu nadchodzi.\u0000",
+    "Théoden opuścił Północ, a jego jeźdźcy śmieją się w twarz śmierci.\u0000",
+    "Orkowie muszą opuścić miasto i stawić czoło nowemu zagrożeniu.\u0000",
+    "I teraz, na otwartych polach\u0000",
+    "rozstrzygnie się los Gondoru.\u0000"
+  ]
+}

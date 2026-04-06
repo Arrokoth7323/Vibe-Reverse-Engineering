@@ -1,0 +1,46 @@
+{
+  "vals": [
+    {
+      "t_start": 5.07,
+      "t_end": 8.2,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 104
+    },
+    {
+      "t_start": 8.2,
+      "t_end": 11.81,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 210
+    },
+    {
+      "t_start": 11.81,
+      "t_end": 14.65,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 334
+    },
+    {
+      "t_start": 14.65,
+      "t_end": 19.9,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 394
+    },
+    {
+      "t_start": 19.9,
+      "t_end": 24.4,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 544
+    }
+  ],
+  "strings": [
+    "Mitt folk klarte ikke å beseire orkenes hærflokker. \u0000",
+    "Kun en håndfull forsvarere overlevde for å ta kampen videre. \u0000",
+    "Jeg var en av de uheldige få.\u0000",
+    "Bare de vennligste og mest uskyldsrene av Midgards befolkning står igjen, \u0000",
+    "og nå er skyggen til Mørkets herre i ferd med å falle over dem også.\u0000"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "vals": [
+    {
+      "t_start": 5.07,
+      "t_end": 8.2,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 104
+    },
+    {
+      "t_start": 8.2,
+      "t_end": 11.03,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 210
+    },
+    {
+      "t_start": 11.15,
+      "t_end": 13.76,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 316
+    },
+    {
+      "t_start": 14.5,
+      "t_end": 18.81,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 382
+    },
+    {
+      "t_start": 18.93,
+      "t_end": 24.05,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 516
+    }
+  ],
+  "strings": [
+    "La mia gente non ha saputo sconfiggere gli Orchetti.\u0000",
+    "In pochi sono rimasti vivi, per proseguire la lotta,\u0000",
+    "e io sono fra quegli sfortunati.\u0000",
+    "Rimangono solo gli abitanti più nobili e puri della Terra di Mezzo\u0000",
+    "e ora l'ombra dell'Oscuro Sire si prepara a stendersi anche su di loro.\u0000"
+  ]
+}

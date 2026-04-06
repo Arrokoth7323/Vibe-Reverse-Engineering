@@ -1,0 +1,62 @@
+{
+  "vals": [
+    {
+      "t_start": 5.49,
+      "t_end": 10.12,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 144
+    },
+    {
+      "t_start": 10.12,
+      "t_end": 13.19,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 250
+    },
+    {
+      "t_start": 13.19,
+      "t_end": 15.16,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 362
+    },
+    {
+      "t_start": 15.16,
+      "t_end": 19.94,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 462
+    },
+    {
+      "t_start": 19.94,
+      "t_end": 23.37,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 608
+    },
+    {
+      "t_start": 23.37,
+      "t_end": 26.69,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 748
+    },
+    {
+      "t_start": 26.69,
+      "t_end": 29.63,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 818
+    }
+  ],
+  "strings": [
+    "Riftedal har blivit en ö omgiven av rasande stormar.\u0000",
+    "De sista av Midgårds fria folk har samlats här med mig,\u0000",
+    "så att vi kan sätta oss till slutgiltigt motvärn.\u0000",
+    "Om Riftedals alver misslyckas med att hejda Saurons framrusande flodvåg,\u0000",
+    "kommer inte mycket att återstå som kan stå emot det kvävande mörkret.\u0000",
+    "Vi måste offra vår odödlighet här,\u0000",
+    "för allt som ännu överlever i Midgård.\u0000"
+  ]
+}

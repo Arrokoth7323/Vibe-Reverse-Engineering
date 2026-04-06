@@ -1,0 +1,304 @@
+{
+  "info": {
+    "key": "DOM_PR_Gate_01_open_idle",
+    "gamemodemask": 9,
+    "offset": 3274704,
+    "size": 80,
+    "kind": 3,
+    "unk_5": 0.33366668,
+    "vals_num": 7,
+    "vals2_num": 0,
+    "unk_8": 0,
+    "vala": 11,
+    "unk_10": 1,
+    "unk_11": 256,
+    "data_offset": 28,
+    "unk_13": 8.5085,
+    "unk_14": 0.11752953,
+    "t_scale": 0.03336667,
+    "block_starts_offset": 0,
+    "block_starts_num": 1,
+    "block_starts2_offset": 4,
+    "block_starts2_num": 1,
+    "obj_c3_offset": 8,
+    "obj_c3_num": 0,
+    "obj_c4_offset": 8,
+    "obj_c4_num": 0,
+    "block_offset": 8,
+    "block_size": 32,
+    "obj3_num": 0,
+    "obj3_offset": 0,
+    "bones_num1": 7,
+    "unk_29": 7,
+    "obj1_num": 0,
+    "bones_offset": 40,
+    "unk_32": 2541514084,
+    "obj1_offset": 0,
+    "obj2_offset": 0,
+    "obj2_num": 0,
+    "obj5_offset": 0
+  },
+  "obj1": [],
+  "obj2": [],
+  "events": [],
+  "bones": [
+    "",
+    "DOM_PR_Gate_01",
+    "Bone_all",
+    "p_collision_top",
+    "p_collision_wall",
+    "bone_gate",
+    "p_collision_gate"
+  ],
+  "obj5_a": [],
+  "obj5_b": [],
+  "obj_c3": [],
+  "obj_c4": [],
+  "blocks": [
+    [
+      [
+        [
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 4,
+            "flags": 2,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [
+              3.6
+            ],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ]
+      ],
+      []
+    ]
+  ]
+}

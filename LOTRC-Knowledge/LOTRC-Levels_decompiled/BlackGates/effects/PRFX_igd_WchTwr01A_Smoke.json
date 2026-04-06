@@ -1,0 +1,228 @@
+{
+  "gamemodemask": -1,
+  "objs": [
+    {
+      "type": "templateEffect",
+      "layer": 0,
+      "fields": {
+        "GUID": 13000858,
+        "ParentGUID": 0,
+        "GameModeMask": -1,
+        "Name": "PRFX_igd_WchTwr01A_Smoke",
+        "Duration": 150,
+        "Looping": true,
+        "lod": true,
+        "FarLod": false,
+        "MinLOD": 0.10000000149011612,
+        "DensityLOD": 0.009999999776482582,
+        "FarDensityLOD": 0.009999999776482582,
+        "SizeLOD": 1.0,
+        "MaxLOD": 1.0,
+        "0x55609F53": 20.0,
+        "WorldSpace": true,
+        "UseDistanceBasedRejection": false,
+        "RejectionDistance": 25.0,
+        "RejectIfNotVisible": false,
+        "FreezeSimulationWhenOffscreen": true,
+        "IgnoreTranslation": false,
+        "IgnoreRotationX": false,
+        "IgnoreRotationY": false,
+        "IgnoreRotationZ": false,
+        "IgnoreSurfaceRotationX": false,
+        "IgnoreSurfaceRotationY": false,
+        "IgnoreSurfaceRotationZ": false,
+        "CastShadow": false,
+        "ReceiveShadow": true,
+        "SoftClip": true,
+        "InvSoftClip": false,
+        "SortParticles": false,
+        "HalfSizeBuffer": false,
+        "HalfSizeDistance": 4.0,
+        "QuarterSizeBuffer": false,
+        "QuarterSizeDistance": 2.0
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "templateEffect",
+      "fields": [
+        {
+          "name": "FarDensityLOD",
+          "type": "float",
+          "offset": 40
+        },
+        {
+          "name": "IgnoreRotationX",
+          "type": "bool",
+          "offset": 80
+        },
+        {
+          "name": "IgnoreRotationY",
+          "type": "bool",
+          "offset": 84
+        },
+        {
+          "name": "IgnoreRotationZ",
+          "type": "bool",
+          "offset": 88
+        },
+        {
+          "name": "Duration",
+          "type": "int",
+          "offset": 16
+        },
+        {
+          "name": "QuarterSizeBuffer",
+          "type": "bool",
+          "offset": 132
+        },
+        {
+          "name": "FarLod",
+          "type": "bool",
+          "offset": 28
+        },
+        {
+          "name": "FreezeSimulationWhenOffscreen",
+          "type": "bool",
+          "offset": 72
+        },
+        {
+          "name": "0x55609F53",
+          "type": "float",
+          "offset": 52
+        },
+        {
+          "name": "Name",
+          "type": "crc",
+          "offset": 12
+        },
+        {
+          "name": "ReceiveShadow",
+          "type": "bool",
+          "offset": 108
+        },
+        {
+          "name": "GameModeMask",
+          "type": "int",
+          "offset": 8
+        },
+        {
+          "name": "CastShadow",
+          "type": "bool",
+          "offset": 104
+        },
+        {
+          "name": "WorldSpace",
+          "type": "bool",
+          "offset": 56
+        },
+        {
+          "name": "lod",
+          "type": "bool",
+          "offset": 24
+        },
+        {
+          "name": "DensityLOD",
+          "type": "float",
+          "offset": 36
+        },
+        {
+          "name": "SoftClip",
+          "type": "bool",
+          "offset": 112
+        },
+        {
+          "name": "QuarterSizeDistance",
+          "type": "float",
+          "offset": 136
+        },
+        {
+          "name": "SizeLOD",
+          "type": "float",
+          "offset": 44
+        },
+        {
+          "name": "ParentGUID",
+          "type": "GUID",
+          "offset": 4
+        },
+        {
+          "name": "MaxLOD",
+          "type": "float",
+          "offset": 48
+        },
+        {
+          "name": "IgnoreSurfaceRotationX",
+          "type": "bool",
+          "offset": 92
+        },
+        {
+          "name": "IgnoreSurfaceRotationY",
+          "type": "bool",
+          "offset": 96
+        },
+        {
+          "name": "IgnoreSurfaceRotationZ",
+          "type": "bool",
+          "offset": 100
+        },
+        {
+          "name": "HalfSizeDistance",
+          "type": "float",
+          "offset": 128
+        },
+        {
+          "name": "GUID",
+          "type": "GUID",
+          "offset": 0
+        },
+        {
+          "name": "InvSoftClip",
+          "type": "bool",
+          "offset": 116
+        },
+        {
+          "name": "RejectIfNotVisible",
+          "type": "bool",
+          "offset": 68
+        },
+        {
+          "name": "SortParticles",
+          "type": "bool",
+          "offset": 120
+        },
+        {
+          "name": "HalfSizeBuffer",
+          "type": "bool",
+          "offset": 124
+        },
+        {
+          "name": "Looping",
+          "type": "bool",
+          "offset": 20
+        },
+        {
+          "name": "RejectionDistance",
+          "type": "float",
+          "offset": 64
+        },
+        {
+          "name": "UseDistanceBasedRejection",
+          "type": "bool",
+          "offset": 60
+        },
+        {
+          "name": "IgnoreTranslation",
+          "type": "bool",
+          "offset": 76
+        },
+        {
+          "name": "MinLOD",
+          "type": "float",
+          "offset": 32
+        }
+      ]
+    }
+  ]
+}

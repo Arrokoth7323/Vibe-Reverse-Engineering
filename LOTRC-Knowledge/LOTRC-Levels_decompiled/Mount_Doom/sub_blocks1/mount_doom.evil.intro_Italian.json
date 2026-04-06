@@ -1,0 +1,110 @@
+{
+  "vals": [
+    {
+      "t_start": 5.53,
+      "t_end": 10.28,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 264
+    },
+    {
+      "t_start": 10.4,
+      "t_end": 14.7,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 396
+    },
+    {
+      "t_start": 14.72,
+      "t_end": 19.18,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 502
+    },
+    {
+      "t_start": 19.19,
+      "t_end": 24.36,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 624
+    },
+    {
+      "t_start": 25.04,
+      "t_end": 28.92,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 786
+    },
+    {
+      "t_start": 28.93,
+      "t_end": 33.2,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 886
+    },
+    {
+      "t_start": 33.32,
+      "t_end": 36.39,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1022
+    },
+    {
+      "t_start": 36.42,
+      "t_end": 38.67,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1100
+    },
+    {
+      "t_start": 39.41,
+      "t_end": 45.45,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1162
+    },
+    {
+      "t_start": 45.57,
+      "t_end": 50.02,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1328
+    },
+    {
+      "t_start": 50.14,
+      "t_end": 54.91,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1458
+    },
+    {
+      "t_start": 55.44,
+      "t_end": 59.38,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1576
+    },
+    {
+      "t_start": 59.39,
+      "t_end": 63.18,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1682
+    }
+  ],
+  "strings": [
+    "Indebolito dal potere dell'Unico Anello, Frodo lo reclamò per sé,\u0000",
+    "scuotendo le fondamenta stesse della Terra di Mezzo.\u0000",
+    "L'Oscuro Sire brama di poter tornare al suo corpo materiale.\u0000",
+    "Per riconquistare la Terra di Mezzo, però, egli ha bisogno dell'Anello di Frodo;\u0000",
+    "per averlo, è disposto a pagare qualsiasi prezzo.\u0000",
+    "Al comando dell'Oscuro Sire, i Nazgûl si dirigono verso Monte Fato,\u0000",
+    "tralasciando qualsiasi altra faccenda.\u0000",
+    "Essi hanno un unico obiettivo:\u0000",
+    "uccidere Frodo e strappargli l'Anello, che ora si trova quasi nel pugno di Sauron.\u0000",
+    "Molte guarnigioni di Orchetti bramano l'Anello per i loro scopi,\u0000",
+    "scatenando una guerra civile e marciando verso Monte Fato.\u0000",
+    "Ma i Nazgûl, infuriati, non si lasceranno ostacolare\u0000",
+    "e massacreranno chiunque osi frapporsi sul loro cammino.\u0000"
+  ]
+}

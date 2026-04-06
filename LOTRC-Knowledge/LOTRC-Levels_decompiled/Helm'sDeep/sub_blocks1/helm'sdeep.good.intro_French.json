@@ -1,0 +1,94 @@
+{
+  "vals": [
+    {
+      "t_start": 4.74,
+      "t_end": 8.25,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 224
+    },
+    {
+      "t_start": 8.25,
+      "t_end": 11.7,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 340
+    },
+    {
+      "t_start": 11.73,
+      "t_end": 14.85,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 464
+    },
+    {
+      "t_start": 14.85,
+      "t_end": 18.53,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 558
+    },
+    {
+      "t_start": 18.55,
+      "t_end": 20.95,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 680
+    },
+    {
+      "t_start": 20.95,
+      "t_end": 24.87,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 750
+    },
+    {
+      "t_start": 24.88,
+      "t_end": 27.93,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 902
+    },
+    {
+      "t_start": 27.93,
+      "t_end": 30.42,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1026
+    },
+    {
+      "t_start": 30.43,
+      "t_end": 31.7,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1118
+    },
+    {
+      "t_start": 31.7,
+      "t_end": 35.1,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1148
+    },
+    {
+      "t_start": 35.14,
+      "t_end": 39.27,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1288
+    }
+  ],
+  "strings": [
+    "Au Troisième Age, la guerre réapparut en Terre du Milieu,\u0000",
+    "car la volonté de Sauron se remit à la recherche de l'Anneau.\u0000",
+    "Le Seigneur des Ténèbres soumit bien des êtres\u0000",
+    "notamment Saroumane, un magicien autrefois sage et puissant.\u0000",
+    "La guerre atteignit donc le Rohan,\u0000",
+    "forçant le Roi Théoden à se réfugier dans la forteresse du Gouffre de Helm.\u0000",
+    "Et voilà qu'une vaste armée va attaquer ces remparts à l'aide\u0000",
+    "d'échelles de siège et de machines de guerre.\u0000",
+    "Pour survivre,\u0000",
+    "les défenseurs doivent tenir le Mur du Gouffre et la porte du donjon.\u0000",
+    "Mais il leur faudra prendre garde aux maléfices de Saroumane.\u0000"
+  ]
+}

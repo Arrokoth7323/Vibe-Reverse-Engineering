@@ -1,0 +1,102 @@
+{
+  "vals": [
+    {
+      "t_start": 5.2,
+      "t_end": 9.18,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 244
+    },
+    {
+      "t_start": 9.18,
+      "t_end": 11.67,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 346
+    },
+    {
+      "t_start": 11.67,
+      "t_end": 15.02,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 424
+    },
+    {
+      "t_start": 15.02,
+      "t_end": 19.76,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 516
+    },
+    {
+      "t_start": 19.76,
+      "t_end": 22.76,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 636
+    },
+    {
+      "t_start": 22.76,
+      "t_end": 26.77,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 744
+    },
+    {
+      "t_start": 26.77,
+      "t_end": 29.72,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 848
+    },
+    {
+      "t_start": 29.73,
+      "t_end": 32.23,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 942
+    },
+    {
+      "t_start": 32.23,
+      "t_end": 35.55,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1020
+    },
+    {
+      "t_start": 35.55,
+      "t_end": 39.39,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1108
+    },
+    {
+      "t_start": 39.39,
+      "t_end": 40.82,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1246
+    },
+    {
+      "t_start": 40.82,
+      "t_end": 44.87,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1298
+    }
+  ],
+  "strings": [
+    "Osgiliath shall play yet another part in this war.\u0000",
+    "Faramir brought the Ringbearer here...\u0000",
+    "but wisely allowed him to continue his quest.\u0000",
+    "Now a garrison of Gondor's defenders keep watch, ever wary.\u0000",
+    "The warriors that hold this outpost secretly hope for\u0000",
+    "Faramir and his Ithilien Rangers to return at dawn.\u0000",
+    "But the ranks of the Orcs continue to swell...\u0000",
+    "and hope alone is but a flimsy shield.\u0000",
+    "Silence shrouds the far shore of the Anduin\u0000",
+    "as the defenders of Osgiliath are left alone to sharpen their fears.\u0000",
+    "In the gathering darkness\u0000",
+    "dawn cannot arrive swiftly enough for these brave men of Gondor.\u0000"
+  ]
+}

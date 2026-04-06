@@ -1,0 +1,78 @@
+{
+  "vals": [
+    {
+      "t_start": 6.38,
+      "t_end": 9.95,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 184
+    },
+    {
+      "t_start": 9.95,
+      "t_end": 14.09,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 292
+    },
+    {
+      "t_start": 14.09,
+      "t_end": 15.69,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 400
+    },
+    {
+      "t_start": 15.69,
+      "t_end": 17.91,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 440
+    },
+    {
+      "t_start": 17.91,
+      "t_end": 21.78,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 562
+    },
+    {
+      "t_start": 21.78,
+      "t_end": 25.28,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 610
+    },
+    {
+      "t_start": 25.28,
+      "t_end": 29.77,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 772
+    },
+    {
+      "t_start": 29.77,
+      "t_end": 32.51,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 882
+    },
+    {
+      "t_start": 32.51,
+      "t_end": 35.05,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 934
+    }
+  ],
+  "strings": [
+    "Det begynte for lenge siden, da Mørkets herre Sauron \u0000",
+    "smidde en maktens ring for å slavebinde hele Midgard.\u0000",
+    "For å motstå denne \u0000",
+    "trusselen marsjerte en siste allianse av alver og mennesker \u0000",
+    "hans mørke armé i møte.\u0000",
+    "Tangado a chadad ... Leitho I philinn! (Gjør klar til å skyte ... Slipp pilene!)\u0000",
+    "I Mordors daler kjempet vi for våre liv og vår frihet.\u0000",
+    "Lær deg kunsten å krige, \u0000",
+    "for med den kommer vårt eneste håp om seier.\u0000"
+  ]
+}

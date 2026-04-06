@@ -1,0 +1,54 @@
+{
+  "vals": [
+    {
+      "t_start": 4.9,
+      "t_end": 8.93,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 124
+    },
+    {
+      "t_start": 8.94,
+      "t_end": 13.61,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 226
+    },
+    {
+      "t_start": 13.61,
+      "t_end": 16.24,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 350
+    },
+    {
+      "t_start": 16.25,
+      "t_end": 20.4,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 434
+    },
+    {
+      "t_start": 20.41,
+      "t_end": 23.25,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 574
+    },
+    {
+      "t_start": 23.25,
+      "t_end": 26.51,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 662
+    }
+  ],
+  "strings": [
+    "Udûns flamma har än en gång släppts lös i Midgård.\u0000",
+    "Och som sitt folk har Gimli och alla som vågad följa honom in\u0000",
+    "i mörkret blivit dräpta av denna varelse.\u0000",
+    "Moria förblir nu för evigt en ondskans plats som ingen vågar beträda.\u0000",
+    "Och nu ger sig hans Nazgûl ut ännu en gång,\u0000",
+    "för att leta reda på Mörkrets furstes slutgiltiga offer.\u0000"
+  ]
+}

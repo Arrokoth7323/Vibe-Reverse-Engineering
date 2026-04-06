@@ -1,0 +1,86 @@
+{
+  "vals": [
+    {
+      "t_start": 4.93,
+      "t_end": 9.94,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 204
+    },
+    {
+      "t_start": 9.94,
+      "t_end": 15.98,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 314
+    },
+    {
+      "t_start": 15.99,
+      "t_end": 19.22,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 430
+    },
+    {
+      "t_start": 19.23,
+      "t_end": 24.36,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 528
+    },
+    {
+      "t_start": 24.38,
+      "t_end": 28.55,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 668
+    },
+    {
+      "t_start": 28.55,
+      "t_end": 31.15,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 786
+    },
+    {
+      "t_start": 31.16,
+      "t_end": 35.82,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 866
+    },
+    {
+      "t_start": 35.82,
+      "t_end": 38.04,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 964
+    },
+    {
+      "t_start": 38.05,
+      "t_end": 42.56,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1030
+    },
+    {
+      "t_start": 42.56,
+      "t_end": 47.93,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1162
+    }
+  ],
+  "strings": [
+    "Kopalnie Morii na północy budzą jeszcze większą grozę.\u0000",
+    "Tu w przeszłości Gandalf pokonał Balroga po dniach walki.\u0000",
+    "Tę straszliwą bitwę przypłacił własnym życiem...\u0000",
+    "ale umożliwił Powiernikowi ucieczkę z tych mrocznych i posępnych sal.\u0000",
+    "Lecz ogromne podziemne miasto Morii wciąż jest siedliskiem\u0000",
+    "goblinów i innych przeklętych stworzeń.\u0000",
+    "Nadszedł czas, aby Wolne Ludy odzyskały Morię...\u0000",
+    "a poprowadzi je krasnolud Gimli.\u0000",
+    "Lecz muszą mieć się na baczności, bo wszędzie czyhają rozpadliny.\u0000",
+    "A Gandalf obawia się, że nowe zło może kryć się w starożytnych komnatach.\u0000"
+  ]
+}

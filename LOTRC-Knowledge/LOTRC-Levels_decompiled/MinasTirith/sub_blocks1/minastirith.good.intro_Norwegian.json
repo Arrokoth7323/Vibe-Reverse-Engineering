@@ -1,0 +1,86 @@
+{
+  "vals": [
+    {
+      "t_start": 5.19,
+      "t_end": 8.31,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 204
+    },
+    {
+      "t_start": 8.32,
+      "t_end": 12.64,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 272
+    },
+    {
+      "t_start": 12.66,
+      "t_end": 16.43,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 372
+    },
+    {
+      "t_start": 16.44,
+      "t_end": 19.04,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 478
+    },
+    {
+      "t_start": 19.05,
+      "t_end": 23.08,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 570
+    },
+    {
+      "t_start": 23.08,
+      "t_end": 26.56,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 666
+    },
+    {
+      "t_start": 26.57,
+      "t_end": 28.2,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 772
+    },
+    {
+      "t_start": 28.2,
+      "t_end": 31.59,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 826
+    },
+    {
+      "t_start": 31.59,
+      "t_end": 33.39,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 890
+    },
+    {
+      "t_start": 33.4,
+      "t_end": 36.3,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 936
+    }
+  ],
+  "strings": [
+    "Nå senker mørket seg over Gondor,\u0000",
+    "og Minas Tirith er omringet av jernskodd ondskap.\u0000",
+    "Store beleiringstårn ruller mot de beleirede murene,\u0000",
+    "hvert av dem bemannet med dødbringende orker.\u0000",
+    "Mot hovedporten setter Mørkets herre inn Grond,\u0000",
+    "en fryktelig rambukk som utstråler en ulvelik vrede.\u0000",
+    "For å bevare håp om seier,\u0000",
+    "må Gondors krigere holde stand \u0000",
+    "så lenge som de klarer\u0000",
+    "før de trekker seg lengre inn i den brennende festningen.\u0000"
+  ]
+}

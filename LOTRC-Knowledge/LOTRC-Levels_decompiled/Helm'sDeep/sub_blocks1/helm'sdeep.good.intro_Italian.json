@@ -1,0 +1,94 @@
+{
+  "vals": [
+    {
+      "t_start": 4.49,
+      "t_end": 8.46,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 224
+    },
+    {
+      "t_start": 8.58,
+      "t_end": 11.7,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 368
+    },
+    {
+      "t_start": 11.73,
+      "t_end": 14.85,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 450
+    },
+    {
+      "t_start": 14.85,
+      "t_end": 18.53,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 558
+    },
+    {
+      "t_start": 18.96,
+      "t_end": 20.69,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 670
+    },
+    {
+      "t_start": 20.95,
+      "t_end": 24.87,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 720
+    },
+    {
+      "t_start": 24.88,
+      "t_end": 27.93,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 860
+    },
+    {
+      "t_start": 27.93,
+      "t_end": 30.42,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 986
+    },
+    {
+      "t_start": 30.43,
+      "t_end": 31.7,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1054
+    },
+    {
+      "t_start": 31.7,
+      "t_end": 35.1,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1090
+    },
+    {
+      "t_start": 35.5,
+      "t_end": 39.0,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1240
+    }
+  ],
+  "strings": [
+    "Durante la Terza Era, la guerra tornò a insanguinare la Terra di Mezzo,\u0000",
+    "mentre Sauron bramava di nuovo l'Anello.\u0000",
+    "L'Oscuro Sire radunò molti individui al suo servizio,\u0000",
+    "fra i quali Saruman, un tempo grande e saggio Stregone.\u0000",
+    "la guerra venne a Rohan,\u0000",
+    "costringendo re Thèoden a ripiegare nella fortezza del Fosso di Helm.\u0000",
+    "Ora, un immenso esercito sta per assalire queste antiche mura,\u0000",
+    "con terribili macchine d'assedio.\u0000",
+    "Per sopravvivere,\u0000",
+    "i difensori devono presidiare le Mura Fossato e l'ingresso della fortezza,\u0000",
+    "vincendo la maligna astuzia di Saruman.\u0000"
+  ]
+}

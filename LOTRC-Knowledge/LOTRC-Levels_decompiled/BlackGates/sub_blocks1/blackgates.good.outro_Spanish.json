@@ -1,0 +1,102 @@
+{
+  "vals": [
+    {
+      "t_start": 4.57,
+      "t_end": 12.72,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 244
+    },
+    {
+      "t_start": 12.74,
+      "t_end": 19.67,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 420
+    },
+    {
+      "t_start": 19.69,
+      "t_end": 24.37,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 612
+    },
+    {
+      "t_start": 24.39,
+      "t_end": 31.24,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 744
+    },
+    {
+      "t_start": 31.26,
+      "t_end": 36.67,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 932
+    },
+    {
+      "t_start": 36.69,
+      "t_end": 41.25,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1094
+    },
+    {
+      "t_start": 41.27,
+      "t_end": 46.09,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1208
+    },
+    {
+      "t_start": 46.11,
+      "t_end": 52.09,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1346
+    },
+    {
+      "t_start": 52.11,
+      "t_end": 56.58,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1540
+    },
+    {
+      "t_start": 56.6,
+      "t_end": 60.55,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1694
+    },
+    {
+      "t_start": 60.57,
+      "t_end": 70.47,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1766
+    },
+    {
+      "t_start": 70.49,
+      "t_end": 77.9,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1966
+    }
+  ],
+  "strings": [
+    "Los que estuvieron en aquel campo de batalla no tenían ninguna esperanza de sobrevivir.\u0000",
+    "Aunque sus enemigos se acercaban y sus brazos estaban fatigados, ningún hombre albergaba miedo.\u0000",
+    "Pero el destino de nuestro mundo no se escribiría en ese momento.\u0000",
+    "Porque el Anillo corrompe todo lo que toca y ni siquiera su malvado espíritu podría imaginar.\u0000",
+    "Y en ese momento desesperado y final, el Portador del Anillo completó su misión.\u0000",
+    "En apenas un latido, el Señor Oscuro Sauron desapareció.\u0000",
+    "La verdad es que la victoria provino de la más pequeña de las cosas.\u0000",
+    "Nuestro destino estaba en el filo de la navaja, pero fue entonces cuando se impuso la esperanza,\u0000",
+    "el filo cedió y se hundió en lo más profundo del corazón de nuestro enemigo.\u0000",
+    "Y la victoria fue, al fin, nuestra.\u0000",
+    "En esas sombrías batallas, los corazones de los pueblos libres no vacilaron y su coraje no flaqueó.\u0000",
+    "Y fue así como la Tercera Edad de la Tierra Media terminó en triunfo y no en desesperación.\u0000"
+  ]
+}

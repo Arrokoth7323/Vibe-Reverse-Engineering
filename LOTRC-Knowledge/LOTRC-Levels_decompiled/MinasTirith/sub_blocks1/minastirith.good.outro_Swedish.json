@@ -1,0 +1,54 @@
+{
+  "vals": [
+    {
+      "t_start": 5.04,
+      "t_end": 9.31,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 124
+    },
+    {
+      "t_start": 9.31,
+      "t_end": 14.35,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 236
+    },
+    {
+      "t_start": 14.36,
+      "t_end": 18.76,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 356
+    },
+    {
+      "t_start": 18.77,
+      "t_end": 23.5,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 478
+    },
+    {
+      "t_start": 23.52,
+      "t_end": 27.01,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 574
+    },
+    {
+      "t_start": 27.01,
+      "t_end": 29.72,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 620
+    }
+  ],
+  "strings": [
+    "Men i den mörkaste timmen ekar hornstötar genom staden.\u0000",
+    "En uråldrig ed har uppfyllts och Rohan har äntligen kommit.\u0000",
+    "Théoden har tömt Norden och hans ryttare vågar riskera allt.\u0000",
+    "Orcherna måste lämna staden och möta detta hot.\u0000",
+    "Och nu ska Gondors öde\u0000",
+    "avgöras på det öppna slagfältet.\u0000"
+  ]
+}

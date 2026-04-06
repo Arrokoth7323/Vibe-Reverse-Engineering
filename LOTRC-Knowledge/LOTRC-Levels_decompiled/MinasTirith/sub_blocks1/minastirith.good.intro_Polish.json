@@ -1,0 +1,86 @@
+{
+  "vals": [
+    {
+      "t_start": 5.19,
+      "t_end": 8.31,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 204
+    },
+    {
+      "t_start": 8.32,
+      "t_end": 12.64,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 260
+    },
+    {
+      "t_start": 12.66,
+      "t_end": 16.43,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 386
+    },
+    {
+      "t_start": 16.44,
+      "t_end": 19.04,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 496
+    },
+    {
+      "t_start": 19.05,
+      "t_end": 23.08,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 580
+    },
+    {
+      "t_start": 23.08,
+      "t_end": 26.56,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 682
+    },
+    {
+      "t_start": 26.57,
+      "t_end": 28.2,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 754
+    },
+    {
+      "t_start": 28.2,
+      "t_end": 31.59,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 822
+    },
+    {
+      "t_start": 31.59,
+      "t_end": 33.39,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 946
+    },
+    {
+      "t_start": 33.4,
+      "t_end": 36.3,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1002
+    }
+  ],
+  "strings": [
+    "Ciemność opada na Gondor...\u0000",
+    "a Minas Tirith okrążył pierścień zbrojnej w żelazo nienawiści.\u0000",
+    "Wielkie wieże oblężnicze toczą się ku obleganym murom.\u0000",
+    "Każda obciążona hordą orków żądnych krwi.\u0000",
+    "Na główną bramę Czarny Władca przygotował Grond...\u0000",
+    "straszliwy taran o wilczym gniewie.\u0000",
+    "Aby zachować nadzieję zwycięstwa,\u0000",
+    "wojownicy Gondoru muszą utrzymać wszystkie pierścienie miasta\u0000",
+    "tak długo jak to możliwe...\u0000",
+    "nim wycofają się w głąb swej płonącej cytadeli.\u0000"
+  ]
+}

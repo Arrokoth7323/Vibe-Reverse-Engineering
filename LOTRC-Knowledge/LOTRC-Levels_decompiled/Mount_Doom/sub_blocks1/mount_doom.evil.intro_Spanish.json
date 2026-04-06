@@ -1,0 +1,110 @@
+{
+  "vals": [
+    {
+      "t_start": 5.35,
+      "t_end": 11.09,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 264
+    },
+    {
+      "t_start": 11.09,
+      "t_end": 14.7,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 428
+    },
+    {
+      "t_start": 14.72,
+      "t_end": 19.18,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 546
+    },
+    {
+      "t_start": 19.19,
+      "t_end": 22.43,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 686
+    },
+    {
+      "t_start": 22.45,
+      "t_end": 28.92,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 782
+    },
+    {
+      "t_start": 28.93,
+      "t_end": 33.83,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 928
+    },
+    {
+      "t_start": 33.83,
+      "t_end": 36.39,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1100
+    },
+    {
+      "t_start": 36.42,
+      "t_end": 39.81,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1202
+    },
+    {
+      "t_start": 39.83,
+      "t_end": 45.7,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1278
+    },
+    {
+      "t_start": 45.72,
+      "t_end": 50.23,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1432
+    },
+    {
+      "t_start": 50.23,
+      "t_end": 55.44,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1570
+    },
+    {
+      "t_start": 55.44,
+      "t_end": 59.38,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1682
+    },
+    {
+      "t_start": 59.39,
+      "t_end": 63.18,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1770
+    }
+  ],
+  "strings": [
+    "Debilitado por el poder del Anillo Único, Frodo acaba reclamándolo para sí mismo.\u0000",
+    "Los mismísimos cimientos de la Tierra Media se estremecen.\u0000",
+    "El Señor Oscuro espera desesperadamente que su cuerpo sea restaurado.\u0000",
+    "Pero para volver a caminar por la Tierra Media,\u0000",
+    "Sauron necesita el Anillo de Frodo. Y pagará lo que sea por conseguirlo.\u0000",
+    "Siguiendo las órdenes del Señor Oscuro, sus Nazgûl parten hacia el Monte del Destino.\u0000",
+    "En sus mentes no albergan ningún otro pensamiento.\u0000",
+    "Tienen un propósito sencillo y letal:\u0000",
+    "acabar con Frodo y recuperar el Anillo, ahora que está al alcance de Sauron.\u0000",
+    "Muchas guarniciones de orcos tienen la osadía de codiciar el Anillo,\u0000",
+    "se alzan en armas y marchan hacia el Monte del Destino.\u0000",
+    "Pero los Nazgûl no tolerarán ningún retraso\u0000",
+    "y acabarán con cualquier siervo de la oscuridad que ose interponerse en su camino.\u0000"
+  ]
+}

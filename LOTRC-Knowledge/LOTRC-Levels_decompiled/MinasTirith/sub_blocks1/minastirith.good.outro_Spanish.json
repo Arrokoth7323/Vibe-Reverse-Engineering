@@ -1,0 +1,54 @@
+{
+  "vals": [
+    {
+      "t_start": 5.04,
+      "t_end": 9.31,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 124
+    },
+    {
+      "t_start": 9.31,
+      "t_end": 14.35,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 278
+    },
+    {
+      "t_start": 14.36,
+      "t_end": 18.76,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 392
+    },
+    {
+      "t_start": 18.77,
+      "t_end": 23.5,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 542
+    },
+    {
+      "t_start": 23.52,
+      "t_end": 27.01,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 690
+    },
+    {
+      "t_start": 27.01,
+      "t_end": 29.72,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 810
+    }
+  ],
+  "strings": [
+    "Pero en la hora más siniestra, el sonido de un cuerno resuena por la ciudad.\u0000",
+    "Un antiguo voto se ha cumplido, Rohan al fin ha llegado.\u0000",
+    "Théoden ha despoblado el norte y sus jinetes se arriesgan a perderlo todo.\u0000",
+    "Los orcos deberán abandonar la ciudad y enfrentarse a esta nueva amenaza.\u0000",
+    "Y, ahora, en las abiertas extensiones del campo de batalla,\u0000",
+    "es cuando se decidirá el destino de Gondor.\u0000"
+  ]
+}

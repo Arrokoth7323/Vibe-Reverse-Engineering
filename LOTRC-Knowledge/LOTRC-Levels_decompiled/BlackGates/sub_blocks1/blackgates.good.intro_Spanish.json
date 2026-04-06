@@ -1,0 +1,62 @@
+{
+  "vals": [
+    {
+      "t_start": 5.0,
+      "t_end": 10.59,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 144
+    },
+    {
+      "t_start": 10.6,
+      "t_end": 15.75,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 296
+    },
+    {
+      "t_start": 15.76,
+      "t_end": 20.06,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 440
+    },
+    {
+      "t_start": 20.07,
+      "t_end": 24.13,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 560
+    },
+    {
+      "t_start": 24.16,
+      "t_end": 26.25,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 702
+    },
+    {
+      "t_start": 26.26,
+      "t_end": 30.13,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 762
+    },
+    {
+      "t_start": 30.12,
+      "t_end": 32.35,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 880
+    }
+  ],
+  "strings": [
+    "Un pequeño y valiente ejército espera a las puertas de la trampa de Sauron.\u0000",
+    "Pero el valor de los hombres no flaqueará y su esperanza no se apagará.\u0000",
+    "Porque saben que su sacrificio en la Puerta Negra de Mordor\u0000",
+    "les hará ganar tiempo para que Frodo consiga destruir el Anillo Único.\u0000",
+    "Y en este momento definitivo,\u0000",
+    "los capitanes del oeste seguirán luchando por su libertad,\u0000",
+    "mientras aún les quede aliento.\u0000"
+  ]
+}

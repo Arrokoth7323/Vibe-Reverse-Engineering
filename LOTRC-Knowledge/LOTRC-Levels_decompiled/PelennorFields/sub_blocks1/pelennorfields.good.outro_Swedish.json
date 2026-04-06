@@ -1,0 +1,86 @@
+{
+  "vals": [
+    {
+      "t_start": 5.15,
+      "t_end": 8.65,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 204
+    },
+    {
+      "t_start": 8.65,
+      "t_end": 12.51,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 274
+    },
+    {
+      "t_start": 12.51,
+      "t_end": 15.62,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 376
+    },
+    {
+      "t_start": 15.62,
+      "t_end": 20.26,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 472
+    },
+    {
+      "t_start": 20.26,
+      "t_end": 24.27,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 602
+    },
+    {
+      "t_start": 24.27,
+      "t_end": 27.47,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 728
+    },
+    {
+      "t_start": 27.47,
+      "t_end": 30.59,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 822
+    },
+    {
+      "t_start": 30.59,
+      "t_end": 33.68,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 910
+    },
+    {
+      "t_start": 33.68,
+      "t_end": 35.47,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 996
+    },
+    {
+      "t_start": 35.48,
+      "t_end": 39.02,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1064
+    }
+  ],
+  "strings": [
+    "Fortfarande står slaget och väger,\u0000",
+    "tills äntligen Aragorn anländer med de Dödas armé.\u0000",
+    "Sedan kan inget som lever överleva deras vrede.\u0000",
+    "Hur stor vår seger än verkar är det här kriget ännu inte vunnet.\u0000",
+    "Mörkrets furste samlar fortfarande styrka bakom Mordors murar.\u0000",
+    "För att dra Saurons öga långt från Ringbäraren\u0000",
+    "måste ännu större uppoffringar nu uthärdas.\u0000",
+    "Västerns människor måste konfrontera honom\u0000",
+    "vid hans gränder och i hans rike,\u0000",
+    "och till och med våga storma fram mot självaste Mörkrets furste.\u0000"
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "vals": [
+    {
+      "t_start": 4.57,
+      "t_end": 12.72,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 244
+    },
+    {
+      "t_start": 12.74,
+      "t_end": 19.67,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 446
+    },
+    {
+      "t_start": 19.69,
+      "t_end": 24.37,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 658
+    },
+    {
+      "t_start": 24.39,
+      "t_end": 31.24,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 800
+    },
+    {
+      "t_start": 31.26,
+      "t_end": 36.67,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 998
+    },
+    {
+      "t_start": 36.69,
+      "t_end": 41.25,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1136
+    },
+    {
+      "t_start": 41.27,
+      "t_end": 46.09,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1250
+    },
+    {
+      "t_start": 46.11,
+      "t_end": 52.09,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1364
+    },
+    {
+      "t_start": 52.11,
+      "t_end": 56.58,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1520
+    },
+    {
+      "t_start": 56.6,
+      "t_end": 60.55,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1646
+    },
+    {
+      "t_start": 60.57,
+      "t_end": 70.47,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1702
+    },
+    {
+      "t_start": 70.49,
+      "t_end": 77.9,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1914
+    }
+  ],
+  "strings": [
+    "Det var intet håp om å overleve denne siste time for alle på slagmarken, likevel fortvilet de ikke. \u0000",
+    "Selv om fienden nærmet seg og deres armer var slitne, var det ingen av dem som følte frykt i sitt hjerte.\u0000",
+    "Men skjebnen hadde bestemt at verdenen ikke skulle ende i denne time. \u0000",
+    "For Ringens makt korrumperte alt den rørte, på måter selv ikke dens onde ånd kunne forestille seg.\u0000",
+    "Og i denne siste desperate stund fullførte Ringbæreren sitt oppdrag.\u0000",
+    "Et øyeblikk senere var Mørkets herre Sauron ikke lenger.\u0000",
+    "Sannheten er at vår seier ble vunnet av den minste ting.\u0000",
+    "Vår skjebne balanserte på eggen av en kniv, men så, når håpet omsider seiret,\u0000",
+    "ble den kniven vendt og støtet dypt inn i hjertet på fienden. \u0000",
+    "Og seieren var endelig vår.\u0000",
+    "Glem aldri at på denne slagmarken sviktet ikke hjertene til det frie folk og deres tapperhet vaklet ikke.\u0000",
+    "Og på denne måten endte Midgards Tredje Alder i triumf og ikke fortvilelse.\u0000"
+  ]
+}

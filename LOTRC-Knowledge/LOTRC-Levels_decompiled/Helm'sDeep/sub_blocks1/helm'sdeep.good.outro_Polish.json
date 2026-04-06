@@ -1,0 +1,86 @@
+{
+  "vals": [
+    {
+      "t_start": 4.94,
+      "t_end": 7.42,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 204
+    },
+    {
+      "t_start": 7.43,
+      "t_end": 10.48,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 276
+    },
+    {
+      "t_start": 10.5,
+      "t_end": 12.94,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 378
+    },
+    {
+      "t_start": 12.94,
+      "t_end": 16.55,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 452
+    },
+    {
+      "t_start": 16.57,
+      "t_end": 20.32,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 542
+    },
+    {
+      "t_start": 20.33,
+      "t_end": 23.39,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 664
+    },
+    {
+      "t_start": 23.39,
+      "t_end": 25.75,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 742
+    },
+    {
+      "t_start": 25.79,
+      "t_end": 30.65,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 808
+    },
+    {
+      "t_start": 30.67,
+      "t_end": 34.74,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 938
+    },
+    {
+      "t_start": 34.76,
+      "t_end": 39.92,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1052
+    }
+  ],
+  "strings": [
+    "Dzięki odwadze i poświęceniu wielu,\u0000",
+    "Król Theoden poprowadził lud Rohanu do zwycięstwa.\u0000",
+    "Lecz niebezpieczeństwo nie minęło...\u0000",
+    "gdyż lochy Isengardu i Morii nadal istnieją.\u0000",
+    "A Sauron ze szczytu Czarnej Wieży rozkazuje wszystkiemu złu.\u0000",
+    "Nasienie oporu zostało jednak zasiane,\u0000",
+    "gdyż Gondor nadal stawia opór...\u0000",
+    "a starożytna uśpiona moc przebudziła się, by pomóc jego sprawie.\u0000",
+    "I na tę to wielką wojnę poprowadzi nas Biały Czarodziej,\u0000",
+    "gdyż jego przeznaczeniem jest walczyć z Sauronem o los całego Śródziemia.\u0000"
+  ]
+}

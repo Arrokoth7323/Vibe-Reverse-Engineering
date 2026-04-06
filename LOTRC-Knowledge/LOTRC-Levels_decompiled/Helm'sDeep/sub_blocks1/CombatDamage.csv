@@ -1,0 +1,6 @@
+attacker\target,normal,grounded,downattack,giantattack,oliphantdamage
+normal,0,0,0,0,1
+grounded,0,0,0,0,1
+downattack,0,1,0,0,1
+giantattack,1,1,1,0,1
+oliphantdamage,1,1,1,1,0

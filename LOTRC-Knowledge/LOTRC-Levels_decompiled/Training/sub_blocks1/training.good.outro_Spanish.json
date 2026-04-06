@@ -1,0 +1,70 @@
+{
+  "vals": [
+    {
+      "t_start": 5.4,
+      "t_end": 8.67,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 164
+    },
+    {
+      "t_start": 8.67,
+      "t_end": 11.51,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 258
+    },
+    {
+      "t_start": 11.51,
+      "t_end": 15.56,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 360
+    },
+    {
+      "t_start": 15.56,
+      "t_end": 17.99,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 430
+    },
+    {
+      "t_start": 17.99,
+      "t_end": 20.13,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 530
+    },
+    {
+      "t_start": 20.13,
+      "t_end": 23.69,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 588
+    },
+    {
+      "t_start": 23.69,
+      "t_end": 27.32,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 682
+    },
+    {
+      "t_start": 27.32,
+      "t_end": 32.14,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 784
+    }
+  ],
+  "strings": [
+    "El Señor Oscuro Sauron fue derrotado aquel día\u0000",
+    "y el Anillo Único se liberó de su zarpa de hierro.\u0000",
+    "Y, al perderlo, Sauron se deshizo.\u0000",
+    "Pero el poder del Anillo no había sido destruido.\u0000",
+    "Y mientras exista el Anillo,\u0000",
+    "el espíritu de Sauron vivirá en nuestro mundo.\u0000",
+    "Pero el Anillo renegó de su nuevo amo y se perdió.\u0000",
+    "Y durante 2.500 años, la Tierra Media se vio libre de su maldad.\u0000"
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "vals": [
+    {
+      "t_start": 4.74,
+      "t_end": 8.25,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 224
+    },
+    {
+      "t_start": 8.25,
+      "t_end": 11.7,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 336
+    },
+    {
+      "t_start": 11.73,
+      "t_end": 14.85,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 448
+    },
+    {
+      "t_start": 14.85,
+      "t_end": 18.53,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 542
+    },
+    {
+      "t_start": 18.55,
+      "t_end": 20.95,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 664
+    },
+    {
+      "t_start": 20.95,
+      "t_end": 24.87,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 720
+    },
+    {
+      "t_start": 24.88,
+      "t_end": 27.93,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 874
+    },
+    {
+      "t_start": 27.93,
+      "t_end": 30.42,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1000
+    },
+    {
+      "t_start": 30.43,
+      "t_end": 31.7,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1088
+    },
+    {
+      "t_start": 31.7,
+      "t_end": 35.1,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1122
+    },
+    {
+      "t_start": 35.14,
+      "t_end": 39.27,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1284
+    }
+  ],
+  "strings": [
+    "En la Tercera Edad, la guerra volvió a la Tierra Media,\u0000",
+    "ya que la voluntad de Sauron volvía a buscar su Anillo.\u0000",
+    "El Señor Oscuro atrajo a muchos a su servicio,\u0000",
+    "como Saruman, que había sido un gran mago y un hombre sabio.\u0000",
+    "Así llegó la guerra a Rohan\u0000",
+    "y el rey Théoden tuvo que buscar refugio en la fortaleza del Abismo de Helm.\u0000",
+    "Y, ahora, un gran ejército atacará estás antiquísimas murallas\u0000",
+    "con escalas de asedio y máquinas de guerra.\u0000",
+    "Para sobrevivir,\u0000",
+    "los defensores deberán conservar el Muro del Abismo y la puerta de la fortaleza.\u0000",
+    "Pero más les vale estar atentos a la maldad de los inventos de Saruman.\u0000"
+  ]
+}

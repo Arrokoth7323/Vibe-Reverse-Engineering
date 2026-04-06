@@ -1,0 +1,86 @@
+{
+  "vals": [
+    {
+      "t_start": 5.1,
+      "t_end": 8.76,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 204
+    },
+    {
+      "t_start": 8.76,
+      "t_end": 12.97,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 310
+    },
+    {
+      "t_start": 12.97,
+      "t_end": 16.44,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 428
+    },
+    {
+      "t_start": 16.44,
+      "t_end": 20.61,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 560
+    },
+    {
+      "t_start": 20.61,
+      "t_end": 23.84,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 714
+    },
+    {
+      "t_start": 23.85,
+      "t_end": 26.58,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 854
+    },
+    {
+      "t_start": 26.58,
+      "t_end": 30.53,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 956
+    },
+    {
+      "t_start": 30.53,
+      "t_end": 33.44,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1098
+    },
+    {
+      "t_start": 33.44,
+      "t_end": 36.96,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1180
+    },
+    {
+      "t_start": 36.96,
+      "t_end": 40.77,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1278
+    }
+  ],
+  "strings": [
+    "Chevauchant vers la mort au secours de Minas Tirith,\u0000",
+    "les cavaliers du Rohan frappent au coeur de l'armée orque.\u0000",
+    "Rien sur les Champs du Pelennor ne saurait résister à leur furie.\u0000",
+    "Assaillis de tous côtés par des tours de siège et des monstres gigantesques,\u0000",
+    "les braves guerriers de Théoden doivent également maîtriser un assaut\u0000",
+    "incessant d'orques et de chevaucheurs de ouargues.\u0000",
+    "Mais si les Rohirrim font suffisamment de dégâts aux armées de Sauron,\u0000",
+    "le Roi-Sorcier se montrera certainement.\u0000",
+    "S'il était vaincu, la bataille tournerait court,\u0000",
+    "car il est dit que ceux qui se battent pour lui ne le font que par crainte.\u0000"
+  ]
+}

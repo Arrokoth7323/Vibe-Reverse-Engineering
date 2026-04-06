@@ -1,0 +1,57 @@
+[
+  {
+    "key": "goodcampaign",
+    "guid": 23002883,
+    "key_name": "Good Campaign",
+    "offset": 4096,
+    "size": 7949952,
+    "size_comp": 5156053,
+    "unk_6": 0,
+    "unk_7": 0,
+    "unk_8": 0
+  },
+  {
+    "key": "ctr",
+    "guid": 111006537,
+    "key_name": "Capture the Ring",
+    "offset": 5160960,
+    "size": 7529632,
+    "size_comp": 4868930,
+    "unk_6": 0,
+    "unk_7": 0,
+    "unk_8": 0
+  },
+  {
+    "key": "teamdm",
+    "guid": 111022831,
+    "key_name": "Team Deathmatch",
+    "offset": 10031104,
+    "size": 7158432,
+    "size_comp": 4655184,
+    "unk_6": 0,
+    "unk_7": 0,
+    "unk_8": 0
+  },
+  {
+    "key": "Conquest",
+    "guid": 111024889,
+    "key_name": "Conquest",
+    "offset": 14688256,
+    "size": 7553888,
+    "size_comp": 4882006,
+    "unk_6": 0,
+    "unk_7": 0,
+    "unk_8": 0
+  },
+  {
+    "key": "Custom",
+    "guid": 117008001,
+    "key_name": "Debug_Art",
+    "offset": 19570688,
+    "size": 2484592,
+    "size_comp": 1560660,
+    "unk_6": 0,
+    "unk_7": 0,
+    "unk_8": 0
+  }
+]

@@ -1,0 +1,86 @@
+{
+  "vals": [
+    {
+      "t_start": 5.1,
+      "t_end": 9.19,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 204
+    },
+    {
+      "t_start": 9.22,
+      "t_end": 13.4,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 338
+    },
+    {
+      "t_start": 13.52,
+      "t_end": 16.6,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 456
+    },
+    {
+      "t_start": 16.65,
+      "t_end": 20.61,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 562
+    },
+    {
+      "t_start": 20.61,
+      "t_end": 23.65,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 700
+    },
+    {
+      "t_start": 23.67,
+      "t_end": 26.58,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 794
+    },
+    {
+      "t_start": 26.58,
+      "t_end": 30.53,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 872
+    },
+    {
+      "t_start": 30.53,
+      "t_end": 33.44,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1010
+    },
+    {
+      "t_start": 33.44,
+      "t_end": 36.96,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1110
+    },
+    {
+      "t_start": 37.01,
+      "t_end": 40.77,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1218
+    }
+  ],
+  "strings": [
+    "Vor den Toren von Minas Tirith reiten die Rohirrim in ihr sicheres\u0000",
+    "Verderben und treiben einen Keil in das Herz der Orkarmee.\u0000",
+    "Nichts auf dem Pelennor kann ihrem Zorn widerstehen.\u0000",
+    "Während sie von Belagerungstürmen und Kriegsbestien bedrängt werden,\u0000",
+    "werfen Théodens tapfere Krieger einen endlosen\u0000",
+    "Strom von Orks und Wargreitern nieder.\u0000",
+    "Sollte es den Rohirrim jedoch gelingen, Saurons Armeen zu schwächen,\u0000",
+    "greift der Hexenkönig selbst in die Schlacht ein.\u0000",
+    "Sein Untergang würde das Blatt wenden, denn es heißt,\u0000",
+    "seine Armeen folgen ihm nur aus Furcht.\u0000"
+  ]
+}

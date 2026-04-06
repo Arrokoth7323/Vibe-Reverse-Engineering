@@ -1,0 +1,86 @@
+{
+  "vals": [
+    {
+      "t_start": 4.94,
+      "t_end": 7.42,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 204
+    },
+    {
+      "t_start": 7.43,
+      "t_end": 10.48,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 302
+    },
+    {
+      "t_start": 10.5,
+      "t_end": 12.94,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 430
+    },
+    {
+      "t_start": 12.94,
+      "t_end": 16.55,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 490
+    },
+    {
+      "t_start": 16.57,
+      "t_end": 20.32,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 576
+    },
+    {
+      "t_start": 20.33,
+      "t_end": 23.39,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 672
+    },
+    {
+      "t_start": 23.39,
+      "t_end": 25.75,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 784
+    },
+    {
+      "t_start": 25.79,
+      "t_end": 30.65,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 862
+    },
+    {
+      "t_start": 30.67,
+      "t_end": 34.74,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1004
+    },
+    {
+      "t_start": 34.76,
+      "t_end": 39.92,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1118
+    }
+  ],
+  "strings": [
+    "Gracias a la valentía y al sacrificio de muchos,\u0000",
+    "el rey Théoden ha llevado al pueblo de Rohan hasta la victoria.\u0000",
+    "Pero el peligro no ha pasado,\u0000",
+    "los fosos de Isengard y Moria aún existen,\u0000",
+    "y Sauron gobierna al mal desde su Torre Oscura.\u0000",
+    "Aún así, la semilla de la resistencia ya está plantada,\u0000",
+    "porque Gondor aún se alza, desafiante,\u0000",
+    "y un antiguo y somnoliento poder ha despertado para ayudar a la causa.\u0000",
+    "Y en esta gran guerra, el gran Mago Blanco nos liderará,\u0000",
+    "porque es su destino enfrentarse a Sauron para decidir el destino de la Tierra Media.\u0000"
+  ]
+}

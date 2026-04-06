@@ -1,0 +1,78 @@
+{
+  "vals": [
+    {
+      "t_start": 4.71,
+      "t_end": 8.69,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 184
+    },
+    {
+      "t_start": 8.7,
+      "t_end": 12.36,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 280
+    },
+    {
+      "t_start": 12.36,
+      "t_end": 17.21,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 426
+    },
+    {
+      "t_start": 17.21,
+      "t_end": 21.47,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 616
+    },
+    {
+      "t_start": 21.47,
+      "t_end": 26.34,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 784
+    },
+    {
+      "t_start": 26.34,
+      "t_end": 30.17,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 956
+    },
+    {
+      "t_start": 30.17,
+      "t_end": 33.52,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1068
+    },
+    {
+      "t_start": 33.52,
+      "t_end": 35.61,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1200
+    },
+    {
+      "t_start": 35.61,
+      "t_end": 38.98,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1258
+    }
+  ],
+  "strings": [
+    "Faramir combat vaillamment les armées du Mordor\u0000",
+    "mais ses guerriers ne peuvent pas tous résister à cet assaut implacable.\u0000",
+    "Beaucoup ont un destin sinistre et rares sont ceux qui survivent à l'horreur qui les submerge.\u0000",
+    "Les puissantes armées de Sauron continuent leur implacable assaut contre nous tous.\u0000",
+    "Les défenseurs de l'Ouest encore debout sont la dernière barrière face à l'ennemi qui\u0000",
+    "veut détruire tous les habitants de la Terre du Milieu.\u0000",
+    "Les ennemis sont aussi innombrables que les feuilles de la forêt,\u0000",
+    "et tout espoir semble perdu,\u0000",
+    "car le Seigneur des Ténèbres ne se soucie pas qu'ils tombent en grand nombre.\u0000"
+  ]
+}

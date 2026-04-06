@@ -1,0 +1,86 @@
+{
+  "vals": [
+    {
+      "t_start": 4.95,
+      "t_end": 8.22,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 204
+    },
+    {
+      "t_start": 8.22,
+      "t_end": 10.15,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 360
+    },
+    {
+      "t_start": 10.15,
+      "t_end": 11.94,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 442
+    },
+    {
+      "t_start": 11.94,
+      "t_end": 15.72,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 512
+    },
+    {
+      "t_start": 15.72,
+      "t_end": 18.95,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 636
+    },
+    {
+      "t_start": 18.95,
+      "t_end": 22.3,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 748
+    },
+    {
+      "t_start": 22.31,
+      "t_end": 25.46,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 834
+    },
+    {
+      "t_start": 25.46,
+      "t_end": 28.13,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 948
+    },
+    {
+      "t_start": 28.13,
+      "t_end": 29.96,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1022
+    },
+    {
+      "t_start": 29.96,
+      "t_end": 32.36,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1080
+    }
+  ],
+  "strings": [
+    "Los ejércitos del oeste se han visto obligados a ofrecer la resistencia final\u0000",
+    "en las ruinas de la Cima de los Vientos.\u0000",
+    "Fue aquí donde, en edades pasadas,\u0000",
+    "el Rey Brujo lideró a su gran hueste a una terrible victoria.\u0000",
+    "Aquí fue aplastado el ejército de los hombres del norte\u0000",
+    "y la torre de Amon Sûl, reducida a ruinas.\u0000",
+    "Ahora, las quebradas piedras de este lugar serán testigo\u0000",
+    "de una última y desesperada defensa.\u0000",
+    "Porque ya no hay adónde huir\u0000",
+    "de la arremetida de las fuerzas de la oscuridad.\u0000"
+  ]
+}

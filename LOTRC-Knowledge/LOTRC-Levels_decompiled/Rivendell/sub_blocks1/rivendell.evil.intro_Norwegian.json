@@ -1,0 +1,62 @@
+{
+  "vals": [
+    {
+      "t_start": 5.49,
+      "t_end": 10.12,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 144
+    },
+    {
+      "t_start": 10.12,
+      "t_end": 13.19,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 248
+    },
+    {
+      "t_start": 13.19,
+      "t_end": 15.16,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 330
+    },
+    {
+      "t_start": 15.16,
+      "t_end": 19.94,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 420
+    },
+    {
+      "t_start": 19.94,
+      "t_end": 23.37,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 578
+    },
+    {
+      "t_start": 23.37,
+      "t_end": 26.69,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 704
+    },
+    {
+      "t_start": 26.69,
+      "t_end": 29.63,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 770
+    }
+  ],
+  "strings": [
+    "Kløvendal har blitt en øy med storm på alle sider. \u0000",
+    "De siste frie folk i Midgard har samlet \u0000",
+    "seg her med meg for å yte en siste motstand.\u0000",
+    "Skulle Kløvendals alver mislykkes i å stoppe Saurons fremadstormende styrker, \u0000",
+    "er det lite som kan sette en stopper for det kvelende mørket. \u0000",
+    "Vi må ofre vår udødelighet her, \u0000",
+    "for alt som fremdeles lever i Midgard.\u0000"
+  ]
+}

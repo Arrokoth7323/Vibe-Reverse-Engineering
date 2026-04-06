@@ -1,0 +1,78 @@
+{
+  "vals": [
+    {
+      "t_start": 4.71,
+      "t_end": 8.09,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 184
+    },
+    {
+      "t_start": 8.21,
+      "t_end": 12.36,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 294
+    },
+    {
+      "t_start": 12.36,
+      "t_end": 16.83,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 414
+    },
+    {
+      "t_start": 16.95,
+      "t_end": 21.47,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 530
+    },
+    {
+      "t_start": 21.47,
+      "t_end": 25.98,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 666
+    },
+    {
+      "t_start": 26.1,
+      "t_end": 30.17,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 820
+    },
+    {
+      "t_start": 30.17,
+      "t_end": 33.1,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 934
+    },
+    {
+      "t_start": 33.22,
+      "t_end": 35.28,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1036
+    },
+    {
+      "t_start": 35.4,
+      "t_end": 39.35,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1096
+    }
+  ],
+  "strings": [
+    "Faramir si batte con valore contro le forze di Mordor,\u0000",
+    "ma i suoi guerrieri non possono fermarne l'ondata di piena.\u0000",
+    "Molti cadono, vinti, e in pochi sopravvivono al massacro.\u0000",
+    "Gli enormi eserciti di Sauron continuano ad assalirci senza tregua.\u0000",
+    "Gli ultimi difensori dell'Ovest sono rimasti l'unico ostacolo per il nemico,\u0000",
+    "prima che il massacro della Terra di Mezzo abbia inizio.\u0000",
+    "Il nemico è numeroso come le foglie della foresta.\u0000",
+    "Ogni speranza sembra perduta,\u0000",
+    "perché l'Oscuro Sire è pronto a sacrificare tutti i suoi soldati.\u0000"
+  ]
+}

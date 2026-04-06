@@ -1,0 +1,86 @@
+{
+  "vals": [
+    {
+      "t_start": 5.47,
+      "t_end": 7.27,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 204
+    },
+    {
+      "t_start": 7.27,
+      "t_end": 11.2,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 250
+    },
+    {
+      "t_start": 11.23,
+      "t_end": 14.44,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 364
+    },
+    {
+      "t_start": 14.44,
+      "t_end": 17.81,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 450
+    },
+    {
+      "t_start": 17.81,
+      "t_end": 21.5,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 536
+    },
+    {
+      "t_start": 21.52,
+      "t_end": 24.98,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 684
+    },
+    {
+      "t_start": 25.0,
+      "t_end": 27.42,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 810
+    },
+    {
+      "t_start": 27.42,
+      "t_end": 30.23,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 870
+    },
+    {
+      "t_start": 30.24,
+      "t_end": 34.73,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 980
+    },
+    {
+      "t_start": 34.73,
+      "t_end": 36.93,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1092
+    }
+  ],
+  "strings": [
+    "Ses pouvoirs anéantis,\u0000",
+    "Saroumane ne put l'emporter sur ses courageux ennemis...\u0000",
+    "...et il dut enfin payer pour sa trahison.\u0000",
+    "Sylvebarbe est maintenant maître d'Orthanc\u0000",
+    "et les fosses de l'Isengard ont été lavées des abominations de Saroumane.\u0000",
+    "Mais le pouvoir du Seigneur des Ténèbres n'a pas été anéanti :\u0000",
+    "Saroumane n'était qu'un pion,\u0000",
+    "une diversion pour affaiblir les frontières du Gondor.\u0000",
+    "En Mordor, les armées de Sauron grandissent sans cesse,\u0000",
+    "et cette guerre ne fait que commencer.\u0000"
+  ]
+}

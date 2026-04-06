@@ -1,0 +1,62 @@
+{
+  "vals": [
+    {
+      "t_start": 5.49,
+      "t_end": 10.12,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 144
+    },
+    {
+      "t_start": 10.12,
+      "t_end": 13.19,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 258
+    },
+    {
+      "t_start": 13.19,
+      "t_end": 15.16,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 362
+    },
+    {
+      "t_start": 15.16,
+      "t_end": 19.94,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 440
+    },
+    {
+      "t_start": 19.94,
+      "t_end": 23.37,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 596
+    },
+    {
+      "t_start": 23.37,
+      "t_end": 26.69,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 688
+    },
+    {
+      "t_start": 26.69,
+      "t_end": 29.63,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 794
+    }
+  ],
+  "strings": [
+    "Rivendell stało się wyspą, wokół której szaleją sztormy.\u0000",
+    "Ostatnie elfy Śródziemia zgromadziły się tu ze mną,\u0000",
+    "aby przygotować ostatnią linię obrony.\u0000",
+    "Jeśli elfom z Rivendell nie uda się powstrzymać nadciągającej fali Saurona...\u0000",
+    "niewiele pozostanie, by oprzeć się ciemności.\u0000",
+    "Musimy tu złożyć ofiarę z naszej nieśmiertelności...\u0000",
+    "w służbie wszystkiego, co jeszcze żywe w Śródziemiu.\u0000"
+  ]
+}

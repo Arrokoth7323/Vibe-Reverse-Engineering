@@ -1,0 +1,94 @@
+{
+  "vals": [
+    {
+      "t_start": 4.74,
+      "t_end": 8.25,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 224
+    },
+    {
+      "t_start": 8.25,
+      "t_end": 11.7,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 322
+    },
+    {
+      "t_start": 11.73,
+      "t_end": 14.85,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 422
+    },
+    {
+      "t_start": 14.85,
+      "t_end": 18.53,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 514
+    },
+    {
+      "t_start": 18.55,
+      "t_end": 20.95,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 612
+    },
+    {
+      "t_start": 20.95,
+      "t_end": 24.87,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 664
+    },
+    {
+      "t_start": 24.88,
+      "t_end": 27.93,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 800
+    },
+    {
+      "t_start": 27.93,
+      "t_end": 30.42,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 908
+    },
+    {
+      "t_start": 30.43,
+      "t_end": 31.7,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 982
+    },
+    {
+      "t_start": 31.7,
+      "t_end": 35.1,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1010
+    },
+    {
+      "t_start": 35.14,
+      "t_end": 39.27,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1144
+    }
+  ],
+  "strings": [
+    "In the Third Age, war came again to Middle-earth\u0000",
+    "as the will of Sauron searched anew for his Ring.\u0000",
+    "The Dark Lord compelled many into his service\u0000",
+    "including Saruman, a once great and wise wizard.\u0000",
+    "Thus war came to Rohan...\u0000",
+    "forcing King Théoden to seek refuge in the fortress of Helm's Deep.\u0000",
+    "And now a vast army shall assault these ancient walls\u0000",
+    "with siege ladders and war machines.\u0000",
+    "To survive...\u0000",
+    "the defenders must hold the Deeping Wall and the gate to the keep.\u0000",
+    "But all must beware the devilry of Saruman's devices.\u0000"
+  ]
+}

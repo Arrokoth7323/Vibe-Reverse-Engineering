@@ -1,0 +1,1391 @@
+<?xml version="1.0" standalone="no" ?>
+<Input>
+	<Mapping type="Default">
+		<!-- Direct translations. 
+		These are basically only used for UI keys and the sticks to move you.
+		Combat actions are all defined under the animscript section. -->
+		<Action name="KeyA" button="false">
+			<Keyboard>KEY_ENTER</Keyboard>
+			<Controller>JOY_PAD2_D</Controller>
+		</Action>
+		<Action name="KeyB" button="false">
+			<Keyboard>KEY_ESC</Keyboard>
+			<Controller>JOY_PAD2_R</Controller>
+		</Action>
+		<Action name="KeyX" button="false">
+			<Keyboard>KEY_X</Keyboard>
+			<Controller>JOY_PAD2_L</Controller>
+		</Action>
+		<Action name="KeyY" button="false">
+			<Keyboard>KEY_Y</Keyboard>
+			<Controller>JOY_PAD2_U</Controller>
+		</Action>
+		<Action name="KeyLT" button="false">
+			<Keyboard>KEY_T</Keyboard>
+			<Controller>JOY_ALT1_1</Controller>
+		</Action>
+		<Action name="KeyLB" button="false">
+			<Keyboard>KEY_Y</Keyboard>
+			<Controller>JOY_ALT1_2</Controller>
+		</Action>
+		<Action name="KeyRT" button="false">
+			<Keyboard>KEY_G</Keyboard>
+			<Controller>JOY_ALT2_1</Controller>
+		</Action>
+		<Action name="KeyRB" button="false">
+			<Keyboard>KEY_H</Keyboard>
+			<Controller>JOY_ALT2_2</Controller>
+		</Action>
+		<Action name="KeyDPADL" button="false">
+			<Keyboard>KEY_LEFT</Keyboard>
+			<Controller>JOY_PAD1_L</Controller>
+		</Action>
+		<Action name="KeyDPADR" button="false">
+			<Keyboard>KEY_RIGHT</Keyboard>
+			<Controller>JOY_PAD1_R</Controller>
+		</Action>
+		<Action name="KeyDPADU" button="false">
+			<Keyboard>KEY_UP</Keyboard>
+			<Controller>JOY_PAD1_U</Controller>
+		</Action>
+		<Action name="KeyDPADD" button="false">
+			<Keyboard>KEY_DOWN</Keyboard>
+			<Controller>JOY_PAD1_D</Controller>
+		</Action>
+		<Action name="KeyLJoy" button="false">
+			<Keyboard>KEY_X</Keyboard>
+			<Controller>JOY_ALT1_3</Controller>
+		</Action>
+		<Action name="KeyRJoy" button="false">
+			<Keyboard>KEY_C</Keyboard>
+			<Controller>JOY_ALT2_3</Controller>
+		</Action>
+		<Action name="KeyLJoyL" button="false" section="all" locked="true">
+			<Keyboard>KEY_A</Keyboard>
+			<Controller>JOY_L_STICK_L</Controller>
+		</Action>
+		<Action name="KeyLJoyR" button="false" section="all" locked="true">
+			<Keyboard>KEY_D</Keyboard>
+			<Controller>JOY_L_STICK_R</Controller>
+		</Action>
+		<Action name="KeyLJoyU" button="false" section="all" locked="true">
+			<Keyboard>KEY_W</Keyboard>
+			<Controller>JOY_L_STICK_U</Controller>
+		</Action>
+		<Action name="KeyLJoyD" button="false" section="all" locked="true">
+			<Keyboard>KEY_S</Keyboard>
+			<Controller>JOY_L_STICK_D</Controller>
+		</Action>
+		<Action name="KeyRJoyL" button="false" section="camera">
+			<Mouse>MOUSE_MOVE_L</Mouse>
+			<Controller>JOY_R_STICK_L</Controller>
+		</Action>
+		<Action name="KeyRJoyR" button="false" section="camera">
+			<Mouse>MOUSE_MOVE_R</Mouse>
+			<Controller>JOY_R_STICK_R</Controller>
+		</Action>
+		<Action name="KeyRJoyU" button="false" section="camera">
+			<Mouse>MOUSE_MOVE_U</Mouse>
+			<Controller>JOY_R_STICK_U</Controller>
+		</Action>
+		<Action name="KeyRJoyD" button="false" section="camera">
+			<Mouse>MOUSE_MOVE_D</Mouse>
+			<Controller>JOY_R_STICK_D</Controller>
+		</Action>
+		<Action name="KeyStart" button="false" section="all">
+			<Keyboard>KEY_ESC</Keyboard>
+			<Controller>JOY_SYS1</Controller>
+		</Action>
+		<Action name="KeyBack" button="false" section="all">
+			<Keyboard>KEY_TAB</Keyboard>
+			<Controller>JOY_SYS2</Controller>
+		</Action>
+
+		<!-- UI Mappings
+		These are used to separate out the UI controls from all other controls-->
+		<Action name="UIAccept" button="false">
+			<Keyboard>KEY_ENTER</Keyboard>
+			<Controller>JOY_PAD2_D</Controller>
+			<!-- A -->
+		</Action>
+		<Action name="UICancel" button="false">
+			<Keyboard>KEY_ESC</Keyboard>
+			<Controller>JOY_PAD2_R</Controller>
+			<!-- B -->
+		</Action>
+		<Action name="UIOption1" button="false">
+			<Controller>JOY_PAD2_L</Controller>
+			<!-- X -->
+		</Action>
+		<Action name="UIOption2" button="false">
+			<Controller>JOY_PAD2_U</Controller>
+			<!-- Y -->
+		</Action>
+		<Action name="UITabNext" button="false">
+			<Keyboard>KEY_RIGHT</Keyboard>
+			<Controller>JOY_ALT2_2</Controller>
+			<!-- RT -->
+		</Action>
+		<Action name="UITabBack" button="false">
+			<Keyboard>KEY_LEFT</Keyboard>
+			<Controller>JOY_ALT1_2</Controller>
+			<!-- LT -->
+		</Action>
+		<Action name="UIJoyLS" button="false">
+			<Controller>JOY_ALT1_3</Controller>
+		</Action>
+		<Action name="UIJoyRS" button="false">
+			<Controller>JOY_ALT2_3</Controller>
+		</Action>
+		<Action name="UIJoyL" button="false">
+			<Controller>JOY_L_STICK_L</Controller>
+		</Action>
+		<Action name="UIJoyR" button="false">
+			<Controller>JOY_L_STICK_R</Controller>
+		</Action>
+		<Action name="UIJoyU" button="false">
+			<Controller>JOY_L_STICK_U</Controller>
+		</Action>
+		<Action name="UIJoyD" button="false">
+			<Controller>JOY_L_STICK_D</Controller>
+		</Action>
+		<Action name="UIDpadL" button="false">
+			<Keyboard>KEY_LEFT</Keyboard>
+			<Controller>JOY_PAD1_L</Controller>
+		</Action>
+		<Action name="UIDpadR" button="false">
+			<Keyboard>KEY_RIGHT</Keyboard>
+			<Controller>JOY_PAD1_R</Controller>
+		</Action>
+		<Action name="UIDpadU" button="false">
+			<Keyboard>KEY_UP</Keyboard>
+			<Controller>JOY_PAD1_U</Controller>
+		</Action>
+		<Action name="UIDpadD" button="false">
+			<Keyboard>KEY_DOWN</Keyboard>
+			<Controller>JOY_PAD1_D</Controller>
+		</Action>
+		<Action name="UIStart" button="false">
+			<Keyboard>KEY_ENTER</Keyboard>
+			<Controller>JOY_SYS1</Controller>
+			<!-- Start -->
+		</Action>
+		<Action name="UISelect" button="false">
+			<Keyboard>KEY_TAB</Keyboard>
+			<Controller>JOY_SYS2</Controller>
+			<!-- Back -->
+		</Action>
+		<Action name="UIPause" button="false">
+			<Keyboard>KEY_ESC</Keyboard>
+			<Controller>JOY_SYS1</Controller>
+			<!-- Start -->
+		</Action>
+		<Action name="UILT" button="false">
+			<Keyboard>KEY_INSERT</Keyboard>
+			<Controller>JOY_ALT1_1</Controller>
+			<!-- LT -->
+		</Action>
+		<Action name="UIRT" button="false">
+			<Keyboard>KEY_HOME</Keyboard>
+			<Controller>JOY_ALT2_1</Controller>
+			<!-- RT -->
+		</Action>
+		<Action name="UIInteract" button="false">
+			<Keyboard>KEY_SPACE</Keyboard>
+			<Controller>JOY_ALT1_2</Controller>
+			<!-- LB -->
+		</Action>
+		<Action name="UIHijackLeftMouse" button="false">
+			<Mouse>MOUSE_BUTTON_LEFT</Mouse>
+		</Action>
+		<Action name="UIHijackRightMouse" button="false">
+			<Mouse>MOUSE_BUTTON_RIGHT</Mouse>
+		</Action>
+		<Action name="UIChat" button="false">
+			<Keyboard>KEY_Y</Keyboard>
+		</Action>
+    <Action name="UIChatTeam" button="false">
+      <Keyboard>KEY_T</Keyboard>
+    </Action>
+
+		<!-- Animscript Buttons
+		These control all the combat actions. -->
+
+		<!-- Global -->
+		<Action name="CenterCam" button="true" section="melee;ranged;mount">
+			<Keyboard>KEY_C</Keyboard>
+			<Controller>JOY_ALT2_3</Controller>
+			<!-- R3 -->
+		</Action>
+
+		<Action name="Jump" button="true" section="melee;ranged;mount">
+			<Keyboard>KEY_SPACE</Keyboard>
+			<Controller>JOY_PAD2_D</Controller>
+			<!-- A -->
+		</Action>
+
+		<Action name="Interact" button="true" section="melee;ranged;mount">
+			<Keyboard>KEY_E</Keyboard>
+			<Controller>JOY_ALT2_2</Controller>
+			<!-- RB -->
+		</Action>
+
+		<Action name="Dismount" button="true" section="melee;ranged;mount">
+			<Keyboard>KEY_E</Keyboard>
+			<Controller>JOY_ALT2_2</Controller>
+			<!-- RB -->
+		</Action>
+
+		<Action name="MeleeModifier" button="true" section="melee">
+			<Keyboard>KEY_SHIFT</Keyboard>
+			<Controller>JOY_ALT1_2</Controller>
+			<!-- LB -->
+		</Action>
+
+		<Action name="MeleeAttack1" button="true" section="melee">
+			<Mouse>MOUSE_BUTTON_LEFT</Mouse>
+			<Controller>JOY_PAD2_L</Controller>
+			<!-- X -->
+		</Action>
+		<Action name="MeleeAttack2" button="true" section="melee">
+			<Mouse>MOUSE_BUTTON_MIDDLE</Mouse>
+			<Keyboard>KEY_R</Keyboard>
+			<Controller>JOY_PAD2_U</Controller>
+			<!-- Y -->
+		</Action>
+		<Action name="MeleeAttack3" button="true" section="melee">
+			<Mouse>MOUSE_BUTTON_RIGHT</Mouse>
+			<Controller>JOY_PAD2_R</Controller>
+			<!-- B -->
+		</Action>
+
+		<Action name="RangedModifier" button="true" section="ranged">
+			<Keyboard>KEY_SHIFT</Keyboard>
+			<Controller>JOY_ALT1_2</Controller>
+			<!-- LB -->
+		</Action>
+
+		<Action name="RangedAttack1" button="true" section="ranged">
+			<Keyboard>KEY_F</Keyboard>
+			<Controller>JOY_PAD2_L</Controller>
+			<!-- X -->
+		</Action>
+		<Action name="RangedAttack2" button="true" section="ranged">
+			<Mouse>MOUSE_BUTTON_MIDDLE</Mouse>
+			<Controller>JOY_PAD2_U</Controller>
+			<!-- Y -->
+		</Action>
+		<Action name="RangedAttack3" button="true" section="ranged">
+			<Mouse>MOUSE_BUTTON_RIGHT</Mouse>
+			<Controller>JOY_PAD2_R</Controller>
+			<!-- B -->
+		</Action>
+
+		<!-- Melee -->
+		<Action name="Block" button="true" section="melee">
+			<Keyboard>KEY_CTRL</Keyboard>
+			<Controller>JOY_ALT1_1</Controller>
+			<!-- LT -->
+		</Action>
+
+		<Action name="Throw" button="true" section="melee">
+			<Keyboard>KEY_F</Keyboard>
+			<Controller>JOY_ALT2_1</Controller>
+			<!-- RT -->
+		</Action>
+
+		<!-- Ranged -->
+		<Action name="Snipe" button="true" section="ranged">
+			<Keyboard>KEY_CTRL</Keyboard>
+			<Controller>JOY_ALT1_1</Controller>
+			<!-- LT -->
+		</Action>
+
+		<Action name="Shoot" button="true" section="ranged">
+			<Mouse>MOUSE_BUTTON_LEFT</Mouse>
+			<Controller>JOY_ALT2_1</Controller>
+			<!-- RT -->
+		</Action>
+
+		<!-- Mount -->
+		<Action name="MountSpur" button="true" section="mount">
+			<Keyboard>KEY_SPACE</Keyboard>
+			<Controller>JOY_PAD2_D</Controller>
+			<!-- A -->
+		</Action>
+		<Action name="MountAttackLeft" button="true" section="mount">
+			<Mouse>MOUSE_BUTTON_LEFT</Mouse>
+			<Controller>JOY_PAD2_L</Controller>
+			<!-- X -->
+		</Action>
+		<Action name="MountAttackRight" button="true" section="mount">
+			<Mouse>MOUSE_BUTTON_RIGHT</Mouse>
+			<Controller>JOY_PAD2_R</Controller>
+			<!-- B -->
+		</Action>
+		<Action name="MountAttackFront" button="true" section="mount">
+			<Mouse>MOUSE_BUTTON_MIDDLE</Mouse>
+			<Controller>JOY_PAD2_U</Controller>
+			<!-- Y -->
+		</Action>
+
+		<!-- Siege -->
+		<Action name="SiegeFire1" button="true" section="siege">
+			<Mouse>MOUSE_BUTTON_LEFT</Mouse>
+			<Controller>JOY_PAD2_D</Controller>
+			<!-- A -->
+		</Action>
+		<Action name="SiegeFire2" button="true" section="siege">
+			<Mouse>MOUSE_BUTTON_MIDDLE</Mouse>
+			<Controller>JOY_ALT2_1</Controller>
+			<!-- RT -->
+		</Action>
+		<Action name="SiegeZoom" button="true" section="siege">
+			<Mouse>MOUSE_BUTTON_RIGHT</Mouse>
+			<Controller>JOY_ALT1_1</Controller>
+			<!-- LT -->
+		</Action>
+	</Mapping>
+	<Mapping type="Alt1">
+		<!-- Direct translations. 
+		These are basically only used for UI keys and the sticks to move you.
+		Combat actions are all defined under the animscript section. -->
+		<Action name="KeyA" button="false">
+			<Keyboard>KEY_ENTER</Keyboard>
+			<Controller>JOY_PAD2_D</Controller>
+		</Action>
+		<Action name="KeyB" button="false">
+			<Keyboard>KEY_ESC</Keyboard>
+			<Controller>JOY_PAD2_R</Controller>
+		</Action>
+		<Action name="KeyX" button="false">
+			<Keyboard>KEY_X</Keyboard>
+			<Controller>JOY_PAD2_L</Controller>
+		</Action>
+		<Action name="KeyY" button="false">
+			<Keyboard>KEY_Y</Keyboard>
+			<Controller>JOY_PAD2_U</Controller>
+		</Action>
+		<Action name="KeyLT" button="false">
+			<Keyboard>KEY_T</Keyboard>
+			<Controller>JOY_ALT1_1</Controller>
+		</Action>
+		<Action name="KeyLB" button="false">
+			<Keyboard>KEY_Y</Keyboard>
+			<Controller>JOY_ALT1_2</Controller>
+		</Action>
+		<Action name="KeyRT" button="false">
+			<Keyboard>KEY_G</Keyboard>
+			<Controller>JOY_ALT2_1</Controller>
+		</Action>
+		<Action name="KeyRB" button="false">
+			<Keyboard>KEY_H</Keyboard>
+			<Controller>JOY_ALT2_2</Controller>
+		</Action>
+		<Action name="KeyDPADL" button="false">
+			<Keyboard>KEY_LEFT</Keyboard>
+			<Controller>JOY_PAD1_L</Controller>
+		</Action>
+		<Action name="KeyDPADR" button="false">
+			<Keyboard>KEY_RIGHT</Keyboard>
+			<Controller>JOY_PAD1_R</Controller>
+		</Action>
+		<Action name="KeyDPADU" button="false">
+			<Keyboard>KEY_UP</Keyboard>
+			<Controller>JOY_PAD1_U</Controller>
+		</Action>
+		<Action name="KeyDPADD" button="false">
+			<Keyboard>KEY_DOWN</Keyboard>
+			<Controller>JOY_PAD1_D</Controller>
+		</Action>
+		<Action name="KeyLJoy" button="false">
+			<Keyboard>KEY_X</Keyboard>
+			<Controller>JOY_ALT1_3</Controller>
+		</Action>
+		<Action name="KeyRJoy" button="false">
+			<Keyboard>KEY_C</Keyboard>
+			<Controller>JOY_ALT2_3</Controller>
+		</Action>
+		<Action name="KeyLJoyL" button="false" section="all" locked="true">
+			<Keyboard>KEY_A</Keyboard>
+			<Controller>JOY_L_STICK_L</Controller>
+		</Action>
+		<Action name="KeyLJoyR" button="false" section="all" locked="true">
+			<Keyboard>KEY_D</Keyboard>
+			<Controller>JOY_L_STICK_R</Controller>
+		</Action>
+		<Action name="KeyLJoyU" button="false" section="all" locked="true">
+			<Keyboard>KEY_W</Keyboard>
+			<Controller>JOY_L_STICK_U</Controller>
+		</Action>
+		<Action name="KeyLJoyD" button="false" section="all" locked="true">
+			<Keyboard>KEY_S</Keyboard>
+			<Controller>JOY_L_STICK_D</Controller>
+		</Action>
+		<Action name="KeyRJoyL" button="false" section="camera">
+			<Mouse>MOUSE_MOVE_L</Mouse>
+			<Controller>JOY_R_STICK_L</Controller>
+		</Action>
+		<Action name="KeyRJoyR" button="false" section="camera">
+			<Mouse>MOUSE_MOVE_R</Mouse>
+			<Controller>JOY_R_STICK_R</Controller>
+		</Action>
+		<Action name="KeyRJoyU" button="false" section="camera">
+			<Mouse>MOUSE_MOVE_U</Mouse>
+			<Controller>JOY_R_STICK_U</Controller>
+		</Action>
+		<Action name="KeyRJoyD" button="false" section="camera">
+			<Mouse>MOUSE_MOVE_D</Mouse>
+			<Controller>JOY_R_STICK_D</Controller>
+		</Action>
+		<Action name="KeyStart" button="false" section="all">
+			<Keyboard>KEY_ESC</Keyboard>
+			<Controller>JOY_SYS1</Controller>
+		</Action>
+		<Action name="KeyBack" button="false" section="all">
+			<Keyboard>KEY_TAB</Keyboard>
+			<Controller>JOY_SYS2</Controller>
+		</Action>
+
+		<!-- UI Mappings
+		These are used to separate out the UI controls from all other controls-->
+		<Action name="UIAccept" button="false">
+			<Keyboard>KEY_ENTER</Keyboard>
+			<Controller>JOY_PAD2_D</Controller>
+			<!-- A -->
+		</Action>
+		<Action name="UICancel" button="false">
+			<Keyboard>KEY_ESC</Keyboard>
+			<Controller>JOY_PAD2_R</Controller>
+			<!-- B -->
+		</Action>
+		<Action name="UIOption1" button="false">
+			<Controller>JOY_PAD2_L</Controller>
+			<!-- X -->
+		</Action>
+		<Action name="UIOption2" button="false">
+			<Controller>JOY_PAD2_U</Controller>
+			<!-- Y -->
+		</Action>
+		<Action name="UITabNext" button="false">
+			<Keyboard>KEY_TAB</Keyboard>
+			<Controller>JOY_ALT2_2</Controller>
+			<!-- RB -->
+		</Action>
+		<Action name="UITabBack" button="false">
+			<Controller>JOY_ALT1_2</Controller>
+			<!-- LB -->
+		</Action>
+		<Action name="UIJoyLS" button="false">
+			<Controller>JOY_ALT1_3</Controller>
+		</Action>
+		<Action name="UIJoyRS" button="false">
+			<Controller>JOY_ALT2_3</Controller>
+		</Action>
+		<Action name="UIJoyL" button="false">
+			<Controller>JOY_L_STICK_L</Controller>
+		</Action>
+		<Action name="UIJoyR" button="false">
+			<Controller>JOY_L_STICK_R</Controller>
+		</Action>
+		<Action name="UIJoyU" button="false">
+			<Controller>JOY_L_STICK_U</Controller>
+		</Action>
+		<Action name="UIJoyD" button="false">
+			<Controller>JOY_L_STICK_D</Controller>
+		</Action>
+		<Action name="UIDpadL" button="false">
+			<Keyboard>KEY_LEFT</Keyboard>
+			<Controller>JOY_PAD1_L</Controller>
+		</Action>
+		<Action name="UIDpadR" button="false">
+			<Keyboard>KEY_RIGHT</Keyboard>
+			<Controller>JOY_PAD1_R</Controller>
+		</Action>
+		<Action name="UIDpadU" button="false">
+			<Keyboard>KEY_UP</Keyboard>
+			<Controller>JOY_PAD1_U</Controller>
+		</Action>
+		<Action name="UIDpadD" button="false">
+			<Keyboard>KEY_DOWN</Keyboard>
+			<Controller>JOY_PAD1_D</Controller>
+		</Action>
+		<Action name="UIStart" button="false">
+			<Keyboard>KEY_ENTER</Keyboard>
+			<Controller>JOY_SYS1</Controller>
+			<!-- Start -->
+		</Action>
+		<Action name="UISelect" button="false">
+			<Keyboard>KEY_BACKSPACE</Keyboard>
+			<Controller>JOY_SYS2</Controller>
+			<!-- Back -->
+		</Action>
+		<Action name="UIPause" button="false">
+			<Keyboard>KEY_ESC</Keyboard>
+			<Controller>JOY_SYS1</Controller>
+			<!-- Start -->
+		</Action>
+		<Action name="UILT" button="false">
+			<Keyboard>KEY_INSERT</Keyboard>
+			<Controller>JOY_ALT1_1</Controller>
+			<!-- LT -->
+		</Action>
+		<Action name="UIRT" button="false">
+			<Keyboard>KEY_HOME</Keyboard>
+			<Controller>JOY_ALT2_1</Controller>
+			<!-- RT -->
+		</Action>
+		<Action name="UIInteract" button="false">
+			<Keyboard>KEY_SPACE</Keyboard>
+			<Controller>JOY_ALT1_2</Controller>
+			<!-- LB -->
+		</Action>
+		<Action name="UIKeyboardTab" button="false">
+			<Keyboard>KEY_TAB</Keyboard>
+		</Action>
+		<Action name="UIHijackLeftMouse" button="false">
+			<Mouse>MOUSE_BUTTON_LEFT</Mouse>
+		</Action>
+		<Action name="UIHijackRightMouse" button="false">
+			<Mouse>MOUSE_BUTTON_RIGHT</Mouse>
+		</Action>
+		<Action name="UIChat" button="false">
+			<Keyboard>KEY_Y</Keyboard>
+		</Action>
+    <Action name="UIChatTeam" button="false">
+      <Keyboard>KEY_T</Keyboard>
+    </Action>
+
+		<!-- Animscript Buttons
+		These control all the combat actions. -->
+
+		<!-- Global -->
+		<Action name="CenterCam" button="true" section="melee;ranged;mount">
+			<Keyboard>KEY_C</Keyboard>
+			<Controller>JOY_ALT2_3</Controller>
+			<!-- R3 -->
+		</Action>
+
+		<Action name="Jump" button="true" section="melee;ranged;mount">
+			<Keyboard>KEY_SPACE</Keyboard>
+			<Controller>JOY_PAD2_D</Controller>
+			<!-- A -->
+		</Action>
+
+		<Action name="Interact" button="true" section="melee;ranged;mount">
+			<Keyboard>KEY_E</Keyboard>
+			<Controller>JOY_ALT1_2</Controller>
+			<!-- LB -->
+		</Action>
+
+		<Action name="Dismount" button="true" section="melee;ranged;mount">
+			<Keyboard>KEY_E</Keyboard>
+			<Controller>JOY_ALT1_2</Controller>
+			<!-- LB -->
+		</Action>
+
+		<Action name="MeleeModifier" button="true" section="melee">
+			<Keyboard>KEY_SHIFT</Keyboard>
+			<Controller>JOY_ALT2_2</Controller>
+			<!-- RB -->
+		</Action>
+
+		<Action name="MeleeAttack1" button="true" section="melee">
+			<Mouse>MOUSE_BUTTON_LEFT</Mouse>
+			<Controller>JOY_PAD2_L</Controller>
+			<!-- X -->
+		</Action>
+		<Action name="MeleeAttack2" button="true" section="melee">
+			<Mouse>MOUSE_BUTTON_MIDDLE</Mouse>
+			<Controller>JOY_PAD2_U</Controller>
+			<!-- Y -->
+		</Action>
+		<Action name="MeleeAttack3" button="true" section="melee">
+			<Mouse>MOUSE_BUTTON_RIGHT</Mouse>
+			<Controller>JOY_PAD2_R</Controller>
+			<!-- B -->
+		</Action>
+
+		<Action name="RangedModifier" button="true" section="ranged">
+			<Keyboard>KEY_SHIFT</Keyboard>
+			<Controller>JOY_ALT2_2</Controller>
+			<!-- RB -->
+		</Action>
+
+		<Action name="RangedAttack1" button="true" section="ranged">
+			<Keyboard>KEY_F</Keyboard>
+			<Controller>JOY_PAD2_L</Controller>
+			<!-- X -->
+		</Action>
+		<Action name="RangedAttack2" button="true" section="ranged">
+			<Mouse>MOUSE_BUTTON_MIDDLE</Mouse>
+			<Controller>JOY_PAD2_U</Controller>
+			<!-- Y -->
+		</Action>
+		<Action name="RangedAttack3" button="true" section="ranged">
+			<Mouse>MOUSE_BUTTON_RIGHT</Mouse>
+			<Controller>JOY_PAD2_R</Controller>
+			<!-- B -->
+		</Action>
+
+		<!-- Melee -->
+		<Action name="Block" button="true" section="melee">
+			<Keyboard>KEY_CTRL</Keyboard>
+			<Controller>JOY_ALT1_1</Controller>
+			<!-- LT -->
+		</Action>
+
+		<Action name="Throw" button="true" section="melee">
+			<Keyboard>KEY_F</Keyboard>
+			<Controller>JOY_ALT2_1</Controller>
+			<!-- RT -->
+		</Action>
+
+		<!-- Ranged -->
+		<Action name="Snipe" button="true" section="ranged">
+			<Keyboard>KEY_CTRL</Keyboard>
+			<Controller>JOY_ALT1_1</Controller>
+			<!-- LT -->
+		</Action>
+
+		<Action name="Shoot" button="true" section="ranged">
+			<Keyboard>KEY_F</Keyboard>
+			<Controller>JOY_ALT2_1</Controller>
+			<!-- RT -->
+		</Action>
+
+		<!-- Mount -->
+		<Action name="MountSpur" button="true" section="mount">
+			<Keyboard>KEY_SHIFT</Keyboard>
+			<Controller>JOY_PAD2_D</Controller>
+			<!-- A -->
+		</Action>
+		<Action name="MountAttackLeft" button="true" section="mount">
+			<Mouse>MOUSE_BUTTON_LEFT</Mouse>
+			<Controller>JOY_PAD2_L</Controller>
+			<!-- X -->
+		</Action>
+		<Action name="MountAttackRight" button="true" section="mount">
+			<Mouse>MOUSE_BUTTON_RIGHT</Mouse>
+			<Controller>JOY_PAD2_R</Controller>
+			<!-- B -->
+		</Action>
+		<Action name="MountAttackFront" button="true" section="mount">
+			<Mouse>MOUSE_BUTTON_MIDDLE</Mouse>
+			<Controller>JOY_PAD2_U</Controller>
+			<!-- Y -->
+		</Action>
+
+		<!-- Siege -->
+		<Action name="SiegeFire1" button="true" section="siege">
+			<Mouse>MOUSE_BUTTON_LEFT</Mouse>
+			<Controller>JOY_PAD2_D</Controller>
+			<!-- A -->
+		</Action>
+		<Action name="SiegeFire2" button="true" section="siege">
+			<Mouse>MOUSE_BUTTON_MIDDLE</Mouse>
+			<Controller>JOY_ALT2_1</Controller>
+			<!-- RT -->
+		</Action>
+		<Action name="SiegeZoom" button="true" section="siege">
+			<Mouse>MOUSE_BUTTON_RIGHT</Mouse>
+			<Controller>JOY_ALT1_1</Controller>
+			<!-- LT -->
+		</Action>
+	</Mapping>
+	<Mapping type="Alt2">
+		<!-- Direct translations. 
+		These are basically only used for UI keys and the sticks to move you.
+		Combat actions are all defined under the animscript section. -->
+		<Action name="KeyA" button="false">
+			<Keyboard>KEY_ENTER</Keyboard>
+			<Controller>JOY_PAD2_D</Controller>
+		</Action>
+		<Action name="KeyB" button="false">
+			<Keyboard>KEY_ESC</Keyboard>
+			<Controller>JOY_PAD2_R</Controller>
+		</Action>
+		<Action name="KeyX" button="false">
+			<Keyboard>KEY_X</Keyboard>
+			<Controller>JOY_PAD2_L</Controller>
+		</Action>
+		<Action name="KeyY" button="false">
+			<Keyboard>KEY_Y</Keyboard>
+			<Controller>JOY_PAD2_U</Controller>
+		</Action>
+		<Action name="KeyLT" button="false">
+			<Keyboard>KEY_T</Keyboard>
+			<Controller>JOY_ALT1_1</Controller>
+		</Action>
+		<Action name="KeyLB" button="false">
+			<Keyboard>KEY_Y</Keyboard>
+			<Controller>JOY_ALT1_2</Controller>
+		</Action>
+		<Action name="KeyRT" button="false">
+			<Keyboard>KEY_G</Keyboard>
+			<Controller>JOY_ALT2_1</Controller>
+		</Action>
+		<Action name="KeyRB" button="false">
+			<Keyboard>KEY_H</Keyboard>
+			<Controller>JOY_ALT2_2</Controller>
+		</Action>
+		<Action name="KeyDPADL" button="false">
+			<Keyboard>KEY_LEFT</Keyboard>
+			<Controller>JOY_PAD1_L</Controller>
+		</Action>
+		<Action name="KeyDPADR" button="false">
+			<Keyboard>KEY_RIGHT</Keyboard>
+			<Controller>JOY_PAD1_R</Controller>
+		</Action>
+		<Action name="KeyDPADU" button="false">
+			<Keyboard>KEY_UP</Keyboard>
+			<Controller>JOY_PAD1_U</Controller>
+		</Action>
+		<Action name="KeyDPADD" button="false">
+			<Keyboard>KEY_DOWN</Keyboard>
+			<Controller>JOY_PAD1_D</Controller>
+		</Action>
+		<Action name="KeyLJoy" button="false">
+			<Keyboard>KEY_X</Keyboard>
+			<Controller>JOY_ALT1_3</Controller>
+		</Action>
+		<Action name="KeyRJoy" button="false">
+			<Keyboard>KEY_C</Keyboard>
+			<Controller>JOY_ALT2_3</Controller>
+		</Action>
+		<Action name="KeyLJoyL" button="false" section="all" locked="true">
+			<Keyboard>KEY_A</Keyboard>
+			<Controller>JOY_L_STICK_L</Controller>
+		</Action>
+		<Action name="KeyLJoyR" button="false" section="all" locked="true">
+			<Keyboard>KEY_D</Keyboard>
+			<Controller>JOY_L_STICK_R</Controller>
+		</Action>
+		<Action name="KeyLJoyU" button="false" section="all" locked="true">
+			<Keyboard>KEY_W</Keyboard>
+			<Controller>JOY_L_STICK_U</Controller>
+		</Action>
+		<Action name="KeyLJoyD" button="false" section="all" locked="true">
+			<Keyboard>KEY_S</Keyboard>
+			<Controller>JOY_L_STICK_D</Controller>
+		</Action>
+		<Action name="KeyRJoyL" button="false" section="camera">
+			<Mouse>MOUSE_MOVE_L</Mouse>
+			<Controller>JOY_R_STICK_L</Controller>
+		</Action>
+		<Action name="KeyRJoyR" button="false" section="camera">
+			<Mouse>MOUSE_MOVE_R</Mouse>
+			<Controller>JOY_R_STICK_R</Controller>
+		</Action>
+		<Action name="KeyRJoyU" button="false" section="camera">
+			<Mouse>MOUSE_MOVE_U</Mouse>
+			<Controller>JOY_R_STICK_U</Controller>
+		</Action>
+		<Action name="KeyRJoyD" button="false" section="camera">
+			<Mouse>MOUSE_MOVE_D</Mouse>
+			<Controller>JOY_R_STICK_D</Controller>
+		</Action>
+		<Action name="KeyStart" button="false" section="all">
+			<Keyboard>KEY_ESC</Keyboard>
+			<Controller>JOY_SYS1</Controller>
+		</Action>
+		<Action name="KeyBack" button="false" section="all">
+			<Keyboard>KEY_TAB</Keyboard>
+			<Controller>JOY_SYS2</Controller>
+		</Action>
+
+		<!-- UI Mappings
+		These are used to separate out the UI controls from all other controls-->
+		<Action name="UIAccept" button="false">
+			<Keyboard>KEY_ENTER</Keyboard>
+			<Controller>JOY_PAD2_D</Controller>
+			<!-- A -->
+		</Action>
+		<Action name="UICancel" button="false">
+			<Keyboard>KEY_ESC</Keyboard>
+			<Controller>JOY_PAD2_R</Controller>
+			<!-- B -->
+		</Action>
+		<Action name="UIOption1" button="false">
+			<Controller>JOY_PAD2_L</Controller>
+			<!-- X -->
+		</Action>
+		<Action name="UIOption2" button="false">
+			<Controller>JOY_PAD2_U</Controller>
+			<!-- Y -->
+		</Action>
+		<Action name="UITabNext" button="false">
+			<Keyboard>KEY_TAB</Keyboard>
+			<Controller>JOY_ALT2_2</Controller>
+			<!-- RB -->
+		</Action>
+		<Action name="UITabBack" button="false">
+			<Controller>JOY_ALT1_2</Controller>
+			<!-- LB -->
+		</Action>
+		<Action name="UIJoyLS" button="false">
+			<Controller>JOY_ALT1_3</Controller>
+		</Action>
+		<Action name="UIJoyRS" button="false">
+			<Controller>JOY_ALT2_3</Controller>
+		</Action>
+		<Action name="UIJoyL" button="false">
+			<Controller>JOY_L_STICK_L</Controller>
+		</Action>
+		<Action name="UIJoyR" button="false">
+			<Controller>JOY_L_STICK_R</Controller>
+		</Action>
+		<Action name="UIJoyU" button="false">
+			<Controller>JOY_L_STICK_U</Controller>
+		</Action>
+		<Action name="UIJoyD" button="false">
+			<Controller>JOY_L_STICK_D</Controller>
+		</Action>
+		<Action name="UIDpadL" button="false">
+			<Keyboard>KEY_LEFT</Keyboard>
+			<Controller>JOY_PAD1_L</Controller>
+		</Action>
+		<Action name="UIDpadR" button="false">
+			<Keyboard>KEY_RIGHT</Keyboard>
+			<Controller>JOY_PAD1_R</Controller>
+		</Action>
+		<Action name="UIDpadU" button="false">
+			<Keyboard>KEY_UP</Keyboard>
+			<Controller>JOY_PAD1_U</Controller>
+		</Action>
+		<Action name="UIDpadD" button="false">
+			<Keyboard>KEY_DOWN</Keyboard>
+			<Controller>JOY_PAD1_D</Controller>
+		</Action>
+		<Action name="UIStart" button="false">
+			<Keyboard>KEY_ENTER</Keyboard>
+			<Controller>JOY_SYS1</Controller>
+			<!-- Start -->
+		</Action>
+		<Action name="UISelect" button="false">
+			<Keyboard>KEY_BACKSPACE</Keyboard>
+			<Controller>JOY_SYS2</Controller>
+			<!-- Back -->
+		</Action>
+		<Action name="UIPause" button="false">
+			<Keyboard>KEY_ESC</Keyboard>
+			<Controller>JOY_SYS1</Controller>
+			<!-- Start -->
+		</Action>
+		<Action name="UILT" button="false">
+			<Keyboard>KEY_INSERT</Keyboard>
+			<Controller>JOY_ALT1_1</Controller>
+			<!-- LT -->
+		</Action>
+		<Action name="UIRT" button="false">
+			<Keyboard>KEY_HOME</Keyboard>
+			<Controller>JOY_ALT2_1</Controller>
+			<!-- RT -->
+		</Action>
+		<Action name="UIInteract" button="false">
+			<Keyboard>KEY_SPACE</Keyboard>
+			<Controller>JOY_ALT1_2</Controller>
+			<!-- LB -->
+		</Action>
+		<Action name="UIKeyboardTab" button="false">
+			<Keyboard>KEY_TAB</Keyboard>
+		</Action>
+		<Action name="UIHijackLeftMouse" button="false">
+			<Mouse>MOUSE_BUTTON_LEFT</Mouse>
+		</Action>
+		<Action name="UIHijackRightMouse" button="false">
+			<Mouse>MOUSE_BUTTON_RIGHT</Mouse>
+		</Action>
+		<Action name="UIChat" button="false">
+			<Keyboard>KEY_Y</Keyboard>
+		</Action>
+    <Action name="UIChatTeam" button="false">
+      <Keyboard>KEY_T</Keyboard>
+    </Action>
+
+		<!-- Animscript Buttons
+		These control all the combat actions. -->
+
+		<!-- Global -->
+		<Action name="CenterCam" button="true" section="melee;ranged;mount">
+			<Keyboard>KEY_C</Keyboard>
+			<Controller>JOY_ALT2_3</Controller>
+			<!-- R3 -->
+		</Action>
+
+		<Action name="Jump" button="true" section="melee;ranged;mount">
+			<Keyboard>KEY_SPACE</Keyboard>
+			<Controller>JOY_PAD2_D</Controller>
+			<!-- A -->
+		</Action>
+
+		<Action name="Interact" button="true" section="melee;ranged;mount">
+			<Keyboard>KEY_E</Keyboard>
+			<Controller>JOY_ALT2_2</Controller>
+			<!-- RB -->
+		</Action>
+
+		<Action name="Dismount" button="true" section="melee;ranged;mount">
+			<Keyboard>KEY_E</Keyboard>
+			<Controller>JOY_ALT2_2</Controller>
+			<!-- RB -->
+		</Action>
+
+		<Action name="MeleeModifier" button="true" section="melee">
+			<Keyboard>KEY_SHIFT</Keyboard>
+			<Controller>JOY_ALT1_2</Controller>
+			<!-- LB -->
+		</Action>
+
+		<Action name="MeleeAttack1" button="true" section="melee">
+			<Mouse>MOUSE_BUTTON_LEFT</Mouse>
+			<Controller>JOY_PAD2_L</Controller>
+			<!-- X -->
+		</Action>
+		<Action name="MeleeAttack2" button="true" section="melee">
+			<Mouse>MOUSE_BUTTON_MIDDLE</Mouse>
+			<Controller>JOY_PAD2_U</Controller>
+			<!-- Y -->
+		</Action>
+		<Action name="MeleeAttack3" button="true" section="melee">
+			<Mouse>MOUSE_BUTTON_RIGHT</Mouse>
+			<Controller>JOY_PAD2_R</Controller>
+			<!-- B -->
+		</Action>
+
+		<Action name="RangedModifier" button="true" section="ranged">
+			<Keyboard>KEY_SHIFT</Keyboard>
+			<Controller>JOY_ALT1_2</Controller>
+			<!-- LB -->
+		</Action>
+
+		<Action name="RangedAttack1" button="true" section="ranged">
+			<Keyboard>KEY_F</Keyboard>
+			<Controller>JOY_PAD2_L</Controller>
+			<!-- X -->
+		</Action>
+		<Action name="RangedAttack2" button="true" section="ranged">
+			<Mouse>MOUSE_BUTTON_MIDDLE</Mouse>
+			<Controller>JOY_PAD2_U</Controller>
+			<!-- Y -->
+		</Action>
+		<Action name="RangedAttack3" button="true" section="ranged">
+			<Mouse>MOUSE_BUTTON_RIGHT</Mouse>
+			<Controller>JOY_PAD2_R</Controller>
+			<!-- B -->
+		</Action>
+
+		<!-- Melee -->
+		<Action name="Block" button="true" section="melee">
+			<Keyboard>KEY_CTRL</Keyboard>
+			<Controller>JOY_ALT1_1</Controller>
+			<!-- LT -->
+		</Action>
+
+		<Action name="Throw" button="true" section="melee">
+			<Keyboard>KEY_F</Keyboard>
+			<Controller>JOY_ALT2_1</Controller>
+			<!-- RT -->
+		</Action>
+
+		<!-- Ranged -->
+		<Action name="Snipe" button="true" section="ranged">
+			<Keyboard>KEY_CTRL</Keyboard>
+			<Controller>JOY_ALT1_1</Controller>
+			<!-- LT -->
+		</Action>
+
+		<Action name="Shoot" button="true" section="ranged">
+			<Keyboard>KEY_F</Keyboard>
+			<Controller>JOY_ALT2_1</Controller>
+			<!-- RT -->
+		</Action>
+
+		<!-- Mount -->
+		<Action name="MountSpur" button="true" section="mount">
+			<Keyboard>KEY_SHIFT</Keyboard>
+			<Controller>JOY_PAD2_D</Controller>
+			<!-- A -->
+		</Action>
+		<Action name="MountAttackLeft" button="true" section="mount">
+			<Mouse>MOUSE_BUTTON_LEFT</Mouse>
+			<Controller>JOY_PAD2_L</Controller>
+			<!-- X -->
+		</Action>
+		<Action name="MountAttackRight" button="true" section="mount">
+			<Mouse>MOUSE_BUTTON_RIGHT</Mouse>
+			<Controller>JOY_PAD2_R</Controller>
+			<!-- B -->
+		</Action>
+		<Action name="MountAttackFront" button="true" section="mount">
+			<Mouse>MOUSE_BUTTON_MIDDLE</Mouse>
+			<Controller>JOY_PAD2_U</Controller>
+			<!-- Y -->
+		</Action>
+
+		<!-- Siege -->
+		<Action name="SiegeFire1" button="true" section="siege">
+			<Mouse>MOUSE_BUTTON_LEFT</Mouse>
+			<Controller>JOY_PAD2_D</Controller>
+			<!-- A -->
+		</Action>
+		<Action name="SiegeFire2" button="true" section="siege">
+			<Mouse>MOUSE_BUTTON_MIDDLE</Mouse>
+			<Controller>JOY_ALT2_1</Controller>
+			<!-- RT -->
+		</Action>
+		<Action name="SiegeZoom" button="true" section="siege">
+			<Mouse>MOUSE_BUTTON_RIGHT</Mouse>
+			<Controller>JOY_ALT1_1</Controller>
+			<!-- LT -->
+		</Action>
+	</Mapping>
+	<Mapping type="Alt3">
+		<!-- Direct translations. 
+		These are basically only used for UI keys and the sticks to move you.
+		Combat actions are all defined under the animscript section. -->
+		<Action name="KeyA" button="false">
+			<Keyboard>KEY_ENTER</Keyboard>
+			<Controller>JOY_PAD2_D</Controller>
+		</Action>
+		<Action name="KeyB" button="false">
+			<Keyboard>KEY_ESC</Keyboard>
+			<Controller>JOY_PAD2_R</Controller>
+		</Action>
+		<Action name="KeyX" button="false">
+			<Keyboard>KEY_X</Keyboard>
+			<Controller>JOY_PAD2_L</Controller>
+		</Action>
+		<Action name="KeyY" button="false">
+			<Keyboard>KEY_Y</Keyboard>
+			<Controller>JOY_PAD2_U</Controller>
+		</Action>
+		<Action name="KeyLT" button="false">
+			<Keyboard>KEY_T</Keyboard>
+			<Controller>JOY_ALT1_1</Controller>
+		</Action>
+		<Action name="KeyLB" button="false">
+			<Keyboard>KEY_Y</Keyboard>
+			<Controller>JOY_ALT1_2</Controller>
+		</Action>
+		<Action name="KeyRT" button="false">
+			<Keyboard>KEY_G</Keyboard>
+			<Controller>JOY_ALT2_1</Controller>
+		</Action>
+		<Action name="KeyRB" button="false">
+			<Keyboard>KEY_H</Keyboard>
+			<Controller>JOY_ALT2_2</Controller>
+		</Action>
+		<Action name="KeyDPADL" button="false">
+			<Keyboard>KEY_LEFT</Keyboard>
+			<Controller>JOY_PAD1_L</Controller>
+		</Action>
+		<Action name="KeyDPADR" button="false">
+			<Keyboard>KEY_RIGHT</Keyboard>
+			<Controller>JOY_PAD1_R</Controller>
+		</Action>
+		<Action name="KeyDPADU" button="false">
+			<Keyboard>KEY_UP</Keyboard>
+			<Controller>JOY_PAD1_U</Controller>
+		</Action>
+		<Action name="KeyDPADD" button="false">
+			<Keyboard>KEY_DOWN</Keyboard>
+			<Controller>JOY_PAD1_D</Controller>
+		</Action>
+		<Action name="KeyLJoy" button="false">
+			<Keyboard>KEY_X</Keyboard>
+			<Controller>JOY_ALT1_3</Controller>
+		</Action>
+		<Action name="KeyRJoy" button="false">
+			<Keyboard>KEY_C</Keyboard>
+			<Controller>JOY_ALT2_3</Controller>
+		</Action>
+		<Action name="KeyLJoyL" button="false" section="all" locked="true">
+			<Keyboard>KEY_A</Keyboard>
+			<Controller>JOY_L_STICK_L</Controller>
+		</Action>
+		<Action name="KeyLJoyR" button="false" section="all" locked="true">
+			<Keyboard>KEY_D</Keyboard>
+			<Controller>JOY_L_STICK_R</Controller>
+		</Action>
+		<Action name="KeyLJoyU" button="false" section="all" locked="true">
+			<Keyboard>KEY_W</Keyboard>
+			<Controller>JOY_L_STICK_U</Controller>
+		</Action>
+		<Action name="KeyLJoyD" button="false" section="all" locked="true">
+			<Keyboard>KEY_S</Keyboard>
+			<Controller>JOY_L_STICK_D</Controller>
+		</Action>
+		<Action name="KeyRJoyL" button="false" section="camera">
+			<Mouse>MOUSE_MOVE_L</Mouse>
+			<Controller>JOY_R_STICK_L</Controller>
+		</Action>
+		<Action name="KeyRJoyR" button="false" section="camera">
+			<Mouse>MOUSE_MOVE_R</Mouse>
+			<Controller>JOY_R_STICK_R</Controller>
+		</Action>
+		<Action name="KeyRJoyU" button="false" section="camera">
+			<Mouse>MOUSE_MOVE_U</Mouse>
+			<Controller>JOY_R_STICK_U</Controller>
+		</Action>
+		<Action name="KeyRJoyD" button="false" section="camera">
+			<Mouse>MOUSE_MOVE_D</Mouse>
+			<Controller>JOY_R_STICK_D</Controller>
+		</Action>
+		<Action name="KeyStart" button="false" section="all">
+			<Keyboard>KEY_ESC</Keyboard>
+			<Controller>JOY_SYS1</Controller>
+		</Action>
+		<Action name="KeyBack" button="false" section="all">
+			<Keyboard>KEY_TAB</Keyboard>
+			<Controller>JOY_SYS2</Controller>
+		</Action>
+
+		<!-- UI Mappings
+		These are used to separate out the UI controls from all other controls-->
+		<Action name="UIAccept" button="false">
+			<Keyboard>KEY_ENTER</Keyboard>
+			<Controller>JOY_PAD2_D</Controller>
+			<!-- A -->
+		</Action>
+		<Action name="UICancel" button="false">
+			<Keyboard>KEY_ESC</Keyboard>
+			<Controller>JOY_PAD2_R</Controller>
+			<!-- B -->
+		</Action>
+		<Action name="UIOption1" button="false">
+			<Controller>JOY_PAD2_L</Controller>
+			<!-- X -->
+		</Action>
+		<Action name="UIOption2" button="false">
+			<Controller>JOY_PAD2_U</Controller>
+			<!-- Y -->
+		</Action>
+		<Action name="UITabNext" button="false">
+			<Keyboard>KEY_TAB</Keyboard>
+			<Controller>JOY_ALT2_2</Controller>
+			<!-- RB -->
+		</Action>
+		<Action name="UITabBack" button="false">
+			<Controller>JOY_ALT1_2</Controller>
+			<!-- LB -->
+		</Action>
+		<Action name="UIJoyLS" button="false">
+			<Controller>JOY_ALT1_3</Controller>
+		</Action>
+		<Action name="UIJoyRS" button="false">
+			<Controller>JOY_ALT2_3</Controller>
+		</Action>
+		<Action name="UIJoyL" button="false">
+			<Controller>JOY_L_STICK_L</Controller>
+		</Action>
+		<Action name="UIJoyR" button="false">
+			<Controller>JOY_L_STICK_R</Controller>
+		</Action>
+		<Action name="UIJoyU" button="false">
+			<Controller>JOY_L_STICK_U</Controller>
+		</Action>
+		<Action name="UIJoyD" button="false">
+			<Controller>JOY_L_STICK_D</Controller>
+		</Action>
+		<Action name="UIDpadL" button="false">
+			<Keyboard>KEY_LEFT</Keyboard>
+			<Controller>JOY_PAD1_L</Controller>
+		</Action>
+		<Action name="UIDpadR" button="false">
+			<Keyboard>KEY_RIGHT</Keyboard>
+			<Controller>JOY_PAD1_R</Controller>
+		</Action>
+		<Action name="UIDpadU" button="false">
+			<Keyboard>KEY_UP</Keyboard>
+			<Controller>JOY_PAD1_U</Controller>
+		</Action>
+		<Action name="UIDpadD" button="false">
+			<Keyboard>KEY_DOWN</Keyboard>
+			<Controller>JOY_PAD1_D</Controller>
+		</Action>
+		<Action name="UIStart" button="false">
+			<Keyboard>KEY_ENTER</Keyboard>
+			<Controller>JOY_SYS1</Controller>
+			<!-- Start -->
+		</Action>
+		<Action name="UISelect" button="false">
+			<Keyboard>KEY_BACKSPACE</Keyboard>
+			<Controller>JOY_SYS2</Controller>
+			<!-- Back -->
+		</Action>
+		<Action name="UIPause" button="false">
+			<Keyboard>KEY_ESC</Keyboard>
+			<Controller>JOY_SYS1</Controller>
+			<!-- Start -->
+		</Action>
+		<Action name="UILT" button="false">
+			<Keyboard>KEY_INSERT</Keyboard>
+			<Controller>JOY_ALT1_1</Controller>
+			<!-- LT -->
+		</Action>
+		<Action name="UIRT" button="false">
+			<Keyboard>KEY_HOME</Keyboard>
+			<Controller>JOY_ALT2_1</Controller>
+			<!-- RT -->
+		</Action>
+		<Action name="UIInteract" button="false">
+			<Keyboard>KEY_SPACE</Keyboard>
+			<Controller>JOY_ALT1_2</Controller>
+			<!-- LB -->
+		</Action>
+		<Action name="UIKeyboardTab" button="false">
+			<Keyboard>KEY_TAB</Keyboard>
+		</Action>
+		<Action name="UIHijackLeftMouse" button="false">
+			<Mouse>MOUSE_BUTTON_LEFT</Mouse>
+		</Action>
+		<Action name="UIHijackRightMouse" button="false">
+			<Mouse>MOUSE_BUTTON_RIGHT</Mouse>
+		</Action>
+		<Action name="UIChat" button="false">
+			<Keyboard>KEY_Y</Keyboard>
+		</Action>
+    <Action name="UIChatTeam" button="false">
+      <Keyboard>KEY_T</Keyboard>
+    </Action>
+
+		<!-- Animscript Buttons
+		These control all the combat actions. -->
+
+		<!-- Global -->
+		<Action name="CenterCam" button="true" section="melee;ranged;mount">
+			<Keyboard>KEY_C</Keyboard>
+			<Controller>JOY_ALT2_3</Controller>
+			<!-- R3 -->
+		</Action>
+
+		<Action name="Jump" button="true" section="melee;ranged;mount">
+			<Keyboard>KEY_SPACE</Keyboard>
+			<Controller>JOY_PAD2_D</Controller>
+			<!-- A -->
+		</Action>
+
+		<Action name="Interact" button="true" section="melee;ranged;mount">
+			<Keyboard>KEY_E</Keyboard>
+			<Controller>JOY_ALT2_2</Controller>
+			<!-- RB -->
+		</Action>
+
+		<Action name="Dismount" button="true" section="melee;ranged;mount">
+			<Keyboard>KEY_E</Keyboard>
+			<Controller>JOY_ALT2_2</Controller>
+			<!-- RB -->
+		</Action>
+
+		<Action name="MeleeModifier" button="true" section="melee">
+			<Keyboard>KEY_SHIFT</Keyboard>
+			<Controller>JOY_ALT1_2</Controller>
+			<!-- LB -->
+		</Action>
+
+		<Action name="MeleeAttack1" button="true" section="melee">
+			<Mouse>MOUSE_BUTTON_LEFT</Mouse>
+			<Controller>JOY_PAD2_L</Controller>
+			<!-- X -->
+		</Action>
+		<Action name="MeleeAttack2" button="true" section="melee">
+			<Mouse>MOUSE_BUTTON_MIDDLE</Mouse>
+			<Controller>JOY_PAD2_U</Controller>
+			<!-- Y -->
+		</Action>
+		<Action name="MeleeAttack3" button="true" section="melee">
+			<Mouse>MOUSE_BUTTON_RIGHT</Mouse>
+			<Controller>JOY_PAD2_R</Controller>
+			<!-- B -->
+		</Action>
+
+		<Action name="RangedModifier" button="true" section="ranged">
+			<Keyboard>KEY_SHIFT</Keyboard>
+			<Controller>JOY_ALT1_2</Controller>
+			<!-- LB -->
+		</Action>
+
+		<Action name="RangedAttack1" button="true" section="ranged">
+			<Keyboard>KEY_F</Keyboard>
+			<Controller>JOY_PAD2_L</Controller>
+			<!-- X -->
+		</Action>
+		<Action name="RangedAttack2" button="true" section="ranged">
+			<Mouse>MOUSE_BUTTON_MIDDLE</Mouse>
+			<Controller>JOY_PAD2_U</Controller>
+			<!-- Y -->
+		</Action>
+		<Action name="RangedAttack3" button="true" section="ranged">
+			<Mouse>MOUSE_BUTTON_RIGHT</Mouse>
+			<Controller>JOY_PAD2_R</Controller>
+			<!-- B -->
+		</Action>
+
+		<!-- Melee -->
+		<Action name="Block" button="true" section="melee">
+			<Keyboard>KEY_CTRL</Keyboard>
+			<Controller>JOY_ALT1_1</Controller>
+			<!-- LT -->
+		</Action>
+
+		<Action name="Throw" button="true" section="melee">
+			<Keyboard>KEY_F</Keyboard>
+			<Controller>JOY_ALT2_1</Controller>
+			<!-- RT -->
+		</Action>
+
+		<!-- Ranged -->
+		<Action name="Snipe" button="true" section="ranged">
+			<Keyboard>KEY_CTRL</Keyboard>
+			<Controller>JOY_ALT1_1</Controller>
+			<!-- LT -->
+		</Action>
+
+		<Action name="Shoot" button="true" section="ranged">
+			<Keyboard>KEY_F</Keyboard>
+			<Controller>JOY_ALT2_1</Controller>
+			<!-- RT -->
+		</Action>
+
+		<!-- Mount -->
+		<Action name="MountSpur" button="true" section="mount">
+			<Keyboard>KEY_SHIFT</Keyboard>
+			<Controller>JOY_PAD2_D</Controller>
+			<!-- A -->
+		</Action>
+		<Action name="MountAttackLeft" button="true" section="mount">
+			<Mouse>MOUSE_BUTTON_LEFT</Mouse>
+			<Controller>JOY_PAD2_L</Controller>
+			<!-- X -->
+		</Action>
+		<Action name="MountAttackRight" button="true" section="mount">
+			<Mouse>MOUSE_BUTTON_RIGHT</Mouse>
+			<Controller>JOY_PAD2_R</Controller>
+			<!-- B -->
+		</Action>
+		<Action name="MountAttackFront" button="true" section="mount">
+			<Mouse>MOUSE_BUTTON_MIDDLE</Mouse>
+			<Controller>JOY_PAD2_U</Controller>
+			<!-- Y -->
+		</Action>
+
+		<!-- Siege -->
+		<Action name="SiegeFire1" button="true" section="siege">
+			<Mouse>MOUSE_BUTTON_LEFT</Mouse>
+			<Controller>JOY_PAD2_D</Controller>
+			<!-- A -->
+		</Action>
+		<Action name="SiegeFire2" button="true" section="siege">
+			<Mouse>MOUSE_BUTTON_MIDDLE</Mouse>
+			<Controller>JOY_ALT2_1</Controller>
+			<!-- RT -->
+		</Action>
+		<Action name="SiegeZoom" button="true" section="siege">
+			<Mouse>MOUSE_BUTTON_RIGHT</Mouse>
+			<Controller>JOY_ALT1_1</Controller>
+			<!-- LT -->
+		</Action>
+	</Mapping>
+</Input>
+

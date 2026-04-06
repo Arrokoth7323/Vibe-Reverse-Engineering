@@ -1,0 +1,427 @@
+{
+  "info": {
+    "key": "Osgiliath_Collision_7045583",
+    "gamemodemask": -1,
+    "mat_offset": 6211824,
+    "buffer_info_offset": 1088412,
+    "bounding_box": {
+      "center": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "unk_3": 0.0,
+      "half_width": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "unk_7": 0.0
+    },
+    "mesh_order_offset": 6212440,
+    "lod0": {
+      "start": 0,
+      "static_end": 0,
+      "skinned_end": 0,
+      "physics_end": 0,
+      "breakable_end": 0
+    },
+    "lod1": {
+      "start": 0,
+      "static_end": 0,
+      "skinned_end": 0,
+      "physics_end": 0,
+      "breakable_end": 0
+    },
+    "lod2": {
+      "start": 0,
+      "static_end": 0,
+      "skinned_end": 0,
+      "physics_end": 0,
+      "breakable_end": 0
+    },
+    "lod3": {
+      "start": 0,
+      "static_end": 0,
+      "skinned_end": 0,
+      "physics_end": 0,
+      "breakable_end": 0
+    },
+    "mat_num": 0,
+    "bones_offset": 6211696,
+    "bone_parents_offset": 6211744,
+    "bone_transforms_offset": 6211760,
+    "bones_num": 1,
+    "skin_binds_offset": 6211744,
+    "skin_binds_num": 0,
+    "skin_order_offset": 0,
+    "vbuff_offset": 6212448,
+    "vbuff_num": 0,
+    "ibuff_offset": 6212448,
+    "ibuff_num": 0,
+    "mesh_bounding_boxes_offset": 6212448,
+    "unk_46": 0.0,
+    "variation_counts": 0,
+    "vals_j_num": 0,
+    "vals_j_offset": 6211744,
+    "block_offset": 0,
+    "vals_k_offset": 0,
+    "asset_key": "Osgiliath_Collision_7045583",
+    "asset_type": 0,
+    "unk_54": 1,
+    "unk_55": 0,
+    "shape_offset": 1613976,
+    "shape_num": 1,
+    "hk_constraint_data_offset": 0,
+    "hk_constraint_data_num": 0,
+    "hk_constraint_offset": 0,
+    "slots_offset": 0,
+    "slot_map_offset": 0,
+    "bone_bounding_boxes_offset": 6211712
+  },
+  "bone_parents": [
+    -1
+  ],
+  "bones": [
+    ""
+  ],
+  "bone_transforms": [
+    {
+      "x": {
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "y": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "z": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0,
+        "w": 0.0
+      },
+      "w": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      }
+    }
+  ],
+  "bone_bounding_boxes": [
+    {
+      "center": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "unk_3": 0.0,
+      "half_width": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "unk_7": 0.0
+    }
+  ],
+  "mat_order": [],
+  "mesh_order": [],
+  "mesh_bounding_boxes": [],
+  "skin_binds": [],
+  "vals_j": [],
+  "val_k_header": [],
+  "vals_k": [],
+  "skin_order": [],
+  "slots": [],
+  "slot_map": [],
+  "block_header": null,
+  "block_offsets": [],
+  "blocks": [],
+  "mats": [],
+  "mat_extras": [],
+  "buffer_infos": [],
+  "hk_constraint": null,
+  "hk_constraint_datas": [],
+  "shapes": [
+    {
+      "info": {
+        "offset": 0,
+        "kind": 1,
+        "unk_2": 0,
+        "unk_3": 0.0,
+        "unk_4": 0.0,
+        "unk_5": 0.0,
+        "translation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "unk_13": 1.0,
+        "unk_14": 0.0,
+        "unk_15": 0.0,
+        "unk_16": 0.0,
+        "unk_17": 1.0,
+        "unk_18": 0.0,
+        "unk_19": 0.0,
+        "unk_20": 0.0,
+        "unk_21": 1.0,
+        "unk_22": 0.0,
+        "unk_23": 0.5,
+        "unk_24": 0.0,
+        "unk_25": 0.0,
+        "unk_26": 0.0,
+        "hk_shape_num": 1,
+        "hk_shape_offset": 1660576,
+        "unk_29a": 0,
+        "unk_29b": 0,
+        "unk_29c": 0,
+        "unk_29d": 0,
+        "unk_30": -1.0
+      },
+      "extra": null,
+      "hk_shapes": [
+        {
+          "BVTreeMesh": {
+            "info": {
+              "translation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+              },
+              "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "key": "",
+              "offset": {
+                "x": -20.766998,
+                "y": -0.05,
+                "z": -7.05
+              },
+              "tree_scale": 252888.69
+            },
+            "shape": {
+              "tree": "2800c62700612600ff206f26010000002800b6108e8c12202d0613625a0144452800161b654a01434228142318c78e01414012656359223d49209e20016f000b280021152d2b0c28000d260158188149013f3e26566014d17f013c3d019e001128015a20820928011518815f013b3a122b29061b826201393826bbc114b46a01363701de003d26003d1a7c6801343501c1006326013c101f1d092841c61a55480130312801421a8a67013233",
+              "verts": [
+                {
+                  "x": 29.535,
+                  "y": 0.0,
+                  "z": 44.196
+                },
+                {
+                  "x": 29.535,
+                  "y": 25.0,
+                  "z": 44.196
+                },
+                {
+                  "x": 33.102,
+                  "y": 0.0,
+                  "z": 27.099
+                },
+                {
+                  "x": 33.102,
+                  "y": 25.0,
+                  "z": 27.099
+                },
+                {
+                  "x": 36.908,
+                  "y": 0.0,
+                  "z": 18.903
+                },
+                {
+                  "x": 36.908,
+                  "y": 25.0,
+                  "z": 18.903
+                },
+                {
+                  "x": 44.558,
+                  "y": 0.0,
+                  "z": 8.89
+                },
+                {
+                  "x": 44.558,
+                  "y": 25.0,
+                  "z": 8.89
+                },
+                {
+                  "x": 45.007,
+                  "y": 0.0,
+                  "z": 2.775
+                },
+                {
+                  "x": 45.007,
+                  "y": 25.0,
+                  "z": 2.775
+                },
+                {
+                  "x": 37.078,
+                  "y": 0.0,
+                  "z": -2.355
+                },
+                {
+                  "x": 37.078,
+                  "y": 25.0,
+                  "z": -2.355
+                },
+                {
+                  "x": 20.302,
+                  "y": 0.0,
+                  "z": -0.006
+                },
+                {
+                  "x": 20.302,
+                  "y": 25.0,
+                  "z": -0.006
+                },
+                {
+                  "x": 19.248,
+                  "y": 0.0,
+                  "z": -4.106
+                },
+                {
+                  "x": 19.248,
+                  "y": 25.0,
+                  "z": -4.106
+                },
+                {
+                  "x": 8.196,
+                  "y": 0.0,
+                  "z": -2.587
+                },
+                {
+                  "x": 8.196,
+                  "y": 25.0,
+                  "z": -2.587
+                },
+                {
+                  "x": -2.461,
+                  "y": 0.0,
+                  "z": -4.304
+                },
+                {
+                  "x": -2.461,
+                  "y": 25.0,
+                  "z": -4.304
+                },
+                {
+                  "x": -14.885,
+                  "y": 0.0,
+                  "z": -7.0
+                },
+                {
+                  "x": -14.885,
+                  "y": 25.0,
+                  "z": -7.0
+                },
+                {
+                  "x": -20.717,
+                  "y": 0.0,
+                  "z": 16.401
+                },
+                {
+                  "x": -20.717,
+                  "y": 25.0,
+                  "z": 16.401
+                },
+                {
+                  "x": 29.535,
+                  "y": 0.0,
+                  "z": 44.196
+                },
+                {
+                  "x": 29.535,
+                  "y": 25.0,
+                  "z": 44.196
+                }
+              ],
+              "inds": [
+                0,
+                2,
+                1,
+                1,
+                2,
+                3,
+                2,
+                4,
+                3,
+                3,
+                4,
+                5,
+                4,
+                6,
+                5,
+                5,
+                6,
+                7,
+                6,
+                8,
+                7,
+                7,
+                8,
+                9,
+                8,
+                10,
+                9,
+                9,
+                10,
+                11,
+                10,
+                12,
+                11,
+                11,
+                12,
+                13,
+                12,
+                14,
+                13,
+                13,
+                14,
+                15,
+                14,
+                16,
+                15,
+                15,
+                16,
+                17,
+                16,
+                18,
+                17,
+                17,
+                18,
+                19,
+                18,
+                20,
+                19,
+                19,
+                20,
+                21,
+                20,
+                22,
+                21,
+                21,
+                22,
+                23
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "vertex_data": [],
+  "index_data": []
+}

@@ -1,0 +1,110 @@
+{
+  "vals": [
+    {
+      "t_start": 4.63,
+      "t_end": 9.35,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 264
+    },
+    {
+      "t_start": 9.35,
+      "t_end": 11.97,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 436
+    },
+    {
+      "t_start": 12.03,
+      "t_end": 13.76,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 550
+    },
+    {
+      "t_start": 13.88,
+      "t_end": 17.08,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 612
+    },
+    {
+      "t_start": 17.2,
+      "t_end": 19.54,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 722
+    },
+    {
+      "t_start": 19.66,
+      "t_end": 23.55,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 786
+    },
+    {
+      "t_start": 23.67,
+      "t_end": 26.58,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 912
+    },
+    {
+      "t_start": 26.7,
+      "t_end": 28.96,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 994
+    },
+    {
+      "t_start": 29.08,
+      "t_end": 31.76,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1086
+    },
+    {
+      "t_start": 31.88,
+      "t_end": 36.51,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1160
+    },
+    {
+      "t_start": 36.63,
+      "t_end": 41.24,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1348
+    },
+    {
+      "t_start": 41.36,
+      "t_end": 45.81,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1492
+    },
+    {
+      "t_start": 45.93,
+      "t_end": 48.47,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1626
+    }
+  ],
+  "strings": [
+    "Nun droht die eiserne Faust des Dunklen Herrschers auch das Auenland zu zerquetschen.\u0000",
+    "Es gibt kein Entkommen für die Halblinge, vor dem Krieg,\u0000",
+    "der nun ihre Grenzen erreicht.\u0000",
+    "Die letzten freien Menschen eilen ihnen zwar zu Hilfe,\u0000",
+    "doch der Feind ist übermächtig.\u0000",
+    "Wargreiter und mächtige Kriegsbestien sammeln sich zum Angriff\u0000",
+    "und niemand vermag ihnen zu widerstehen.\u0000",
+    "Vielleicht kommt der Dunkle Herrscher selbst,\u0000",
+    "um sich an seinem Triumph zu weiden.\u0000",
+    "Und vielleicht können wir unser Leben dann mit Gandalfs Hilfe so teuer wie möglich verkaufen.\u0000",
+    "Verzweifelt führt Baumbart daraufhin die Ents auf ihren letzten Marsch.\u0000",
+    "Gemeinsam können Ents und Halblinge dem Feind Einhalt gebieten ...\u0000",
+    "aber wie lange?\u0000"
+  ]
+}

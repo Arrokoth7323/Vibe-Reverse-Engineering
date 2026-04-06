@@ -1,0 +1,102 @@
+{
+  "vals": [
+    {
+      "t_start": 4.86,
+      "t_end": 7.98,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 244
+    },
+    {
+      "t_start": 8.1,
+      "t_end": 11.15,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 348
+    },
+    {
+      "t_start": 11.27,
+      "t_end": 13.37,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 448
+    },
+    {
+      "t_start": 13.86,
+      "t_end": 19.27,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 524
+    },
+    {
+      "t_start": 19.39,
+      "t_end": 22.13,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 676
+    },
+    {
+      "t_start": 22.25,
+      "t_end": 26.77,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 768
+    },
+    {
+      "t_start": 26.77,
+      "t_end": 29.07,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 912
+    },
+    {
+      "t_start": 29.19,
+      "t_end": 31.73,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 994
+    },
+    {
+      "t_start": 31.85,
+      "t_end": 34.99,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1054
+    },
+    {
+      "t_start": 35.11,
+      "t_end": 39.0,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1152
+    },
+    {
+      "t_start": 39.12,
+      "t_end": 41.11,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1272
+    },
+    {
+      "t_start": 41.23,
+      "t_end": 45.3,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1330
+    }
+  ],
+  "strings": [
+    "Osgiliath giocherà un altro ruolo in questa guerra:\u0000",
+    "Faramir ha condotto qui il Portatore dell'Anello,\u0000",
+    "lasciandolo poi libero di proseguire.\u0000",
+    "Ora, una guarnigione di guerrieri di Gondor veglia attenta su questa città.\u0000",
+    "I guerrieri che difendono l'avamposto sperano\u0000",
+    "che Faramir faccia ritorno all'alba, insieme ai Raminghi dell'Ithilien,\u0000",
+    "ma gli Orchetti sono sempre più numerosi\u0000",
+    "e le speranze vanno svanendo.\u0000",
+    "Il silenzio avvolge la riva lontana dell'Anduin,\u0000",
+    "lasciando i protettori di Osgiliath soli con le loro paure.\u0000",
+    "Nelle tenebre che incombono,\u0000",
+    "l'alba non arriva abbastanza in fretta, per questi valorosi di Gondor.\u0000"
+  ]
+}

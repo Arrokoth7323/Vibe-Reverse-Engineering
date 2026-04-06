@@ -1,0 +1,110 @@
+{
+  "vals": [
+    {
+      "t_start": 5.35,
+      "t_end": 11.09,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 264
+    },
+    {
+      "t_start": 11.09,
+      "t_end": 14.7,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 418
+    },
+    {
+      "t_start": 14.72,
+      "t_end": 19.18,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 486
+    },
+    {
+      "t_start": 19.19,
+      "t_end": 22.43,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 568
+    },
+    {
+      "t_start": 22.45,
+      "t_end": 28.92,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 722
+    },
+    {
+      "t_start": 28.93,
+      "t_end": 33.83,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 830
+    },
+    {
+      "t_start": 33.83,
+      "t_end": 36.39,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 966
+    },
+    {
+      "t_start": 36.42,
+      "t_end": 39.81,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1028
+    },
+    {
+      "t_start": 39.83,
+      "t_end": 45.7,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1070
+    },
+    {
+      "t_start": 45.72,
+      "t_end": 50.23,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1238
+    },
+    {
+      "t_start": 50.23,
+      "t_end": 55.44,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1358
+    },
+    {
+      "t_start": 55.44,
+      "t_end": 59.38,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1488
+    },
+    {
+      "t_start": 59.39,
+      "t_end": 63.18,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1576
+    }
+  ],
+  "strings": [
+    "Försvagad av Den enda ringens makt gör Frodo till slut anspråk på den själv.\u0000",
+    "Midgård skakas i sina grundvalar.\u0000",
+    "Mörkrets furste hoppas återfå sin kropp.\u0000",
+    "Men för att än en gång beträda Midgård måste Sauron ha Ringen som Frodo bär.\u0000",
+    "För den betalar han gladeligen vilket pris som helst.\u0000",
+    "På Mörkrets furstes befallning hastar nu hans Nazgûl till Domberget\u0000",
+    "och släpper alla andra tankar.\u0000",
+    "De har bara ett mål:\u0000",
+    "att dräpa Frodo och lägga beslag på Ringen, nu när den finns inom Saurons räckvidd.\u0000",
+    "Många orchgarnisoner vågar åstunda Ringen för egen räkning.\u0000",
+    "De reser sig i upplopp och inbördeskrig och tågar mot Domberget.\u0000",
+    "Men de framstörtande Nazgûl tål inga hinder\u0000",
+    "och kommer att dräpa alla Mörkrets tjänare som vågar stå i deras väg.\u0000"
+  ]
+}

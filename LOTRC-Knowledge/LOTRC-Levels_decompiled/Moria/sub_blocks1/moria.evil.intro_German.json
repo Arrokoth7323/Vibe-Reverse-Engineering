@@ -1,0 +1,94 @@
+{
+  "vals": [
+    {
+      "t_start": 5.23,
+      "t_end": 8.48,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 224
+    },
+    {
+      "t_start": 8.48,
+      "t_end": 11.18,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 340
+    },
+    {
+      "t_start": 11.19,
+      "t_end": 15.38,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 408
+    },
+    {
+      "t_start": 15.38,
+      "t_end": 19.23,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 540
+    },
+    {
+      "t_start": 19.23,
+      "t_end": 22.39,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 696
+    },
+    {
+      "t_start": 22.4,
+      "t_end": 24.79,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 818
+    },
+    {
+      "t_start": 24.8,
+      "t_end": 28.97,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 906
+    },
+    {
+      "t_start": 29.09,
+      "t_end": 32.82,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1016
+    },
+    {
+      "t_start": 32.82,
+      "t_end": 35.38,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1122
+    },
+    {
+      "t_start": 35.5,
+      "t_end": 39.14,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1210
+    },
+    {
+      "t_start": 39.26,
+      "t_end": 41.39,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1368
+    }
+  ],
+  "strings": [
+    "Auf ihrem unaufhaltsamen Marsch müssen die Armeen Mordors\u0000",
+    "nun die Minen Morias durchqueren.\u0000",
+    "Hier, in den Minen, rüstet sich Gimli zu seiner letzten Schlacht.\u0000",
+    "Doch ihm und den anderen Überlebenden bleibt keine Zeit, sich zu verschanzen.\u0000",
+    "Auch heute noch ist Moria ein gefährlicher Ort für all jene,\u0000",
+    "die es wagen, seine Tore zu durchschreiten.\u0000",
+    "Sauron, der um die dunkelsten Geheimnisse Morias weiß,\u0000",
+    "hat seine Armee mit einem grausamen Ritual gestärkt.\u0000",
+    "Um des Zwerges und seiner Gefährten willen,\u0000",
+    "müssen wir hoffen, dass die Macht des Dunklen Herrschers noch nicht ausreicht,\u0000",
+    "um einen Balrog von Morgoth zu rufen.\u0000"
+  ]
+}

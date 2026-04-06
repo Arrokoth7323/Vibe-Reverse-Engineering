@@ -1,0 +1,78 @@
+{
+  "vals": [
+    {
+      "t_start": 4.04,
+      "t_end": 8.32,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 184
+    },
+    {
+      "t_start": 8.44,
+      "t_end": 12.24,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 302
+    },
+    {
+      "t_start": 12.25,
+      "t_end": 16.93,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 444
+    },
+    {
+      "t_start": 16.97,
+      "t_end": 20.95,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 626
+    },
+    {
+      "t_start": 21.07,
+      "t_end": 26.34,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 784
+    },
+    {
+      "t_start": 26.34,
+      "t_end": 30.49,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 930
+    },
+    {
+      "t_start": 30.61,
+      "t_end": 32.8,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1042
+    },
+    {
+      "t_start": 32.81,
+      "t_end": 36.38,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1118
+    },
+    {
+      "t_start": 36.5,
+      "t_end": 41.54,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1212
+    }
+  ],
+  "strings": [
+    "Faramir wirft sich den Armeen Mordors heldenhaft entgegen.\u0000",
+    "Doch nicht alle seine Soldaten sind dem Ansturm des Feindes gewachsen.\u0000",
+    "Viele von ihnen erleiden ein blutiges Schicksal und nur wenige kommen mit dem Leben davon.\u0000",
+    "Saurons Heerscharen setzen ihren Ansturm auf alle freien Völker unbeirrt fort.\u0000",
+    "Die überlebenden Menschen bilden ein letztes Bollwerk gegen einen Feind,\u0000",
+    "der ganz Mittelerde in die Dunkelheit zu stürzen droht.\u0000",
+    "Der Feind ist zahllos wie die Blätter\u0000",
+    "des Waldes und alle Hoffnung scheint verloren,\u0000",
+    "denn die Zahl der Gefallenen kümmert den Dunklen Herrscher nicht.\u0000"
+  ]
+}

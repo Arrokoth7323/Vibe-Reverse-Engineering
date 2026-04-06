@@ -1,0 +1,54 @@
+{
+  "vals": [
+    {
+      "t_start": 5.04,
+      "t_end": 9.31,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 124
+    },
+    {
+      "t_start": 9.31,
+      "t_end": 14.35,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 242
+    },
+    {
+      "t_start": 14.36,
+      "t_end": 18.76,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 378
+    },
+    {
+      "t_start": 18.77,
+      "t_end": 23.5,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 500
+    },
+    {
+      "t_start": 23.52,
+      "t_end": 27.01,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 600
+    },
+    {
+      "t_start": 27.01,
+      "t_end": 29.72,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 672
+    }
+  ],
+  "strings": [
+    "Men i den mørkeste time gjaller det av horn i det fjerne. \u0000",
+    "For en eldgammel ed har blitt oppfylt, og Rohan har endelig kommet.\u0000",
+    "Théoden har tømt nordområdene og hans ryttere er fryktløse. \u0000",
+    "Orkene må forlate byen og møte den nye trusselen.\u0000",
+    "Og nå, på den åpne slagmarken skal \u0000",
+    "Gondors skjebne avgjøres.\u0000"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "vals": [
+    {
+      "t_start": 5.47,
+      "t_end": 7.27,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 204
+    },
+    {
+      "t_start": 7.27,
+      "t_end": 11.2,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 244
+    },
+    {
+      "t_start": 11.23,
+      "t_end": 14.44,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 380
+    },
+    {
+      "t_start": 14.44,
+      "t_end": 17.81,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 470
+    },
+    {
+      "t_start": 17.81,
+      "t_end": 21.5,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 548
+    },
+    {
+      "t_start": 21.52,
+      "t_end": 24.98,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 666
+    },
+    {
+      "t_start": 25.0,
+      "t_end": 27.42,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 782
+    },
+    {
+      "t_start": 27.42,
+      "t_end": 30.23,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 878
+    },
+    {
+      "t_start": 30.24,
+      "t_end": 34.73,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 964
+    },
+    {
+      "t_start": 34.73,
+      "t_end": 36.93,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1056
+    }
+  ],
+  "strings": [
+    "Jego moc zniszczona\u0000",
+    "Saruman nie przemógł odwagi tych, którzy stanęli przeciwko niemu...\u0000",
+    "i w końcu jego zdrada spotkała się z zemstą.\u0000",
+    "Drzewiec został nowym władcą Orthanku.\u0000",
+    "A sztolnie Isengardu zostały oczyszczone z brudu Sarumana.\u0000",
+    "Moc Czarnego Władcy nie została jednak jeszcze złamana...\u0000",
+    "gdyż Saruman był ledwie pionkiem w jego ręku...\u0000",
+    "przeszkodą mającą osłabić rubieże Gondoru.\u0000",
+    "W głębi Mordoru armie Saurona rosną w siłę...\u0000",
+    "a wojna dopiero ma się zacząć.\u0000"
+  ]
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "key": "teamdm",
+    "guid": 7052744,
+    "key_name": "Team Deathmatch",
+    "offset": 4096,
+    "size": 5145840,
+    "size_comp": 3260337,
+    "unk_6": 0,
+    "unk_7": 0,
+    "unk_8": 0
+  },
+  {
+    "key": "evilcampaign",
+    "guid": 95008926,
+    "key_name": "Evil Campaign",
+    "offset": 3264512,
+    "size": 6774304,
+    "size_comp": 4312041,
+    "unk_6": 0,
+    "unk_7": 0,
+    "unk_8": 0
+  },
+  {
+    "key": "Custom",
+    "guid": 117008019,
+    "key_name": "Art",
+    "offset": 7577600,
+    "size": 2181920,
+    "size_comp": 1362356,
+    "unk_6": 0,
+    "unk_7": 0,
+    "unk_8": 0
+  },
+  {
+    "key": "ctr",
+    "guid": 144008522,
+    "key_name": "Capture the Ring",
+    "offset": 8941568,
+    "size": 7495952,
+    "size_comp": 4823786,
+    "unk_6": 0,
+    "unk_7": 0,
+    "unk_8": 0
+  },
+  {
+    "key": "ringbearer",
+    "guid": 144008523,
+    "key_name": "ringbearer",
+    "offset": 13766656,
+    "size": 4533376,
+    "size_comp": 2861129,
+    "unk_6": 0,
+    "unk_7": 0,
+    "unk_8": 0
+  },
+  {
+    "key": "Custom",
+    "guid": 144015924,
+    "key_name": "AutoComplete",
+    "offset": 16629760,
+    "size": 6774304,
+    "size_comp": 4312041,
+    "unk_6": 0,
+    "unk_7": 0,
+    "unk_8": 0
+  }
+]

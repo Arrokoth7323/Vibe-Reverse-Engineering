@@ -1,0 +1,57 @@
+[
+  {
+    "key": "evilcampaign",
+    "guid": 77002169,
+    "key_name": "Evil Campaign",
+    "offset": 4096,
+    "size": 8003824,
+    "size_comp": 5183122,
+    "unk_6": 0,
+    "unk_7": 0,
+    "unk_8": 0
+  },
+  {
+    "key": "Conquest",
+    "guid": 77003751,
+    "key_name": "Conquest",
+    "offset": 5189632,
+    "size": 7006736,
+    "size_comp": 4490345,
+    "unk_6": 0,
+    "unk_7": 0,
+    "unk_8": 0
+  },
+  {
+    "key": "ctr",
+    "guid": 77018335,
+    "key_name": "Capture the Ring",
+    "offset": 9682944,
+    "size": 5362928,
+    "size_comp": 3397862,
+    "unk_6": 0,
+    "unk_7": 0,
+    "unk_8": 0
+  },
+  {
+    "key": "teamdm",
+    "guid": 77018532,
+    "key_name": "Team Deathmatch",
+    "offset": 13082624,
+    "size": 5362928,
+    "size_comp": 3397862,
+    "unk_6": 0,
+    "unk_7": 0,
+    "unk_8": 0
+  },
+  {
+    "key": "Custom",
+    "guid": 117008025,
+    "key_name": "Art",
+    "offset": 16482304,
+    "size": 2178816,
+    "size_comp": 1359617,
+    "unk_6": 0,
+    "unk_7": 0,
+    "unk_8": 0
+  }
+]

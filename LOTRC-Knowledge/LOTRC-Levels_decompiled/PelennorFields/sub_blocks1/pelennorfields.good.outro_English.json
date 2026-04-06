@@ -1,0 +1,86 @@
+{
+  "vals": [
+    {
+      "t_start": 5.15,
+      "t_end": 8.65,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 204
+    },
+    {
+      "t_start": 8.65,
+      "t_end": 12.51,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 302
+    },
+    {
+      "t_start": 12.51,
+      "t_end": 15.62,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 416
+    },
+    {
+      "t_start": 15.62,
+      "t_end": 20.26,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 516
+    },
+    {
+      "t_start": 20.26,
+      "t_end": 24.27,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 632
+    },
+    {
+      "t_start": 24.27,
+      "t_end": 27.47,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 762
+    },
+    {
+      "t_start": 27.47,
+      "t_end": 30.59,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 868
+    },
+    {
+      "t_start": 30.59,
+      "t_end": 33.68,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 958
+    },
+    {
+      "t_start": 33.68,
+      "t_end": 35.47,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1068
+    },
+    {
+      "t_start": 35.48,
+      "t_end": 39.02,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1112
+    }
+  ],
+  "strings": [
+    "Still, the battle hangs in precarious balance...\u0000",
+    "until at last Aragorn appears with the Army of the Dead.\u0000",
+    "Then, nothing that lives can survive their wrath.\u0000",
+    "Great as our victory might seem, this war is not yet won.\u0000",
+    "The Dark Lord still gathers strength behind the walls of Mordor.\u0000",
+    "To draw the Eye of Sauron far from the Ringbearer...\u0000",
+    "even greater sacrifices must now be endured.\u0000",
+    "The Men of the West must confront him upon his borders\u0000",
+    "and within his realm.\u0000",
+    "And even dare to assault the Dark Lord himself.\u0000"
+  ]
+}

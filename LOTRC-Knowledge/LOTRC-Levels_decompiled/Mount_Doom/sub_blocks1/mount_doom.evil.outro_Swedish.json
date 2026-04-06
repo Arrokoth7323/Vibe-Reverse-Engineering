@@ -1,0 +1,102 @@
+{
+  "vals": [
+    {
+      "t_start": 4.94,
+      "t_end": 6.79,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 244
+    },
+    {
+      "t_start": 6.79,
+      "t_end": 11.43,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 286
+    },
+    {
+      "t_start": 11.44,
+      "t_end": 13.56,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 400
+    },
+    {
+      "t_start": 13.56,
+      "t_end": 15.76,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 494
+    },
+    {
+      "t_start": 15.76,
+      "t_end": 18.04,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 554
+    },
+    {
+      "t_start": 18.05,
+      "t_end": 20.56,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 622
+    },
+    {
+      "t_start": 20.56,
+      "t_end": 24.23,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 682
+    },
+    {
+      "t_start": 24.24,
+      "t_end": 28.94,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 784
+    },
+    {
+      "t_start": 28.94,
+      "t_end": 32.08,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 854
+    },
+    {
+      "t_start": 32.09,
+      "t_end": 37.65,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 970
+    },
+    {
+      "t_start": 37.65,
+      "t_end": 42.08,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1112
+    },
+    {
+      "t_start": 42.08,
+      "t_end": 44.5,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1188
+    }
+  ],
+  "strings": [
+    "Utan tanke på priset\u0000",
+    "har Mörkrets furstes tjänare återfört Ringen till honom.\u0000",
+    "Midgårds fria folk känner att vinden har vänt.\u0000",
+    "Nu måste de retirera och göra\u0000",
+    "sig redo att försvara sina riken.\u0000",
+    "Sauron har återfått sin kraft\u0000",
+    "och få som överlevt detta krig vågar trotsa honom.\u0000",
+    "Men Saurons stolthet har sårats av\u0000",
+    "Gondors segrar och han tänker utkräva full vedergällning.\u0000",
+    "Med nya och enorma krafter återuppväcker Sauron sina stupade varelser.\u0000",
+    "Han återkallar många av sina mörkaste\u0000",
+    "hjältar till livet för att än en gång dräpa i hans namn.\u0000"
+  ]
+}

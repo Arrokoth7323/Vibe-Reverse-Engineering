@@ -1,0 +1,86 @@
+{
+  "vals": [
+    {
+      "t_start": 4.94,
+      "t_end": 7.42,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 204
+    },
+    {
+      "t_start": 7.43,
+      "t_end": 10.48,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 304
+    },
+    {
+      "t_start": 10.5,
+      "t_end": 12.94,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 396
+    },
+    {
+      "t_start": 12.94,
+      "t_end": 16.55,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 444
+    },
+    {
+      "t_start": 16.57,
+      "t_end": 20.32,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 558
+    },
+    {
+      "t_start": 20.33,
+      "t_end": 23.39,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 690
+    },
+    {
+      "t_start": 23.39,
+      "t_end": 25.75,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 764
+    },
+    {
+      "t_start": 25.79,
+      "t_end": 30.65,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 840
+    },
+    {
+      "t_start": 30.67,
+      "t_end": 34.74,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 990
+    },
+    {
+      "t_start": 34.76,
+      "t_end": 39.92,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1122
+    }
+  ],
+  "strings": [
+    "Gjennom tapperheten og selvoppofringen til mange \u0000",
+    "har Kong Théoden ledet Rohans folk til seier.\u0000",
+    "Men faren er ikke over,\u0000",
+    "for Jarnagard og Moria fortsetter å utgjøre en trussel, \u0000",
+    "og Sauron dirigerer all ondskapen fra toppen på Det mørke tårnet.\u0000",
+    "Dog har motstandens frø blitt sådd, \u0000",
+    "for Gondor står fortsatt standhaftig \u0000",
+    "og en eldgammel sovende makt har nå våknet for å komme dem til unnsetning.\u0000",
+    "Og i denne storslåtte krigen skal Den hvite trollmannen lede oss,\u0000",
+    "for det ligger i hans skjebne å gi Sauron kamp om hele Midgards fremtid.\u0000"
+  ]
+}

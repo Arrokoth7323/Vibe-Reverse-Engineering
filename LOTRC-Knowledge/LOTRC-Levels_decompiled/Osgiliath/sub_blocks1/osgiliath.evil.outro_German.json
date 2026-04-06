@@ -1,0 +1,70 @@
+{
+  "vals": [
+    {
+      "t_start": 3.67,
+      "t_end": 6.16,
+      "unk_2": 16777215,
+      "unk_3": 2,
+      "off": 164
+    },
+    {
+      "t_start": 6.28,
+      "t_end": 9.94,
+      "unk_2": 16777215,
+      "unk_3": 2,
+      "off": 248
+    },
+    {
+      "t_start": 10.38,
+      "t_end": 13.25,
+      "unk_2": 16777215,
+      "unk_3": 2,
+      "off": 380
+    },
+    {
+      "t_start": 13.37,
+      "t_end": 15.52,
+      "unk_2": 16777215,
+      "unk_3": 2,
+      "off": 480
+    },
+    {
+      "t_start": 15.64,
+      "t_end": 17.64,
+      "unk_2": 16777215,
+      "unk_3": 2,
+      "off": 568
+    },
+    {
+      "t_start": 17.64,
+      "t_end": 21.22,
+      "unk_2": 16777215,
+      "unk_3": 2,
+      "off": 636
+    },
+    {
+      "t_start": 21.23,
+      "t_end": 25.81,
+      "unk_2": 16777215,
+      "unk_3": 2,
+      "off": 728
+    },
+    {
+      "t_start": 25.93,
+      "t_end": 31.63,
+      "unk_2": 16777215,
+      "unk_3": 2,
+      "off": 880
+    }
+  ],
+  "strings": [
+    "Der Dunkle Herrscher muss zufrieden sein,\u0000",
+    "dass die Stadt noch einmal unter den Stiefeln der Orks erzittert.\u0000",
+    "Weder Faramir noch seine Männer werden verschont,\u0000",
+    "doch die Menschen wussten um ihr Schicksal.\u0000",
+    "Und so stoßen Saurons Heerscharen\u0000",
+    "aufs Neue unbehelligt zum Herzen Gondors vor.\u0000",
+    "In den Lagern Mordors zieht der Dunkle Herrscher frische Legionen zusammen,\u0000",
+    "um all jene, die es wagen, ihm zu trotzen, für alle Zeit zu vernichten.\u0000"
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "vals": [
+    {
+      "t_start": 5.35,
+      "t_end": 11.09,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 264
+    },
+    {
+      "t_start": 11.09,
+      "t_end": 14.7,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 392
+    },
+    {
+      "t_start": 14.72,
+      "t_end": 19.18,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 456
+    },
+    {
+      "t_start": 19.19,
+      "t_end": 22.43,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 622
+    },
+    {
+      "t_start": 22.45,
+      "t_end": 28.92,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 768
+    },
+    {
+      "t_start": 28.93,
+      "t_end": 33.83,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 878
+    },
+    {
+      "t_start": 33.83,
+      "t_end": 36.39,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1042
+    },
+    {
+      "t_start": 36.42,
+      "t_end": 39.81,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1110
+    },
+    {
+      "t_start": 39.83,
+      "t_end": 45.7,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1202
+    },
+    {
+      "t_start": 45.72,
+      "t_end": 50.23,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1344
+    },
+    {
+      "t_start": 50.23,
+      "t_end": 55.44,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1484
+    },
+    {
+      "t_start": 55.44,
+      "t_end": 59.38,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1576
+    },
+    {
+      "t_start": 59.39,
+      "t_end": 63.18,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1706
+    }
+  ],
+  "strings": [
+    "Svekket av dens makt krever Frodo Den ene Ringen for seg selv, \u0000",
+    "og Midgards grunnvoller rystes.\u0000",
+    "Mørkets herre har et desperat håp om at hans legeme skal bli gitt tilbake til ham.\u0000",
+    "Men for å rykke frem mot Midgard enda en gang må Sauron ha Frodos Ring, \u0000",
+    "og for denne vil han betale en hvilken som helst pris.\u0000",
+    "På kommando fra Mørkets herre har Nazgûlene i all hast dratt til Dommedagsberget,\u0000",
+    "med alle andre tanker stengt ute.\u0000",
+    "De adlyder en enkel, men dødbringende ordre: \u0000",
+    "å drepe Frodo og ta Ringen, nå som den er innenfor Saurons rekkevidde.\u0000",
+    "Mange orkegarnisoner, dristige nok til å begjære Ringen for dem selv,\u0000",
+    "gjør opprør og marsjerer mot Dommedagsberget.\u0000",
+    "Men de fremadstormende Nazgûlene vil ikke tolerere forsinkelser,\u0000",
+    "og vil knuse alle mørke tjenere som står i deres vei.\u0000"
+  ]
+}

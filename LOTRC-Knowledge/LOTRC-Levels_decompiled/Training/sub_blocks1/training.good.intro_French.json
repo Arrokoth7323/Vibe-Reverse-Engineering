@@ -1,0 +1,78 @@
+{
+  "vals": [
+    {
+      "t_start": 6.38,
+      "t_end": 9.95,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 184
+    },
+    {
+      "t_start": 9.95,
+      "t_end": 14.09,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 298
+    },
+    {
+      "t_start": 14.09,
+      "t_end": 15.69,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 422
+    },
+    {
+      "t_start": 15.69,
+      "t_end": 17.91,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 468
+    },
+    {
+      "t_start": 17.91,
+      "t_end": 21.78,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 552
+    },
+    {
+      "t_start": 21.78,
+      "t_end": 25.28,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 654
+    },
+    {
+      "t_start": 25.28,
+      "t_end": 29.77,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 812
+    },
+    {
+      "t_start": 29.77,
+      "t_end": 32.51,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 980
+    },
+    {
+      "t_start": 32.51,
+      "t_end": 35.05,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1046
+    }
+  ],
+  "strings": [
+    "Tout cela commença il y a bien longtemps, lorsque Sauron\u0000",
+    "forgea un Anneau de Pouvoir pour asservir la Terre du Milieu.\u0000",
+    "Pour lui résister, une\u0000",
+    "dernière alliance des Elfes et des Hommes\u0000",
+    "mena une offensive contre ses armées des Ténèbres.\u0000",
+    "Tangado a chadad ... Leitho I philinn! (Prêts à tirer... Lancer les flèches !)\u0000",
+    "Dans les vallées du Mordor, nous nous battîmes pour nos vies et pour notre liberté.\u0000",
+    "Etudiez bien l'art de la guerre,\u0000",
+    "là réside notre seule chance de victoire.\u0000"
+  ]
+}

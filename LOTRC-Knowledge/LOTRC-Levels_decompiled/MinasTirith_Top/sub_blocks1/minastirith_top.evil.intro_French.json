@@ -1,0 +1,70 @@
+{
+  "vals": [
+    {
+      "t_start": 6.02,
+      "t_end": 8.39,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 164
+    },
+    {
+      "t_start": 8.41,
+      "t_end": 12.67,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 236
+    },
+    {
+      "t_start": 12.69,
+      "t_end": 15.33,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 358
+    },
+    {
+      "t_start": 15.34,
+      "t_end": 19.93,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 470
+    },
+    {
+      "t_start": 19.95,
+      "t_end": 21.58,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 608
+    },
+    {
+      "t_start": 21.59,
+      "t_end": 25.57,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 666
+    },
+    {
+      "t_start": 25.58,
+      "t_end": 28.36,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 822
+    },
+    {
+      "t_start": 28.37,
+      "t_end": 33.19,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 894
+    }
+  ],
+  "strings": [
+    "L'attaque de Minas Tirith a réussi.\u0000",
+    "Les portes sont brisées et les murs inférieurs sont envahis.\u0000",
+    "Les hommes du Gondor tentent vaillamment de se défendre\u0000",
+    "mais les troupes de Sauron ont bien évalué la fragilité de la ville.\u0000",
+    "Et personne ne les arrêtera.\u0000",
+    "Les gardes de la Citadelle défendront leur cité jusqu'à leur dernier souffle,\u0000",
+    "mais cela risque d'arriver bientôt.\u0000",
+    "Ils craignent tous que la fin soit proche, car les ténèbres sont presque totales.\u0000"
+  ]
+}

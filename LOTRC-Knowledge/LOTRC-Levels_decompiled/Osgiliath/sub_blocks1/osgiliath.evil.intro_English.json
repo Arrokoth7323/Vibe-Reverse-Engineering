@@ -1,0 +1,78 @@
+{
+  "vals": [
+    {
+      "t_start": 3.7,
+      "t_end": 7.28,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 184
+    },
+    {
+      "t_start": 7.28,
+      "t_end": 12.2,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 298
+    },
+    {
+      "t_start": 12.21,
+      "t_end": 15.08,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 438
+    },
+    {
+      "t_start": 15.08,
+      "t_end": 17.99,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 534
+    },
+    {
+      "t_start": 18.0,
+      "t_end": 22.02,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 634
+    },
+    {
+      "t_start": 22.02,
+      "t_end": 25.0,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 750
+    },
+    {
+      "t_start": 25.01,
+      "t_end": 30.67,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 818
+    },
+    {
+      "t_start": 30.67,
+      "t_end": 36.04,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 966
+    },
+    {
+      "t_start": 36.04,
+      "t_end": 40.79,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1106
+    }
+  ],
+  "strings": [
+    "Crossing the River Anduin under a blanket of darkness...\u0000",
+    "an Orc scouting force begins Sauron's renewed assault upon our world.\u0000",
+    "The Orc onslaught will be launched at midnight.\u0000",
+    "Striking like a dagger at the heart of Osgiliath.\u0000",
+    "The most deadly blow shall be struck by an elite horde...\u0000",
+    "lying in wait upon the far shore.\u0000",
+    "Their siege machines are poised to rain fire down upon the hated Rangers.\u0000",
+    "The Orcs await signals from hidden scouts, to identify their targets.\u0000",
+    "For those dark hearts wish greatly to see Osgiliath burn.\u0000"
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "vals": [
+    {
+      "t_start": 4.63,
+      "t_end": 9.47,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 264
+    },
+    {
+      "t_start": 9.47,
+      "t_end": 11.15,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 400
+    },
+    {
+      "t_start": 11.15,
+      "t_end": 14.33,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 496
+    },
+    {
+      "t_start": 14.33,
+      "t_end": 17.28,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 610
+    },
+    {
+      "t_start": 17.28,
+      "t_end": 20.06,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 740
+    },
+    {
+      "t_start": 20.06,
+      "t_end": 23.92,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 834
+    },
+    {
+      "t_start": 23.92,
+      "t_end": 27.3,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 952
+    },
+    {
+      "t_start": 27.3,
+      "t_end": 29.42,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1030
+    },
+    {
+      "t_start": 29.42,
+      "t_end": 32.33,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1136
+    },
+    {
+      "t_start": 32.33,
+      "t_end": 37.58,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1204
+    },
+    {
+      "t_start": 37.58,
+      "t_end": 42.06,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1360
+    },
+    {
+      "t_start": 42.06,
+      "t_end": 47.27,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1474
+    },
+    {
+      "t_start": 47.27,
+      "t_end": 48.47,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1662
+    }
+  ],
+  "strings": [
+    "Jernneven til Mørkets herre har omringet det uskyldsrene Hobsyssel.\u0000",
+    " For hobbitene vil det ikke finnes noen steder \u0000",
+    "å søke tilflukt fra krigen som nå krysser deres grenser.\u0000",
+    "De siste frie menn vil kanskje prøve å komme dem til unnsetning,\u0000",
+    " men alle vil de møte en overveldende fiende. \u0000",
+    "Vargryttere og store krigsbeist samler seg for å angripe, \u0000",
+    "og ingen overlevende kan stå imot dem.\u0000",
+    "Kanskje Mørkets herre selv vil stige frem til slutt \u0000",
+    "for å sole seg i triumfens glans.\u0000",
+    " Kanskje vi da sammen med Gandalv vil ofre våre liv til en høyest mulig pris.\u0000",
+    "I desperasjon leder Treskjegg entene på en siste marsj. \u0000",
+    "Med deres hjelp og med mange halvlingbueskyttere, klarer kanskje Hobsyssel å gjøre motstand -\u0000",
+    " i en liten stund.\u0000"
+  ]
+}

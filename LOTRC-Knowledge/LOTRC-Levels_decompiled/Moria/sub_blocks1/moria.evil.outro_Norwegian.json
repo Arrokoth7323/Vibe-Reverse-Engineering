@@ -1,0 +1,54 @@
+{
+  "vals": [
+    {
+      "t_start": 4.9,
+      "t_end": 8.93,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 124
+    },
+    {
+      "t_start": 8.94,
+      "t_end": 13.61,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 244
+    },
+    {
+      "t_start": 13.61,
+      "t_end": 16.24,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 402
+    },
+    {
+      "t_start": 16.25,
+      "t_end": 20.4,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 492
+    },
+    {
+      "t_start": 20.41,
+      "t_end": 23.25,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 640
+    },
+    {
+      "t_start": 23.25,
+      "t_end": 26.51,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 732
+    }
+  ],
+  "strings": [
+    "Ûduns flamme har blitt sluppet løs på Midgard enda en gang.\u0000",
+    "Og i likhet med hans ætt, har dvergen Gimli og alle som våget å følge ham inn \u0000",
+    "i mørket blitt utryddet av denne skapningen.\u0000",
+    "Moria vil nå for alltid være et ondt sted som ingen våger å ta seg inn i.\u0000",
+    "Og nå rykker Nazgûlene fram enda en gang for \u0000",
+    "å finne de siste ofrene til Mørkets herre.\u0000"
+  ]
+}

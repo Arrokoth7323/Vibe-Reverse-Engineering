@@ -1,0 +1,158 @@
+{
+  "vals": [
+    {
+      "t_start": 4.57,
+      "t_end": 8.04,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 384
+    },
+    {
+      "t_start": 8.04,
+      "t_end": 13.29,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 482
+    },
+    {
+      "t_start": 13.29,
+      "t_end": 17.16,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 614
+    },
+    {
+      "t_start": 17.16,
+      "t_end": 19.87,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 738
+    },
+    {
+      "t_start": 19.87,
+      "t_end": 24.68,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 800
+    },
+    {
+      "t_start": 24.68,
+      "t_end": 27.7,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 930
+    },
+    {
+      "t_start": 27.7,
+      "t_end": 31.47,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1032
+    },
+    {
+      "t_start": 31.47,
+      "t_end": 36.83,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1138
+    },
+    {
+      "t_start": 36.83,
+      "t_end": 41.58,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1282
+    },
+    {
+      "t_start": 41.58,
+      "t_end": 46.09,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1394
+    },
+    {
+      "t_start": 46.11,
+      "t_end": 49.98,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1508
+    },
+    {
+      "t_start": 49.98,
+      "t_end": 52.1,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1614
+    },
+    {
+      "t_start": 52.11,
+      "t_end": 57.16,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1678
+    },
+    {
+      "t_start": 57.17,
+      "t_end": 60.55,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1806
+    },
+    {
+      "t_start": 60.57,
+      "t_end": 64.14,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1866
+    },
+    {
+      "t_start": 64.14,
+      "t_end": 67.79,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1966
+    },
+    {
+      "t_start": 67.79,
+      "t_end": 70.75,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 2060
+    },
+    {
+      "t_start": 70.75,
+      "t_end": 75.69,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 2128
+    },
+    {
+      "t_start": 75.69,
+      "t_end": 77.53,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 2246
+    }
+  ],
+  "strings": [
+    "There was no hope of survival in that final hour\u0000",
+    "for any who stood upon the battlefield, yet they did not despair.\u0000",
+    "Although their enemies drew near and their arms grew weary...\u0000",
+    "no man held fear in his heart.\u0000",
+    "But fate decreed our world was not destined to end in that hour.\u0000",
+    "For the power of the Ring corrupted all it touched\u0000",
+    "in ways that even its evil spirit could not imagine.\u0000",
+    "And in that final, desperate moment the Ringbearer fulfilled his quest.\u0000",
+    "In a single heartbeat the Dark Lord Sauron was no more.\u0000",
+    "In truth, our victory was won by the smallest of things.\u0000",
+    "Our fate balanced upon the edge of a knife, but then\u0000",
+    " when hope at last prevailed...\u0000",
+    "That knife turned and plunged deep into the heart of our enemy.\u0000",
+    "And victory at last was ours.\u0000",
+    "Remember always that upon those grim battlefields\u0000",
+    "the hearts of the Free Peoples did not fail...\u0000",
+    "and their courage did not falter.\u0000",
+    "And thus the Third Age of Middle-earth ended in triumph...\u0000",
+    "and not in despair.\u0000"
+  ]
+}

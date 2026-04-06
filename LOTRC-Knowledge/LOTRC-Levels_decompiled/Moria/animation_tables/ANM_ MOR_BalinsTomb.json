@@ -1,0 +1,10 @@
+{
+  "OpenIdle": "MOR_PR_BalinsTombDoor_03_anim_open_idle",
+  "CloseIdle": "MOR_PR_BalinsTombDoor_03_anim_close_idle",
+  "OpenDoor": "MOR_PR_BalinsTombDoor_03_anim_open",
+  "Breakdown3": "MOR_PR_BalinsTombDoor_03_open_03",
+  "Breakdown1": "MOR_PR_BalinsTombDoor_03_open_01",
+  "CloseDoor": "MOR_PR_BalinsTombDoor_03_anim_close",
+  "BrokenIdle": "MOR_PR_BalinsTombDoor_03_idle_open",
+  "Breakdown2": "MOR_PR_BalinsTombDoor_03_open_02"
+}

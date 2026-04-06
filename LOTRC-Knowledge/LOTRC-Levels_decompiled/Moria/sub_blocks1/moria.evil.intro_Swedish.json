@@ -1,0 +1,94 @@
+{
+  "vals": [
+    {
+      "t_start": 5.23,
+      "t_end": 8.48,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 224
+    },
+    {
+      "t_start": 8.48,
+      "t_end": 11.18,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 322
+    },
+    {
+      "t_start": 11.19,
+      "t_end": 15.38,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 380
+    },
+    {
+      "t_start": 15.38,
+      "t_end": 19.23,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 488
+    },
+    {
+      "t_start": 19.23,
+      "t_end": 22.39,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 646
+    },
+    {
+      "t_start": 22.4,
+      "t_end": 24.79,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 750
+    },
+    {
+      "t_start": 24.8,
+      "t_end": 29.88,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 832
+    },
+    {
+      "t_start": 29.88,
+      "t_end": 32.82,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 834
+    },
+    {
+      "t_start": 32.82,
+      "t_end": 35.5,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 950
+    },
+    {
+      "t_start": 35.5,
+      "t_end": 39.59,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1026
+    },
+    {
+      "t_start": 39.59,
+      "t_end": 41.77,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1140
+    }
+  ],
+  "strings": [
+    "På sin obevekliga marsch måste nu Mordors arméer\u0000",
+    "passera genom Morias gruvor.\u0000",
+    "Det är här Gimli har valt att sätta sig till motvärn.\u0000",
+    "Men han och de andra överlevande har inte haft tid att förbereda sitt försvar.\u0000",
+    "Och Moria är fortfarande ett mörkt och farligt rike\u0000",
+    "för alla som vågar sig inom dess portar.\u0000",
+    "\u0000",
+    "och har laddat upp sin styrka med en fruktansvärd ritual.\u0000",
+    "För dvärgens och hans kamraters skull\u0000",
+    "måste vi hoppas att Sauron ännu inte förmår mana fram en\u0000",
+    "av Morgoths Balroger.\u0000"
+  ]
+}

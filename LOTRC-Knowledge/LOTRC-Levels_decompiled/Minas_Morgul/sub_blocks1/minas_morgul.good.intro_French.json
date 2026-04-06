@@ -1,0 +1,78 @@
+{
+  "vals": [
+    {
+      "t_start": 5.53,
+      "t_end": 6.94,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 184
+    },
+    {
+      "t_start": 6.95,
+      "t_end": 12.21,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 198
+    },
+    {
+      "t_start": 12.23,
+      "t_end": 18.2,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 316
+    },
+    {
+      "t_start": 18.2,
+      "t_end": 22.48,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 512
+    },
+    {
+      "t_start": 22.49,
+      "t_end": 24.99,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 664
+    },
+    {
+      "t_start": 25.0,
+      "t_end": 29.22,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 762
+    },
+    {
+      "t_start": 29.24,
+      "t_end": 32.47,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 900
+    },
+    {
+      "t_start": 32.48,
+      "t_end": 35.73,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1020
+    },
+    {
+      "t_start": 35.74,
+      "t_end": 37.63,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1154
+    }
+  ],
+  "strings": [
+    "Jadis,\u0000",
+    "le Seigneur des Ténèbres prit Minas Morgul et l'ensorcela.\u0000",
+    "La cité devint l'infect domaine du Roi-Sorcier, à peine éclairé par une pâle lumière cadavérique.\u0000",
+    "Cette forteresse est gardée à la fois par les orques et la magie de Sauron,\u0000",
+    "absorbant la force de tous ceux qui s'aventurent\u0000",
+    "à proximité. Et depuis le ciel, les Spectres de l'Anneau surveillent\u0000",
+    "toujours la cité. Par l'art du siège et la force des armes,\u0000",
+    "les hommes de l'Ouest doivent briser les portes de cette citadelle\u0000",
+    "et soumettre l'ennemi qui y règne.\u0000"
+  ]
+}

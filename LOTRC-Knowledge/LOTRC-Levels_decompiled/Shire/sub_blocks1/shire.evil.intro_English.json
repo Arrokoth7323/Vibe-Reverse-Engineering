@@ -1,0 +1,110 @@
+{
+  "vals": [
+    {
+      "t_start": 4.63,
+      "t_end": 9.47,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 264
+    },
+    {
+      "t_start": 9.47,
+      "t_end": 11.15,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 408
+    },
+    {
+      "t_start": 11.15,
+      "t_end": 14.33,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 488
+    },
+    {
+      "t_start": 14.33,
+      "t_end": 17.28,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 588
+    },
+    {
+      "t_start": 17.28,
+      "t_end": 20.06,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 682
+    },
+    {
+      "t_start": 20.06,
+      "t_end": 23.92,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 764
+    },
+    {
+      "t_start": 23.92,
+      "t_end": 27.3,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 876
+    },
+    {
+      "t_start": 27.3,
+      "t_end": 29.42,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 970
+    },
+    {
+      "t_start": 29.42,
+      "t_end": 32.33,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1046
+    },
+    {
+      "t_start": 32.33,
+      "t_end": 37.58,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1130
+    },
+    {
+      "t_start": 37.58,
+      "t_end": 42.06,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1264
+    },
+    {
+      "t_start": 42.06,
+      "t_end": 47.27,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1386
+    },
+    {
+      "t_start": 47.27,
+      "t_end": 48.47,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1544
+    }
+  ],
+  "strings": [
+    "At last the Dark Lord's iron fist encircles the innocence of the Shire.\u0000",
+    "There will be no escape for the Hobbits\u0000",
+    "from the war that now enters their quiet borders.\u0000",
+    "The last free men might attempt to aid them...\u0000",
+    "but all must face an overwhelming enemy.\u0000",
+    "Warg Riders and great war beasts mass for the attack...\u0000",
+    "and none left alive can withstand their power.\u0000",
+    "Perhaps at last the Dark Lord himself\u0000",
+    "shall come forth to gloat in his triumph.\u0000",
+    "Perhaps then with Gandalf we might sell our own lives most dearly.\u0000",
+    "In desperation, Treebeard leads the Final March of the Ents.\u0000",
+    "With their aid and with many Halfling archers, perhaps the Shire can resist...\u0000",
+    "for a brief while.\u0000"
+  ]
+}

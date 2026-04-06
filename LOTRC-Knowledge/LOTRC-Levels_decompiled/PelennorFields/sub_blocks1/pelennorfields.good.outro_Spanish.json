@@ -1,0 +1,86 @@
+{
+  "vals": [
+    {
+      "t_start": 5.14,
+      "t_end": 8.65,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 204
+    },
+    {
+      "t_start": 8.65,
+      "t_end": 12.51,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 342
+    },
+    {
+      "t_start": 12.51,
+      "t_end": 15.62,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 450
+    },
+    {
+      "t_start": 15.62,
+      "t_end": 20.26,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 532
+    },
+    {
+      "t_start": 20.26,
+      "t_end": 24.27,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 660
+    },
+    {
+      "t_start": 24.27,
+      "t_end": 27.47,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 780
+    },
+    {
+      "t_start": 27.47,
+      "t_end": 30.59,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 886
+    },
+    {
+      "t_start": 30.59,
+      "t_end": 33.68,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 970
+    },
+    {
+      "t_start": 33.68,
+      "t_end": 35.47,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1086
+    },
+    {
+      "t_start": 35.48,
+      "t_end": 39.02,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1148
+    }
+  ],
+  "strings": [
+    "Pero la batalla está en un peligroso punto muerto hasta que, al fin,\u0000",
+    "aparece Aragorn junto con el Ejército de los Muertos.\u0000",
+    "Nada que viva puede sobrevivir a su ira.\u0000",
+    "Aunque parezca una gran victoria, la guerra aún no está ganada.\u0000",
+    "El Señor Oscuro aún reúne fuerzas tras los muros de Mordor.\u0000",
+    "Para alejar el Ojo de Sauron del Portador del Anillo\u0000",
+    "hay que realizar sacrificios aún mayores.\u0000",
+    "Los hombres del oeste deben enfrentarse a él una vez más,\u0000",
+    "en su frontera, en su reino...\u0000",
+    "incluso se atreverán a atacar al mismísimo Señor Oscuro.\u0000"
+  ]
+}

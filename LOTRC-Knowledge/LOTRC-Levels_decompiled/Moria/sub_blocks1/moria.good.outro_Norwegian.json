@@ -1,0 +1,62 @@
+{
+  "vals": [
+    {
+      "t_start": 5.41,
+      "t_end": 10.09,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 144
+    },
+    {
+      "t_start": 10.09,
+      "t_end": 13.44,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 248
+    },
+    {
+      "t_start": 13.45,
+      "t_end": 16.91,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 340
+    },
+    {
+      "t_start": 16.93,
+      "t_end": 20.41,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 442
+    },
+    {
+      "t_start": 20.41,
+      "t_end": 23.44,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 560
+    },
+    {
+      "t_start": 23.44,
+      "t_end": 27.56,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 650
+    },
+    {
+      "t_start": 27.56,
+      "t_end": 30.9,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 790
+    }
+  ],
+  "strings": [
+    "Omsider er Balrogen av Morgoth knust og nedkjempet,\u0000",
+    "og sendt tilbake til Morias bunnløse avgrunn.\u0000",
+    "Fedrehjemmet til dvergene har nå blitt gjenvunnet \u0000",
+    "og skapningene som hjemsøkte stedet har flyktet vår vrede.\u0000",
+    "Men befrierne av Moria må skynde seg videre,\u0000",
+    "for Mørkets herre Sauron har nå sluppet løs sine hærskarer på verden,\u0000",
+    "og alle frie folkeslag må rykke ut i dens forsvar.\u0000"
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "vals": [
+    {
+      "t_start": 4.88,
+      "t_end": 8.04,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 324
+    },
+    {
+      "t_start": 8.04,
+      "t_end": 12.45,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 416
+    },
+    {
+      "t_start": 12.45,
+      "t_end": 17.04,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 534
+    },
+    {
+      "t_start": 17.04,
+      "t_end": 21.74,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 622
+    },
+    {
+      "t_start": 21.74,
+      "t_end": 26.81,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 746
+    },
+    {
+      "t_start": 26.81,
+      "t_end": 31.57,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 844
+    },
+    {
+      "t_start": 31.57,
+      "t_end": 34.81,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 980
+    },
+    {
+      "t_start": 34.81,
+      "t_end": 37.67,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1066
+    },
+    {
+      "t_start": 37.67,
+      "t_end": 42.23,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1122
+    },
+    {
+      "t_start": 42.23,
+      "t_end": 44.23,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1254
+    },
+    {
+      "t_start": 44.23,
+      "t_end": 49.61,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1320
+    },
+    {
+      "t_start": 49.61,
+      "t_end": 53.52,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1456
+    },
+    {
+      "t_start": 53.52,
+      "t_end": 56.95,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1554
+    },
+    {
+      "t_start": 56.95,
+      "t_end": 60.6,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1682
+    },
+    {
+      "t_start": 60.6,
+      "t_end": 65.03,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1754
+    },
+    {
+      "t_start": 65.03,
+      "t_end": 67.11,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1834
+    }
+  ],
+  "strings": [
+    "Dessa lyckliga varelser tillhör nu historien.\u0000",
+    "Deras hobiska hålor är nu gravar, deras kalasträd späntved\u0000",
+    "och de överlevande är förslavade av Sauron.\u0000",
+    "Inte ens Lavskägge kunde till slut stå emot orchernas raseri.\u0000",
+    "Han är nu ett bål, som man kastar hobkroppar på.\u0000",
+    "Inte ens den store magikern Gandalf kunde stå emot Mörkrets furste.\u0000",
+    "Han har stupat och kan inte återuppväckas.\u0000",
+    "Hans värv här är till ända.\u0000",
+    "De som inte stred i detta krig kommer nu att bli de sista offren.\u0000",
+    "Deras hem kommer att brännas ner\u0000",
+    "och deras barns framtid kommer att offras på Saurons grymma altare.\u0000",
+    "Död och ruiner är allt som kommer att vara kvar,\u0000",
+    "ty Mörkrets furstes ondska kommer inte att känna några gränser.\u0000",
+    "Till slut kommer allt att utplånas.\u0000",
+    "Ty nu har mörkret svept in allt levande\u0000",
+    "och gjort anspråk på oss alla.\u0000"
+  ]
+}

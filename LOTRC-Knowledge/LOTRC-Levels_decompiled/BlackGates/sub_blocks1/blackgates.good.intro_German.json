@@ -1,0 +1,62 @@
+{
+  "vals": [
+    {
+      "t_start": 5.0,
+      "t_end": 9.6,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 144
+    },
+    {
+      "t_start": 11.17,
+      "t_end": 15.43,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 274
+    },
+    {
+      "t_start": 15.44,
+      "t_end": 20.06,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 396
+    },
+    {
+      "t_start": 20.07,
+      "t_end": 24.13,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 506
+    },
+    {
+      "t_start": 24.16,
+      "t_end": 26.25,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 644
+    },
+    {
+      "t_start": 26.37,
+      "t_end": 28.41,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 702
+    },
+    {
+      "t_start": 28.53,
+      "t_end": 32.09,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 774
+    }
+  ],
+  "strings": [
+    "Eine kleine Schar mutiger Männer ist von Saurons Horden umringt,\u0000",
+    "doch der Mut und die Hoffnung der Menschen sind ungebrochen.\u0000",
+    "Sie wissen, dass ihr Opfer am Schwarzen Tor von Mordor\u0000",
+    "Frodo genug Zeit verschafft, um den Einen Ring endlich zu zerstören.\u0000",
+    "Und in dieser letzten Stunde\u0000",
+    "kämpfen die Heermeister des Westens\u0000",
+    "bis zum letzten Atemzug um ihre Freiheit.\u0000"
+  ]
+}

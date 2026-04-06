@@ -1,0 +1,102 @@
+{
+  "vals": [
+    {
+      "t_start": 5.2,
+      "t_end": 9.18,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 244
+    },
+    {
+      "t_start": 9.18,
+      "t_end": 11.67,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 344
+    },
+    {
+      "t_start": 11.67,
+      "t_end": 15.02,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 430
+    },
+    {
+      "t_start": 15.02,
+      "t_end": 19.76,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 540
+    },
+    {
+      "t_start": 19.76,
+      "t_end": 22.76,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 706
+    },
+    {
+      "t_start": 22.76,
+      "t_end": 26.77,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 846
+    },
+    {
+      "t_start": 26.77,
+      "t_end": 29.72,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 968
+    },
+    {
+      "t_start": 29.73,
+      "t_end": 32.23,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1092
+    },
+    {
+      "t_start": 32.23,
+      "t_end": 35.55,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1170
+    },
+    {
+      "t_start": 35.55,
+      "t_end": 39.39,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1262
+    },
+    {
+      "t_start": 39.39,
+      "t_end": 40.82,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1376
+    },
+    {
+      "t_start": 40.82,
+      "t_end": 44.87,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1512
+    }
+  ],
+  "strings": [
+    "Osgiliath también tendrá su papel en esta guerra.\u0000",
+    "Faramir trajo aquí al Portador del Anillo,\u0000",
+    "pero tuvo la sabiduría de dejarle continuar su camino.\u0000",
+    "Ahora, una guarnición de defensores de Gondor está en guardia, siempre preparados.\u0000",
+    "Los guerreros que defienden este baluarte tienen la secreta esperanza\u0000",
+    "de que Faramir y sus montaraces de Ithilien vuelvan al alba.\u0000",
+    "Pero las filas de los orcos siguen aumentando y la esperanza,\u0000",
+    "por sí sola, es un escudo poco eficaz.\u0000",
+    "El silencio domina la otra orilla del Anduin.\u0000",
+    "Los defensores de Osgiliath están solos con sus temores.\u0000",
+    "En esta oscuridad, el amanecer no llegará lo suficientemente rápido\u0000",
+    "para estos valientes hombres de Gondor.\u0000"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "WalkFwdLeft": "CH_oli_walk_w",
+  "HitRight": "CH_oli_hitTwitch_right",
+  "WalkBckRight": "CH_oli_walk_s_e",
+  "WalkBck": "CH_oli_walk_s",
+  "HitFront": "CH_oli_hitTwitch_front",
+  "DeathClimb": "CH_oli_syn_oli_kill",
+  "Idle": "CH_oli_idle",
+  "HitLeft": "CH_oli_hitTwitch_left",
+  "DeathAnkle": "CH_oli_death_inPlace_full",
+  "DeathArrow": "CH_oli_death_inPlace_full",
+  "WalkBckLeft": "CH_oli_walk_s_w",
+  "HitBack": "CH_oli_hitTwitch_back",
+  "WalkFwd": "CH_oli_walk_fast",
+  "WalkFwdRight": "CH_oli_walk_e",
+  "TurnCW90": "CH_oli_turn90_e",
+  "AttackLeft": "CH_oli_attack_w",
+  "AttackRight": "CH_oli_attack_e",
+  "TurnCCW90": "CH_oli_turn90_w"
+}

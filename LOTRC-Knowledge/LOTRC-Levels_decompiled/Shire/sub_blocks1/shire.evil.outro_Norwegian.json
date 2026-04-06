@@ -1,0 +1,134 @@
+{
+  "vals": [
+    {
+      "t_start": 4.88,
+      "t_end": 8.04,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 324
+    },
+    {
+      "t_start": 8.04,
+      "t_end": 12.45,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 418
+    },
+    {
+      "t_start": 12.45,
+      "t_end": 17.04,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 544
+    },
+    {
+      "t_start": 17.04,
+      "t_end": 21.74,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 672
+    },
+    {
+      "t_start": 21.74,
+      "t_end": 26.81,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 816
+    },
+    {
+      "t_start": 26.81,
+      "t_end": 31.57,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 934
+    },
+    {
+      "t_start": 31.57,
+      "t_end": 34.81,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1090
+    },
+    {
+      "t_start": 34.81,
+      "t_end": 37.67,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1180
+    },
+    {
+      "t_start": 37.67,
+      "t_end": 42.23,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1234
+    },
+    {
+      "t_start": 42.23,
+      "t_end": 44.23,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1368
+    },
+    {
+      "t_start": 44.23,
+      "t_end": 49.61,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1418
+    },
+    {
+      "t_start": 49.61,
+      "t_end": 53.52,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1556
+    },
+    {
+      "t_start": 53.52,
+      "t_end": 56.95,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1650
+    },
+    {
+      "t_start": 56.95,
+      "t_end": 60.6,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1762
+    },
+    {
+      "t_start": 60.6,
+      "t_end": 65.03,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1824
+    },
+    {
+      "t_start": 65.03,
+      "t_end": 67.11,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1922
+    }
+  ],
+  "strings": [
+    "Historien er over for denne lykksalige rasen. \u0000",
+    "Hobbithullene er nå gravhauger, trærne deres er satt i brann, \u0000",
+    "og de som overlevde er tatt til slaver av Mørkets herre Sauron.\u0000",
+    "Selv Treskjegg var til syvende og sist ingen match for orkenes raseri. \u0000",
+    "Han gjør nå nytte for seg som et likbål for døde hobbiter.\u0000",
+    "Selv den mektige trollmannen Gandalv ble for liten i møte med Mørkets herre. \u0000",
+    "Han har falt, og kan ikke vekkes opp igjen. \u0000",
+    "Hans rolle her er utspilt.\u0000",
+    "De som ikke kjempet i denne krigen skal nå bli krigens siste ofre.\u0000",
+    "Deres hjem vil brennes, \u0000",
+    "og fremtiden til deres barn vil bli ofret på Saurons grusomme alter.\u0000",
+    "Død og ødeleggelse er alt som vil være igjen, \u0000",
+    "for ondskapen til Mørkets herre kjenner ingen grenser, \u0000",
+    "og til slutt vil alt gå under.\u0000",
+    "For nå har mørket innhyllet alt som er levende, \u0000",
+    "og det har gjort beslag på oss alle.\u0000"
+  ]
+}

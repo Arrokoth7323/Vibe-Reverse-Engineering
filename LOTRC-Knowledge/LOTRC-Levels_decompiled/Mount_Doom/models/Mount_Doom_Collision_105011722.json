@@ -1,0 +1,368 @@
+{
+  "info": {
+    "key": "Mount_Doom_Collision_105011722",
+    "gamemodemask": -1,
+    "mat_offset": 4994288,
+    "buffer_info_offset": 765904,
+    "bounding_box": {
+      "center": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "unk_3": 0.0,
+      "half_width": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "unk_7": 0.0
+    },
+    "mesh_order_offset": 4994764,
+    "lod0": {
+      "start": 0,
+      "static_end": 0,
+      "skinned_end": 0,
+      "physics_end": 0,
+      "breakable_end": 0
+    },
+    "lod1": {
+      "start": 0,
+      "static_end": 0,
+      "skinned_end": 0,
+      "physics_end": 0,
+      "breakable_end": 0
+    },
+    "lod2": {
+      "start": 0,
+      "static_end": 0,
+      "skinned_end": 0,
+      "physics_end": 0,
+      "breakable_end": 0
+    },
+    "lod3": {
+      "start": 0,
+      "static_end": 0,
+      "skinned_end": 0,
+      "physics_end": 0,
+      "breakable_end": 0
+    },
+    "mat_num": 0,
+    "bones_offset": 4994160,
+    "bone_parents_offset": 4994208,
+    "bone_transforms_offset": 4994224,
+    "bones_num": 1,
+    "skin_binds_offset": 4994208,
+    "skin_binds_num": 0,
+    "skin_order_offset": 0,
+    "vbuff_offset": 4994768,
+    "vbuff_num": 0,
+    "ibuff_offset": 4994768,
+    "ibuff_num": 0,
+    "mesh_bounding_boxes_offset": 4994768,
+    "unk_46": 0.0,
+    "variation_counts": 0,
+    "vals_j_num": 0,
+    "vals_j_offset": 4994208,
+    "block_offset": 0,
+    "vals_k_offset": 0,
+    "asset_key": "Mount_Doom_Collision_105011722",
+    "asset_type": 0,
+    "unk_54": 1,
+    "unk_55": 0,
+    "shape_offset": 1131496,
+    "shape_num": 1,
+    "hk_constraint_data_offset": 0,
+    "hk_constraint_data_num": 0,
+    "hk_constraint_offset": 0,
+    "slots_offset": 0,
+    "slot_map_offset": 0,
+    "bone_bounding_boxes_offset": 4994176
+  },
+  "bone_parents": [
+    -1
+  ],
+  "bones": [
+    ""
+  ],
+  "bone_transforms": [
+    {
+      "x": {
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "y": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "z": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0,
+        "w": 0.0
+      },
+      "w": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      }
+    }
+  ],
+  "bone_bounding_boxes": [
+    {
+      "center": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "unk_3": 0.0,
+      "half_width": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "unk_7": 0.0
+    }
+  ],
+  "mat_order": [],
+  "mesh_order": [],
+  "mesh_bounding_boxes": [],
+  "skin_binds": [],
+  "vals_j": [],
+  "val_k_header": [],
+  "vals_k": [],
+  "skin_order": [],
+  "slots": [],
+  "slot_map": [],
+  "block_header": null,
+  "block_offsets": [],
+  "blocks": [],
+  "mats": [],
+  "mat_extras": [],
+  "buffer_infos": [],
+  "hk_constraint": null,
+  "hk_constraint_datas": [],
+  "shapes": [
+    {
+      "info": {
+        "offset": 0,
+        "kind": 1,
+        "unk_2": 0,
+        "unk_3": 0.0,
+        "unk_4": 0.0,
+        "unk_5": 0.0,
+        "translation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "unk_13": 1.0,
+        "unk_14": 0.0,
+        "unk_15": 0.0,
+        "unk_16": 0.0,
+        "unk_17": 1.0,
+        "unk_18": 0.0,
+        "unk_19": 0.0,
+        "unk_20": 0.0,
+        "unk_21": 1.0,
+        "unk_22": 0.0,
+        "unk_23": 0.5,
+        "unk_24": 0.0,
+        "unk_25": 0.0,
+        "unk_26": 0.0,
+        "hk_shape_num": 1,
+        "hk_shape_offset": 1168560,
+        "unk_29a": 0,
+        "unk_29b": 0,
+        "unk_29c": 0,
+        "unk_29d": 0,
+        "unk_30": -1.0
+      },
+      "extra": null,
+      "hk_shapes": [
+        {
+          "BVTreeMesh": {
+            "info": {
+              "translation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+              },
+              "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "key": "",
+              "offset": {
+                "x": -8.820001,
+                "y": -0.05,
+                "z": -11.247
+              },
+              "tree_scale": 742203.7
+            },
+            "shape": {
+              "tree": "2700732600b116665f45286dff2626b1144739112878ff108280013028e3ff1c8172013d3c177a4f1f26268213763c0c286d7a26262f117300013332177a4c042878ff312771733f277173262db1402800e51759393912410024260020149a7f111521200426000338283d41188055013736173b3804260003392771733e1671650c283d6f261e2f1b75620135343a1671650a283de5277173261eb1421a7c69013b27717341",
+              "verts": [
+                {
+                  "x": 2.573,
+                  "y": 0.0,
+                  "z": 11.131
+                },
+                {
+                  "x": 2.573,
+                  "y": 10.0,
+                  "z": 11.131
+                },
+                {
+                  "x": -5.34,
+                  "y": 0.0,
+                  "z": -0.569
+                },
+                {
+                  "x": -5.34,
+                  "y": 10.0,
+                  "z": -0.569
+                },
+                {
+                  "x": -4.783,
+                  "y": 0.0,
+                  "z": -1.564
+                },
+                {
+                  "x": -4.783,
+                  "y": 10.0,
+                  "z": -1.564
+                },
+                {
+                  "x": -6.08,
+                  "y": 0.0,
+                  "z": -5.77
+                },
+                {
+                  "x": -6.08,
+                  "y": 10.0,
+                  "z": -5.77
+                },
+                {
+                  "x": -8.77,
+                  "y": 0.0,
+                  "z": -5.573
+                },
+                {
+                  "x": -8.77,
+                  "y": 10.0,
+                  "z": -5.573
+                },
+                {
+                  "x": -8.619,
+                  "y": 0.0,
+                  "z": -11.197
+                },
+                {
+                  "x": -8.619,
+                  "y": 10.0,
+                  "z": -11.197
+                },
+                {
+                  "x": 6.738,
+                  "y": 0.0,
+                  "z": 8.898
+                },
+                {
+                  "x": 6.738,
+                  "y": 10.0,
+                  "z": 8.898
+                },
+                {
+                  "x": 2.573,
+                  "y": 0.0,
+                  "z": 11.131
+                },
+                {
+                  "x": 2.573,
+                  "y": 10.0,
+                  "z": 11.131
+                }
+              ],
+              "inds": [
+                0,
+                2,
+                1,
+                1,
+                2,
+                3,
+                2,
+                4,
+                3,
+                3,
+                4,
+                5,
+                4,
+                6,
+                5,
+                5,
+                6,
+                7,
+                6,
+                8,
+                7,
+                7,
+                8,
+                9,
+                8,
+                10,
+                9,
+                9,
+                10,
+                11,
+                10,
+                12,
+                11,
+                11,
+                12,
+                13,
+                12,
+                14,
+                13,
+                13,
+                14,
+                15,
+                11,
+                7,
+                9,
+                5,
+                1,
+                3,
+                5,
+                13,
+                1,
+                13,
+                7,
+                11,
+                5,
+                7,
+                13
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "vertex_data": [],
+  "index_data": []
+}

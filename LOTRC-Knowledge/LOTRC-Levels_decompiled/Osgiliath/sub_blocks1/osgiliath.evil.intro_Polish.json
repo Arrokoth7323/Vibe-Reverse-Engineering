@@ -1,0 +1,78 @@
+{
+  "vals": [
+    {
+      "t_start": 3.7,
+      "t_end": 7.28,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 184
+    },
+    {
+      "t_start": 7.28,
+      "t_end": 12.2,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 286
+    },
+    {
+      "t_start": 12.21,
+      "t_end": 15.08,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 410
+    },
+    {
+      "t_start": 15.08,
+      "t_end": 17.99,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 480
+    },
+    {
+      "t_start": 18.0,
+      "t_end": 22.02,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 562
+    },
+    {
+      "t_start": 22.02,
+      "t_end": 25.0,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 648
+    },
+    {
+      "t_start": 25.01,
+      "t_end": 30.67,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 706
+    },
+    {
+      "t_start": 30.67,
+      "t_end": 36.04,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 846
+    },
+    {
+      "t_start": 36.04,
+      "t_end": 40.79,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 996
+    }
+  ],
+  "strings": [
+    "Przekraczając nurt Anduiny pod osłoną ciemności...\u0000",
+    "siły rozpoznawcze orków wznawiają atak Saurona na nasz świat.\u0000",
+    "Natarcie rozpocznie się o północy.\u0000",
+    "Uderzając jak sztylet w serce Osgiliath.\u0000",
+    "Najcięższe ciosy zada elitarny oddział... \u0000",
+    "oczekujący na drugim brzegu.\u0000",
+    "Machiny oblężnicze luną na znienawidzonych strażników deszczem ognia.\u0000",
+    "Orkowie czekają na sygnał od ukrytych zwiadowców, którzy mają wskazać cel.\u0000",
+    "Ich mroczne serce płoną żądzą ujrzenia Osgiliath w płomieniach.\u0000"
+  ]
+}

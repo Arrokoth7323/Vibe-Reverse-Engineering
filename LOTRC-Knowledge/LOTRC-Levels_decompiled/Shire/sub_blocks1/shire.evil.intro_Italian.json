@@ -1,0 +1,110 @@
+{
+  "vals": [
+    {
+      "t_start": 4.63,
+      "t_end": 8.98,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 264
+    },
+    {
+      "t_start": 9.1,
+      "t_end": 11.6,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 418
+    },
+    {
+      "t_start": 11.72,
+      "t_end": 14.33,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 506
+    },
+    {
+      "t_start": 14.33,
+      "t_end": 17.28,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 586
+    },
+    {
+      "t_start": 17.28,
+      "t_end": 19.2,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 684
+    },
+    {
+      "t_start": 19.32,
+      "t_end": 23.16,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 750
+    },
+    {
+      "t_start": 23.28,
+      "t_end": 26.76,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 882
+    },
+    {
+      "t_start": 26.88,
+      "t_end": 29.42,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 976
+    },
+    {
+      "t_start": 29.42,
+      "t_end": 31.45,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1070
+    },
+    {
+      "t_start": 32.13,
+      "t_end": 36.87,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1118
+    },
+    {
+      "t_start": 36.92,
+      "t_end": 40.53,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1256
+    },
+    {
+      "t_start": 40.65,
+      "t_end": 47.27,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1366
+    },
+    {
+      "t_start": 47.27,
+      "t_end": 48.47,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1554
+    }
+  ],
+  "strings": [
+    "Infine, il pugno di ferro dell'Oscuro Sire è giunto ai margini della Contea.\u0000",
+    "La guerra ha violato i confini degli Hobbit\u0000",
+    "e non lascerà scampo a queste creature.\u0000",
+    "Gli ultimi Uomini liberi proveranno ad aiutarli,\u0000",
+    "ma le speranze non esistono più.\u0000",
+    "I Cavalieri Warg e le altre enormi bestie si preparano a colpire,\u0000",
+    "nessuno tra i vivi può opporsi al loro potere.\u0000",
+    "Forse l'Oscuro Sire in persona si farà avanti,\u0000",
+    "per godersi il trionfo.\u0000",
+    "Forse allora, insieme a Gandalf, renderemo le nostre vite con onore.\u0000",
+    "Disperato, Barbalbero guida l'ultima Marcia degli Ent.\u0000",
+    "Con il loro aiuto, e con quello di molti arcieri Mezzuomini, forse la Contea potrà resistere,\u0000",
+    "per breve tempo.\u0000"
+  ]
+}

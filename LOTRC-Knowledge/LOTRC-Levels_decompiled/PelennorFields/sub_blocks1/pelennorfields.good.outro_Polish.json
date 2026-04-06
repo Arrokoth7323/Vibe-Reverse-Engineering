@@ -1,0 +1,86 @@
+{
+  "vals": [
+    {
+      "t_start": 5.15,
+      "t_end": 8.65,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 204
+    },
+    {
+      "t_start": 8.65,
+      "t_end": 12.51,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 300
+    },
+    {
+      "t_start": 12.51,
+      "t_end": 15.62,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 396
+    },
+    {
+      "t_start": 15.62,
+      "t_end": 20.26,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 472
+    },
+    {
+      "t_start": 20.26,
+      "t_end": 24.27,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 606
+    },
+    {
+      "t_start": 24.27,
+      "t_end": 27.47,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 714
+    },
+    {
+      "t_start": 27.47,
+      "t_end": 30.59,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 824
+    },
+    {
+      "t_start": 30.59,
+      "t_end": 33.68,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 914
+    },
+    {
+      "t_start": 33.68,
+      "t_end": 35.47,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1022
+    },
+    {
+      "t_start": 35.48,
+      "t_end": 39.02,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1064
+    }
+  ],
+  "strings": [
+    "Losy bitwy spoczywają w chwiejnej równowadze...\u0000",
+    "aż w końcu zjawia się Aragorn z Armią Umarłych.\u0000",
+    "Nic, co żywe nie przeżyje ich gniewu.\u0000",
+    "Jak wielki by nie był nasz triumf, wojna jeszcze nie jest wygrana.\u0000",
+    "Władca Ciemności nadal zbiera siły za murami Mordoru.\u0000",
+    "Aby odciągnąć Oko Saurona od Powiernika Pierścienia...\u0000",
+    "musimy ponieść teraz jeszcze większe ofiary.\u0000",
+    "Ludzie Zachodu muszą zmierzyć się z nim u jego granic\u0000",
+    "i w jego królestwie.\u0000",
+    "A nawet ośmielić się zaatakować samego Czarnego Władcę.\u0000"
+  ]
+}

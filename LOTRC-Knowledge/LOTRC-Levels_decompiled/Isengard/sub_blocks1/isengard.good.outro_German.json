@@ -1,0 +1,86 @@
+{
+  "vals": [
+    {
+      "t_start": 5.47,
+      "t_end": 7.27,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 204
+    },
+    {
+      "t_start": 7.27,
+      "t_end": 11.2,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 248
+    },
+    {
+      "t_start": 11.23,
+      "t_end": 14.44,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 402
+    },
+    {
+      "t_start": 14.44,
+      "t_end": 17.81,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 488
+    },
+    {
+      "t_start": 17.81,
+      "t_end": 21.5,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 566
+    },
+    {
+      "t_start": 21.52,
+      "t_end": 24.98,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 692
+    },
+    {
+      "t_start": 25.0,
+      "t_end": 27.42,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 810
+    },
+    {
+      "t_start": 27.42,
+      "t_end": 30.23,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 894
+    },
+    {
+      "t_start": 30.24,
+      "t_end": 34.73,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 976
+    },
+    {
+      "t_start": 34.73,
+      "t_end": 36.93,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1060
+    }
+  ],
+  "strings": [
+    "Seiner Macht beraubt,\u0000",
+    "musste sich Saruman der geballten Entschlossenheit seiner Gegner ergeben ...\u0000",
+    "... und am Ende wurde sein Verrat gerächt.\u0000",
+    "Baumbart ist der neue Herr von Orthanc\u0000",
+    "und die Gruben Isengarts wurden von Sarumans Horden gereinigt.\u0000",
+    "Doch die Macht des Dunklen Herrschers ist nicht gebrochen,\u0000",
+    "denn Saruman war kaum mehr als ein Bauer,\u0000",
+    "benutzt um Gondors Grenzen zu schwächen.\u0000",
+    "In Mordor marschieren Saurons Armeen auf,\u0000",
+    "denn dieser Krieg hat gerade erst begonnen.\u0000"
+  ]
+}

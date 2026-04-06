@@ -1,0 +1,86 @@
+{
+  "vals": [
+    {
+      "t_start": 4.93,
+      "t_end": 9.13,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 204
+    },
+    {
+      "t_start": 9.49,
+      "t_end": 15.27,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 340
+    },
+    {
+      "t_start": 15.51,
+      "t_end": 18.35,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 502
+    },
+    {
+      "t_start": 18.47,
+      "t_end": 24.26,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 602
+    },
+    {
+      "t_start": 24.38,
+      "t_end": 28.55,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 750
+    },
+    {
+      "t_start": 28.55,
+      "t_end": 31.15,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 870
+    },
+    {
+      "t_start": 31.16,
+      "t_end": 35.82,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 942
+    },
+    {
+      "t_start": 35.82,
+      "t_end": 38.04,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1080
+    },
+    {
+      "t_start": 38.05,
+      "t_end": 42.56,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1160
+    },
+    {
+      "t_start": 42.56,
+      "t_end": 47.65,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1310
+    }
+  ],
+  "strings": [
+    "Anche le miniere di Moria, a nord, diventano sempre più pericolose.\u0000",
+    "Qui, in passato, Gandalf aveva sconfitto il Balrog, dopo lunghi giorni di lotta.\u0000",
+    "Quella terribile battaglia gli è costata la vita,\u0000",
+    "ma ha permesso al Portatore dell'Anello di sfuggire da quei tetri luoghi.\u0000",
+    "La grande città sotterranea di Moria rimane comunque dimora\u0000",
+    "di Goblin e altre creature maligne.\u0000",
+    "Ora è il momento, per le Genti Libere, di liberare per sempre Moria.\u0000",
+    "Alla loro testa ci sarà Gimli, il Nano.\u0000",
+    "La situazione però, é pericolosa: profonde fenditure si aprono nel terreno\u0000",
+    "e Gandalf teme che un nuovo male torni a infestare i saloni.\u0000"
+  ]
+}

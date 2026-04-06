@@ -1,0 +1,102 @@
+{
+  "vals": [
+    {
+      "t_start": 4.94,
+      "t_end": 6.79,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 244
+    },
+    {
+      "t_start": 6.79,
+      "t_end": 11.43,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 298
+    },
+    {
+      "t_start": 11.44,
+      "t_end": 13.56,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 420
+    },
+    {
+      "t_start": 13.56,
+      "t_end": 15.76,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 492
+    },
+    {
+      "t_start": 15.76,
+      "t_end": 18.04,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 590
+    },
+    {
+      "t_start": 18.05,
+      "t_end": 20.56,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 662
+    },
+    {
+      "t_start": 20.56,
+      "t_end": 24.23,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 726
+    },
+    {
+      "t_start": 24.24,
+      "t_end": 28.94,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 846
+    },
+    {
+      "t_start": 28.94,
+      "t_end": 32.08,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 984
+    },
+    {
+      "t_start": 32.09,
+      "t_end": 37.65,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1072
+    },
+    {
+      "t_start": 37.65,
+      "t_end": 42.08,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1208
+    },
+    {
+      "t_start": 42.08,
+      "t_end": 44.5,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1342
+    }
+  ],
+  "strings": [
+    "Caring not at all the cost\u0000",
+    "the Dark Lord's servants have regained for him the One Ring.\u0000",
+    "Sensing that the tide has turned...\u0000",
+    "the Free People of Middle-earth must now retreat\u0000",
+    "and prepare to defend their realms.\u0000",
+    "The power of Sauron is restored\u0000",
+    "and few who still survive this war dare hope to oppose him.\u0000",
+    "But the Dark Lord's pride remains stung by Gondor's recent victories\u0000",
+    "and he intends to extract full retribution.\u0000",
+    "With new and vast powers, Sauron now resurrects his fallen chattel.\u0000",
+    "He calls again to life many of his darkest heroes and champions...\u0000",
+    " to slay once more in his name.\u0000"
+  ]
+}

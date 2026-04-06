@@ -1,0 +1,54 @@
+{
+  "vals": [
+    {
+      "t_start": 5.04,
+      "t_end": 8.79,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 124
+    },
+    {
+      "t_start": 8.91,
+      "t_end": 14.35,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 256
+    },
+    {
+      "t_start": 14.36,
+      "t_end": 18.76,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 386
+    },
+    {
+      "t_start": 18.77,
+      "t_end": 23.5,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 542
+    },
+    {
+      "t_start": 23.52,
+      "t_end": 26.15,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 698
+    },
+    {
+      "t_start": 26.9,
+      "t_end": 29.87,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 756
+    }
+  ],
+  "strings": [
+    "Nell'ora più oscura, però, il suono del corno ha scosso la città:\u0000",
+    "un antico giuramento è stato onorato, finalmente Rohan è giunto.\u0000",
+    "Thèoden ha condotto con sé tutti i cavalieri del nord ed è pronto al rischio.\u0000",
+    "Gli Orchetti devono abbandonare la città, per fronteggiare la nuova minaccia.\u0000",
+    "Ora, sul campo di battaglia,\u0000",
+    "il destino di Gondor sarà deciso.\u0000"
+  ]
+}

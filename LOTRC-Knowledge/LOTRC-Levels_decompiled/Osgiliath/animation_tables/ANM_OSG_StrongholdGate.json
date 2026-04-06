@@ -1,0 +1,7 @@
+{
+  "CloseIdle": "OSG_BL_StrongholdGate_Door_01_idle_closed",
+  "Bump": "OSG_BL_StrongholdGate_Door_01_first_bump",
+  "OpenIdle": "OSG_BL_StrongholdGate_Door_01_idle_open",
+  "Open": "OSG_BL_StrongholdGate_Door_01_open",
+  "BumpIdle": "OSG_BL_StrongholdGate_Door_01_idle_closed_afterBump"
+}

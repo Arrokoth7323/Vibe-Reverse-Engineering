@@ -1,0 +1,62 @@
+{
+  "vals": [
+    {
+      "t_start": 4.8,
+      "t_end": 9.48,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 144
+    },
+    {
+      "t_start": 9.49,
+      "t_end": 13.37,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 286
+    },
+    {
+      "t_start": 13.38,
+      "t_end": 15.63,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 426
+    },
+    {
+      "t_start": 15.63,
+      "t_end": 19.51,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 504
+    },
+    {
+      "t_start": 19.52,
+      "t_end": 22.55,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 640
+    },
+    {
+      "t_start": 22.56,
+      "t_end": 23.92,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 728
+    },
+    {
+      "t_start": 24.04,
+      "t_end": 29.87,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 772
+    }
+  ],
+  "strings": [
+    "I prodi guerrieri hanno scacciato molte vili creature da Minas Morgul,\u0000",
+    "ma non è possibile abbattere del tutto il male che corrompe la città.\u0000",
+    "Se anche la città fosse rasa al suolo,\u0000",
+    "nessuno oserebbe sostare a lungo nel luogo dove ancora vive Sauron.\u0000",
+    "La nostra ordalia non si è ancora conclusa:\u0000",
+    "per abbattere Sauron,\u0000",
+    "il Portatore dell'Anello deve gettare l'Unico Anello nelle fiamme di Monte Fato.\u0000"
+  ]
+}

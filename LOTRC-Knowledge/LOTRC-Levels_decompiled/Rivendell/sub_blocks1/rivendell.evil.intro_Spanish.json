@@ -1,0 +1,62 @@
+{
+  "vals": [
+    {
+      "t_start": 5.49,
+      "t_end": 10.12,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 144
+    },
+    {
+      "t_start": 10.12,
+      "t_end": 13.19,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 300
+    },
+    {
+      "t_start": 13.19,
+      "t_end": 15.16,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 416
+    },
+    {
+      "t_start": 15.16,
+      "t_end": 19.94,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 488
+    },
+    {
+      "t_start": 19.94,
+      "t_end": 23.37,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 644
+    },
+    {
+      "t_start": 23.37,
+      "t_end": 26.69,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 752
+    },
+    {
+      "t_start": 26.69,
+      "t_end": 29.63,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 832
+    }
+  ],
+  "strings": [
+    "Rivendel se ha convertido en una isla, con tormentas rugiendo a su alrededor.\u0000",
+    "Aquí se han reunido los últimos elfos de la Tierra Media,\u0000",
+    "para consumar la resistencia final.\u0000",
+    "Si los elfos de Rivendel no consiguen detener la arrolladora marea de Sauron,\u0000",
+    "poco quedará para resistir a su sofocante oscuridad. \u0000",
+    "Debemos sacrificar nuestra inmortalidad\u0000",
+    "por aquellos que aún sobreviven en la Tierra Media.\u0000"
+  ]
+}

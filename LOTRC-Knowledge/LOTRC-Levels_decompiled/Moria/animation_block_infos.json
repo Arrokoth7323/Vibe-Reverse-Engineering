@@ -1,0 +1,68 @@
+[
+  {
+    "key": "evilcampaign",
+    "guid": 95004018,
+    "key_name": "Evil Campaign",
+    "offset": 4096,
+    "size": 8233760,
+    "size_comp": 5305617,
+    "unk_6": 0,
+    "unk_7": 0,
+    "unk_8": 0
+  },
+  {
+    "key": "goodcampaign",
+    "guid": 109008193,
+    "key_name": "Good Campaign",
+    "offset": 5312512,
+    "size": 8477248,
+    "size_comp": 5467890,
+    "unk_6": 0,
+    "unk_7": 0,
+    "unk_8": 0
+  },
+  {
+    "key": "teamdm",
+    "guid": 109020593,
+    "key_name": "Team Deathmatch",
+    "offset": 10780672,
+    "size": 5586992,
+    "size_comp": 3518202,
+    "unk_6": 0,
+    "unk_7": 0,
+    "unk_8": 0
+  },
+  {
+    "key": "Conquest",
+    "guid": 109020594,
+    "key_name": "Conquest",
+    "offset": 14299136,
+    "size": 6090480,
+    "size_comp": 3937041,
+    "unk_6": 0,
+    "unk_7": 0,
+    "unk_8": 0
+  },
+  {
+    "key": "Custom",
+    "guid": 117008020,
+    "key_name": "Art",
+    "offset": 18239488,
+    "size": 2181072,
+    "size_comp": 1360493,
+    "unk_6": 0,
+    "unk_7": 0,
+    "unk_8": 0
+  },
+  {
+    "key": "ctr",
+    "guid": 158002505,
+    "key_name": "Capture the Ring",
+    "offset": 19603456,
+    "size": 5601904,
+    "size_comp": 3526442,
+    "unk_6": 0,
+    "unk_7": 0,
+    "unk_8": 0
+  }
+]

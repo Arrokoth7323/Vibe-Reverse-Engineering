@@ -1,0 +1,78 @@
+{
+  "vals": [
+    {
+      "t_start": 5.53,
+      "t_end": 6.94,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 184
+    },
+    {
+      "t_start": 6.95,
+      "t_end": 12.21,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 222
+    },
+    {
+      "t_start": 12.23,
+      "t_end": 18.2,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 394
+    },
+    {
+      "t_start": 18.2,
+      "t_end": 22.48,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 586
+    },
+    {
+      "t_start": 22.49,
+      "t_end": 24.99,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 734
+    },
+    {
+      "t_start": 25.0,
+      "t_end": 29.22,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 834
+    },
+    {
+      "t_start": 29.24,
+      "t_end": 32.47,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 968
+    },
+    {
+      "t_start": 32.48,
+      "t_end": 35.73,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1130
+    },
+    {
+      "t_start": 35.74,
+      "t_end": 37.63,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1214
+    }
+  ],
+  "strings": [
+    "En edades pasadas,\u0000",
+    "el Señor Oscuro se hizo con Minas Morgul y la corrompió con sus perversos maleficios.\u0000",
+    "Se convirtió en el infecto dominio del Rey Brujo, iluminado por la pálida luz de los cadáveres.\u0000",
+    "Esta fortaleza la defienden tanto orcos como la guardia mágica de Sauron,\u0000",
+    "que extrae la fuerza de todos los que se acercan.\u0000",
+    "Y volando por encima, los espectros del Anillo protegen la ciudad.\u0000",
+    "Los hombres del oeste deberán usar las artes del asedio y la fuerza de las armas\u0000",
+    "para forzar las puertas de esta ciudadela\u0000",
+    "y dominar al mal que habita en su interior.\u0000"
+  ]
+}

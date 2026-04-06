@@ -1,0 +1,7 @@
+{
+  "CloseIdle": "MGL_BL_FrontGateDoors_Test_idle_closed",
+  "Bump": "MGL_BL_FrontGateDoors_Test_first_bump",
+  "OpenIdle": "MGL_BL_FrontGateDoors_Test_idle_open",
+  "Open": "MGL_BL_FrontGateDoors_Test_open",
+  "BumpIdle": "MGL_BL_FrontGateDoors_Test_idle_closed_afterbump"
+}

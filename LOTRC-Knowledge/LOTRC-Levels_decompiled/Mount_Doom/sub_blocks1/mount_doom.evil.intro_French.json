@@ -1,0 +1,110 @@
+{
+  "vals": [
+    {
+      "t_start": 5.35,
+      "t_end": 11.09,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 264
+    },
+    {
+      "t_start": 11.09,
+      "t_end": 14.7,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 428
+    },
+    {
+      "t_start": 14.72,
+      "t_end": 19.18,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 556
+    },
+    {
+      "t_start": 19.19,
+      "t_end": 22.43,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 708
+    },
+    {
+      "t_start": 22.45,
+      "t_end": 28.92,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 824
+    },
+    {
+      "t_start": 28.93,
+      "t_end": 33.83,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 936
+    },
+    {
+      "t_start": 33.83,
+      "t_end": 36.39,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1132
+    },
+    {
+      "t_start": 36.42,
+      "t_end": 39.81,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1218
+    },
+    {
+      "t_start": 39.83,
+      "t_end": 45.7,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1292
+    },
+    {
+      "t_start": 45.72,
+      "t_end": 50.23,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1446
+    },
+    {
+      "t_start": 50.23,
+      "t_end": 55.44,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1564
+    },
+    {
+      "t_start": 55.44,
+      "t_end": 59.38,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1752
+    },
+    {
+      "t_start": 59.39,
+      "t_end": 63.18,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1860
+    }
+  ],
+  "strings": [
+    "Affaibli par le pouvoir de l'Anneau Unique, Frodon finit par s'en déclarer maître\u0000",
+    "et les fondations même de la Terre du Milieu en sont ébranlées.\u0000",
+    "Le Seigneur des Ténèbres désire plus que tout que son corps lui soit rendu.\u0000",
+    "Mais pour pouvoir arpenter de nouveau la Terre du Milieu,\u0000",
+    "Sauron a besoin de l'Anneau de Frodon, coûte que coûte.\u0000",
+    "Sur l'ordre du Seigneur des Ténèbres, ses Nazgûls se hâtent maintenant vers la Montagne du Destin\u0000",
+    "et n'ont plus que cette pensée à l'esprit.\u0000",
+    "Ils n'ont qu'un seul but meurtrier :\u0000",
+    "tuer Frodon pour récupérer l'Anneau, à présent qu'il est à portée de Sauron.\u0000",
+    "De nombreuses garnisons d'orques osent convoiter l'Anneau,\u0000",
+    "générant émeutes et guerre civile partout où ils vont et marchant vers la Montagne du Destin.\u0000",
+    "Mais les rapides Nazgûls ne supporteront aucun retard\u0000",
+    "et tueront tout serviteur des ténèbres qui oserait leur barrer la route.\u0000"
+  ]
+}

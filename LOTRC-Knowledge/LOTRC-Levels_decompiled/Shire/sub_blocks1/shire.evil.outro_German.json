@@ -1,0 +1,134 @@
+{
+  "vals": [
+    {
+      "t_start": 4.88,
+      "t_end": 8.04,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 324
+    },
+    {
+      "t_start": 8.04,
+      "t_end": 12.45,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 412
+    },
+    {
+      "t_start": 12.45,
+      "t_end": 17.04,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 518
+    },
+    {
+      "t_start": 17.04,
+      "t_end": 21.74,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 648
+    },
+    {
+      "t_start": 21.74,
+      "t_end": 27.0,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 758
+    },
+    {
+      "t_start": 27.0,
+      "t_end": 31.57,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 918
+    },
+    {
+      "t_start": 31.57,
+      "t_end": 34.81,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1074
+    },
+    {
+      "t_start": 34.81,
+      "t_end": 37.67,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1170
+    },
+    {
+      "t_start": 37.67,
+      "t_end": 42.23,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1230
+    },
+    {
+      "t_start": 42.23,
+      "t_end": 44.23,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1396
+    },
+    {
+      "t_start": 44.23,
+      "t_end": 49.61,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1450
+    },
+    {
+      "t_start": 49.61,
+      "t_end": 53.52,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1594
+    },
+    {
+      "t_start": 53.52,
+      "t_end": 56.95,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1666
+    },
+    {
+      "t_start": 56.95,
+      "t_end": 60.6,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1786
+    },
+    {
+      "t_start": 60.6,
+      "t_end": 65.03,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1856
+    },
+    {
+      "t_start": 65.03,
+      "t_end": 67.11,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1950
+    }
+  ],
+  "strings": [
+    "Dies ist das Ende dieses fröhlichen Volkes,\u0000",
+    "ihre Hobbithöhlen sind Gräber, ihre Bäume Brennholz.\u0000",
+    "Die wenigen Überlebenden wurden vom dunklen Herrscher versklavt.\u0000",
+    "Nicht einmal Baumbart konnte den Orcs am Ende trotzen,\u0000",
+    "er ist nun ein Leuchtfeuer, in dem die Leiber der gefallenen Halblinge brennen.\u0000",
+    "Selbst der große Zauberer Gandalf konnte dem Dunklen Herrscher nicht trotzen.\u0000",
+    "Er ist gefallen und unwiederbringlich verloren.\u0000",
+    "Sein Schicksal ist besiegelt.\u0000",
+    "All jene, die nicht in diesem Krieg kämpften, werden nun seine letzten Opfer sein.\u0000",
+    "Ihre Häuser werden brennen\u0000",
+    "und die Zukunft ihrer Kinder wird auf Saurons grausamem Altar geopfert.\u0000",
+    "Was bleibt, sind Tod und Verderben,\u0000",
+    "denn die Grausamkeit des Dunklen Herrschers ist grenzenlos,\u0000",
+    "und am Ende wird nichts mehr sein.\u0000",
+    "Denn nun hat das Böse alles Leben verschlungen\u0000",
+    "und uns alle in die Dunkelheit gestürzt.\u0000"
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "vals": [
+    {
+      "t_start": 4.94,
+      "t_end": 6.79,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 244
+    },
+    {
+      "t_start": 6.79,
+      "t_end": 11.43,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 358
+    },
+    {
+      "t_start": 11.44,
+      "t_end": 13.56,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 436
+    },
+    {
+      "t_start": 13.56,
+      "t_end": 15.76,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 500
+    },
+    {
+      "t_start": 15.76,
+      "t_end": 18.04,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 582
+    },
+    {
+      "t_start": 18.05,
+      "t_end": 20.56,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 688
+    },
+    {
+      "t_start": 20.56,
+      "t_end": 24.23,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 766
+    },
+    {
+      "t_start": 24.24,
+      "t_end": 28.94,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 892
+    },
+    {
+      "t_start": 28.94,
+      "t_end": 32.08,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1064
+    },
+    {
+      "t_start": 32.09,
+      "t_end": 37.65,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1196
+    },
+    {
+      "t_start": 37.65,
+      "t_end": 42.08,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1358
+    },
+    {
+      "t_start": 42.08,
+      "t_end": 44.5,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1488
+    }
+  ],
+  "strings": [
+    "Coûte que coûte, Les serviteurs du Seigneur des Ténèbres\u0000",
+    "ont récupéré l'Anneau Unique pour lui.\u0000",
+    "Sentant que la chance a tourné,\u0000",
+    "les Peuples Libres de la Terre du Milieu\u0000",
+    "doivent battre en retraite et préparer leur défense.\u0000",
+    "Sauron a recouvré son pouvoir et rares\u0000",
+    "sont les survivants de cette guerre qui osent s'opposer à lui.\u0000",
+    "Mais le Seigneur des Ténèbres a été piqué au vif par les récentes victoires du Gondor\u0000",
+    "et il a bien l'intention de leur infliger le châtiment approprié.\u0000",
+    "Grâce à ses nouveaux immenses pouvoirs, Sauron recrée ses possessions détruites.\u0000",
+    "Il ressuscite nombre de ses héros et champions les plus infâmes,\u0000",
+    "pour qu'ils tuent à nouveau en son nom.\u0000"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "vals": [
+    {
+      "t_start": 4.87,
+      "t_end": 8.31,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 204
+    },
+    {
+      "t_start": 8.32,
+      "t_end": 12.64,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 306
+    },
+    {
+      "t_start": 12.66,
+      "t_end": 16.43,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 442
+    },
+    {
+      "t_start": 16.44,
+      "t_end": 19.5,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 568
+    },
+    {
+      "t_start": 19.62,
+      "t_end": 22.89,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 664
+    },
+    {
+      "t_start": 23.28,
+      "t_end": 26.56,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 758
+    },
+    {
+      "t_start": 26.57,
+      "t_end": 28.2,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 858
+    },
+    {
+      "t_start": 28.2,
+      "t_end": 30.81,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 912
+    },
+    {
+      "t_start": 30.93,
+      "t_end": 32.41,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1006
+    },
+    {
+      "t_start": 32.53,
+      "t_end": 36.3,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1056
+    }
+  ],
+  "strings": [
+    "Nun, da Gondor in die Dunkelheit zu stürzen droht,\u0000",
+    "stehen Saurons grausame Heerscharen vor den Toren der Weißen Stadt.\u0000",
+    "Riesige Belagerungstürme, voll beladen mit blutrünstigen Orks,\u0000",
+    "nähern sich unaufhaltsam den umkämpften Mauern.\u0000",
+    "Gegen das Haupttor hämmert unerbittlich Grond,\u0000",
+    "ein todbringender Rammbock voller wölfischer Wut.\u0000",
+    "Um die Hoffnung zu wahren,\u0000",
+    "müssen die Krieger Gondors die Ringe der Stadt\u0000",
+    "so lange es geht halten,\u0000",
+    "bevor sie sich tiefer in die brennende Zitadelle zurückziehen.\u0000"
+  ]
+}

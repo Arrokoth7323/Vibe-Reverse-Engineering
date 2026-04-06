@@ -1,0 +1,10 @@
+{
+  "GlidingLft": "CH_eagle_glide_bank_left",
+  "FlappingRgt": "CH_eagle_fly_bank_right",
+  "GlidingRgt": "CH_eagle_glide_bank_right",
+  "FlappingLft": "CH_eagle_fly_bank_left",
+  "FlappingFwd": "CH_eagle_fly",
+  "Screech": "CH_eagle_screech",
+  "GlidingFwd": "CH_eagle_glide",
+  "Attack": "ch_eagle_attack"
+}

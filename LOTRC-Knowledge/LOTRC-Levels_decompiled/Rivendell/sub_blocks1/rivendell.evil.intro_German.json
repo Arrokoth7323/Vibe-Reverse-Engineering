@@ -1,0 +1,62 @@
+{
+  "vals": [
+    {
+      "t_start": 5.49,
+      "t_end": 10.12,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 144
+    },
+    {
+      "t_start": 10.12,
+      "t_end": 11.99,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 288
+    },
+    {
+      "t_start": 12.11,
+      "t_end": 15.16,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 344
+    },
+    {
+      "t_start": 15.16,
+      "t_end": 18.51,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 440
+    },
+    {
+      "t_start": 19.06,
+      "t_end": 22.09,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 554
+    },
+    {
+      "t_start": 23.2,
+      "t_end": 25.77,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 654
+    },
+    {
+      "t_start": 25.89,
+      "t_end": 28.5,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 738
+    }
+  ],
+  "strings": [
+    "Bruchtal ist nur noch eine Insel, die von wütenden Stürmen umtost wird.\u0000",
+    "Hier haben sich die letzten\u0000",
+    "Elben Mittelerdes noch einmal um mich geschart.\u0000",
+    "Wenn die Elben die hereinbrechende Flut nicht aufhalten,\u0000",
+    "kann nichts mehr die nahende Dunkelheit abwenden.\u0000",
+    "Wir müssen unsere Unsterblichkeit opfern,\u0000",
+    "für die Überlebenden Mittelerdes.\u0000"
+  ]
+}

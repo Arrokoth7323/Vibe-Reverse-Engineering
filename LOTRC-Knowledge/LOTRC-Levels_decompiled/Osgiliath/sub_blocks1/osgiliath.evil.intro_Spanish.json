@@ -1,0 +1,78 @@
+{
+  "vals": [
+    {
+      "t_start": 3.7,
+      "t_end": 7.28,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 184
+    },
+    {
+      "t_start": 7.28,
+      "t_end": 12.2,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 368
+    },
+    {
+      "t_start": 12.21,
+      "t_end": 15.08,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 472
+    },
+    {
+      "t_start": 15.08,
+      "t_end": 17.99,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 562
+    },
+    {
+      "t_start": 18.0,
+      "t_end": 22.02,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 648
+    },
+    {
+      "t_start": 22.02,
+      "t_end": 25.0,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 746
+    },
+    {
+      "t_start": 25.01,
+      "t_end": 30.67,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 806
+    },
+    {
+      "t_start": 30.67,
+      "t_end": 36.04,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 968
+    },
+    {
+      "t_start": 36.04,
+      "t_end": 40.79,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1124
+    }
+  ],
+  "strings": [
+    "El nuevo ataque de Sauron sobre nuestro mundo comienza con una fuerza de exploradores orcos\u0000",
+    "que cruza el río Anduin amparados por la oscuridad.\u0000",
+    "El asalto orco será a medianoche y golpeará,\u0000",
+    "como una daga, en el corazón de Osgiliath.\u0000",
+    "El golpe más letal lo lanzará una horda de élite\u0000",
+    "que espera en la otra orilla.\u0000",
+    "Sus máquinas de guerra aguardan para escupir fuego sobre los odiados montaraces.\u0000",
+    "Los orcos esperan señales de los exploradores que identifiquen sus objetivos.\u0000",
+    "Sus oscuros corazones ansían ver Osgiliath en llamas.\u0000"
+  ]
+}

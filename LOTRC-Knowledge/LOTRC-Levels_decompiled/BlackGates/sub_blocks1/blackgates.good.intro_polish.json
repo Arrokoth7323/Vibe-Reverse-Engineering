@@ -1,0 +1,62 @@
+{
+  "vals": [
+    {
+      "t_start": 5.0,
+      "t_end": 10.59,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 144
+    },
+    {
+      "t_start": 10.6,
+      "t_end": 15.75,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 290
+    },
+    {
+      "t_start": 15.76,
+      "t_end": 20.06,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 398
+    },
+    {
+      "t_start": 20.07,
+      "t_end": 24.13,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 514
+    },
+    {
+      "t_start": 24.16,
+      "t_end": 26.25,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 626
+    },
+    {
+      "t_start": 26.26,
+      "t_end": 30.13,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 686
+    },
+    {
+      "t_start": 30.13,
+      "t_end": 32.35,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 796
+    }
+  ],
+  "strings": [
+    "Mała, lecz dzielna armia znalazła się w końcu w paszczy pułapki Saurona.\u0000",
+    "Odwaga ich jednak nie opuści, a nadzieja nie zgaśnie.\u0000",
+    "Wiedzą bowiem, że ich poświęcenie u Czarnych Wrót Mordoru\u0000",
+    "da czas potrzebny, by Frodo zniszczył Jedyny Pierścień.\u0000",
+    "I w tej ostatniej godzinie...\u0000",
+    "Kapitanowie Zachodu muszą kontynuować walkę o wolność,\u0000",
+    "dopóki starczy im tchu.\u0000"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "vals": [
+    {
+      "t_start": 4.86,
+      "t_end": 8.81,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 184
+    },
+    {
+      "t_start": 8.81,
+      "t_end": 13.85,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 254
+    },
+    {
+      "t_start": 13.85,
+      "t_end": 18.01,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 388
+    },
+    {
+      "t_start": 18.01,
+      "t_end": 21.5,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 528
+    },
+    {
+      "t_start": 21.5,
+      "t_end": 25.57,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 632
+    },
+    {
+      "t_start": 25.57,
+      "t_end": 28.38,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 732
+    },
+    {
+      "t_start": 28.38,
+      "t_end": 31.93,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 818
+    },
+    {
+      "t_start": 31.93,
+      "t_end": 35.42,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 926
+    },
+    {
+      "t_start": 35.42,
+      "t_end": 40.24,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 998
+    }
+  ],
+  "strings": [
+    "Hele Minas Tirith står i flammer. \u0000",
+    "Gatene ligger i ruiner og de nedre ringene av byen er lagt i støv.\u0000",
+    "Fra Gravkammeret hvor de døde Kongene av Gondor følger med i redsel, \u0000",
+    "til Det hvite treet som brenner, alt er nå ødelagt.\u0000",
+    "Orkene holder nå bankett i Ecthelions hvite tårn \u0000",
+    "og skjender konger såvel som vanlige folk.\u0000",
+    "Slik markeres slutten på Minas Tirith, den hvite by, \u0000",
+    "og med den, menneskenes beste håp. \u0000",
+    "Krigen må fortsette, men vi har blitt hardt svekket.\u0000"
+  ]
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "key": "Custom",
+    "guid": 117008017,
+    "key_name": "Art",
+    "offset": 4096,
+    "size": 1791696,
+    "size_comp": 1110171,
+    "unk_6": 0,
+    "unk_7": 0,
+    "unk_8": 0
+  },
+  {
+    "key": "goodcampaign",
+    "guid": 1100005218,
+    "key_name": "Good Campaign",
+    "offset": 1118208,
+    "size": 6840112,
+    "size_comp": 4362231,
+    "unk_6": 0,
+    "unk_7": 0,
+    "unk_8": 0
+  },
+  {
+    "key": "Conquest",
+    "guid": 1100009695,
+    "key_name": "Conquest",
+    "offset": 5480448,
+    "size": 5058496,
+    "size_comp": 3199770,
+    "unk_6": 0,
+    "unk_7": 0,
+    "unk_8": 0
+  },
+  {
+    "key": "ctr",
+    "guid": 1100040578,
+    "key_name": "Capture the Ring",
+    "offset": 8683520,
+    "size": 5073408,
+    "size_comp": 3208182,
+    "unk_6": 0,
+    "unk_7": 0,
+    "unk_8": 0
+  },
+  {
+    "key": "hero_teamdm",
+    "guid": 1100042580,
+    "key_name": "Hero Team Deathmatch",
+    "offset": 11894784,
+    "size": 7021584,
+    "size_comp": 4471624,
+    "unk_6": 0,
+    "unk_7": 0,
+    "unk_8": 0
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "vals": [
+    {
+      "t_start": 5.0,
+      "t_end": 10.59,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 144
+    },
+    {
+      "t_start": 10.6,
+      "t_end": 15.75,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 282
+    },
+    {
+      "t_start": 15.76,
+      "t_end": 20.06,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 416
+    },
+    {
+      "t_start": 20.07,
+      "t_end": 24.13,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 542
+    },
+    {
+      "t_start": 24.16,
+      "t_end": 26.25,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 660
+    },
+    {
+      "t_start": 26.26,
+      "t_end": 30.13,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 712
+    },
+    {
+      "t_start": 30.13,
+      "t_end": 32.35,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 844
+    }
+  ],
+  "strings": [
+    "A small, brave army stands at last within the jaws of Sauron's trap.\u0000",
+    "But the courage of men will not fail and their hope will not fade.\u0000",
+    "For they hold that their sacrifice at the Black Gate of Mordor\u0000",
+    "shall gain time for Frodo to at last destroy the One Ring.\u0000",
+    "And in this final hour...\u0000",
+    "the Captains of the West must continue to fight for their freedom\u0000",
+    "while their breath still remains.\u0000"
+  ]
+}

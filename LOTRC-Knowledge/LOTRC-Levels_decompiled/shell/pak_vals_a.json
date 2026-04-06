@@ -1,0 +1,1046 @@
+[
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "lotr_map_blue_nonames",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 683817535,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "UI_ps3button_LS",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 713505035,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "0x104D2CB4",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 654598785,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "UI_button_LT_Shell",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 712880035,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "btn8",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 0,
+    "unk_6": 0
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "Havok",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 705223785,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "Conquest_Logo_RUSSIAN",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 720536285,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "UI_button_DD",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 685692535,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "btn4",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 0,
+    "unk_6": 0
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "btn5",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 0,
+    "unk_6": 0
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "0x28029109",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 0,
+    "unk_6": 0
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "wavyclouds",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 707411285,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "UI_button_Start",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 721473785,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "btn7",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 0,
+    "unk_6": 0
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "UI_ps3button_L1",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 715848785,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "Conquest_Logo_SPANISH",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 712098785,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "btn1",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 0,
+    "unk_6": 0
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "UI_ps3button_L3",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 717880035,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "UI_button_DL",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 690536285,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "btn2",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 0,
+    "unk_6": 0
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "UI_ps3button_L2",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 724442535,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "Conquest_Logo_NORWEGIAN",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 658505035,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "UI_lock_icon",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 704286285,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "btn3",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 0,
+    "unk_6": 0
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "UI_ps3button_R2",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 692098785,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "Conquest_Logo_ITALIAN",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 710692535,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "UI_ps3button_R3",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 700848785,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "UI_ps3button_square",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 701786285,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "UI_ps3button_R1",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 715536285,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "UI_button_DU",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 699286285,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "UI_ps3button_circle",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 708661285,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "scrollingtext2",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 708192535,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "skills",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 724755035,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "UI_ps3button_start",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 702880035,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "UI_ps3button_RS",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 701473785,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "UI_ps3button_DR",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 689130035,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "UI_button_LB",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 690067535,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "Conquest_Logo_GERMAN",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 715223785,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "UI_button_A",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 705692535,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "UI_ps3button_DU",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 699598785,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "UI_button_B",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 693036285,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "Conquest_Logo_FRENCH",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 698973785,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "UI_button_RT",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 700380035,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "Conquest_Logo_Horizontal",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 697880035,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "UI_ps3button_Select",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 725692535,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "UI_button_RT_Shell",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 725380035,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "UI_button_RS",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 717255035,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "UI_ps3button_L",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 716161285,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "UI_button_LS",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 726942535,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "map_blue_small",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 688036285,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "UI_ps3button_R",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 691630035,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "btn18",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 0,
+    "unk_6": 0
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "btn19",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 0,
+    "unk_6": 0
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "UI_ps3button_DD",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 713192535,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "Conquest_Logo_POLISH",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 723348785,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "smoke_mask",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 685223785,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "UI_button_LT",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 718817535,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "UI_ps3button_cross",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 690536285,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "0xE3F32720",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 0,
+    "unk_6": 0
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "UI_ps3button_RSD",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 714286285,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "UI_button_RSD",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 688505035,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "btn12",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 0,
+    "unk_6": 0
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "0xEA711C4E",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 0,
+    "unk_6": 0
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "0xEEB001F9",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 0,
+    "unk_6": 0
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "Wwise",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 694598785,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "UI_button_RB",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 722255035,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "0xF0F751FC",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 0,
+    "unk_6": 0
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "UI_button_LSD",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 722255035,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "UI_ps3button_LSD",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 692411285,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "UI_ps3button_DL",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 721161285,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "0xF4364C4B",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 0,
+    "unk_6": 0
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "0xF9756A92",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 0,
+    "unk_6": 0
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "UI_button_Y",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 726630035,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "Conquest_Logo_SWEDEN",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 656630035,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "UI_button_X",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 721005035,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "0xFDB47725",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 0,
+    "unk_6": 0
+  },
+  {
+    "unk_0": 2,
+    "gamemodemask": -1,
+    "key": "UI_ps3button_triangle",
+    "unk_3": 6029427,
+    "unk_4": 7667788,
+    "unk_5": 691942535,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 3,
+    "gamemodemask": -1,
+    "key": "ModeSelectInstant",
+    "unk_3": 2088935676,
+    "unk_4": 697100812,
+    "unk_5": 540380035,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 3,
+    "gamemodemask": -1,
+    "key": "controllerconfigpc",
+    "unk_3": 2088935676,
+    "unk_4": 697100812,
+    "unk_5": 564130035,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 3,
+    "gamemodemask": -1,
+    "key": "LevelSelectInstant",
+    "unk_3": 2088935676,
+    "unk_4": 697100812,
+    "unk_5": 561786285,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 3,
+    "gamemodemask": -1,
+    "key": "menubase",
+    "unk_3": 2088935676,
+    "unk_4": 697100812,
+    "unk_5": 540067535,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 3,
+    "gamemodemask": -1,
+    "key": "ProfileSelect",
+    "unk_3": 2088935676,
+    "unk_4": 697100812,
+    "unk_5": 563661285,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 3,
+    "gamemodemask": -1,
+    "key": "splitjoin",
+    "unk_3": 2088935676,
+    "unk_4": 697100812,
+    "unk_5": 548661285,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 3,
+    "gamemodemask": -1,
+    "key": "instantgamesetup",
+    "unk_3": 2088935676,
+    "unk_4": 697100812,
+    "unk_5": 566473785,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 3,
+    "gamemodemask": -1,
+    "key": "serverlistings",
+    "unk_3": 2088935676,
+    "unk_4": 697100812,
+    "unk_5": 559130035,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 3,
+    "gamemodemask": -1,
+    "key": "ControllerConfig",
+    "unk_3": 2088935676,
+    "unk_4": 697100812,
+    "unk_5": 541786285,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 3,
+    "gamemodemask": -1,
+    "key": "LevelSelect",
+    "unk_3": 2088935676,
+    "unk_4": 697100812,
+    "unk_5": 550536285,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 3,
+    "gamemodemask": -1,
+    "key": "dialogbox",
+    "unk_3": 2088935676,
+    "unk_4": 697100812,
+    "unk_5": 552255035,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 3,
+    "gamemodemask": -1,
+    "key": "FindGame",
+    "unk_3": 2088935676,
+    "unk_4": 697100812,
+    "unk_5": 557411285,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 3,
+    "gamemodemask": -1,
+    "key": "Credits",
+    "unk_3": 2088935676,
+    "unk_4": 697100812,
+    "unk_5": 547723785,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 3,
+    "gamemodemask": -1,
+    "key": "profilesettings",
+    "unk_3": 2088935676,
+    "unk_4": 697100812,
+    "unk_5": 545692535,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 3,
+    "gamemodemask": -1,
+    "key": "Audio",
+    "unk_3": 2088935676,
+    "unk_4": 697100812,
+    "unk_5": 560848785,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 3,
+    "gamemodemask": -1,
+    "key": "SessionOptions",
+    "unk_3": 2088935676,
+    "unk_4": 697100812,
+    "unk_5": 552723785,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 3,
+    "gamemodemask": -1,
+    "key": "serversetup",
+    "unk_3": 2088935676,
+    "unk_4": 697100812,
+    "unk_5": 553661285,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 3,
+    "gamemodemask": -1,
+    "key": "video2",
+    "unk_3": 2088935676,
+    "unk_4": 697100812,
+    "unk_5": 553348785,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 3,
+    "gamemodemask": -1,
+    "key": "StrongholdSetup",
+    "unk_3": 2088935676,
+    "unk_4": 697100812,
+    "unk_5": 556942535,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 3,
+    "gamemodemask": -1,
+    "key": "profilecreate",
+    "unk_3": 2088935676,
+    "unk_4": 697100812,
+    "unk_5": 561317535,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 3,
+    "gamemodemask": -1,
+    "key": "playerstats",
+    "unk_3": 2088935676,
+    "unk_4": 697100812,
+    "unk_5": 546786285,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 3,
+    "gamemodemask": -1,
+    "key": "profilepasswordcreate",
+    "unk_3": 2088935676,
+    "unk_4": 697100812,
+    "unk_5": 558036285,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 3,
+    "gamemodemask": -1,
+    "key": "Mouse",
+    "unk_3": 2088935676,
+    "unk_4": 697100812,
+    "unk_5": 555536285,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 3,
+    "gamemodemask": -1,
+    "key": "pclobby",
+    "unk_3": 2088935676,
+    "unk_4": 697100812,
+    "unk_5": 558817535,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 3,
+    "gamemodemask": -1,
+    "key": "profilelist",
+    "unk_3": 2088935676,
+    "unk_4": 697100812,
+    "unk_5": 565380035,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 3,
+    "gamemodemask": -1,
+    "key": "EALogin",
+    "unk_3": 2088935676,
+    "unk_4": 697100812,
+    "unk_5": 566161285,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 3,
+    "gamemodemask": -1,
+    "key": "video",
+    "unk_3": 2088935676,
+    "unk_4": 697100812,
+    "unk_5": 559755035,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 3,
+    "gamemodemask": -1,
+    "key": "splashstart",
+    "unk_3": 2088935676,
+    "unk_4": 697100812,
+    "unk_5": 553817535,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 3,
+    "gamemodemask": -1,
+    "key": "SearchFilters",
+    "unk_3": 2088935676,
+    "unk_4": 697100812,
+    "unk_5": 562098785,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 3,
+    "gamemodemask": -1,
+    "key": "Border",
+    "unk_3": 2088935676,
+    "unk_4": 697100812,
+    "unk_5": 556005035,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 3,
+    "gamemodemask": -1,
+    "key": "multibase",
+    "unk_3": 2088935676,
+    "unk_4": 697100812,
+    "unk_5": 566786285,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 3,
+    "gamemodemask": -1,
+    "key": "Leaderboard",
+    "unk_3": 2088935676,
+    "unk_4": 697100812,
+    "unk_5": 542255035,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 3,
+    "gamemodemask": -1,
+    "key": "briefing",
+    "unk_3": 2088935676,
+    "unk_4": 697100812,
+    "unk_5": 558192535,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 3,
+    "gamemodemask": -1,
+    "key": "StrongholdLobby",
+    "unk_3": 2088935676,
+    "unk_4": 697100812,
+    "unk_5": 560692535,
+    "unk_6": 29972320
+  },
+  {
+    "unk_0": 7,
+    "gamemodemask": 0,
+    "key": "realcredits.txt",
+    "unk_3": 0,
+    "unk_4": 0,
+    "unk_5": 4133406217,
+    "unk_6": 29970285
+  },
+  {
+    "unk_0": 7,
+    "gamemodemask": 0,
+    "key": "MgBase.lua",
+    "unk_3": 0,
+    "unk_4": 0,
+    "unk_5": 83751421,
+    "unk_6": 29970286
+  },
+  {
+    "unk_0": 7,
+    "gamemodemask": 0,
+    "key": "UIShell.lua",
+    "unk_3": 0,
+    "unk_4": 0,
+    "unk_5": 126095171,
+    "unk_6": 29970286
+  },
+  {
+    "unk_0": 7,
+    "gamemodemask": 0,
+    "key": "GL_UIStateMachineBase.lua",
+    "unk_3": 0,
+    "unk_4": 0,
+    "unk_5": 125938921,
+    "unk_6": 29970286
+  },
+  {
+    "unk_0": 7,
+    "gamemodemask": 0,
+    "key": "GL_StateMachineBase.lua",
+    "unk_3": 0,
+    "unk_4": 0,
+    "unk_5": 92501421,
+    "unk_6": 29970286
+  }
+]

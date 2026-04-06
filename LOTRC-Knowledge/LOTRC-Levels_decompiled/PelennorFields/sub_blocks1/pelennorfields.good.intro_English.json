@@ -1,0 +1,86 @@
+{
+  "vals": [
+    {
+      "t_start": 5.1,
+      "t_end": 8.76,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 204
+    },
+    {
+      "t_start": 8.76,
+      "t_end": 12.97,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 308
+    },
+    {
+      "t_start": 12.97,
+      "t_end": 16.44,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 424
+    },
+    {
+      "t_start": 16.44,
+      "t_end": 20.61,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 542
+    },
+    {
+      "t_start": 20.61,
+      "t_end": 23.84,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 660
+    },
+    {
+      "t_start": 23.85,
+      "t_end": 26.58,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 748
+    },
+    {
+      "t_start": 26.58,
+      "t_end": 30.53,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 830
+    },
+    {
+      "t_start": 30.53,
+      "t_end": 33.44,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 964
+    },
+    {
+      "t_start": 33.44,
+      "t_end": 36.96,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1052
+    },
+    {
+      "t_start": 36.96,
+      "t_end": 40.77,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1136
+    }
+  ],
+  "strings": [
+    "Riding to death and ruin in relief of Minas Tirith.\u0000",
+    "the Riders of Rohan smash into the heart of the Orc Army.\u0000",
+    "Nothing upon the Fields of Pelennor can resist their fury.\u0000",
+    "Beset on all sides by siege towers and great war beasts...\u0000",
+    "Theoden's brave warriors must also overcome\u0000",
+    "an endless tide of Orcs and Warg Riders.\u0000",
+    "But should the Rohirrim do sufficient damage to Sauron's armies...\u0000",
+    "surely the Witch-king shall be drawn forth.\u0000",
+    "His defeat would turn the tide of battle.\u0000",
+    "For it is said that fear binds them to his cause.\u0000"
+  ]
+}

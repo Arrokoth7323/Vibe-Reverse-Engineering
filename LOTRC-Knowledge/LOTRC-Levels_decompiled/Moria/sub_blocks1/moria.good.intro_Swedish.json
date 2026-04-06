@@ -1,0 +1,86 @@
+{
+  "vals": [
+    {
+      "t_start": 4.93,
+      "t_end": 9.94,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 204
+    },
+    {
+      "t_start": 9.94,
+      "t_end": 15.98,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 300
+    },
+    {
+      "t_start": 15.99,
+      "t_end": 19.22,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 408
+    },
+    {
+      "t_start": 19.23,
+      "t_end": 24.36,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 502
+    },
+    {
+      "t_start": 24.38,
+      "t_end": 28.55,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 618
+    },
+    {
+      "t_start": 28.55,
+      "t_end": 31.15,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 736
+    },
+    {
+      "t_start": 31.16,
+      "t_end": 35.82,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 816
+    },
+    {
+      "t_start": 35.82,
+      "t_end": 38.04,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 952
+    },
+    {
+      "t_start": 38.05,
+      "t_end": 42.56,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1016
+    },
+    {
+      "t_start": 42.56,
+      "t_end": 47.93,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1142
+    }
+  ],
+  "strings": [
+    "I norr blir också Morias gruvor allt farligare.\u0000",
+    "Här dräpte Gandalf Balrogen efter flera dagars strid.\u0000",
+    "Den fruktansvärda striden kostade honom livet,\u0000",
+    "men lät Ringbäraren fly från de mörka och hemska salarna.\u0000",
+    "Men den stora underjordiska staden Moria föder fortfarande\u0000",
+    "fram vättar och andra vidriga varelser.\u0000",
+    "Nu är stunden inne när de fria folken till slut måste återta Moria,\u0000",
+    "och dvärgen Gimli ska leda dem.\u0000",
+    "Dock måste alla vara på sin vakt, för sprickor öppnas överallt\u0000",
+    "och Gandalf fruktar att en ny ondska kan smyga runt i de uråldriga salarna.\u0000"
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "vals": [
+    {
+      "t_start": 3.86,
+      "t_end": 7.69,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 244
+    },
+    {
+      "t_start": 7.72,
+      "t_end": 10.87,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 350
+    },
+    {
+      "t_start": 10.9,
+      "t_end": 13.9,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 460
+    },
+    {
+      "t_start": 14.02,
+      "t_end": 18.52,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 556
+    },
+    {
+      "t_start": 18.64,
+      "t_end": 21.75,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 710
+    },
+    {
+      "t_start": 21.79,
+      "t_end": 25.87,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 808
+    },
+    {
+      "t_start": 25.99,
+      "t_end": 28.29,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 940
+    },
+    {
+      "t_start": 28.41,
+      "t_end": 31.12,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1022
+    },
+    {
+      "t_start": 31.15,
+      "t_end": 34.91,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1114
+    },
+    {
+      "t_start": 34.97,
+      "t_end": 38.6,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1240
+    },
+    {
+      "t_start": 38.72,
+      "t_end": 41.55,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1374
+    },
+    {
+      "t_start": 41.61,
+      "t_end": 44.87,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1462
+    }
+  ],
+  "strings": [
+    "Und wieder fällt Osgiliath eine bedeutende Rolle zu.\u0000",
+    "Nachdem Faramir den Ringträger hierher gebracht hatte,\u0000",
+    "war er weise genug, ihn weiterziehen zu lassen.\u0000",
+    "Nun hält eine Garnison der Menschen hier Stunde um Stunde argwöhnisch Wache.\u0000",
+    "Insgeheim hoffen die Verteidiger des Vorpostens,\u0000",
+    "Faramir und seine Waldläufer mögen bei Tagesanbruch zurückkehren.\u0000",
+    "Doch angesichts der wachsenden Orkhorden\u0000",
+    "ist Hoffnung allein nur ein schwacher Schild.\u0000",
+    "Am anderen Ufer des Anduin herrscht eine gespenstische Stille,\u0000",
+    "während die Angst von den Verteidigern Osgiliaths Besitz ergreift.\u0000",
+    "In der undurchdringlichen Dunkelheit harren\u0000",
+    "diese mutigen Männer ungeduldig der Morgendämmerung.\u0000"
+  ]
+}

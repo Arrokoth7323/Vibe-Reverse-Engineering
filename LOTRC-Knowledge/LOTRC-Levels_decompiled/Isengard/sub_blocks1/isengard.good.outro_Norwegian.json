@@ -1,0 +1,86 @@
+{
+  "vals": [
+    {
+      "t_start": 5.47,
+      "t_end": 7.27,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 204
+    },
+    {
+      "t_start": 7.27,
+      "t_end": 11.2,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 246
+    },
+    {
+      "t_start": 11.23,
+      "t_end": 14.44,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 376
+    },
+    {
+      "t_start": 14.44,
+      "t_end": 17.81,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 452
+    },
+    {
+      "t_start": 17.81,
+      "t_end": 21.5,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 542
+    },
+    {
+      "t_start": 21.52,
+      "t_end": 24.98,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 664
+    },
+    {
+      "t_start": 25.0,
+      "t_end": 27.42,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 750
+    },
+    {
+      "t_start": 27.42,
+      "t_end": 30.23,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 854
+    },
+    {
+      "t_start": 30.24,
+      "t_end": 34.73,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 944
+    },
+    {
+      "t_start": 34.73,
+      "t_end": 36.93,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1008
+    }
+  ],
+  "strings": [
+    "Hans makt er knust, \u0000",
+    "for Sarumann kunne ikke rå over den tapperheten som møtte ham...\u0000",
+    "...og til slutt ble hans svik hevnet.\u0000",
+    "Treskjegg tjener nå som herre over Orthanc, \u0000",
+    "og Jarnagard har blitt renset for Sarumanns motbydeligheter.\u0000",
+    "Men makten til Mørkets herre lever videre,\u0000",
+    "for Sarumann tjente kun som en brikke i hans spill,\u0000",
+    "en distraksjon for å svekke Gondors grenser.\u0000",
+    "I Mordor vokser Saurons arméer,\u0000",
+    "og hans krig har så vidt begynt.\u0000"
+  ]
+}

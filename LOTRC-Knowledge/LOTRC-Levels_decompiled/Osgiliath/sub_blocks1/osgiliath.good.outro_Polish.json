@@ -1,0 +1,78 @@
+{
+  "vals": [
+    {
+      "t_start": 4.71,
+      "t_end": 8.69,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 184
+    },
+    {
+      "t_start": 8.7,
+      "t_end": 12.36,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 274
+    },
+    {
+      "t_start": 12.36,
+      "t_end": 17.21,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 410
+    },
+    {
+      "t_start": 17.21,
+      "t_end": 21.47,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 536
+    },
+    {
+      "t_start": 21.47,
+      "t_end": 26.34,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 640
+    },
+    {
+      "t_start": 26.34,
+      "t_end": 30.17,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 754
+    },
+    {
+      "t_start": 30.17,
+      "t_end": 33.52,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 862
+    },
+    {
+      "t_start": 33.52,
+      "t_end": 35.61,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 950
+    },
+    {
+      "t_start": 35.61,
+      "t_end": 38.98,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1014
+    }
+  ],
+  "strings": [
+    "Faramir dzielnie stawia czoło siłom Mordoru.\u0000",
+    "Lecz jego wojownicy nie pokonają sami niekończącej się fali wrogów.\u0000",
+    "Wielu spotyka posępny los, niewielu przeżyje grozę tych chwil.\u0000",
+    "Potężne armie Saurona nacierają na nas bez przerwy.\u0000",
+    "Pozostali obrońcy Zachodu są ostatnim szańcem dla wroga,\u0000",
+    "który chce zabić wszystkich pozostałych w Śródziemiu.\u0000",
+    "Wróg jest niezliczony jak liście w lesie...\u0000",
+    "i nadzieja wydaje się stracona.\u0000",
+    "Gdyż Władca Ciemności nie przejmuje się liczbą poległych.\u0000"
+  ]
+}

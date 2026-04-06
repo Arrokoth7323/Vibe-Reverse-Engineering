@@ -1,0 +1,54 @@
+{
+  "vals": [
+    {
+      "t_start": 5.04,
+      "t_end": 9.31,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 124
+    },
+    {
+      "t_start": 9.31,
+      "t_end": 14.35,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 232
+    },
+    {
+      "t_start": 14.36,
+      "t_end": 18.76,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 368
+    },
+    {
+      "t_start": 18.77,
+      "t_end": 23.5,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 492
+    },
+    {
+      "t_start": 23.52,
+      "t_end": 27.01,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 614
+    },
+    {
+      "t_start": 27.01,
+      "t_end": 29.72,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 694
+    }
+  ],
+  "strings": [
+    "But in the darkest hour, horns echo through the city.\u0000",
+    "For an ancient oath has been fulfilled, and Rohan has come at last.\u0000",
+    "Théoden has emptied the North and his horsemen dare risk all.\u0000",
+    "The Orcs must abandon the city and face this looming threat.\u0000",
+    "And now, upon the open fields of battle\u0000",
+    "shall the fate of Gondor be decided.\u0000"
+  ]
+}

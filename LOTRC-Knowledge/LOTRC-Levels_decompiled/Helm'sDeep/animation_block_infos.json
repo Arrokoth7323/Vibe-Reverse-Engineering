@@ -1,0 +1,46 @@
+[
+  {
+    "key": "goodcampaign",
+    "guid": 77009760,
+    "key_name": "Good Campaign",
+    "offset": 4096,
+    "size": 4032336,
+    "size_comp": 2549535,
+    "unk_6": 0,
+    "unk_7": 0,
+    "unk_8": 0
+  },
+  {
+    "key": "teamdm",
+    "guid": 77018678,
+    "key_name": "Team Deathmatch",
+    "offset": 2555904,
+    "size": 5288528,
+    "size_comp": 3350741,
+    "unk_6": 0,
+    "unk_7": 0,
+    "unk_8": 0
+  },
+  {
+    "key": "Custom",
+    "guid": 117008015,
+    "key_name": "Art",
+    "offset": 5910528,
+    "size": 2231584,
+    "size_comp": 1393863,
+    "unk_6": 0,
+    "unk_7": 0,
+    "unk_8": 0
+  },
+  {
+    "key": "Conquest",
+    "guid": 144013953,
+    "key_name": "Conquest",
+    "offset": 7307264,
+    "size": 5273616,
+    "size_comp": 3342278,
+    "unk_6": 0,
+    "unk_7": 0,
+    "unk_8": 0
+  }
+]

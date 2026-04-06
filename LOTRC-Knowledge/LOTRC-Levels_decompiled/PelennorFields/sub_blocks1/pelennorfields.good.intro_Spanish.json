@@ -1,0 +1,86 @@
+{
+  "vals": [
+    {
+      "t_start": 5.1,
+      "t_end": 8.76,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 204
+    },
+    {
+      "t_start": 8.76,
+      "t_end": 12.97,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 342
+    },
+    {
+      "t_start": 12.97,
+      "t_end": 16.44,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 448
+    },
+    {
+      "t_start": 16.44,
+      "t_end": 20.61,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 582
+    },
+    {
+      "t_start": 20.61,
+      "t_end": 23.84,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 734
+    },
+    {
+      "t_start": 23.85,
+      "t_end": 26.58,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 856
+    },
+    {
+      "t_start": 26.58,
+      "t_end": 30.53,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 968
+    },
+    {
+      "t_start": 30.53,
+      "t_end": 33.44,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1108
+    },
+    {
+      "t_start": 33.44,
+      "t_end": 36.96,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1176
+    },
+    {
+      "t_start": 36.96,
+      "t_end": 40.77,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1270
+    }
+  ],
+  "strings": [
+    "Lanzados hacia la muerte y la desolación para ayudar a Minas Tirith,\u0000",
+    "los jinetes de Rohan cargan contra el ejército orco.\u0000",
+    "En los Campos de Pelennor no hay nada que pueda resistir su furia.\u0000",
+    "Acosados por todas partes por torres de asedio y enormes bestias de guerra,\u0000",
+    "los valientes guerreros de Théoden también deben enfrentarse\u0000",
+    "a una interminable marea de orcos y jinetes de huargos.\u0000",
+    "Pero si los Rohirrim hacen daño suficiente a los ejércitos de Sauron,\u0000",
+    "el Rey Brujo tendrá que aparecer.\u0000",
+    "Su derrota cambiaría las tornas de la batalla,\u0000",
+    "porque se dice que es el miedo lo que los ata a su causa.\u0000"
+  ]
+}

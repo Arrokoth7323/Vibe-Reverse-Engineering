@@ -1,0 +1,102 @@
+{
+  "vals": [
+    {
+      "t_start": 5.2,
+      "t_end": 9.18,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 244
+    },
+    {
+      "t_start": 9.18,
+      "t_end": 11.67,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 352
+    },
+    {
+      "t_start": 11.67,
+      "t_end": 15.02,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 440
+    },
+    {
+      "t_start": 15.02,
+      "t_end": 19.76,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 584
+    },
+    {
+      "t_start": 19.76,
+      "t_end": 22.76,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 756
+    },
+    {
+      "t_start": 22.76,
+      "t_end": 26.77,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 884
+    },
+    {
+      "t_start": 26.77,
+      "t_end": 29.72,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1006
+    },
+    {
+      "t_start": 29.73,
+      "t_end": 32.23,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1098
+    },
+    {
+      "t_start": 32.23,
+      "t_end": 35.55,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1178
+    },
+    {
+      "t_start": 35.55,
+      "t_end": 39.39,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1270
+    },
+    {
+      "t_start": 39.39,
+      "t_end": 40.82,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1400
+    },
+    {
+      "t_start": 40.82,
+      "t_end": 44.87,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1466
+    }
+  ],
+  "strings": [
+    "Osgiliath a encore un rôle à jouer dans cette guerre.\u0000",
+    "Faramir y conduisit le Porteur de l'Anneau,\u0000",
+    "mais eut la sagesse de lui permettre de poursuivre sa quête. A présent,\u0000",
+    "une garnison de défenseurs du Gondor monte la garde, avec une vigilance sans relâche.\u0000",
+    "Les guerriers qui tiennent cet avant-poste espèrent secrètement\u0000",
+    "que Faramir et ses Rôdeurs d'Ithilien vont revenir à l'aube.\u0000",
+    "Mais les orques sont de plus en plus nombreux\u0000",
+    "et l'espoir est un bien mince bouclier.\u0000",
+    "Le silence enveloppe l'autre rive de l'Anduin\u0000",
+    "tandis que les défenseurs d'Osgiliath sont seuls avec leur peur.\u0000",
+    "Dans les ténèbres grandissantes,\u0000",
+    "les courageux hommes du Gondor attendent avec impatience l'arrivée de l'aube.\u0000"
+  ]
+}

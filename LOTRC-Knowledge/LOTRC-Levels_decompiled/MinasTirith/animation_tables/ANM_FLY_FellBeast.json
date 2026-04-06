@@ -1,0 +1,12 @@
+{
+  "Climb": "ch_fel_climb",
+  "GlidingLft": "CH_fel_glide_bank_left",
+  "Screech": "ch_fel_screech",
+  "FlappingRgt": "CH_fel_fly_bank_right",
+  "GlidingRgt": "CH_fel_glide_bank_right",
+  "FlappingLft": "CH_fel_fly_bank_left",
+  "Dive": "ch_fel_dive",
+  "FlappingFwd": "CH_fel_fly",
+  "GlidingFwd": "CH_fel_glide",
+  "Attack": "ch_fel_attack"
+}

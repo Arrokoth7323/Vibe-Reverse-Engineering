@@ -1,0 +1,70 @@
+{
+  "vals": [
+    {
+      "t_start": 5.41,
+      "t_end": 8.67,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 164
+    },
+    {
+      "t_start": 8.67,
+      "t_end": 11.51,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 250
+    },
+    {
+      "t_start": 11.51,
+      "t_end": 15.56,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 370
+    },
+    {
+      "t_start": 15.56,
+      "t_end": 17.99,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 458
+    },
+    {
+      "t_start": 17.99,
+      "t_end": 20.13,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 546
+    },
+    {
+      "t_start": 20.13,
+      "t_end": 23.69,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 624
+    },
+    {
+      "t_start": 23.69,
+      "t_end": 27.32,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 696
+    },
+    {
+      "t_start": 27.32,
+      "t_end": 32.14,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 790
+    }
+  ],
+  "strings": [
+    "Tego dnia Władca Ciemności został obalony,\u0000",
+    "a Jedyny Pierścień wyślizgnął się z jego żelaznego uścisku.\u0000",
+    "Wraz z jego utratą Sauron odszedł w niebyt.\u0000",
+    "Ale moc Pierścienia nie została zniszczona.\u0000",
+    "I tak długo, jak Pierścień istnieje...\u0000",
+    "duch Saurona trwa w naszym świecie.\u0000",
+    "Lecz Pierścień odrzucił nowego pana i zaginął,\u0000",
+    "a przez dwa i pół tysiąclecia Śródziemie było wolne od jego zła.\u0000"
+  ]
+}

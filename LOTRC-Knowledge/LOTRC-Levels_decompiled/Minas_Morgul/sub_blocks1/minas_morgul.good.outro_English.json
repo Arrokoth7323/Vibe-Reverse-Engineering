@@ -1,0 +1,62 @@
+{
+  "vals": [
+    {
+      "t_start": 4.8,
+      "t_end": 9.48,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 144
+    },
+    {
+      "t_start": 9.49,
+      "t_end": 13.37,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 264
+    },
+    {
+      "t_start": 13.38,
+      "t_end": 15.63,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 386
+    },
+    {
+      "t_start": 15.63,
+      "t_end": 19.51,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 446
+    },
+    {
+      "t_start": 19.52,
+      "t_end": 22.55,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 568
+    },
+    {
+      "t_start": 22.56,
+      "t_end": 25.08,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 640
+    },
+    {
+      "t_start": 25.1,
+      "t_end": 29.87,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 704
+    }
+  ],
+  "strings": [
+    "Brave warriors drove many foul creatures from Minas Morgul.\u0000",
+    "But the evil that taints this city cannot be fully cleansed.\u0000",
+    "Even should the city be razed\u0000",
+    "no man would dare dwell there so long as Sauron still lives.\u0000",
+    "So our ordeal is not yet concluded.\u0000",
+    "For to defeat Sauron utterly...\u0000",
+    "the Ringbearer must first destroy the One Ring in the fires of Mount Doom.\u0000"
+  ]
+}

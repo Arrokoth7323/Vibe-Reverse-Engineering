@@ -1,0 +1,417 @@
+{
+  "info": {
+    "key": "WP_Gandalf_Sword_01_nulls",
+    "gamemodemask": 9,
+    "mat_offset": 4339216,
+    "buffer_info_offset": 624188,
+    "bounding_box": {
+      "center": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "unk_3": 0.0,
+      "half_width": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "unk_7": 0.0
+    },
+    "mesh_order_offset": 4339216,
+    "lod0": {
+      "start": 0,
+      "static_end": 0,
+      "skinned_end": 0,
+      "physics_end": 0,
+      "breakable_end": 0
+    },
+    "lod1": {
+      "start": 0,
+      "static_end": 0,
+      "skinned_end": 0,
+      "physics_end": 0,
+      "breakable_end": 0
+    },
+    "lod2": {
+      "start": 0,
+      "static_end": 0,
+      "skinned_end": 0,
+      "physics_end": 0,
+      "breakable_end": 0
+    },
+    "lod3": {
+      "start": 0,
+      "static_end": 0,
+      "skinned_end": 0,
+      "physics_end": 0,
+      "breakable_end": 0
+    },
+    "mat_num": 0,
+    "bones_offset": 4338448,
+    "bone_parents_offset": 4338944,
+    "bone_transforms_offset": 4338960,
+    "bones_num": 4,
+    "skin_binds_offset": 4338944,
+    "skin_binds_num": 0,
+    "skin_order_offset": 0,
+    "vbuff_offset": 4339216,
+    "vbuff_num": 0,
+    "ibuff_offset": 4339216,
+    "ibuff_num": 0,
+    "mesh_bounding_boxes_offset": 4339216,
+    "unk_46": 0.0,
+    "variation_counts": 0,
+    "vals_j_num": 0,
+    "vals_j_offset": 4338592,
+    "block_offset": 0,
+    "vals_k_offset": 0,
+    "asset_key": "WP_Gandalf_Sword_01_nulls",
+    "asset_type": 0,
+    "unk_54": 0,
+    "unk_55": 0,
+    "shape_offset": 0,
+    "shape_num": 0,
+    "hk_constraint_data_offset": 0,
+    "hk_constraint_data_num": 0,
+    "hk_constraint_offset": 1358256,
+    "slots_offset": 4339216,
+    "slot_map_offset": 4339248,
+    "bone_bounding_boxes_offset": 4338464
+  },
+  "bone_parents": [
+    -1,
+    0,
+    0,
+    0
+  ],
+  "bones": [
+    "WP_Gandalf_Sword_01",
+    "Bone_FX_base",
+    "Bone_FX_tip",
+    "Bone_Lumbar3"
+  ],
+  "bone_transforms": [
+    {
+      "x": {
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "y": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "z": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0,
+        "w": 0.0
+      },
+      "w": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      }
+    },
+    {
+      "x": {
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "y": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "z": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0,
+        "w": 0.0
+      },
+      "w": {
+        "x": 0.0,
+        "y": 0.122665,
+        "z": 0.0,
+        "w": 1.0
+      }
+    },
+    {
+      "x": {
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "y": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "z": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0,
+        "w": 0.0
+      },
+      "w": {
+        "x": 0.0,
+        "y": 1.221803,
+        "z": 0.0,
+        "w": 1.0
+      }
+    },
+    {
+      "x": {
+        "x": 0.3446886,
+        "y": -0.93409234,
+        "z": -0.093066044,
+        "w": 0.0
+      },
+      "y": {
+        "x": 0.013679628,
+        "y": -0.094132915,
+        "z": 0.99546564,
+        "w": 0.0
+      },
+      "z": {
+        "x": -0.9386174,
+        "y": -0.34439877,
+        "z": -0.019668506,
+        "w": 0.0
+      },
+      "w": {
+        "x": 0.054444,
+        "y": 0.379034,
+        "z": 0.165386,
+        "w": 1.0
+      }
+    }
+  ],
+  "bone_bounding_boxes": [
+    {
+      "center": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "unk_3": 0.0,
+      "half_width": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "unk_7": 0.0
+    },
+    {
+      "center": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "unk_3": 0.0,
+      "half_width": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "unk_7": 0.0
+    },
+    {
+      "center": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "unk_3": 0.0,
+      "half_width": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "unk_7": 0.0
+    },
+    {
+      "center": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "unk_3": 0.0,
+      "half_width": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "unk_7": 0.0
+    }
+  ],
+  "mat_order": [],
+  "mesh_order": [],
+  "mesh_bounding_boxes": [],
+  "skin_binds": [],
+  "vals_j": [],
+  "val_k_header": [],
+  "vals_k": [],
+  "skin_order": [],
+  "slots": [
+    {
+      "key": "TrailTop",
+      "val": 0
+    },
+    {
+      "key": "TrailBottom",
+      "val": 1
+    },
+    {
+      "key": "AttachBackUpper",
+      "val": 2
+    },
+    {
+      "key": "",
+      "val": 3
+    }
+  ],
+  "slot_map": [
+    2,
+    1,
+    3
+  ],
+  "block_header": null,
+  "block_offsets": [],
+  "blocks": [],
+  "mats": [],
+  "mat_extras": [],
+  "buffer_infos": [],
+  "hk_constraint": {
+    "info": {
+      "kind": 0,
+      "bone_parents_offset": 4338864,
+      "bone_parents_num": 4,
+      "bone_names_offset": 4338592,
+      "bone_names_num": 4,
+      "bone_transforms_offset": 4338640,
+      "bone_transforms_num": 4,
+      "unk_7": 0,
+      "unk_8": 0,
+      "unk_9": 4294967295,
+      "bones_offset": 4338448,
+      "bones_num": 4,
+      "bone_order_num": 4,
+      "bone_order_offset": 4338832,
+      "unk_13": 2799630344,
+      "unk_14": 1.0,
+      "vals2_num": 0,
+      "vals2_offset": 0,
+      "unk_17": 4
+    },
+    "bone_parents": [
+      -1,
+      0,
+      0,
+      0
+    ],
+    "bone_names": [
+      "WP_Gandalf_Sword_01",
+      "Bone_FX_base",
+      "Bone_FX_tip",
+      "Bone_Lumbar3"
+    ],
+    "bone_transforms": [
+      {
+        "translation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0,
+          "w": 0.0
+        }
+      },
+      {
+        "translation": {
+          "x": 0.0,
+          "y": 0.122665,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0,
+          "w": 0.0
+        }
+      },
+      {
+        "translation": {
+          "x": 0.0,
+          "y": 1.221803,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0,
+          "w": 0.0
+        }
+      },
+      {
+        "translation": {
+          "x": 0.054444,
+          "y": 0.379034,
+          "z": 0.165386,
+          "w": 1.0
+        },
+        "rotation": {
+          "x": 0.6038398,
+          "y": -0.38106665,
+          "z": -0.42713463,
+          "w": 0.55472684
+        },
+        "scale": {
+          "x": 1.0000001,
+          "y": 1.0000002,
+          "z": 1.0000001,
+          "w": 0.0
+        }
+      }
+    ],
+    "vals2": []
+  },
+  "hk_constraint_datas": [],
+  "shapes": [],
+  "vertex_data": [],
+  "index_data": []
+}

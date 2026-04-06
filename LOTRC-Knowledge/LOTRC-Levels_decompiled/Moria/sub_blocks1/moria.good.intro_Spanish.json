@@ -1,0 +1,86 @@
+{
+  "vals": [
+    {
+      "t_start": 4.93,
+      "t_end": 9.94,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 204
+    },
+    {
+      "t_start": 9.94,
+      "t_end": 15.98,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 314
+    },
+    {
+      "t_start": 15.99,
+      "t_end": 19.22,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 492
+    },
+    {
+      "t_start": 19.23,
+      "t_end": 24.36,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 570
+    },
+    {
+      "t_start": 24.38,
+      "t_end": 28.55,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 768
+    },
+    {
+      "t_start": 28.55,
+      "t_end": 31.15,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 908
+    },
+    {
+      "t_start": 31.16,
+      "t_end": 35.82,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 990
+    },
+    {
+      "t_start": 35.82,
+      "t_end": 38.04,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1132
+    },
+    {
+      "t_start": 38.05,
+      "t_end": 42.56,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1216
+    },
+    {
+      "t_start": 42.56,
+      "t_end": 47.93,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1356
+    }
+  ],
+  "strings": [
+    "Al norte, las Minas de Moria también crecen en maldad.\u0000",
+    "Fue aquí donde, en días pasados, Gandalf acabó con el Balrog después de días de combate.\u0000",
+    "Esa terrible batalla le costó la vida,\u0000",
+    "aunque permitió que el Portador del Anillo pudiera escapar de esos salones oscuros y terroríficos.\u0000",
+    "Pero la gran ciudad subterránea de Moria sigue siendo un foso de cría\u0000",
+    "para trasgos y otras criaturas infectas.\u0000",
+    "Ahora es el momento de que los pueblos libres vuelvan a reclamar Moria\u0000",
+    "y será Gimli, el enano, quien los lidere.\u0000",
+    "Pero deberán tener cuidado. Hay grietas que se abren por todas partes\u0000",
+    "y Gandalf teme que un nuevo poder maligno aceche en los antiguos salones.\u0000"
+  ]
+}

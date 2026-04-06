@@ -1,0 +1,142 @@
+{
+  "vals": [
+    {
+      "t_start": 4.57,
+      "t_end": 10.24,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 344
+    },
+    {
+      "t_start": 10.25,
+      "t_end": 12.72,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 552
+    },
+    {
+      "t_start": 12.74,
+      "t_end": 16.82,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 614
+    },
+    {
+      "t_start": 16.7,
+      "t_end": 19.67,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 754
+    },
+    {
+      "t_start": 19.69,
+      "t_end": 24.37,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 840
+    },
+    {
+      "t_start": 24.39,
+      "t_end": 27.42,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1010
+    },
+    {
+      "t_start": 28.18,
+      "t_end": 31.24,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1134
+    },
+    {
+      "t_start": 31.26,
+      "t_end": 36.67,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1264
+    },
+    {
+      "t_start": 36.69,
+      "t_end": 41.25,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1428
+    },
+    {
+      "t_start": 41.27,
+      "t_end": 46.09,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1548
+    },
+    {
+      "t_start": 46.11,
+      "t_end": 52.09,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1676
+    },
+    {
+      "t_start": 52.11,
+      "t_end": 56.58,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1842
+    },
+    {
+      "t_start": 56.6,
+      "t_end": 60.55,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 2012
+    },
+    {
+      "t_start": 60.57,
+      "t_end": 67.06,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 2086
+    },
+    {
+      "t_start": 67.1,
+      "t_end": 70.47,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 2288
+    },
+    {
+      "t_start": 70.49,
+      "t_end": 75.58,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 2360
+    },
+    {
+      "t_start": 75.72,
+      "t_end": 77.9,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 2532
+    }
+  ],
+  "strings": [
+    "En cette dernière heure, ceux qui restaient sur le champ de bataille n'avaient aucune chance de survie,\u0000",
+    "pourtant ils gardaient espoir.\u0000",
+    "Même si leurs ennemis s'approchaient et que leurs bras faiblissaient,\u0000",
+    "la peur n'habitait le coeur d'aucun homme.\u0000",
+    "Mais le destin décida que la dernière heure de notre monde n'avait pas encore sonné.\u0000",
+    "Car le pouvoir de l'Anneau corrompait tout ce qu'il touchait,\u0000",
+    "d'une manière que même son esprit maléfique ne pouvait imaginer.\u0000",
+    "Et en cette heure noire et désespérée, le Porteur de l'Anneau accomplit sa quête.\u0000",
+    "En un éclair, Sauron, le Seigneur des Ténèbres, s'éteignit.\u0000",
+    "En vérité, notre victoire fut acquise par la plus petite chose.\u0000",
+    "Notre destin ne tenait plus qu'à un fil, mais quand l'espoir finit par l'emporter,\u0000",
+    "ce fil fut celui de l'épée qui s'enfonça profondément dans le coeur de notre ennemi.\u0000",
+    "Et la victoire fut finalement nôtre.\u0000",
+    "N'oubliez jamais que sur ce champ de bataille sinistre, le coeur des Peuples Libres ne faillit point\u0000",
+    "et leur courage ne chancela jamais.\u0000",
+    "Et c'est ainsi que le Troisième Age de la Terre du Milieu se termina dans le triomphe\u0000",
+    "et non dans le désespoir.\u0000"
+  ]
+}

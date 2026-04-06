@@ -1,0 +1,102 @@
+{
+  "vals": [
+    {
+      "t_start": 5.2,
+      "t_end": 9.18,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 244
+    },
+    {
+      "t_start": 9.18,
+      "t_end": 11.67,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 332
+    },
+    {
+      "t_start": 11.67,
+      "t_end": 15.02,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 428
+    },
+    {
+      "t_start": 15.02,
+      "t_end": 19.76,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 518
+    },
+    {
+      "t_start": 19.76,
+      "t_end": 22.76,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 616
+    },
+    {
+      "t_start": 22.76,
+      "t_end": 26.77,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 708
+    },
+    {
+      "t_start": 26.77,
+      "t_end": 29.72,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 808
+    },
+    {
+      "t_start": 29.73,
+      "t_end": 32.23,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 896
+    },
+    {
+      "t_start": 32.23,
+      "t_end": 35.55,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 970
+    },
+    {
+      "t_start": 35.55,
+      "t_end": 39.39,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1038
+    },
+    {
+      "t_start": 39.39,
+      "t_end": 40.82,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1156
+    },
+    {
+      "t_start": 40.82,
+      "t_end": 44.87,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1206
+    }
+  ],
+  "strings": [
+    "Osgiliath odegra jeszcze rolę w tej wojnie.\u0000",
+    "Faramir sprowadził tu Powiernika Pierścienia...\u0000",
+    "lecz mądrze pozwolił mu kontynuować wyprawę.\u0000",
+    "Teraz garnizon obrońców Gondoru trzyma tu wartę.\u0000",
+    "Wojownicy na tej placówce skrywają nadzieję, \u0000",
+    "że Faramir i strażnicy Ithilien powrócą o świcie.\u0000",
+    "Lecz szeregi orków są coraz liczniejsze... \u0000",
+    "a sama nadzieja jest kiepską tarczą.\u0000",
+    "Cisza okrywa drugi brzeg Anduiny,\u0000",
+    "gdy osamotnieni obrońcy Osgiliath zmagają się ze strachem.\u0000",
+    "W gęstniejącej ciemności\u0000",
+    "świt nie nadciągnie zbyt szybko dla tych dzielnych Gondorczyków.\u0000"
+  ]
+}

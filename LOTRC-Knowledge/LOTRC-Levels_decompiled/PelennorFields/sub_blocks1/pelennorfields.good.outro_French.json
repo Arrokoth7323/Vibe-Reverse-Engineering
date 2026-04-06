@@ -1,0 +1,86 @@
+{
+  "vals": [
+    {
+      "t_start": 5.15,
+      "t_end": 8.65,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 204
+    },
+    {
+      "t_start": 8.65,
+      "t_end": 12.51,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 334
+    },
+    {
+      "t_start": 12.51,
+      "t_end": 15.62,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 472
+    },
+    {
+      "t_start": 15.62,
+      "t_end": 20.26,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 594
+    },
+    {
+      "t_start": 20.26,
+      "t_end": 24.27,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 758
+    },
+    {
+      "t_start": 24.27,
+      "t_end": 27.47,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 934
+    },
+    {
+      "t_start": 27.47,
+      "t_end": 30.59,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1046
+    },
+    {
+      "t_start": 30.59,
+      "t_end": 33.68,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1178
+    },
+    {
+      "t_start": 33.68,
+      "t_end": 35.47,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1296
+    },
+    {
+      "t_start": 35.48,
+      "t_end": 39.02,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1338
+    }
+  ],
+  "strings": [
+    "Mais l'issue de la bataille est encore très indécise, jusqu'à ce\u0000",
+    "qu'Aragorn fasse enfin son apparition avec l'Armée des Morts. Alors,\u0000",
+    "aucune créature vivante ne saurait survivre à leur courroux.\u0000",
+    "Aussi grandiose que paraisse notre victoire, la guerre n'est pas encore terminée.\u0000",
+    "Le Seigneur des Ténèbres rassemble toujours ses forces à l'abri des remparts du Mordor.\u0000",
+    "Pour détourner l'Oeil de Sauron du Porteur de l'Anneau,\u0000",
+    "il nous faut à présent endurer des sacrifices plus grands encore.\u0000",
+    "Les hommes de l'Ouest doivent l'affronter à ses frontières\u0000",
+    "et dans son royaume,\u0000",
+    "et même oser s'attaquer au Seigneur des Ténèbres lui-même.\u0000"
+  ]
+}

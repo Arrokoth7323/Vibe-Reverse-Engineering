@@ -1,0 +1,54 @@
+{
+  "vals": [
+    {
+      "t_start": 4.61,
+      "t_end": 10.18,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 124
+    },
+    {
+      "t_start": 10.81,
+      "t_end": 12.32,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 260
+    },
+    {
+      "t_start": 12.44,
+      "t_end": 16.35,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 294
+    },
+    {
+      "t_start": 16.35,
+      "t_end": 20.82,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 414
+    },
+    {
+      "t_start": 20.94,
+      "t_end": 26.38,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 560
+    },
+    {
+      "t_start": 27.09,
+      "t_end": 31.21,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 700
+    }
+  ],
+  "strings": [
+    "Aragorn, discendente di Isildur e signore di tutte le Genti Libere,\u0000",
+    "è infine caduto.\u0000",
+    "La nostra ultima speranza di vittoria è stata infine spenta\u0000",
+    "dalle stesse creature barbariche che, anni fa, avevano ucciso suo padre.\u0000",
+    "Le forze dell'Oscuro Sire sono ormai un'inarrestabile marea malvagia.\u0000",
+    "Tutto sarà sommerso da quest'ondata di tenebra.\u0000"
+  ]
+}

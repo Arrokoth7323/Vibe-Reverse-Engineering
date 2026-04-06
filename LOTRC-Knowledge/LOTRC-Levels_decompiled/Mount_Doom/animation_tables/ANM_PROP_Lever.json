@@ -1,0 +1,6 @@
+{
+  "ClosedIdle": "MOR_PR_DeepDrawBridgeLever_01_close_idle",
+  "Close": "MOR_PR_DeepDrawBridgeLever_01_close",
+  "Open": "MOR_PR_DeepDrawBridgeLever_01_open",
+  "OpenIdle": "MOR_PR_DeepDrawBridgeLever_01_open_idle"
+}

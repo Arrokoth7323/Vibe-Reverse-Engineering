@@ -1,0 +1,46 @@
+{
+  "vals": [
+    {
+      "t_start": 5.07,
+      "t_end": 8.2,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 104
+    },
+    {
+      "t_start": 8.2,
+      "t_end": 11.81,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 196
+    },
+    {
+      "t_start": 11.81,
+      "t_end": 14.65,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 302
+    },
+    {
+      "t_start": 14.65,
+      "t_end": 19.9,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 366
+    },
+    {
+      "t_start": 19.9,
+      "t_end": 24.4,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 524
+    }
+  ],
+  "strings": [
+    "Mon peuple n'a pu vaincre les troupes orques.\u0000",
+    "Seule une poignée a survécu et continue à se battre.\u0000",
+    "Je suis l'un de ces malheureux.\u0000",
+    "Il ne reste que les habitants les plus aimables et purs de la Terre du Milieu,\u0000",
+    "et à présent l'ombre du Seigneur des ténèbres se prépare à fondre sur eux aussi.\u0000"
+  ]
+}

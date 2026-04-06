@@ -1,0 +1,1082 @@
+﻿<?xml version="1.0" standalone="no" ?> 
+<Credits>
+
+	<Heading name="spacer">
+		<SubHeading value="LOTR">
+		</SubHeading>
+		<SubHeading value="Published">
+		</SubHeading>
+		<SubHeading value="Pandemic1">
+			<Name Person="" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+		<SubHeading value="LOTR_Team">
+			<Name Person="" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="Eric “Giz” Gewirtz" Title="Director"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="Michael Saladino" Title="Senior Producer"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="Rosi Zagortcheva" Title="Art Director"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="Sean Soucy" Title="Lead Design"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="Alexander Boczar" Title="Technical Director"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+		<SubHeading value="Art">
+			<Name Person="" Title="underscore"/>
+			<Name Person="Hector Espinoza" Title="Lead Environment Artist"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="Michelle Lam" Title="Lead Character Artist"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="peeet meihuiZen" Title="Lead Animator"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+		<SubHeading value="Concept Artists">
+			<Name Person="Tony Ianiro" Title="underscore"/>
+			<Name Person="Sungpil Im" Title="spacer"/>
+			<Name Person="Eric Lutes" Title="spacer"/>
+			<Name Person="RC Montesquieu" Title="spacer"/>
+			<Name Person="Mindy Lee" Title="spacer"/>
+			<Name Person="Bryan Norton" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+		<SubHeading value="Environment Artists">
+			<Name Person="" Title="underscore"/>
+			<Name Person="Michael Altamirano" Title="spacer"/>
+			<Name Person="Francois Bellotto" Title="spacer"/>
+			<Name Person="Ali Jamalzadeh" Title="spacer"/>
+			<Name Person="Gi ung Kim " Title="spacer"/>
+			<Name Person="David Mershon" Title="spacer"/>
+			<Name Person="Bobby Rice" Title="spacer"/>
+			<Name Person="Sean Sullivan" Title="spacer"/>
+			<Name Person="Jose Zavala" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+		<SubHeading value="Character Artists">
+			<Name Person="" Title="underscore"/>
+			<Name Person="Risako Taneda" Title="spacer"/>
+			<Name Person="August Cheng Zhang" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+		<SubHeading value="Animators">
+			<Name Person="" Title="underscore"/>
+			<Name Person="David Drury Allen " Title="spacer"/>
+			<Name Person="George Antzoulides" Title="spacer"/>
+			<Name Person="Tommy Ho" Title="spacer"/>
+			<Name Person="Sueng Young Lee" Title="spacer"/>
+			<Name Person="Rob Kim" Title="spacer"/>
+			<Name Person="Sean McKinney" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+		<SubHeading value="Asset Artists">
+			<Name Person="" Title="underscore"/>
+			<Name Person="Joseph Civitate" Title="spacer"/>
+			<Name Person="Christian de los Santos" Title="spacer"/>
+			<Name Person="Tom Nguyen" Title="spacer"/>
+			<Name Person="Valerie Pullam" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+		<SubHeading value="Technical Artists">
+			<Name Person="" Title="underscore"/>
+			<Name Person="Vincent Sparacino" Title="spacer"/>
+			<Name Person="Avinash Sunnasy" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+		<SubHeading value="UI Artist">
+			<Name Person="" Title="underscore"/>
+			<Name Person="Dorian J. Compo" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+		<SubHeading value="Additional Character Art">
+			<Name Person="" Title="underscore"/>
+			<Name Person="Young Choi" Title="spacer"/>
+			<Name Person="Go Woon Choi" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="Takashi Morishima" Title="Additional Art"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="Ariel Tal" Title="Additional Effects"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+		<SubHeading value="Design">
+			<Name Person="" Title="underscore"/>
+			<Name Person="Gary Sproul" Title="Lead Level Design"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+		<SubHeading value="Level Designers">
+			<Name Person="" Title="underscore"/>
+			<Name Person="Cameron Christian" Title="spacer"/>
+			<Name Person="Brendon Chung" Title="spacer"/>
+			<Name Person="Paul Edwards" Title="spacer"/>
+			<Name Person="Eddie Rojas" Title="spacer"/>
+			<Name Person="Kuo Wou" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+		<SubHeading value="System Designers">
+			<Name Person="" Title="underscore"/>
+			<Name Person="Dan Steamer" Title="spacer"/>
+			<Name Person="Daniel Wiksten" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="Chris Kagel" Title="Additional Design"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+                <SubHeading value="Engineering">
+			<Name Person="" Title="underscore"/>
+			<Name Person="Robert Kingsley" Title="Lead Gameplay Engineer"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="Daniel Mooney" Title="Lead Graphics Engineer"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="Mattias Hörnlund" Title="Lead Multiplayer Engineer"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="Branimir Karadzic" Title="Lead Systems Engineer"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="Ivaylo Beltchev" Title="Lead Tools Engineer"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+		<SubHeading value="AI Engineers">
+			<Name Person="" Title="underscore"/>
+			<Name Person="Patrick Beland" Title="spacer"/>
+			<Name Person="Tobias Karlsson" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+		<SubHeading value="Gameplay Engineers">
+			<Name Person="" Title="underscore"/>
+			<Name Person="Robert Austin" Title="spacer"/>
+			<Name Person="James Beattie " Title="spacer"/>
+			<Name Person="Chris Gripeos " Title="spacer"/>
+			<Name Person="Sanjay Madhav" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+		<SubHeading value="Graphics Engineers">
+			<Name Person="" Title="underscore"/>
+			<Name Person="Alan Goykhman" Title="spacer"/>
+			<Name Person="Russell O'Heney" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+		<SubHeading value="Multiplayer Engineers">
+			<Name Person="" Title="underscore"/>
+			<Name Person="Dustin Darcy" Title="spacer"/>
+			<Name Person="Kevin Lin" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+		<SubHeading value="Systems Engineers">
+			<Name Person="" Title="underscore"/>
+			<Name Person="Auday Hussein" Title="spacer"/>
+			<Name Person="Toby Lael" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+		<SubHeading value="UI Engineers">
+			<Name Person="" Title="underscore"/>
+			<Name Person="Curtis Arink" Title="spacer"/>
+			<Name Person="Maethee “Eddie” Chongchitnant" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="Steven Ramirez	" Title="Technical Production Coordinator"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+                <SubHeading value="Additional programming">
+			<Name Person="" Title="underscore"/>
+			<Name Person="Boris Batkin" Title="spacer"/>
+			<Name Person="Steven Batiste" Title="spacer"/>
+			<Name Person="Randy Culley" Title="spacer"/>
+			<Name Person="Dylan Lindeen" Title="spacer"/>
+			<Name Person="Kishore Majety" Title="spacer"/>
+			<Name Person="Matt Reeves" Title="spacer"/>
+			<Name Person="Eric Smolikowski" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+                <SubHeading value="Sound Design">
+			<Name Person="" Title="underscore"/>
+			<Name Person="Michael Peter" Title="Lead Sound Design"/>
+		</SubHeading>
+		<SubHeading value="Sound Designers">
+			<Name Person="" Title="underscore"/>
+			<Name Person="Adam Stiles" Title="spacer"/>
+			<Name Person="Will Davis" Title="spacer"/>
+			<Name Person="Andrew Dearing" Title="spacer"/>
+			<Name Person="David Rovin" Title="spacer"/>
+			<Name Person="Kris Giampa" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="Chris Tilton" Title="Music Editor"/>
+		</SubHeading>
+		<SubHeading value="Additional Sound Design">
+			<Name Person="" Title="underscore"/>
+			<Name Person="Evan T Chen" Title="spacer"/>
+			<Name Person="David Fries" Title="spacer"/>
+			<Name Person="Mical Pedriana" Title="spacer"/>
+			<Name Person="Caron Weidner" Title="spacer"/>
+			<Name Person="Andrew Cheney" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="David Farmer" Title="Feature Film Sound Design by"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+                <SubHeading value="Production">
+		<Name Person="" Title="underscore"/>
+		</SubHeading>
+		<SubHeading value="Associate Producers">
+			<Name Person="" Title="underscore"/>
+			<Name Person="Ryan Hamlyn" Title="spacer"/>
+			<Name Person="Jon Katz" Title="spacer"/>
+			<Name Person="Josh Robertson" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="Alex W. Johnson" Title="Production Coordinator"/>
+			<Name Person="Katie L. Johnson" Title="Production Intern"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="Raphael Hernandez" Title="Additional Production"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+                <SubHeading value="Pandemic QA">
+			<Name Person="" Title="underscore"/>
+			<Name Person="Ben Tapley" Title="Senior QA"/>
+			<Name Person="Tim VanWert" Title="Senior QA Consultant"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+                <SubHeading value="EALA Onsite Staff">
+		<Name Person="" Title="underscore"/>
+			<Name Person="Jacqueline O’Brien" Title="QA Lead"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+		<SubHeading value="QA Testers">
+		<Name Person="" Title="underscore"/>
+			<Name Person="Nathaniel Becker" Title="spacer"/>
+			<Name Person="Josh Duran-Carlson" Title="spacer"/>
+			<Name Person="Chad Dyke" Title="spacer"/>
+			<Name Person="Sam Fayershteyn" Title="spacer"/>
+			<Name Person="William Benjamin Fields" Title="spacer"/>
+			<Name Person="William Fortier" Title="spacer"/>
+			<Name Person="Brenton Merrill Kossak" Title="spacer"/>
+			<Name Person="Arthur Leo" Title="spacer"/>
+			<Name Person="Joshua D. Sterns" Title="spacer"/>
+			<Name Person="Michael Thomas" Title="spacer"/>
+			<Name Person="Michael Bieniewicz-Valada" Title="spacer"/>
+			<Name Person="Will Wicks" Title="spacer"/>
+			<Name Person="Jennifer Williamson" Title="spacer"/>
+			<Name Person="Andrew Young" Title="spacer"/>
+			<Name Person="Beruke Zeleke" Title="spacer"/>
+			<Name Person="Stephen Zorn" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+                <SubHeading value="EALA Support Staff">
+		<Name Person="" Title="underscore"/>
+			<Name Person="Adam Bailey" Title="Senior QA Project Lead"/>
+			<Name Person="Darren Merrit" Title="Senior QA Manager"/>
+			<Name Person="Sergio Flores" Title="Software Engineer"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+                <SubHeading value="18th Floor Strike Team">
+		<Name Person="" Title="underscore"/>
+		</SubHeading>
+                <SubHeading value="PRODUCTION">
+			<Name Person="" Title="spacer"/>
+			<Name Person="Jim Tso" Title="Senior Producer"/>
+			<Name Person="Ben Liu" Title="Associate Producer"/>
+			<Name Person="Andrew Leeds" Title="Production Tester"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+                <SubHeading value="DESIGN">
+		<Name Person="" Title="underscore"/>
+			<Name Person="Dellekamp Siefert" Title="Director"/>
+			<Name Person="Mike Zaimont" Title="Combat Designer"/>
+			<Name Person="Joe Shackelford" Title="Level Designer"/>
+			<Name Person="Richard Wyckoff" Title="Level Designer"/>
+			<Name Person="Nate Jacques" Title="System Designer"/>
+			<Name Person="Greg Johnson" Title="System Designer"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+                <SubHeading value="PROGRAMMING">
+		<Name Person="" Title="underscore"/>
+			<Name Person="Dylan Bromley" Title="Lead Engineer"/>
+			<Name Person="Brad Pickering" Title="Technical Director"/>
+			<Name Person="David Givone" Title="Senior Engineer"/>
+			<Name Person="Julian Manolov" Title="Senior Engineer"/>
+			<Name Person="Ken Miller" Title="Senior Engineer"/>
+			<Name Person="Val Dessiatnitchenko" Title="Engineer"/>
+			<Name Person="Paul Ohanian" Title="Engineer"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+                <SubHeading value="ART">
+		<Name Person="" Title="underscore"/>
+			<Name Person="Matthew Howland Palmer" Title="Art Director"/>
+			<Name Person="Moon Key Bae" Title="Lead Artist"/>
+			<Name Person="Mike Chubb" Title="Senior Artist - Effects"/>
+		</SubHeading>
+                <SubHeading value="Artists">
+		<Name Person="" Title="underscore"/>
+			<Name Person="Ivan Bouinatchov" Title="spacer"/>
+			<Name Person="Rob Keenan" Title="spacer"/>
+			<Name Person="Fabian Loing" Title="spacer"/>
+			<Name Person="Graham Traynor" Title="spacer"/>
+			<Name Person="Amy Lu" Title="Senior Animator"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+                <SubHeading value="SPECIAL THANKS">
+		<Name Person="" Title="underscore"/>
+			<Name Person="Jonathan Goldman" Title="Moonsoo Lee"/>
+			<Name Person="Jeremy Melton" Title="David Baker"/>
+			<Name Person="Edward J. Moore III" Title="Robert Blum"/>
+			<Name Person="Dan Morris" Title="Steve Brookenthal"/>
+			<Name Person="Erik “Ike” Pettersson" Title="Jake Cannell"/>
+			<Name Person="Brad Roepstorff" Title="Peter Chan"/>
+			<Name Person="Jeremy Swigart" Title="Chris Fandrich"/>
+			<Name Person="Greg Walker" Title="Rodney Fuentebella"/>
+			<Name Person="Brad Welch " Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+                <SubHeading value="Pandemic Studios Los Angeles">
+		<Name Person="" Title="underscore"/>
+			<Name Person="Andrew Goldman" Title="General Manager"/>
+			<Name Person="Josh Resnick" Title="General Manager"/>
+			<Name Person="Greg Borrud" Title="Chief Production Officer"/>
+			<Name Person="John Northan" Title="Executive Technology Director"/>
+			<Name Person="Carey Chico" Title="Executive Art Director"/>
+			<Name Person="Joseph Donaldson" Title="Director of Operations"/>
+			<Name Person="Amy Lee" Title="Publishing Coordinator"/>
+			<Name Person="Cindy Hill" Title="Executive Assistant"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+                <SubHeading value="Pandemic IT">
+		<Name Person="" Title="underscore"/>
+			<Name Person="Danny Kim" Title="Director of IT"/>
+			<Name Person="Mario Cabrera " Title="Configuration Manager"/>
+			<Name Person="Chuck Ostlie" Title="Sr. Systems Engineer"/>
+			<Name Person="Garrett Barnwell " Title="Field Support Manager"/>
+		</SubHeading>
+                <SubHeading value="Field Support">
+		<Name Person="" Title="underscore"/>
+			<Name Person="Mark C. Altamirano" Title="spacer"/>
+			<Name Person="John Fritts " Title="spacer"/>
+			<Name Person="Sean Linn" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+                <SubHeading value="Pandemic HR">
+		<Name Person="" Title="underscore"/>
+			<Name Person="Karen Gifford " Title="Director"/>
+			<Name Person="Lori Pettlon" Title="Senior Manager"/>
+			<Name Person="Christine Mithiaru Sowers" Title="Human Resources Specialist"/>
+			<Name Person="Sam Gaglani" Title="Quality of Life Manager"/>
+			<Name Person="Ashley Vavrock" Title="Human Resources Generalist"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+                <SubHeading value="Outsourcing">
+		<Name Person="" Title="underscore"/>
+		</SubHeading>
+                <SubHeading value="XPEC">
+		<Name Person="" Title="underscore"/>
+			<Name Person="Wonder Lin" Title="Director"/>
+			<Name Person="Edward Yeh" Title="Coordinator"/>
+			<Name Person="Nick Lee" Title="Coordinator"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+                <SubHeading value="TPE Crew">
+		<Name Person="" Title="underscore"/>
+			<Name Person="Eason Wu" Title="Art Director"/>
+			<Name Person="Mobius Ning" Title="Art Director"/>
+			<Name Person="Julie Chung" Title="Project manager"/>
+			<Name Person="Ting Hao" Title="Cordinator"/>
+		</SubHeading>
+                <SubHeading value="Artists">
+		<Name Person="" Title="underscore"/>
+			<Name Person="Alan Lin" Title="spacer"/>
+			<Name Person="Andy Cheng" Title="spacer"/>
+			<Name Person="Angus Lee" Title="spacer"/>
+			<Name Person="Chien Su" Title="spacer"/>
+			<Name Person="Dolly Chen" Title="spacer"/>
+			<Name Person="Emit Lin" Title="spacer"/>
+			<Name Person="Hyde Chang" Title="spacer"/>
+			<Name Person="Kevin Yang" Title="spacer"/>
+			<Name Person="Kitunen Chang" Title="spacer"/>
+			<Name Person="Leo Chuang" Title="spacer"/>
+			<Name Person="Mu Lin" Title="spacer"/>
+			<Name Person="Poly Tsai" Title="spacer"/>
+			<Name Person="Ron Wang" Title="spacer"/>
+			<Name Person="Sim Chen" Title="spacer"/>
+			<Name Person="Stacey Huang" Title="spacer"/>
+			<Name Person="Franky Liu" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+                <SubHeading value="SZ Crew">
+		<Name Person="" Title="underscore"/>
+			<Name Person="Bida Wang" Title="Art Director"/>
+			<Name Person="Vanessa Tung" Title="Project manager"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+                <SubHeading value="Artists">
+		<Name Person="" Title="underscore"/>
+			<Name Person="Ying Wang" Title="Yuqiang Wei"/>
+			<Name Person="Yuanjing Yu " Title="Yong Chen"/>
+			<Name Person="Xin Han" Title="Yuanlin He"/>
+			<Name Person="Huadong Zhang " Title="Cui Sun"/>
+			<Name Person="Lei Zhang" Title="Peng Jiang"/>
+			<Name Person="Yun Zhao" Title="Jingji Wu"/>
+			<Name Person="Quanyu Xu" Title="Yiwei Zhu"/>
+			<Name Person="Tingting Liu" Title="Jing Zhao"/>
+			<Name Person="Yang Jie" Title="Youcai Chen"/>
+			<Name Person="Xuekun Zou" Title="Zhengxia Zhu"/>
+			<Name Person="Yongqiang Liu" Title="Bo Yang"/>
+			<Name Person="Qiang Zhang" Title="Xin Wang"/>
+			<Name Person="Jie Zhao" Title="Yongxian Yu"/>
+			<Name Person="Zhenbo Zhu" Title="Yong  Liu"/>
+			<Name Person="Yaozong Hu" Title="Pan Li"/>
+		</SubHeading>
+                <SubHeading value="House of Moves">
+		<Name Person="" Title="underscore"/>
+			<Name Person="Brian Rausch" Title="VP of Production"/>
+			<Name Person="Scott Gagain" Title="Executive Producer"/>
+			<Name Person="Greta Anderson" Title="Line Producer"/>
+			<Name Person="Amy Calcote" Title="Post Production Manager"/>
+			<Name Person="Sean Stanek" Title="Head of Stage Production"/>
+			<Name Person="Andre Lopez" Title="Stage Manager"/>
+			<Name Person="Andre Petrossian" Title="Stage Capture Technician"/>
+			<Name Person="Troy Reynolds" Title="Stage Capture Technician"/>
+			<Name Person="Nikola Dupkanic" Title="Audio/Video Technician"/>
+			<Name Person="Katie Gravette" Title="Production Assistant"/>
+			<Name Person="Tom Longo" Title="Production Assistant"/>
+			<Name Person="David Bax" Title="Production Assistant"/>
+			<Name Person="Yoshi Homma" Title="Production Intern"/>
+			<Name Person="Karl Diaz" Title="Pipeline TD"/>
+			<Name Person="Josh Axner" Title="Character TD"/>
+			<Name Person="Eric LaShelle" Title="Lead Keyframe Animator"/>
+		</SubHeading>
+                <SubHeading value="Keyframe Animators">
+		<Name Person="" Title="underscore"/>
+			<Name Person="Ryan McGeary" Title="spacer"/>
+			<Name Person="Alejandro Castro" Title="spacer"/>
+			<Name Person="Ruel Smith" Title="spacer"/>
+			<Name Person="Derek Raymond" Title="spacer"/>
+			<Name Person="Jeff Schanz" Title="spacer"/>
+			<Name Person="John Nguyen" Title="spacer"/>
+			<Name Person="Matthew Maners" Title="spacer"/>
+			<Name Person="Hung Vodinh" Title="spacer"/>
+		</SubHeading>
+                <SubHeading value="Motion Capture Animators">
+		<Name Person="" Title="underscore"/>
+			<Name Person="Julian Palacios" Title="spacer"/>
+			<Name Person="Robert Bardy" Title="spacer"/>
+			<Name Person="Aaron Lambert" Title="spacer"/>
+			<Name Person="Brian McKee" Title="spacer"/>
+			<Name Person="Jim Lipscomb" Title="spacer"/>
+			<Name Person="Tricia Barrett" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="Shawn Crosby" Title="Motion Capture QA Artist"/>
+			<Name Person="Josh Hutchins" Title="Motion Capture Artist"/>
+			<Name Person="Angelito Jadoromeo" Title="Motion Capture Artist"/>
+			<Name Person="Joel Kling" Title="Post Production Coordinator"/>
+			<Name Person="Colleen Crosby" Title="Database Analyst"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+                <SubHeading value="Marketing">
+		<Name Person="" Title="underscore"/>
+		</SubHeading>
+                <SubHeading value="Pandemic">
+		<Name Person="" Title="underscore"/>
+			<Name Person="Clive Downie" Title="Marketing Director"/>
+			<Name Person="Max Everingham" Title="Senior Global Product Manager"/>
+			<Name Person="Tom Stratton" Title="PR Manager"/>
+			<Name Person="Cory Lewis" Title="PR Manager"/>
+			<Name Person="James Root" Title="Creative Resources Producer"/>
+			<Name Person="Cory Lewis" Title="Creative Resources Producer"/>
+			<Name Person="Ryan James" Title="Video Editor"/>
+			<Name Person="Steven Leff" Title="Online Lead"/>
+			<Name Person="Viktor Phoenix" Title="Audio Artist"/>
+			<Name Person="Sean Bennett" Title="Graphic Designer"/>
+			<Name Person="Brandon Mahlberg" Title="Graphic Designer"/>
+			<Name Person="Joel Ytreus" Title="Production Artist"/>
+			<Name Person="David Padron" Title="Production Artist"/>
+			<Name Person="Tiffany Chan" Title="Marketing Assistant"/>
+			<Name Person="Phoebe Owen" Title="Marketing Assistant"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+                <SubHeading value="EA">
+		<Name Person="" Title="underscore"/>
+			<Name Person="Erik Harmon " Title="Product Manager II"/>
+			<Name Person="Lauren Siegel" Title="Project Manger"/>
+			<Name Person="Jonathan Long " Title="Online Marketing Manager"/>
+			<Name Person="John Burns" Title="Senior Project Manager"/>
+			<Name Person="Vivek Narayan" Title="Senior Project Manager"/>
+			<Name Person="Nina Dobner" Title="Director, Licensor Relations"/>
+			<Name Person="Maya Litani" Title="Senior Market Research Analyst"/>
+			<Name Person="Jim A Lewis" Title="Director Research"/>
+			<Name Person="Tammy Schachter" Title="Senior Director of PR/ EA Games"/>
+			<Name Person="Amber Mayo" Title="Media Strategist"/>
+			<Name Person="Chris Brown" Title="Product Manager/ EA Geneva"/>
+			<Name Person="Alonso Velasco" Title="Advertising Manager"/>
+		</SubHeading>
+                <SubHeading value="Special Thanks To">
+		<Name Person="" Title="underscore"/>
+			<Name Person="John Mayo" Title="spacer"/>
+			<Name Person="David Imhoff" Title="spacer"/>
+			<Name Person="Fredrica Drotos" Title="spacer"/>
+		</SubHeading>
+                <SubHeading value="Cinematics">
+		<Name Person="" Title="underscore"/>
+		</SubHeading>
+                <SubHeading value="Cinematics Director">
+		<Name Person="" Title="underscore"/>
+			<Name Person="Nicolas Lebessis" Title="Cinematics Director"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+                <SubHeading value="D.inc Design">
+		<Name Person="" Title="underscore"/>
+			<Name Person="John DeTemple" Title="Creative/Lead Artist"/>
+			<Name Person="Damion Tinsley" Title="Online and Conform"/>
+			<Name Person="Steve Guerrero" Title="spacer"/>
+			<Name Person="Lala Ghukasyan" Title="Modeling"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="" Title="Technical Support and Project Assistance provided by"/>
+			<Name Person="MAXON USA" Title="spacer"/>
+		</SubHeading>
+                <SubHeading value="Voice Over Recording by Soundelux">
+		<Name Person="" Title="underscore"/>
+			<Name Person="Scott Martin Gershin" Title="Executive Creative Director"/>
+			<Name Person="William Beaman" Title="Voice Over Business Manager"/>
+			<Name Person="Erica Mehallo" Title="Voice Over Coordinator"/>
+			<Name Person="Justin Langley" Title="Voice Over Recording Engineer"/>
+			<Name Person="Charlie Gondak" Title="Voice Over Recording Engineer"/>
+			<Name Person="Jamie Mortellaro" Title="Voice Over Director"/>
+			<Name Person="Eliot Connors" Title="Asset Coordinator"/>
+			<Name Person="Charlie Gondak" Title="Asset Coordinator"/>
+			<Name Person="Alex Johnson" Title="Production Assistant"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+                <SubHeading value="Voice Talent">
+		<Name Person="" Title="underscore"/>
+			<Name Person="Hugo Weaving" Title="Elrond"/>
+			<Name Person="Andrew Dawson" Title="Gothmog, Mouth of Sauron, Gondorian Officer 1"/>
+			<Name Person="Chris Edgerly" Title="Aragorn, Rohan Officer 2"/>
+			<Name Person="Crispin Freeman" Title="Legolas, Young Male Hobbit"/>
+			<Name Person="Brian George" Title="Theoden, Elven Officer 2, Old Hobbit Male"/>
+			<Name Person="Kim Mai Guest" Title="Eowyn, Young Female Hobbit, Old Female Hobbit"/>
+			<Name Person="Gavin Hammon" Title="Rohan Officer 1, Ringwraith"/>
+			<Name Person="Marvin Jarvis" Title="Gandalf"/>
+			<Name Person="Bob Joles" Title="Gimli, Treebeard, Uruk-Hai Officer 1"/>
+			<Name Person="Kevin Killebrew" Title="Orc Officer 3"/>
+			<Name Person="Jon Lipow" Title="Witch-king"/>
+			<Name Person="Yuri Lowenthal" Title="Frodo, Eleven Officer 3, Rohan Officer 3"/>
+			<Name Person="Scott McShane" Title="Uruk-Hai Officer 3"/>
+			<Name Person="Paul Mercier" Title="Faramir, Evil Human Officer 3, Gondorian Officer3"/>
+			<Name Person="Nolan North" Title="Evil Human Officer 2, Gondorian Officer 2"/>
+			<Name Person="Jon Olson" Title="Sauron, Lurtz, Orc Officer 2"/>
+			<Name Person="Alan Shearman" Title="Evil Human Officer 1"/>
+			<Name Person="Kirk Thornton" Title="Grima Wormtongue"/>
+			<Name Person="David Shaughnessy" Title="Orc Officer 1"/>
+			<Name Person="Lloyd Sherr" Title="Saruman"/>
+			<Name Person="Robert Wisdom" Title="Uruk-Hai Officer 2"/>
+			<Name Person="Michael Yurchak" Title="Elven Officer 1"/>
+		</SubHeading>
+                <SubHeading value="Music Credits">
+		<Name Person="" Title="The Lord of the Rings The Fellowship of the Ring"/>
+			<Name Person="" Title="written by Howard Shore and Philippa Boyens"/>
+			<Name Person="“The Shadow Of The Past”" Title="spacer"/>
+			<Name Person="“The Black Rider”" Title="spacer"/>
+			<Name Person="“At The Sign Of The Prancing Pony”" Title="spacer"/>
+			<Name Person="“A Knife In The Dark”" Title="spacer"/>
+			<Name Person="“Flight To The Ford”" Title="spacer"/>
+			<Name Person="“The Bridge Of Khazad Dum”" Title="spacer"/>
+			<Name Person="“Amon Hen”" Title="spacer"/>
+			<Name Person="" Title="Published by New Line Tunes (ASCAP)"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="" Title="Written by Howard Shore"/>
+			<Name Person="“The Ring Goes South”" Title="spacer"/>
+			<Name Person="" Title="Published by New Line Tunes (ASCAP)"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="" Title="The Lord of the Rings The Return of the King"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="" Title="written by Howard Shore and Philippa Boyens"/>
+			<Name Person="“Ash And Smoke”" Title="spacer"/>
+			<Name Person="“Minas Tirith”" Title="featuring Ben Del Maestro"/>
+			<Name Person="“The White Tree”" Title="spacer"/>
+			<Name Person="“The Fields Of Pelennor”" Title="spacer"/>
+			<Name Person="" Title="Published by New Line Tunes (ASCAP)"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="" Title="written by Howard Shore"/>
+			<Name Person="“Hope and Memory”" Title="spacer"/>
+			<Name Person="“Minas Morgul”" Title="spacer"/>
+			<Name Person="“The Ride Of The Rohirrim”" Title="spacer"/>
+			<Name Person="“The Black Gate Opens”" Title="The Black Gate Opens featuring Sir James Galway"/>
+			<Name Person="" Title="Published by New Line Tunes (ASCAP)"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="" Title="Written by Howard Shore and Philippa Boyens"/>
+			<Name Person="“The End Of All Things”" Title="featuring Renee Fleming"/>
+			<Name Person="" Title="Published by New Line Tunes administered"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="" Title="Two Towers"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="" Title="written by Howard Shore and Philippa Boyens"/>
+			<Name Person="“Foundations Of Stone” " Title="spacer"/>
+			<Name Person="“The Passage Of The Marshes”" Title="spacer"/>
+			<Name Person="“The Uruk-Hai”" Title="spacer"/>
+			<Name Person="“The King Of The Golden Hall”" Title="spacer"/>
+			<Name Person="“The White Rider”" Title="spacer"/>
+			<Name Person="“Helm's Deep”" Title="spacer"/>
+			<Name Person="“Forth Eorlingas”" Title="spacer"/>
+			<Name Person="" Title="Published by New Line Tunes (ASCAP)"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="" Title="Written by Howard Shore and Frances Rosemary Walsh"/>
+			<Name Person="“The Taming of Smeagol”" Title="spacer"/>
+			<Name Person="" Title="Published by New Line Tunes (ASCAP)"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="" Title="Written by Howard Shore and Philippa Boyens"/>
+			<Name Person="“Isengard Unleashed”" Title="spacer"/>
+			<Name Person="" Title="Published by New Line Tunes administered"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="" Title="All recordings courtesy New Line Productions"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="Beverly Koeckeritz" Title="Music Licensing Manager"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+                <SubHeading value="Redwood Shores">
+		<Name Person="" Title="underscore"/>
+		</SubHeading>
+                <SubHeading value="EARS QA">
+		<Name Person="" Title="underscore"/>
+			<Name Person="Dave Steele" Title="Sr. QA Director"/>
+			<Name Person="Matt Brown" Title="Sr. QA Manager"/>
+			<Name Person="Rob Walton" Title="Project Manager"/>
+			<Name Person="Jonathan Yan" Title="Project Lead"/>
+			<Name Person="Angelo Ayson" Title="Assistant Lead"/>
+		</SubHeading>
+                <SubHeading value="QA Tester">
+		<Name Person="" Title="underscore"/>
+			<Name Person="Shawn Goff" Title="spacer"/>
+			<Name Person="Ron Nixon" Title="spacer"/>
+			<Name Person="Allen Rusakovsky" Title="spacer"/>
+			<Name Person="Devon Smith" Title="spacer"/>
+			<Name Person="Dave Koerner" Title="EARS QA Shared Services Manager"/>
+			<Name Person="Brian Battistini" Title="EARS QA Support"/>
+			<Name Person="Matthew Kile" Title="EARS QA Support"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+                <SubHeading value="EARS CAT Lab (Compatibility and Technology)">
+		<Name Person="" Title="underscore"/>
+			<Name Person="Mark Gonzales" Title="CAT Lab Lead"/>
+			<Name Person="Dave Caron" Title="CAT Lab Assistant Lead"/>
+			<Name Person="Ryan Morales" Title="LOTR Conquest Project Lead"/>
+		</SubHeading>
+                <SubHeading value="Senior QA Testers">
+		<Name Person="" Title="underscore"/>
+			<Name Person="Angelo Bayan" Title="spacer"/>
+			<Name Person="Jon Naugle" Title="spacer"/>
+			<Name Person="Joshua Platt" Title="spacer"/>
+		</SubHeading>
+                <SubHeading value="CAT Testers">
+		<Name Person="" Title="underscore"/>
+			<Name Person="Don Foley" Title="spacer"/>
+			<Name Person="Jason Fricano" Title="spacer"/>
+			<Name Person="Harley Larsen" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+                <SubHeading value="EARS QA Compliance Team">
+		<Name Person="" Title="underscore"/>
+			<Name Person="" Title="EARS QA Compliance Leads"/>
+			<Name Person="Josh Riemersma" Title="spacer"/>
+			<Name Person="Mark Johnson" Title="spacer"/>
+			<Name Person="Matt Landi" Title="spacer"/>
+			<Name Person="Steve Jenkins" Title="spacer"/>
+		</SubHeading>
+                <SubHeading value="EARS QA Compliance Testers">
+		<Name Person="" Title="underscore"/>
+			<Name Person="Evan Agustin" Title="spacer"/>
+			<Name Person="Christopher Anjos" Title="spacer"/>
+			<Name Person="Bert Gatchalian" Title="spacer"/>
+			<Name Person="Alvin Jean-Baptiste" Title="spacer"/>
+			<Name Person="Daniel Lazzari" Title="spacer"/>
+			<Name Person="Michael McDonald" Title="spacer"/>
+			<Name Person="Jonathan Olazabal" Title="spacer"/>
+			<Name Person="Theodore Serafica" Title="spacer"/>
+			<Name Person="Sam Worf" Title="spacer"/>
+		</SubHeading>
+                <SubHeading value="Montreal">
+		<Name Person="" Title="underscore"/>
+		</SubHeading>
+                <SubHeading value="VMC Game Labs">
+		<Name Person="" Title="underscore"/>
+			<Name Person="Ryan Boyer" Title="Sr. Test Lead"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="Keith Earley" Title="Sr. Test Lead"/>
+		</SubHeading>
+                <SubHeading value="Test Leads">
+			<Name Person="Sebastien Le Prestre" Title="spacer"/>
+			<Name Person="Justin Parker" Title="spacer"/>
+			<Name Person="Jonathan Yeung" Title="spacer"/>
+		</SubHeading>
+                <SubHeading value="Sr. Testers">
+		<Name Person="" Title="underscore"/>
+			<Name Person="Travis Baker" Title="spacer"/>
+			<Name Person="Suraj Chitra" Title="spacer"/>
+			<Name Person="Mikael Conrath" Title="spacer"/>
+			<Name Person="David Riley " Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+                <SubHeading value="QA Testers">
+		<Name Person="" Title="underscore"/>
+			<Name Person="Dennis Allaire" Title="spacer"/>
+			<Name Person="Jonathan Allen" Title="spacer"/>
+			<Name Person="Zead Babeel" Title="spacer"/>
+			<Name Person="Chris Bartkow" Title="spacer"/>
+			<Name Person="Carl Beaumier" Title="spacer"/>
+			<Name Person="Alexis Bosse" Title="spacer"/>
+			<Name Person="Ja James Britton" Title="spacer"/>
+			<Name Person="Nick Burns" Title="spacer"/>
+			<Name Person="Christelle Carrier" Title="spacer"/>
+			<Name Person="Sebastien Clemont" Title="spacer"/>
+			<Name Person="Andrew Curtis" Title="spacer"/>
+			<Name Person="Justin Ford" Title="spacer"/>
+			<Name Person="Jeffrey Golick" Title="spacer"/>
+			<Name Person="George Gonis" Title="spacer"/>
+			<Name Person="Carl Gonzalez" Title="spacer"/>
+			<Name Person="Sean Grothé" Title="spacer"/>
+			<Name Person="Justin Hamilton" Title="spacer"/>
+			<Name Person="Blair Henderson" Title="spacer"/>
+			<Name Person="Mathieu Gaudet" Title="spacer"/>
+			<Name Person="Mark Lackey" Title="spacer"/>
+			<Name Person="Carlo Lafontaine" Title="spacer"/>
+			<Name Person="Maxime Leclerc" Title="spacer"/>
+			<Name Person="Jay Lecompte" Title="spacer"/>
+			<Name Person="John Lee" Title="spacer"/>
+			<Name Person="Tony Lefebvre" Title="spacer"/>
+			<Name Person="Hector Libreros" Title="spacer"/>
+			<Name Person="William Ling" Title="spacer"/>
+			<Name Person="Allen Malamud" Title="spacer"/>
+			<Name Person="John McGrady" Title="spacer"/>
+			<Name Person="Scott Mitchell" Title="spacer"/>
+			<Name Person="John Mojzner" Title="spacer"/>
+			<Name Person="Wesley Neil" Title="spacer"/>
+			<Name Person="Alex Nguyen" Title="spacer"/>
+			<Name Person="Sebouh Ohanian" Title="spacer"/>
+			<Name Person="Derek Palermo" Title="spacer"/>
+			<Name Person="Pascal Préfontaine" Title="spacer"/>
+			<Name Person="Kai Tang" Title="spacer"/>
+			<Name Person="Liam Thomas" Title="spacer"/>
+			<Name Person="Mihai Toma" Title="spacer"/>
+			<Name Person="Boramy Ty" Title="spacer"/>
+			<Name Person="Kira Vrouvas" Title="spacer"/>
+			<Name Person="Jeff White" Title="spacer"/>
+			<Name Person="Shakir Williams" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+                <SubHeading value="Orlando -Tiburon">
+		<Name Person="" Title="underscore"/>
+			<Name Person="Scott Forbes" Title="Director of Quality Assurance"/>
+			<Name Person="Graham Northcote" Title="QA Resource Manager"/>
+			<Name Person="Todd Curth" Title="QA Manager"/>
+			<Name Person="Ian Colburn" Title="Senior QA Project Manager"/>
+		</SubHeading>
+                <SubHeading value="QA Project Leads">
+			<Name Person="Mark Carbonneau" Title="spacer"/>
+			<Name Person="Marvin Cartagena" Title="spacer"/>
+		</SubHeading>
+                <SubHeading value="Senior QA Testers">
+		<Name Person="" Title="underscore"/>
+			<Name Person="Nick Batignani" Title="spacer"/>
+			<Name Person="Israel Cirilo" Title="spacer"/>
+			<Name Person="Michael J. Condello" Title="spacer"/>
+			<Name Person="Justin Cudebec" Title="spacer"/>
+			<Name Person="Geo Sarria" Title="spacer"/>
+		</SubHeading>
+                <SubHeading value="QA Tester">
+		<Name Person="" Title="underscore"/>
+			<Name Person="William S. Antell" Title="spacer"/>
+			<Name Person="Anthony Britt" Title="spacer"/>
+			<Name Person="Michael Bundick" Title="spacer"/>
+			<Name Person="Andrew Burch" Title="spacer"/>
+			<Name Person="Jason Carmoega" Title="spacer"/>
+			<Name Person="Stephen Chownwai" Title="spacer"/>
+			<Name Person="Justin Cokeroft" Title="spacer"/>
+			<Name Person="Mike Dones" Title="spacer"/>
+			<Name Person="Zachary J. Felderhoff" Title="spacer"/>
+			<Name Person="Elbin Ferreira" Title="spacer"/>
+			<Name Person="Kyle A. Fink" Title="spacer"/>
+			<Name Person="Jeff Fiorentino" Title="spacer"/>
+			<Name Person="Kathrine Gore" Title="spacer"/>
+			<Name Person="Cory Hall" Title="spacer"/>
+			<Name Person="Emily Shea Harris" Title="spacer"/>
+			<Name Person="Corey Kasbohm" Title="spacer"/>
+			<Name Person="David King" Title="spacer"/>
+			<Name Person="Marc Lucia" Title="spacer"/>
+			<Name Person="Jeff Mabry" Title="spacer"/>
+			<Name Person="Michael Pino" Title="spacer"/>
+			<Name Person="Clayton Robbins" Title="spacer"/>
+			<Name Person="Shea Rodrigue" Title="spacer"/>
+			<Name Person="Roberto Sanchez-Santos" Title="spacer"/>
+			<Name Person="Jason Struckhoff" Title="spacer"/>
+			<Name Person="Scott Tapley" Title="spacer"/>
+			<Name Person="William Uva" Title="spacer"/>
+			<Name Person="Henry N. Warner Jr." Title="spacer"/>
+			<Name Person="Jon Weber" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+                <SubHeading value="Mastering Services">
+		<Name Person="" Title="underscore"/>
+			<Name Person="Mike Yasko" Title="Worldwide Mastering"/>
+		</SubHeading>
+                <SubHeading value="EALA Mastering">
+		<Name Person="" Title="underscore"/>
+			<Name Person="Louis Burgueno" Title="Manager"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="John Freeman" Title="spacer"/>
+			<Name Person="James Geiger" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+                <SubHeading value="EA Redwood Shores Mastering">
+		<Name Person="" Title="underscore"/>
+			<Name Person="Mike Deir" Title="spacer"/>
+			<Name Person="Chris Espiritu" Title="spacer"/>
+			<Name Person="Kima Hayuk" Title="spacer"/>
+			<Name Person="Rick Helmer" Title="spacer"/>
+			<Name Person="Belle Vasaya" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+                <SubHeading value="EA Tiburon Mastering">
+		<Name Person="" Title="underscore"/>
+			<Name Person="Lucas Stanton" Title="Lead Mastering Lab Technician"/>
+			<Name Person="Michael Wall" Title="Mastering Lab Assistant"/>
+		</SubHeading>
+                <SubHeading value="EA Montreal Mastering">
+		<Name Person="" Title="underscore"/>
+			<Name Person="Alexandre Ponton" Title="Mastering Lab Supervisor"/>
+			<Name Person="Benjamin Spattz" Title="Mastering Lab Technician"/>
+			<Name Person="Martin Berry" Title="Mastering Lab Assistant"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+                <SubHeading value="EA Certification">
+		<Name Person="" Title="underscore"/>
+			<Name Person="Rene Apperley" Title="DarrylJenkins"/>
+			<Name Person="James Arup" Title="Harry Kashouli"/>
+			<Name Person="Sherwyn Augustus" Title="Amy Kenah"/>
+			<Name Person="Earl Baker" Title="Kyle Killion"/>
+			<Name Person="Stephen Baker" Title="Mike Kushner"/>
+			<Name Person="Dave Beck" Title="Raymond Langford"/>
+			<Name Person="James Bolton" Title="Alex Lawson"/>
+			<Name Person="Matt Bright" Title="Conrad Leiden"/>
+			<Name Person="Phil Brown" Title="Matt Loft"/>
+			<Name Person="Mike Bullen" Title="Damon Lumley"/>
+			<Name Person="Collin Carey" Title="Anh Luong"/>
+			<Name Person="Pedro Castro" Title="Daniel Martell"/>
+			<Name Person="Sandra Champanhet" Title="Shaun McCourt"/>
+			<Name Person="Adam McIntosh" Title="Russell Medeiros"/>
+			<Name Person="Kwang-Hi Cho" Title="James Melling"/>
+			<Name Person="Andy Chung" Title="Garrett Muldoon"/>
+			<Name Person="Nic Cobb" Title="Mitchell Munter"/>
+			<Name Person="Jason Collins" Title="Stuart Oswald"/>
+			<Name Person="Steve Cook" Title="Dee Patel"/>
+			<Name Person="Rob Cooke" Title="Eduardo Ponz"/>
+			<Name Person="Benjamin Crick" Title="Andy Pritchard"/>
+			<Name Person="Ricardo De Avila" Title="Lucas Richard"/>
+			<Name Person="Lawrence Donohue" Title="Ryan Roque"/>
+			<Name Person="James Featherstone" Title="Joyce Sacman"/>
+			<Name Person="Mike Fenton" Title="Joaquin Sanz Jimenez"/>
+			<Name Person="David Fielding" Title="Seb Serrano"/>
+			<Name Person="Seferino Gallardo" Title="Chance Shiflett"/>
+			<Name Person="Eron Garcia" Title="Garcia de Quinto"/>
+			<Name Person="Juan Antonio" Title="Julie Staub"/>
+			<Name Person="Laura George" Title="Jonas Stockfleth"/>
+			<Name Person="Daniel Green" Title="Chris Strong"/>
+			<Name Person="Wes Hendrix" Title="Timo Tolonen"/>
+			<Name Person="Allen Horton" Title="Eduardo Varela"/>
+			<Name Person="Joseph Huggett" Title="Robin Volker"/>
+			<Name Person="Morgan Hughes" Title="Tim Wileman"/>
+			<Name Person="Errol Ismail" Title="Bobby Williams"/>
+			<Name Person="Ben Jackson" Title="Richard Silva"/>
+			<Name Person="Ryan Jacobson" Title="Lawinjeya Chandrakumarb"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+                <SubHeading value="Game Online Studio">
+		<Name Person="" Title="underscore"/>
+			<Name Person="Ashley Bennett" Title="spacer"/>
+			<Name Person="Kevin Bork" Title="spacer"/>
+			<Name Person="Ryan Butterfoss" Title="spacer"/>
+			<Name Person="Corey Johnson" Title="spacer"/>
+			<Name Person="Nate Jones" Title="spacer"/>
+			<Name Person="Jason Joyce" Title="spacer"/>
+			<Name Person="Bob Ljujic" Title="spacer"/>
+			<Name Person="Omar Moussawel" Title="spacer"/>
+			<Name Person="Jijnes Patel" Title="spacer"/>
+			<Name Person="Christian Reyes" Title="spacer"/>
+			<Name Person="Vikash Shah" Title="spacer"/>
+			<Name Person="Samir Sinha" Title="spacer"/>
+			<Name Person="Lars Smith" Title="spacer"/>
+			<Name Person="Shawn Stafford" Title="spacer"/>
+			<Name Person="Mark Waller" Title="spacer"/>
+			<Name Person="Dan Windrem" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+                <SubHeading value="EA IT">
+			<Name Person="" Title="underscore"/>
+			<Name Person="John Amendolaro" Title="spacer"/>
+			<Name Person="Jeff Carter" Title="spacer"/>
+			<Name Person="Steven Chui" Title="spacer"/>
+			<Name Person="Kara DeShazer" Title="spacer"/>
+			<Name Person="Vicki Gordon" Title="spacer"/>
+			<Name Person="Jeff Ha" Title="spacer"/>
+			<Name Person="John Hanley" Title="spacer"/>
+			<Name Person="Chad Hughes" Title="spacer"/>
+			<Name Person="Venkat Kumar" Title="spacer"/>
+			<Name Person="Brent Lamb" Title="spacer"/>
+			<Name Person="Terry Moon" Title="spacer"/>
+			<Name Person="Ricardo Nakasato" Title="spacer"/>
+			<Name Person="Kurt Oehlschlaeger" Title="spacer"/>
+			<Name Person="Sheryl Sixsmith" Title="spacer"/>
+			<Name Person="Edgar Tsissar" Title="spacer"/>
+			<Name Person="Tor Underwood" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+                <SubHeading value="Localization">
+		<Name Person="" Title="underscore"/>
+		</SubHeading>
+                <SubHeading value="EIS Production">
+		<Name Person="" Title="underscore"/>
+		</SubHeading>
+                <SubHeading value="International Project Managers">
+		<Name Person="" Title="underscore"/>
+			<Name Person="Inés Hernandez" Title="spacer"/>
+			<Name Person="Anabel Perez" Title="spacer"/>
+			<Name Person="Isabel Guijarro" Title="spacer"/>
+		</SubHeading>
+                <SubHeading value="EIS Engineering">
+		<Name Person="" Title="underscore"/>
+			<Name Person="Iván Arroyo" Title="Sr Lead Integration Engineer"/>
+			<Name Person="Danilo Guerrero" Title="Sr Lead Integration Engineer"/>
+			<Name Person="Santiago Albert" Title="Audio Engineer"/>
+		</SubHeading>
+                <SubHeading value="Integration Engineer">
+		<Name Person=""Title="underscore"/>
+			<Name Person="Dario Ortega" Title="spacer"/>
+			<Name Person="Jose Manuel Carrascal" Title="spacer"/>
+			<Name Person="Alejandro	Simon" Title="spacer"/>
+			<Name Person="Felipe Gonzalez" Title="spacer"/>
+			<Name Person="Fernando Borrego" Title="Integration Engineer"/>
+			<Name Person="Daniel Santos" Title="Integration Engineer"/>
+			<Name Person="Gonzalo Rodriguez" Title="Integration Engineer"/>
+		</SubHeading>
+                <SubHeading value="ESSC Testing">
+		<Name Person="" Title="underscore"/>
+			<Name Person="Holger Hartmann" Title="Localization Testing Project Manager"/>
+			<Name Person="Bernd Niemietz" Title="Localization Testing Project Manager"/>
+			<Name Person="Nicoletta Medeot" Title="QA Manager"/>
+			<Name Person="Charles Ulbig" Title="Senior LT Tester"/>
+		</SubHeading>
+                <SubHeading value="LT Testers">
+		<Name Person="" Title="underscore"/>
+			<Name Person="Isabelle Tshinema" Title="spacer"/>
+			<Name Person="Louise Hunter" Title="spacer"/>
+			<Name Person="Ilaria Vetrucci" Title="spacer"/>
+			<Name Person="Ataul Qudoos Mateen" Title="spacer"/>
+			<Name Person="Carlos Soguero Zamora" Title="spacer"/>
+			<Name Person="Karl Larson" Title="spacer"/>
+			<Name Person="Alan Francois" Title="spacer"/>
+			<Name Person="Fabian Seifried" Title="spacer"/>
+			<Name Person="Felice Ferrara" Title="spacer"/>
+			<Name Person="Siri Olufsen" Title="spacer"/>
+			<Name Person="Nestor Hernandez Sousa" Title="spacer"/>
+			<Name Person="Hampus Myr" Title="spacer"/>
+			<Name Person="Jerome Gervais" Title="spacer"/>
+			<Name Person="Caroline Jonasson" Title="spacer"/>
+			<Name Person="Christine	Gelder" Title="spacer"/>
+			<Name Person="Vincenzo Valenti" Title="spacer"/>
+			<Name Person="Lucio Boggio" Title="spacer"/>
+			<Name Person="Daniele Gallori" Title="spacer"/>
+			<Name Person="Ruth Marin" Title="spacer"/>
+			<Name Person="Geoffrey Coulon" Title="spacer"/>
+			<Name Person="Theofanis Anestopoulos" Title="spacer"/>
+			<Name Person="Giuliano Bettanin" Title="spacer"/>
+			<Name Person="Matteo Lorenzoni" Title="spacer"/>
+			<Name Person="Laetitia	Paris" Title="spacer"/>
+			<Name Person="Nicholas Ricco" Title="spacer"/>
+			<Name Person="Amós Rodríguez" Title="spacer"/>
+			<Name Person="Jekaterina Panova" Title="spacer"/>
+			<Name Person="Mats Helge Holm" Title="spacer"/>
+			<Name Person="Tomasz ‘Gambit’ Dobosz" Title="spacer"/>
+			<Name Person="Lorenzo Confalonieri" Title="spacer"/>
+			<Name Person="Paolo Giovenco" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="Jonas  Estrada" Title="Localization Coordinator"/>
+			<Name Person="Sigbjorn Hovda" Title="Translator NO"/>
+			<Name Person="Petter Notstrand" Title="Translator SV"/>
+			<Name Person="Gustav Dahlander" Title="Translator SV"/>
+			<Name Person="Ana Esther Rodríguez" Title="Localization Coordinator"/>
+			<Name Person="Javier Sevilla" Title="Translator ES"/>
+			<Name Person="Marcel Elsner" Title="Localization Coordinator"/>
+			<Name Person="Robert Bock" Title="Translator DE"/>
+			<Name Person="Isabelle	Martin" Title="Localisation Manager"/>
+			<Name Person="Alessandro Paglia" Title="Localisation Supervisor"/>
+			<Name Person="Daniele Sacco" Title="Localisation Coordinator"/>
+			<Name Person="S.r.l., Luca Artoni" Title="Translation Synthesis International"/>
+			<Name Person="Mathieu Donsimoni" Title="Localisation coordinator"/>
+			<Name Person="Around the Word" Title="Translation"/>
+			<Name Person="Anna Tomala" Title="Localisation Coordinator"/>
+			<Name Person="SOFTCLUB" Title="Translation"/>
+		</SubHeading>
+                <SubHeading value="Special Thanks">
+
+		</SubHeading>
+                <SubHeading value="Special Thanks 2">
+		<	Name Person="" Title="underscore"/>
+		</SubHeading>
+                <SubHeading value="Teamthanks">
+			<Name Person="" Title="Teamthanks1"/>
+			<Name Person="" Title="Teamthanks2"/>
+			<Name Person="" Title="Teamthanks3"/>
+			<Name Person="" Title="Teamthanks4"/>
+			<Name Person="" Title="Teamthanks5"/>
+			<Name Person="" Title="Teamthanks6"/>
+			<Name Person="" Title="Teamthanks7"/>
+			<Name Person="" Title="Teamthanks8"/>
+			<Name Person="" Title="Teamthanks9"/>
+			<Name Person="" Title="Teamthanks10"/>
+			<Name Person="" Title="Teamthanks11"/>
+			<Name Person="" Title="Teamthanks12"/>
+			<Name Person="" Title="Teamthanks13"/>
+			<Name Person="" Title="Teamthanks14"/>
+			<Name Person="" Title="Teamthanks15"/>
+			<Name Person="" Title="underscore"/>
+			<Name Person="" Title="underscore"/>
+		</SubHeading>
+                <SubHeading value="TeamBabies">
+			<Name Person="Ryan Joseph Mayo" Title="spacer"/>
+			<Name Person="Lucy Ryann Imhoff" Title="spacer"/>
+			<Name Person="Baby Boy Allen" Title="spacer"/>
+			<Name Person="Drake Palmer" Title="spacer"/>
+			<Name Person="Kaede Hamlyn" Title="spacer"/>
+			<Name Person="Ruby Isabella Ninja Gewirtz" Title="spacer"/>
+			<Name Person="Baby Boczar" Title="spacer"/>
+			<Name Person="Alexander Yazijian" Title="spacer"/>
+			<Name Person="Neo Norton" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+			<Name Person="" Title="spacer"/>
+		</SubHeading>
+	</Heading>
+</Credits>

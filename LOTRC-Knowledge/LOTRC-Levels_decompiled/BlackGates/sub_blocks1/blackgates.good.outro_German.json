@@ -1,0 +1,118 @@
+{
+  "vals": [
+    {
+      "t_start": 4.57,
+      "t_end": 11.73,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 284
+    },
+    {
+      "t_start": 11.77,
+      "t_end": 15.99,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 484
+    },
+    {
+      "t_start": 16.02,
+      "t_end": 19.67,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 628
+    },
+    {
+      "t_start": 19.69,
+      "t_end": 24.37,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 720
+    },
+    {
+      "t_start": 24.39,
+      "t_end": 31.24,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 864
+    },
+    {
+      "t_start": 31.26,
+      "t_end": 36.67,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1062
+    },
+    {
+      "t_start": 36.69,
+      "t_end": 41.57,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1234
+    },
+    {
+      "t_start": 41.61,
+      "t_end": 46.29,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1386
+    },
+    {
+      "t_start": 46.41,
+      "t_end": 49.7,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1516
+    },
+    {
+      "t_start": 49.82,
+      "t_end": 57.17,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1604
+    },
+    {
+      "t_start": 57.29,
+      "t_end": 60.66,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1788
+    },
+    {
+      "t_start": 60.78,
+      "t_end": 66.57,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1868
+    },
+    {
+      "t_start": 66.69,
+      "t_end": 70.87,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 2072
+    },
+    {
+      "t_start": 70.99,
+      "t_end": 77.9,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 2150
+    }
+  ],
+  "strings": [
+    "Obwohl es in dieser letzten Stunde keine Hoffnung auf Überleben gab, wich keiner der Männer zurück.\u0000",
+    "Und auch als der Feind näher rückte und die Kraft aus ihren Armen wich,\u0000",
+    "  hatten die Menschen keine Furcht im Herzen.\u0000",
+    "Doch es war unserer Welt nicht bestimmt, in dieser Stunde unterzugehen.\u0000",
+    "Denn der Ring trieb ein grausames Spiel, das selbst sein dunkler Meister nicht vorhersehen konnte.\u0000",
+    "Und in diesem letzten verzweifelten Augenblick erfüllte der Ringträger seine Pflicht.\u0000",
+    "Und nur einen Herzschlag später war der Dunkle Herrscher Sauron nicht mehr.\u0000",
+    "Und so hatte das kleinste aller Dinge unseren Triumph besiegelt.\u0000",
+    "Unser Schicksal stand auf Messers Schneide,\u0000",
+    "doch dann, als die Hoffnung siegte, bohrte sich dieses Messer tief in das Herz des Feindes.\u0000",
+    "Und dies war die Stunde unseres Sieges.\u0000",
+    "Vergiss nie, dass die Herzen der Freien Völker auf diesen blutigen Schlachtfeldern niemals zweifelten\u0000",
+    "und ihr Mut niemals ins Wanken geriet.\u0000",
+    "Und so endete das Dritte Zeitalter im Triumph und nicht in Verzweiflung.\u0000"
+  ]
+}

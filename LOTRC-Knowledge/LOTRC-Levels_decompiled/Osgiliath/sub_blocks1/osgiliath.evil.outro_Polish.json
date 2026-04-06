@@ -1,0 +1,70 @@
+{
+  "vals": [
+    {
+      "t_start": 4.31,
+      "t_end": 6.44,
+      "unk_2": 16777215,
+      "unk_3": 2,
+      "off": 164
+    },
+    {
+      "t_start": 6.44,
+      "t_end": 10.88,
+      "unk_2": 16777215,
+      "unk_3": 2,
+      "off": 232
+    },
+    {
+      "t_start": 10.89,
+      "t_end": 14.08,
+      "unk_2": 16777215,
+      "unk_3": 2,
+      "off": 350
+    },
+    {
+      "t_start": 14.08,
+      "t_end": 15.83,
+      "unk_2": 16777215,
+      "unk_3": 2,
+      "off": 458
+    },
+    {
+      "t_start": 15.84,
+      "t_end": 17.64,
+      "unk_2": 16777215,
+      "unk_3": 2,
+      "off": 522
+    },
+    {
+      "t_start": 17.64,
+      "t_end": 21.22,
+      "unk_2": 16777215,
+      "unk_3": 2,
+      "off": 560
+    },
+    {
+      "t_start": 21.23,
+      "t_end": 26.72,
+      "unk_2": 16777215,
+      "unk_3": 2,
+      "off": 646
+    },
+    {
+      "t_start": 26.73,
+      "t_end": 31.13,
+      "unk_2": 16777215,
+      "unk_3": 2,
+      "off": 778
+    }
+  ],
+  "strings": [
+    "Władca Ciemności jest zadowolony,\u0000",
+    "gdyż buciory orków raz jeszcze zdeptały zrujnowane miasto.\u0000",
+    "Faramirowi i jego ludziom nie okazano żadnej łaski...\u0000",
+    "ani też oni jej nie oczekiwali.\u0000",
+    "A dla hord Saurona\u0000",
+    "droga do serca Gondoru znowu stoi otworem.\u0000",
+    "Teraz w obozowiskach Mordoru Czarny Władca przyzywa nowe legiony.\u0000",
+    "Tym razem chce zmiażdżyć wszystkich, którzy powstaną przeciwko niemu.\u0000"
+  ]
+}

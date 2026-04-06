@@ -1,0 +1,78 @@
+{
+  "vals": [
+    {
+      "t_start": 4.86,
+      "t_end": 9.02,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 184
+    },
+    {
+      "t_start": 9.14,
+      "t_end": 13.16,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 262
+    },
+    {
+      "t_start": 13.28,
+      "t_end": 16.66,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 402
+    },
+    {
+      "t_start": 16.78,
+      "t_end": 21.98,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 480
+    },
+    {
+      "t_start": 22.1,
+      "t_end": 25.45,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 606
+    },
+    {
+      "t_start": 25.57,
+      "t_end": 28.77,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 676
+    },
+    {
+      "t_start": 28.89,
+      "t_end": 32.74,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 772
+    },
+    {
+      "t_start": 32.86,
+      "t_end": 36.0,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 862
+    },
+    {
+      "t_start": 36.12,
+      "t_end": 41.13,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 954
+    }
+  ],
+  "strings": [
+    "Minas Tirith, die Weiße Stadt, brennt!\u0000",
+    "Die Tore sind zerschmettert und die unteren Ringe der Stadt verloren!\u0000",
+    "In den Hallen der toten Könige Gondors\u0000",
+    "bis hinauf zum Weißen Baum hat die Dunkelheit Einzug gehalten.\u0000",
+    "Orks tafeln nun in Ecthelions Turm\u0000",
+    "und entehren den einstigen König und sein Volk.\u0000",
+    "Und so stirbt Minas Tirith, die Weiße Stadt,\u0000",
+    "und mit ihr die letzte Hoffnung der Menschen.\u0000",
+    "Der Krieg muss weitergehen, aber wir haben eine schwere Wunde davongetragen.\u0000"
+  ]
+}

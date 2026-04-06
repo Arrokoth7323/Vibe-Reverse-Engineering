@@ -1,0 +1,78 @@
+{
+  "vals": [
+    {
+      "t_start": 3.7,
+      "t_end": 7.28,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 184
+    },
+    {
+      "t_start": 7.28,
+      "t_end": 12.2,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 302
+    },
+    {
+      "t_start": 12.21,
+      "t_end": 15.08,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 404
+    },
+    {
+      "t_start": 15.08,
+      "t_end": 17.99,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 502
+    },
+    {
+      "t_start": 18.0,
+      "t_end": 22.02,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 592
+    },
+    {
+      "t_start": 22.02,
+      "t_end": 25.0,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 676
+    },
+    {
+      "t_start": 25.01,
+      "t_end": 30.67,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 770
+    },
+    {
+      "t_start": 30.67,
+      "t_end": 36.04,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 918
+    },
+    {
+      "t_start": 36.04,
+      "t_end": 40.79,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1068
+    }
+  ],
+  "strings": [
+    "En spejarstyrka av orcher korsar Anduin i skydd av mörkret\u0000",
+    "och inleder Saurons förnyade anfall mot vår värld.\u0000",
+    "Orchanstormningen kommer att inledas vid midnatt\u0000",
+    "och stöta som en dolk mot Osgiliaths hjärta.\u0000",
+    "Det mest dödsbringande slaget ska utdelas\u0000",
+    "av en elit-hord som väntar på bortre stranden.\u0000",
+    "Deras kastmaskiner står redo att regna eld över de hatade utbygdsjägarna.\u0000",
+    "Orcherna väntar på signal från dolda spejare för att identifiera sina mål.\u0000",
+    "Deras mörka hjärtan önskar innerligt att se Osgiliath i lågor.\u0000"
+  ]
+}

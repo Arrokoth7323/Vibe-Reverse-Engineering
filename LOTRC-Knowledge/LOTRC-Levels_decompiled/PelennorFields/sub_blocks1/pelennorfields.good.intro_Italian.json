@@ -1,0 +1,86 @@
+{
+  "vals": [
+    {
+      "t_start": 5.1,
+      "t_end": 9.42,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 204
+    },
+    {
+      "t_start": 9.54,
+      "t_end": 12.44,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 358
+    },
+    {
+      "t_start": 12.56,
+      "t_end": 16.44,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 456
+    },
+    {
+      "t_start": 16.44,
+      "t_end": 19.92,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 580
+    },
+    {
+      "t_start": 20.04,
+      "t_end": 22.46,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 706
+    },
+    {
+      "t_start": 22.58,
+      "t_end": 25.75,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 790
+    },
+    {
+      "t_start": 25.87,
+      "t_end": 29.83,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 888
+    },
+    {
+      "t_start": 29.95,
+      "t_end": 32.65,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1018
+    },
+    {
+      "t_start": 32.77,
+      "t_end": 36.43,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1126
+    },
+    {
+      "t_start": 36.55,
+      "t_end": 39.96,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1232
+    }
+  ],
+  "strings": [
+    "Cavalcando in soccorso di Minas Tirith, verso la rovina e la fine del mondo,\u0000",
+    "i cavalieri di Rohan si scontrano con il nemico.\u0000",
+    "Nulla, sui Campi del Pelennor, può resistere alla loro furia.\u0000",
+    "Assediati da ogni dove da macchine da guerra ed enormi bestie,\u0000",
+    "i valorosi di Thèoden devono sopravvivere\u0000",
+    "a un'orda infinita di Orchetti e Cavalieri Warg.\u0000",
+    "Se i Rohirrim infliggeranno gravi danni agli eserciti di Sauron,\u0000",
+    "sicuramente il Re Stregone si farà avanti di persona.\u0000",
+    "La sua sconfitta muterebbe le sorti della battaglia,\u0000",
+    "dato che i suoi seguaci non esiterebbero a dileguarsi.\u0000"
+  ]
+}

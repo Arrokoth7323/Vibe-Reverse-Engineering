@@ -1,0 +1,46 @@
+{
+  "vals": [
+    {
+      "t_start": 5.07,
+      "t_end": 8.2,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 104
+    },
+    {
+      "t_start": 8.2,
+      "t_end": 11.81,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 188
+    },
+    {
+      "t_start": 11.81,
+      "t_end": 14.65,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 282
+    },
+    {
+      "t_start": 14.65,
+      "t_end": 19.9,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 354
+    },
+    {
+      "t_start": 19.9,
+      "t_end": 24.4,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 508
+    }
+  ],
+  "strings": [
+    "My people could not defeat the Orc horde.\u0000",
+    "Only a handful survived to carry on the fight.\u0000",
+    "I was one of those unfortunate few.\u0000",
+    "Only the kindest and most pure of Middle-earth's inhabitants still remain...\u0000",
+    "and now the shadow of the Dark Lord prepares to fall upon them as well.\u0000"
+  ]
+}

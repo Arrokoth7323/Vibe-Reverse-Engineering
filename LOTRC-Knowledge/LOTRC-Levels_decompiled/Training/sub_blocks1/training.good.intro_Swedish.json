@@ -1,0 +1,78 @@
+{
+  "vals": [
+    {
+      "t_start": 6.38,
+      "t_end": 9.95,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 184
+    },
+    {
+      "t_start": 9.95,
+      "t_end": 14.09,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 298
+    },
+    {
+      "t_start": 14.09,
+      "t_end": 15.69,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 408
+    },
+    {
+      "t_start": 15.69,
+      "t_end": 17.91,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 480
+    },
+    {
+      "t_start": 17.91,
+      "t_end": 21.78,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 560
+    },
+    {
+      "t_start": 21.78,
+      "t_end": 25.28,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 620
+    },
+    {
+      "t_start": 25.28,
+      "t_end": 29.77,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 738
+    },
+    {
+      "t_start": 29.77,
+      "t_end": 32.51,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 862
+    },
+    {
+      "t_start": 32.51,
+      "t_end": 35.05,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 912
+    }
+  ],
+  "strings": [
+    "Det började för länge sedan när Sauron, Mörkrets furste,\u0000",
+    "smidde en härskarring för att förslava Midgårds värld.\u0000",
+    "För att trotsa hans illvilja tågade\u0000",
+    "en sista allians av alver och människor\u0000",
+    "för att möta mörkrets arméer.\u0000",
+    "Tangado a chadad ... Leitho I philinn! (Förbered pilskur!)\u0000",
+    "I Mordors dalgångar stred vi för våra liv och för vår frihet.\u0000",
+    "Lär krigets konster väl,\u0000",
+    "ty i dem ligger vårt enda hopp för seger.\u0000"
+  ]
+}

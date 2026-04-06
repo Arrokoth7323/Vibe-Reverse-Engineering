@@ -1,0 +1,264 @@
+{
+  "info": {
+    "key": "MGL_PR_HangingCage_02_swinging",
+    "gamemodemask": -1,
+    "offset": 5209872,
+    "size": 128,
+    "kind": 3,
+    "unk_5": 2.4,
+    "vals_num": 3,
+    "vals2_num": 0,
+    "unk_8": 0,
+    "vala": 73,
+    "unk_10": 1,
+    "unk_11": 256,
+    "data_offset": 12,
+    "unk_13": 8.5,
+    "unk_14": 0.11764706,
+    "t_scale": 0.033333335,
+    "block_starts_offset": 0,
+    "block_starts_num": 1,
+    "block_starts2_offset": 4,
+    "block_starts2_num": 1,
+    "obj_c3_offset": 8,
+    "obj_c3_num": 0,
+    "obj_c4_offset": 8,
+    "obj_c4_num": 0,
+    "block_offset": 8,
+    "block_size": 96,
+    "obj3_num": 0,
+    "obj3_offset": 0,
+    "bones_num1": 3,
+    "unk_29": 3,
+    "obj1_num": 0,
+    "bones_offset": 104,
+    "unk_32": 3598103616,
+    "obj1_offset": 0,
+    "obj2_offset": 0,
+    "obj2_num": 0,
+    "obj5_offset": 0
+  },
+  "obj1": [],
+  "obj2": [],
+  "events": [],
+  "bones": [
+    "",
+    "MGL_PR_HangingCage_02",
+    "Bone_all"
+  ],
+  "obj5_a": [],
+  "obj5_b": [],
+  "obj_c3": [],
+  "obj_c4": [],
+  "blocks": [
+    [
+      [
+        [
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 79,
+            "flags": 144,
+            "s1": 11,
+            "s2": 3,
+            "data": [
+              0,
+              0,
+              0,
+              0,
+              12,
+              16,
+              24,
+              24,
+              44,
+              48,
+              56,
+              56,
+              72,
+              72,
+              72,
+              72
+            ],
+            "vals": {
+              "ThreeComp40": [
+                {
+                  "a": 255,
+                  "b": 247,
+                  "c": 127,
+                  "d": 255,
+                  "e": 55
+                },
+                {
+                  "a": 43,
+                  "b": 248,
+                  "c": 127,
+                  "d": 255,
+                  "e": 55
+                },
+                {
+                  "a": 98,
+                  "b": 248,
+                  "c": 127,
+                  "d": 255,
+                  "e": 55
+                },
+                {
+                  "a": 131,
+                  "b": 248,
+                  "c": 127,
+                  "d": 255,
+                  "e": 55
+                },
+                {
+                  "a": 122,
+                  "b": 248,
+                  "c": 127,
+                  "d": 255,
+                  "e": 55
+                },
+                {
+                  "a": 67,
+                  "b": 248,
+                  "c": 127,
+                  "d": 255,
+                  "e": 55
+                },
+                {
+                  "a": 215,
+                  "b": 247,
+                  "c": 127,
+                  "d": 255,
+                  "e": 55
+                },
+                {
+                  "a": 136,
+                  "b": 247,
+                  "c": 127,
+                  "d": 255,
+                  "e": 55
+                },
+                {
+                  "a": 125,
+                  "b": 247,
+                  "c": 127,
+                  "d": 255,
+                  "e": 55
+                },
+                {
+                  "a": 143,
+                  "b": 247,
+                  "c": 127,
+                  "d": 255,
+                  "e": 55
+                },
+                {
+                  "a": 196,
+                  "b": 247,
+                  "c": 127,
+                  "d": 255,
+                  "e": 55
+                },
+                {
+                  "a": 255,
+                  "b": 247,
+                  "c": 127,
+                  "d": 255,
+                  "e": 55
+                }
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ]
+      ],
+      []
+    ]
+  ]
+}

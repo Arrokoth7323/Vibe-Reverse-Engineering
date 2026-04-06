@@ -1,0 +1,54 @@
+{
+  "vals": [
+    {
+      "t_start": 4.36,
+      "t_end": 10.3,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 124
+    },
+    {
+      "t_start": 10.3,
+      "t_end": 12.46,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 252
+    },
+    {
+      "t_start": 12.46,
+      "t_end": 16.35,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 300
+    },
+    {
+      "t_start": 16.35,
+      "t_end": 21.16,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 432
+    },
+    {
+      "t_start": 21.16,
+      "t_end": 26.83,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 566
+    },
+    {
+      "t_start": 26.83,
+      "t_end": 31.33,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 718
+    }
+  ],
+  "strings": [
+    "Aragorn, descendant of Isildur and King of all the Free Peoples\u0000",
+    "was at last vanquished.\u0000",
+    "Our last and greatest hope for victory was in the end thrown down\u0000",
+    "by the same barbaric creatures who killed his father years before.\u0000",
+    "Now the ranks of the Dark Lord swell as a rising tide of malice and hatred.\u0000",
+    "And all shall be overwhelmed by that great, black wave.\u0000"
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "vals": [
+    {
+      "t_start": 4.56,
+      "t_end": 10.68,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 304
+    },
+    {
+      "t_start": 10.8,
+      "t_end": 12.72,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 466
+    },
+    {
+      "t_start": 12.74,
+      "t_end": 19.67,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 520
+    },
+    {
+      "t_start": 19.69,
+      "t_end": 24.37,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 700
+    },
+    {
+      "t_start": 24.39,
+      "t_end": 27.71,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 854
+    },
+    {
+      "t_start": 27.83,
+      "t_end": 31.24,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 976
+    },
+    {
+      "t_start": 31.26,
+      "t_end": 36.67,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1094
+    },
+    {
+      "t_start": 36.69,
+      "t_end": 41.25,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1256
+    },
+    {
+      "t_start": 41.27,
+      "t_end": 46.09,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1362
+    },
+    {
+      "t_start": 46.11,
+      "t_end": 52.09,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1490
+    },
+    {
+      "t_start": 52.11,
+      "t_end": 56.58,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1668
+    },
+    {
+      "t_start": 56.6,
+      "t_end": 60.55,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1784
+    },
+    {
+      "t_start": 60.57,
+      "t_end": 67.09,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1834
+    },
+    {
+      "t_start": 67.21,
+      "t_end": 70.47,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 2012
+    },
+    {
+      "t_start": 70.49,
+      "t_end": 77.9,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 2062
+    }
+  ],
+  "strings": [
+    "W tej ostatniej godzinie próby nikt na polu bitwy nie miał nadziei na przeżycie,\u0000",
+    "jednak nikt nie rozpaczał.\u0000",
+    "I choć wrogowie się zbliżali, a ramiona opadały ze zmęczenia, nikt nie czuł w sercu lęku.\u0000",
+    "Los zrządził jednak, że naszemu światu nie był pisany koniec w tej godzinie.\u0000",
+    "Albowiem moc Pierścienia niszczyła wszystko, czego dotknęła,\u0000",
+    "w sposób, którego nawet jego zły duch sobie nie wyobrażał.\u0000",
+    "I w tej to ostatniej chwili rozpaczy Powiernik Pierścienia wypełnił swoją misję.\u0000",
+    "W okamgnieniu Czarny Władca Sauron przestał istnieć.\u0000",
+    "W rzeczy samej, zwyciężyliśmy za sprawą najmniejszych z rzeczy.\u0000",
+    "Nasz los był zawieszony na ostrzu noża, ale w chwili, gdy nadzieja w końcu przeważyła...\u0000",
+    "Nóż ten obrócił się i wbił głęboko w serce naszego wroga.\u0000",
+    "I w końcu zwyciężyliśmy.\u0000",
+    "Pamiętajcie zawsze, że na tych posępnych pobojowiskach serca Wolnych Ludzi nie zawiodły,\u0000",
+    "a ich odwaga nie zgasła.\u0000",
+    "I tak to Trzecia Era Śródziemia zakończyła się triumfem, a nie rozpaczą.\u0000"
+  ]
+}

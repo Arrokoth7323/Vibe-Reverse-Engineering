@@ -1,0 +1,6 @@
+{
+  "ReloadRH3": "VH_Orc_Catapult_01_reset",
+  "Fire": "VH_Orc_Catapult_01_fire",
+  "Idle": "VH_Orc_Catapult_01_idle",
+  "Reload": "VH_Orc_Catapult_01_reset"
+}

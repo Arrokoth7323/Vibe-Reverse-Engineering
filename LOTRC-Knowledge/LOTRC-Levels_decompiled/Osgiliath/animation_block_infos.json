@@ -1,0 +1,68 @@
+[
+  {
+    "key": "Conquest",
+    "guid": 7011383,
+    "key_name": "Conquest",
+    "offset": 4096,
+    "size": 5895552,
+    "size_comp": 3717499,
+    "unk_6": 0,
+    "unk_7": 0,
+    "unk_8": 0
+  },
+  {
+    "key": "evilcampaign",
+    "guid": 7032855,
+    "key_name": "Evil Campaign",
+    "offset": 3723264,
+    "size": 5670720,
+    "size_comp": 3592375,
+    "unk_6": 0,
+    "unk_7": 0,
+    "unk_8": 0
+  },
+  {
+    "key": "goodcampaign",
+    "guid": 7033195,
+    "key_name": "Good Campaign",
+    "offset": 7319552,
+    "size": 7593328,
+    "size_comp": 4848462,
+    "unk_6": 0,
+    "unk_7": 0,
+    "unk_8": 0
+  },
+  {
+    "key": "teamdm",
+    "guid": 7046414,
+    "key_name": "Team Deathmatch",
+    "offset": 12169216,
+    "size": 5895552,
+    "size_comp": 3717499,
+    "unk_6": 0,
+    "unk_7": 0,
+    "unk_8": 0
+  },
+  {
+    "key": "ringbearer",
+    "guid": 7046415,
+    "key_name": "ringbearer",
+    "offset": 15888384,
+    "size": 4539168,
+    "size_comp": 2864159,
+    "unk_6": 0,
+    "unk_7": 0,
+    "unk_8": 0
+  },
+  {
+    "key": "Custom",
+    "guid": 117008022,
+    "key_name": "Art",
+    "offset": 18755584,
+    "size": 2187712,
+    "size_comp": 1365293,
+    "unk_6": 0,
+    "unk_7": 0,
+    "unk_8": 0
+  }
+]

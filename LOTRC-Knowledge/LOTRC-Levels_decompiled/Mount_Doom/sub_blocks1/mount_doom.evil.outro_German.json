@@ -1,0 +1,102 @@
+{
+  "vals": [
+    {
+      "t_start": 4.71,
+      "t_end": 8.2,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 244
+    },
+    {
+      "t_start": 8.32,
+      "t_end": 10.55,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 362
+    },
+    {
+      "t_start": 10.67,
+      "t_end": 13.15,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 432
+    },
+    {
+      "t_start": 13.27,
+      "t_end": 15.87,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 522
+    },
+    {
+      "t_start": 15.99,
+      "t_end": 18.04,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 622
+    },
+    {
+      "t_start": 18.05,
+      "t_end": 20.56,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 684
+    },
+    {
+      "t_start": 20.56,
+      "t_end": 24.23,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 770
+    },
+    {
+      "t_start": 24.24,
+      "t_end": 28.94,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 870
+    },
+    {
+      "t_start": 28.94,
+      "t_end": 32.08,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 984
+    },
+    {
+      "t_start": 32.09,
+      "t_end": 37.87,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1080
+    },
+    {
+      "t_start": 37.99,
+      "t_end": 41.67,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1252
+    },
+    {
+      "t_start": 41.79,
+      "t_end": 44.68,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1360
+    }
+  ],
+  "strings": [
+    "Kein Opfer war den Dienern des Dunklen Herrschers zu groß,\u0000",
+    "um den Einen Ring zurückzuerobern.\u0000",
+    "Und nun, da sich das Schicksal gewendet hat,\u0000",
+    "ziehen sich die freien Völker Mittelerdes zurück,\u0000",
+    "um ihre Heimat zu verteidigen.\u0000",
+    "Sauron ist wieder erstarkt und nur wenige,\u0000",
+    "die noch am Leben sind, wagen es, ihm zu trotzen.\u0000",
+    "Doch Gondors Siege nagen am Stolz des Dunklen Herrschers\u0000",
+    "und so beschließt er, grausam zurückzuschlagen.\u0000",
+    "Mit seiner neu gewonnenen Macht ruft Sauron seine gefallenen Diener ins Leben zurück.\u0000",
+    "Viele seiner grausamsten Heerführer eilen nun herbei,\u0000",
+    "um noch einmal in seinem Namen zu kämpfen.\u0000"
+  ]
+}

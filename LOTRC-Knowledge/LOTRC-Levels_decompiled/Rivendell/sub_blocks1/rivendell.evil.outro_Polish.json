@@ -1,0 +1,46 @@
+{
+  "vals": [
+    {
+      "t_start": 5.07,
+      "t_end": 8.2,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 104
+    },
+    {
+      "t_start": 8.2,
+      "t_end": 11.81,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 190
+    },
+    {
+      "t_start": 11.81,
+      "t_end": 14.65,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 276
+    },
+    {
+      "t_start": 14.65,
+      "t_end": 19.9,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 350
+    },
+    {
+      "t_start": 19.9,
+      "t_end": 24.4,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 506
+    }
+  ],
+  "strings": [
+    "Moi ludzie nie zdołali pokonać hord orków.\u0000",
+    "Ledwie garstka przeżyła, by walczyć dalej.\u0000",
+    "Jestem jednym z tych nieszczęśników.\u0000",
+    "Pozostali już tylko najbardziej czyści i niewinni z mieszkańców Śródziemia...\u0000",
+    "a teraz cień Czarnego Władcy przygotowuje się, by spaść i na nich.\u0000"
+  ]
+}

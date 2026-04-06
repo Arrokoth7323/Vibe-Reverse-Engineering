@@ -1,0 +1,70 @@
+{
+  "vals": [
+    {
+      "t_start": 5.41,
+      "t_end": 8.67,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 164
+    },
+    {
+      "t_start": 8.67,
+      "t_end": 11.51,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 220
+    },
+    {
+      "t_start": 11.51,
+      "t_end": 15.56,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 310
+    },
+    {
+      "t_start": 15.56,
+      "t_end": 17.99,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 422
+    },
+    {
+      "t_start": 17.99,
+      "t_end": 20.13,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 494
+    },
+    {
+      "t_start": 20.13,
+      "t_end": 23.69,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 554
+    },
+    {
+      "t_start": 23.69,
+      "t_end": 27.32,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 628
+    },
+    {
+      "t_start": 27.32,
+      "t_end": 32.14,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 742
+    }
+  ],
+  "strings": [
+    "Sauron störtades den dagen,\u0000",
+    "och Den enda ringen slant ur hans järngrepp.\u0000",
+    "Och med förlusten av den var Sauron till sist besegrad.\u0000",
+    "Men Ringens makt var inte förstörd.\u0000",
+    "Och så länge Ringen existerar\u0000",
+    "lever Saurons ande kvar i vår värld.\u0000",
+    "Men Ringen vägrade lyda sin nye herre och gick förlorad.\u0000",
+    "I två och ett halvt årtusende var Midgård fritt från dess ondska.\u0000"
+  ]
+}

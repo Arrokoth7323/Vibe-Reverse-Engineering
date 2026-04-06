@@ -1,0 +1,102 @@
+{
+  "vals": [
+    {
+      "t_start": 4.94,
+      "t_end": 6.79,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 244
+    },
+    {
+      "t_start": 6.79,
+      "t_end": 9.91,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 302
+    },
+    {
+      "t_start": 10.03,
+      "t_end": 12.25,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 416
+    },
+    {
+      "t_start": 12.37,
+      "t_end": 13.92,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 492
+    },
+    {
+      "t_start": 14.04,
+      "t_end": 18.04,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 542
+    },
+    {
+      "t_start": 18.05,
+      "t_end": 21.5,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 662
+    },
+    {
+      "t_start": 21.62,
+      "t_end": 24.23,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 768
+    },
+    {
+      "t_start": 24.24,
+      "t_end": 29.52,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 842
+    },
+    {
+      "t_start": 29.64,
+      "t_end": 32.08,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1004
+    },
+    {
+      "t_start": 32.09,
+      "t_end": 34.96,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1068
+    },
+    {
+      "t_start": 35.08,
+      "t_end": 40.0,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1142
+    },
+    {
+      "t_start": 40.12,
+      "t_end": 43.56,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1296
+    }
+  ],
+  "strings": [
+    "I servitori dell'Oscuro Sire\u0000",
+    "sono finalmente riusciti a riconquistare l'Unico Anello.\u0000",
+    "Le Genti Libere della Terra di Mezzo,\u0000",
+    "accortesi dell'accaduto,\u0000",
+    "devono ritirarsi per approntare la difesa delle loro terre.\u0000",
+    "Il potere di Sauron è rinato e i pochi sopravvissuti\u0000",
+    "alla guerra non osano opporsi a lui.\u0000",
+    "Ma l'orgoglio dell'Oscuro Sire è ancora offeso dalle recenti vittorie di Gondor,\u0000",
+    "delle quali intende vendicarsi.\u0000",
+    "Grazie ai suoi nuovi, enormi poteri,\u0000",
+    "Sauron può far tornare in vita i più possenti tra i suoi campioni sconfitti,\u0000",
+    "che torneranno così a massacrare nel suo nome.\u0000"
+  ]
+}

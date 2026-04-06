@@ -1,0 +1,68 @@
+[
+  {
+    "key": "teamdm",
+    "guid": 7052841,
+    "key_name": "Team Deathmatch",
+    "offset": 4096,
+    "size": 6395680,
+    "size_comp": 4139643,
+    "unk_6": 0,
+    "unk_7": 0,
+    "unk_8": 0
+  },
+  {
+    "key": "goodcampaign",
+    "guid": 95000109,
+    "key_name": "Good Campaign",
+    "offset": 4145152,
+    "size": 6834368,
+    "size_comp": 4417990,
+    "unk_6": 0,
+    "unk_7": 0,
+    "unk_8": 0
+  },
+  {
+    "key": "Conquest",
+    "guid": 95000110,
+    "key_name": "Conquest",
+    "offset": 8564736,
+    "size": 7290576,
+    "size_comp": 4693437,
+    "unk_6": 0,
+    "unk_7": 0,
+    "unk_8": 0
+  },
+  {
+    "key": "Custom",
+    "guid": 117008016,
+    "key_name": "Art",
+    "offset": 13258752,
+    "size": 2069200,
+    "size_comp": 1299403,
+    "unk_6": 0,
+    "unk_7": 0,
+    "unk_8": 0
+  },
+  {
+    "key": "ringbearer",
+    "guid": 144006563,
+    "key_name": "ringbearer",
+    "offset": 14561280,
+    "size": 4534496,
+    "size_comp": 2861667,
+    "unk_6": 0,
+    "unk_7": 0,
+    "unk_8": 0
+  },
+  {
+    "key": "Custom",
+    "guid": 144015968,
+    "key_name": "AutoComplete",
+    "offset": 17424384,
+    "size": 6834368,
+    "size_comp": 4417990,
+    "unk_6": 0,
+    "unk_7": 0,
+    "unk_8": 0
+  }
+]

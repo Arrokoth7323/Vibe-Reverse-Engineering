@@ -1,0 +1,78 @@
+{
+  "vals": [
+    {
+      "t_start": 3.7,
+      "t_end": 7.28,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 184
+    },
+    {
+      "t_start": 7.28,
+      "t_end": 12.2,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 298
+    },
+    {
+      "t_start": 12.21,
+      "t_end": 15.08,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 452
+    },
+    {
+      "t_start": 15.08,
+      "t_end": 17.99,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 540
+    },
+    {
+      "t_start": 18.0,
+      "t_end": 22.02,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 646
+    },
+    {
+      "t_start": 22.02,
+      "t_end": 25.0,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 744
+    },
+    {
+      "t_start": 25.01,
+      "t_end": 30.67,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 802
+    },
+    {
+      "t_start": 30.67,
+      "t_end": 36.04,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 980
+    },
+    {
+      "t_start": 36.04,
+      "t_end": 40.79,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1152
+    }
+  ],
+  "strings": [
+    "Traversant le fleuve Anduin dans un manteau de ténèbres,\u0000",
+    "des éclaireurs orques commencent le nouvel assaut de Sauron sur notre monde.\u0000",
+    "Les orques lanceront leur attaque à minuit,\u0000",
+    "comme un coup de poignard dans le coeur d'Osgiliath.\u0000",
+    "Le coup fatal sera porté par une troupe d'élite,\u0000",
+    "en attente sur l'autre rive.\u0000",
+    "Leurs machines de siège sont prêtes à faire pleuvoir des flammes sur les Rôdeurs honnis.\u0000",
+    "Les orques attendent le signal des éclaireurs camouflés pour identifier leurs cibles.\u0000",
+    "Car ces coeurs sombres espèrent ardemment voir Osgiliath en flammes.\u0000"
+  ]
+}

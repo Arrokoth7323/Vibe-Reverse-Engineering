@@ -1,0 +1,102 @@
+{
+  "vals": [
+    {
+      "t_start": 5.2,
+      "t_end": 9.18,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 244
+    },
+    {
+      "t_start": 9.18,
+      "t_end": 11.67,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 360
+    },
+    {
+      "t_start": 11.67,
+      "t_end": 15.02,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 422
+    },
+    {
+      "t_start": 15.02,
+      "t_end": 19.76,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 518
+    },
+    {
+      "t_start": 19.76,
+      "t_end": 22.76,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 616
+    },
+    {
+      "t_start": 22.76,
+      "t_end": 26.77,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 696
+    },
+    {
+      "t_start": 26.77,
+      "t_end": 29.72,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 854
+    },
+    {
+      "t_start": 29.73,
+      "t_end": 32.23,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 936
+    },
+    {
+      "t_start": 32.23,
+      "t_end": 35.55,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1008
+    },
+    {
+      "t_start": 35.55,
+      "t_end": 39.39,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1102
+    },
+    {
+      "t_start": 39.39,
+      "t_end": 40.82,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1220
+    },
+    {
+      "t_start": 40.82,
+      "t_end": 44.87,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1280
+    }
+  ],
+  "strings": [
+    "Osgiliath kommer att spela ännu en roll i det här kriget.\u0000",
+    "Faramir förde Ringbäraren hit,\u0000",
+    "men lät honom klokt nog fortsätta sitt uppdrag.\u0000",
+    "Nu finns här en vaksam vaktgarnison från Gondor.\u0000",
+    "Krigarna som håller denna utpost hoppas\u0000",
+    "i hemlighet på att Faramir och hans Ithilien-jägare ska återvända i gryningen.\u0000",
+    "Men orchernas led fortsätter att svälla,\u0000",
+    "och hoppet allena är en tunn sköld.\u0000",
+    "Tystnaden på Anduins bortre strand är kompakt.\u0000",
+    "Osgiliaths försvarare lämnas ensamma att vässa sin skräck.\u0000",
+    "Gryningen kan inte komma fort\u0000",
+    "nog för dessa tappra män av Gondor.\u0000"
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "vals": [
+    {
+      "t_start": 4.74,
+      "t_end": 8.25,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 224
+    },
+    {
+      "t_start": 8.25,
+      "t_end": 11.7,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 332
+    },
+    {
+      "t_start": 11.73,
+      "t_end": 14.85,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 418
+    },
+    {
+      "t_start": 14.85,
+      "t_end": 18.53,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 494
+    },
+    {
+      "t_start": 18.55,
+      "t_end": 20.95,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 606
+    },
+    {
+      "t_start": 20.95,
+      "t_end": 24.87,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 662
+    },
+    {
+      "t_start": 24.88,
+      "t_end": 27.93,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 808
+    },
+    {
+      "t_start": 27.93,
+      "t_end": 30.42,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 940
+    },
+    {
+      "t_start": 30.43,
+      "t_end": 31.7,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1018
+    },
+    {
+      "t_start": 31.7,
+      "t_end": 35.1,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1048
+    },
+    {
+      "t_start": 35.14,
+      "t_end": 39.27,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1146
+    }
+  ],
+  "strings": [
+    "I Det Tredje Tidsverv kom krigen tilbake til Midgard,\u0000",
+    "da Saurons vilje på ny søkte etter Ringen.\u0000",
+    "Mørkets herre tvang mange under seg, \u0000",
+    "deriblant Sarumann, en gang en vis og mektig trollmann.\u0000",
+    "Slik kom krigen til Rohan, \u0000",
+    "og Kong Théoden ble tvunget til å søke tilflukt i Helmsdjupets festning.\u0000",
+    "Og nå står en enorm armé klar til å angripe disse eldgamle murene\u0000",
+    "med beleiringsstiger og krigsmaskiner.\u0000",
+    "For å overleve\u0000",
+    "må forsvarerne holde Helms dik og fortets port. \u0000",
+    "Men alle må vokte seg for djevelskapen til Sarumanns innretninger.\u0000"
+  ]
+}

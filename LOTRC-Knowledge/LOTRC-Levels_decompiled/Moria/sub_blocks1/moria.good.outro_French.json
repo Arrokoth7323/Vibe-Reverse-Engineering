@@ -1,0 +1,62 @@
+{
+  "vals": [
+    {
+      "t_start": 5.41,
+      "t_end": 10.09,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 144
+    },
+    {
+      "t_start": 10.09,
+      "t_end": 13.44,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 234
+    },
+    {
+      "t_start": 13.45,
+      "t_end": 16.91,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 324
+    },
+    {
+      "t_start": 16.93,
+      "t_end": 20.41,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 418
+    },
+    {
+      "t_start": 20.41,
+      "t_end": 23.44,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 534
+    },
+    {
+      "t_start": 23.44,
+      "t_end": 27.56,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 638
+    },
+    {
+      "t_start": 27.56,
+      "t_end": 30.9,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 798
+    }
+  ],
+  "strings": [
+    "Le Balrog de Morgoth a finalement été vaincu\u0000",
+    "et renvoyé dans les profondeurs de la Moria.\u0000",
+    "Le repaire ancestral des nains a été reconquis\u0000",
+    "et les créatures qui l'infestaient fuient notre courroux.\u0000",
+    "Mais les libérateurs de la Moria n'osent s'attarder\u0000",
+    "car Sauron, le Seigneur des Ténèbres, a lancé ses armées à la conquête du monde\u0000",
+    "et tous les Peuples Libres doivent s'empresser de le défendre.\u0000"
+  ]
+}

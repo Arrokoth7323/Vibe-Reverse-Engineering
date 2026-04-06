@@ -1,0 +1,86 @@
+{
+  "vals": [
+    {
+      "t_start": 4.76,
+      "t_end": 7.1,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 204
+    },
+    {
+      "t_start": 7.14,
+      "t_end": 11.65,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 296
+    },
+    {
+      "t_start": 11.68,
+      "t_end": 15.25,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 410
+    },
+    {
+      "t_start": 15.3,
+      "t_end": 19.96,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 498
+    },
+    {
+      "t_start": 19.99,
+      "t_end": 24.57,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 650
+    },
+    {
+      "t_start": 24.69,
+      "t_end": 28.41,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 800
+    },
+    {
+      "t_start": 28.44,
+      "t_end": 31.86,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 882
+    },
+    {
+      "t_start": 31.9,
+      "t_end": 33.32,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 968
+    },
+    {
+      "t_start": 33.34,
+      "t_end": 37.23,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1018
+    },
+    {
+      "t_start": 37.27,
+      "t_end": 40.57,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1122
+    }
+  ],
+  "strings": [
+    "Doch die Schlacht steht auf Messers Schneide,\u0000",
+    "bis endlich Aragorn mit seiner Armee der Toten eintrifft\u0000",
+    "und kein lebendes Wesen ihrem Zorn entgeht.\u0000",
+    "So groß unser Sieg auch scheinen mag, noch ist dieser Krieg nicht gewonnen.\u0000",
+    "Hinter den Mauern Mordors zieht der Dunkle Herrscher neue Armeen zusammen.\u0000",
+    "Von nun an darf kein Opfer zu groß sein,\u0000",
+    "um Saurons Auge vom Ringträger abzulenken.\u0000",
+    "Die Menschen des Westens\u0000",
+    "müssen Sauron an den Grenzen seines Reiches stellen\u0000",
+    "und die Schlacht bis nach Mordor selbst tragen.\u0000"
+  ]
+}

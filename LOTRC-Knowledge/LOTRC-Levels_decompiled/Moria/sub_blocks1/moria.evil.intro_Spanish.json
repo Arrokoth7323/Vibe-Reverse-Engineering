@@ -1,0 +1,94 @@
+{
+  "vals": [
+    {
+      "t_start": 5.23,
+      "t_end": 8.48,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 224
+    },
+    {
+      "t_start": 8.48,
+      "t_end": 11.18,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 274
+    },
+    {
+      "t_start": 11.19,
+      "t_end": 15.38,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 394
+    },
+    {
+      "t_start": 15.38,
+      "t_end": 19.23,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 478
+    },
+    {
+      "t_start": 19.23,
+      "t_end": 22.39,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 672
+    },
+    {
+      "t_start": 22.4,
+      "t_end": 24.78,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 770
+    },
+    {
+      "t_start": 24.8,
+      "t_end": 29.88,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 874
+    },
+    {
+      "t_start": 29.88,
+      "t_end": 32.82,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 996
+    },
+    {
+      "t_start": 32.82,
+      "t_end": 35.5,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1102
+    },
+    {
+      "t_start": 35.5,
+      "t_end": 39.59,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1182
+    },
+    {
+      "t_start": 39.59,
+      "t_end": 41.77,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1304
+    }
+  ],
+  "strings": [
+    "En su marcha implacable,\u0000",
+    "los ejércitos de Mordor deben pasar por las Minas de Moria.\u0000",
+    "Es aquí donde Gimli ha decidido resistir.\u0000",
+    "Pero tanto él como el resto de supervivientes han carecido de tiempo para preparar sus defensas.\u0000",
+    "Y Moria sigue siendo un reino oscuro y peligroso\u0000",
+    "para todos los que se atreven a cruzar sus puertas.\u0000",
+    "El temor es que Sauron conozca los oscuros secretos de Moria\u0000",
+    "y haya reforzado sus fuerzas con un terrible ritual.\u0000",
+    "Por el bien del enano y sus seguidores,\u0000",
+    "esperamos que el poder del Señor Oscuro aún no pueda invocar\u0000",
+    "al Balrog de Morgoth.\u0000"
+  ]
+}

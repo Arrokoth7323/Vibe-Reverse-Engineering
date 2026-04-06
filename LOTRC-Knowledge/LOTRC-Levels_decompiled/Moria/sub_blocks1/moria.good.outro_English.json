@@ -1,0 +1,62 @@
+{
+  "vals": [
+    {
+      "t_start": 5.41,
+      "t_end": 10.09,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 144
+    },
+    {
+      "t_start": 10.09,
+      "t_end": 13.44,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 272
+    },
+    {
+      "t_start": 13.45,
+      "t_end": 16.91,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 358
+    },
+    {
+      "t_start": 16.93,
+      "t_end": 20.41,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 474
+    },
+    {
+      "t_start": 20.41,
+      "t_end": 23.44,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 576
+    },
+    {
+      "t_start": 23.44,
+      "t_end": 27.56,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 658
+    },
+    {
+      "t_start": 27.56,
+      "t_end": 30.9,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 798
+    }
+  ],
+  "strings": [
+    "At last the Balrog of Morgoth is broken and has been cast down.\u0000",
+    "Returning to the bottomless pits of Moria.\u0000",
+    "The ancestral home of the Dwarves has now been reclaimed.\u0000",
+    "And the creatures that infested it flee our wrath.\u0000",
+    "But Moria's liberators dare not tarry...\u0000",
+    "for the Dark Lord Sauron has now unleashed his armies upon the world.\u0000",
+    "And all the Free People must hasten to its defense.\u0000"
+  ]
+}

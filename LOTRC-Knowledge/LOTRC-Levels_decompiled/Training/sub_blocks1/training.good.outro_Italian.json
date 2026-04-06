@@ -1,0 +1,70 @@
+{
+  "vals": [
+    {
+      "t_start": 5.63,
+      "t_end": 8.67,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 164
+    },
+    {
+      "t_start": 8.67,
+      "t_end": 11.34,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 246
+    },
+    {
+      "t_start": 11.92,
+      "t_end": 15.3,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 328
+    },
+    {
+      "t_start": 15.42,
+      "t_end": 17.99,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 424
+    },
+    {
+      "t_start": 17.99,
+      "t_end": 20.13,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 498
+    },
+    {
+      "t_start": 20.13,
+      "t_end": 23.69,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 568
+    },
+    {
+      "t_start": 23.69,
+      "t_end": 27.32,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 668
+    },
+    {
+      "t_start": 27.32,
+      "t_end": 32.14,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 768
+    }
+  ],
+  "strings": [
+    "Sauron, l'Oscuro Sire, venne rovesciato,\u0000",
+    "e l'Unico Anello sfuggì dalla sua presa.\u0000",
+    "Con la sua perdita, Sauron fu infine sconfitto.\u0000",
+    "Ma il potere dell'Anello persisteva.\u0000",
+    "E fino a quando esisterà l'Anello,\u0000",
+    "lo spirito di Sauron albergherà nel nostro mondo.\u0000",
+    "L'Anello rifiutò il suo nuovo padrone e si perse.\u0000",
+    "Per due millenni e mezzo la Terra di Mezzo non venne toccata dalla sua malvagità.\u0000"
+  ]
+}

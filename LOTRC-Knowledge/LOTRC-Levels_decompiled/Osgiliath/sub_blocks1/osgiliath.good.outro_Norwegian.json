@@ -1,0 +1,78 @@
+{
+  "vals": [
+    {
+      "t_start": 4.71,
+      "t_end": 8.69,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 184
+    },
+    {
+      "t_start": 8.7,
+      "t_end": 12.36,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 282
+    },
+    {
+      "t_start": 12.36,
+      "t_end": 17.21,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 434
+    },
+    {
+      "t_start": 17.21,
+      "t_end": 21.47,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 574
+    },
+    {
+      "t_start": 21.47,
+      "t_end": 26.34,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 722
+    },
+    {
+      "t_start": 26.34,
+      "t_end": 30.17,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 852
+    },
+    {
+      "t_start": 30.17,
+      "t_end": 33.52,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 946
+    },
+    {
+      "t_start": 33.52,
+      "t_end": 35.61,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1034
+    },
+    {
+      "t_start": 35.61,
+      "t_end": 38.98,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1088
+    }
+  ],
+  "strings": [
+    "Faramir kjemper tappert mot Mordors hærstyrker. \u0000",
+    "Men ikke alle krigerne hans klarer å stå imot de vedvarende angrepsbølgene.\u0000",
+    "Mange deler en uhyggelig skjebne, og få kommer ut med livet i behold.\u0000",
+    "Saurons massive hærstyrker fortsetter sitt voldsomme angrep mot oss alle.\u0000",
+    "De gjenværende forsvarerne av Vesten er fiendens siste hindring,\u0000",
+    " for de vil drepe alle som er igjen i Midgard.\u0000",
+    "Fienden er så utallig som blader i skogen, \u0000",
+    "og håpet synes å være ute,\u0000",
+    " for Mørkets herre bryr seg ikke om antall falne.\u0000"
+  ]
+}

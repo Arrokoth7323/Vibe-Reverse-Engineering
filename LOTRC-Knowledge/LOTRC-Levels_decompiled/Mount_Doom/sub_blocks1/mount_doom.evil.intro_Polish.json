@@ -1,0 +1,110 @@
+{
+  "vals": [
+    {
+      "t_start": 5.35,
+      "t_end": 11.09,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 264
+    },
+    {
+      "t_start": 11.09,
+      "t_end": 14.7,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 432
+    },
+    {
+      "t_start": 14.72,
+      "t_end": 19.18,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 524
+    },
+    {
+      "t_start": 19.19,
+      "t_end": 22.43,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 656
+    },
+    {
+      "t_start": 22.45,
+      "t_end": 28.92,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 736
+    },
+    {
+      "t_start": 28.93,
+      "t_end": 33.83,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 876
+    },
+    {
+      "t_start": 33.83,
+      "t_end": 36.39,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1014
+    },
+    {
+      "t_start": 36.42,
+      "t_end": 39.81,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1078
+    },
+    {
+      "t_start": 39.83,
+      "t_end": 45.7,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1148
+    },
+    {
+      "t_start": 45.72,
+      "t_end": 50.23,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1292
+    },
+    {
+      "t_start": 50.23,
+      "t_end": 55.44,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1424
+    },
+    {
+      "t_start": 55.44,
+      "t_end": 59.38,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1552
+    },
+    {
+      "t_start": 59.39,
+      "t_end": 63.18,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1642
+    }
+  ],
+  "strings": [
+    "Osłabiony przez moc Jedynego Pierścienia, Frodo w końcu zatrzymuje go dla siebie...\u0000",
+    "i fundamenty Śródziemia zostały wstrząśnięte.\u0000",
+    "Czarny Władca rozpaczliwie pragnie odzyskać swą cielesną powłokę.\u0000",
+    "By raz jeszcze kroczyć po Śródziemiu...\u0000",
+    "Sauron potrzebuje pierścienia Froda i gotów jest zapłacić każdą cenę.\u0000",
+    "Na rozkaz Władcy Ciemności Nazgûle spieszą ku Górze Przeznaczenia...\u0000",
+    "wyzbyte wszelkich innych myśli.\u0000",
+    "Mają tylko jeden, morderczy cel...\u0000",
+    "zabić Froda i zdobyć Pierścień, który jest teraz na wyciągnięcie dłoni.\u0000",
+    "Wiele garnizonów orków w śmiałości pożąda Pierścienia dla siebie.\u0000",
+    "Powstając w wojnie domowej i maszerując ku Górze Przeznaczenia.\u0000",
+    "Ale pędzący Nazgûle nie tolerują opóźnień...\u0000",
+    "i zabiją każdego sługę mroku, który stanie na ich drodze.\u0000"
+  ]
+}

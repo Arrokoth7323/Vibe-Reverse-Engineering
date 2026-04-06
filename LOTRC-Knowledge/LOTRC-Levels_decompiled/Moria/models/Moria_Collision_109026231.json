@@ -1,0 +1,363 @@
+{
+  "info": {
+    "key": "Moria_Collision_109026231",
+    "gamemodemask": -1,
+    "mat_offset": 4916864,
+    "buffer_info_offset": 869272,
+    "bounding_box": {
+      "center": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "unk_3": 0.0,
+      "half_width": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "unk_7": 0.0
+    },
+    "mesh_order_offset": 4917264,
+    "lod0": {
+      "start": 0,
+      "static_end": 0,
+      "skinned_end": 0,
+      "physics_end": 0,
+      "breakable_end": 0
+    },
+    "lod1": {
+      "start": 0,
+      "static_end": 0,
+      "skinned_end": 0,
+      "physics_end": 0,
+      "breakable_end": 0
+    },
+    "lod2": {
+      "start": 0,
+      "static_end": 0,
+      "skinned_end": 0,
+      "physics_end": 0,
+      "breakable_end": 0
+    },
+    "lod3": {
+      "start": 0,
+      "static_end": 0,
+      "skinned_end": 0,
+      "physics_end": 0,
+      "breakable_end": 0
+    },
+    "mat_num": 0,
+    "bones_offset": 4916736,
+    "bone_parents_offset": 4916784,
+    "bone_transforms_offset": 4916800,
+    "bones_num": 1,
+    "skin_binds_offset": 4916784,
+    "skin_binds_num": 0,
+    "skin_order_offset": 0,
+    "vbuff_offset": 4917264,
+    "vbuff_num": 0,
+    "ibuff_offset": 4917264,
+    "ibuff_num": 0,
+    "mesh_bounding_boxes_offset": 4917264,
+    "unk_46": 0.0,
+    "variation_counts": 0,
+    "vals_j_num": 0,
+    "vals_j_offset": 4916784,
+    "block_offset": 0,
+    "vals_k_offset": 0,
+    "asset_key": "Moria_Collision_109026231",
+    "asset_type": 0,
+    "unk_54": 1,
+    "unk_55": 0,
+    "shape_offset": 1255664,
+    "shape_num": 1,
+    "hk_constraint_data_offset": 0,
+    "hk_constraint_data_num": 0,
+    "hk_constraint_offset": 0,
+    "slots_offset": 0,
+    "slot_map_offset": 0,
+    "bone_bounding_boxes_offset": 4916752
+  },
+  "bone_parents": [
+    -1
+  ],
+  "bones": [
+    ""
+  ],
+  "bone_transforms": [
+    {
+      "x": {
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "y": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "z": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0,
+        "w": 0.0
+      },
+      "w": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      }
+    }
+  ],
+  "bone_bounding_boxes": [
+    {
+      "center": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "unk_3": 0.0,
+      "half_width": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "unk_7": 0.0
+    }
+  ],
+  "mat_order": [],
+  "mesh_order": [],
+  "mesh_bounding_boxes": [],
+  "skin_binds": [],
+  "vals_j": [],
+  "val_k_header": [],
+  "vals_k": [],
+  "skin_order": [],
+  "slots": [],
+  "slot_map": [],
+  "block_header": null,
+  "block_offsets": [],
+  "blocks": [],
+  "mats": [],
+  "mat_extras": [],
+  "buffer_infos": [],
+  "hk_constraint": null,
+  "hk_constraint_datas": [],
+  "shapes": [
+    {
+      "info": {
+        "offset": 0,
+        "kind": 1,
+        "unk_2": 0,
+        "unk_3": 0.0,
+        "unk_4": 0.0,
+        "unk_5": 0.0,
+        "translation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "unk_13": 1.0,
+        "unk_14": 0.0,
+        "unk_15": 0.0,
+        "unk_16": 0.0,
+        "unk_17": 1.0,
+        "unk_18": 0.0,
+        "unk_19": 0.0,
+        "unk_20": 0.0,
+        "unk_21": 1.0,
+        "unk_22": 0.0,
+        "unk_23": 0.5,
+        "unk_24": 0.0,
+        "unk_25": 0.0,
+        "unk_26": 0.0,
+        "hk_shape_num": 1,
+        "hk_shape_offset": 1300016,
+        "unk_29a": 0,
+        "unk_29b": 0,
+        "unk_29c": 0,
+        "unk_29d": 0,
+        "unk_30": -1.0
+      },
+      "extra": null,
+      "hk_shapes": [
+        {
+          "BVTreeMesh": {
+            "info": {
+              "translation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+              },
+              "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "key": "",
+              "offset": {
+                "x": -26.911999,
+                "y": -0.05,
+                "z": -22.133
+              },
+              "tree_scale": 434829.56
+            },
+            "shape": {
+              "tree": "2700c82600ff2098292800131054521916878609260010121301013130280003260e54176c29013233280003178e4c01343510d5d30928011819774e01363710e6e409280c1811c80001393820f309280c1111c800013b3a28101b11c800013d3c",
+              "verts": [
+                {
+                  "x": -26.862,
+                  "y": 0.0,
+                  "z": -19.345
+                },
+                {
+                  "x": -26.862,
+                  "y": 30.0,
+                  "z": -19.345
+                },
+                {
+                  "x": -24.604,
+                  "y": 0.0,
+                  "z": -21.874
+                },
+                {
+                  "x": -24.604,
+                  "y": 30.0,
+                  "z": -21.874
+                },
+                {
+                  "x": -14.381,
+                  "y": 0.0,
+                  "z": -22.083
+                },
+                {
+                  "x": -14.381,
+                  "y": 30.0,
+                  "z": -22.083
+                },
+                {
+                  "x": -3.937,
+                  "y": 0.0,
+                  "z": -21.852
+                },
+                {
+                  "x": -3.937,
+                  "y": 30.0,
+                  "z": -21.852
+                },
+                {
+                  "x": 5.074,
+                  "y": 0.0,
+                  "z": -18.709
+                },
+                {
+                  "x": 5.074,
+                  "y": 30.0,
+                  "z": -18.709
+                },
+                {
+                  "x": 7.625,
+                  "y": 0.0,
+                  "z": -20.214
+                },
+                {
+                  "x": 7.625,
+                  "y": 30.0,
+                  "z": -20.214
+                },
+                {
+                  "x": 9.79,
+                  "y": 0.0,
+                  "z": -19.643
+                },
+                {
+                  "x": 9.79,
+                  "y": 30.0,
+                  "z": -19.643
+                },
+                {
+                  "x": 11.32,
+                  "y": 0.0,
+                  "z": -18.171
+                },
+                {
+                  "x": 11.32,
+                  "y": 30.0,
+                  "z": -18.171
+                },
+                {
+                  "x": -26.862,
+                  "y": 0.0,
+                  "z": -19.345
+                },
+                {
+                  "x": -26.862,
+                  "y": 30.0,
+                  "z": -19.345
+                }
+              ],
+              "inds": [
+                0,
+                2,
+                1,
+                1,
+                2,
+                3,
+                2,
+                4,
+                3,
+                3,
+                4,
+                5,
+                4,
+                6,
+                5,
+                5,
+                6,
+                7,
+                6,
+                8,
+                7,
+                7,
+                8,
+                9,
+                8,
+                10,
+                9,
+                9,
+                10,
+                11,
+                10,
+                12,
+                11,
+                11,
+                12,
+                13,
+                12,
+                14,
+                13,
+                13,
+                14,
+                15
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "vertex_data": [],
+  "index_data": []
+}

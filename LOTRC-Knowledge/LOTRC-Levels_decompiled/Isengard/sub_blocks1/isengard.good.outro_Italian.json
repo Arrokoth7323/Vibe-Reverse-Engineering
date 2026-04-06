@@ -1,0 +1,86 @@
+{
+  "vals": [
+    {
+      "t_start": 5.47,
+      "t_end": 7.27,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 204
+    },
+    {
+      "t_start": 7.27,
+      "t_end": 11.2,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 252
+    },
+    {
+      "t_start": 11.23,
+      "t_end": 14.44,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 398
+    },
+    {
+      "t_start": 14.44,
+      "t_end": 17.81,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 492
+    },
+    {
+      "t_start": 17.81,
+      "t_end": 21.5,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 570
+    },
+    {
+      "t_start": 21.52,
+      "t_end": 24.98,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 708
+    },
+    {
+      "t_start": 25.0,
+      "t_end": 27.42,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 800
+    },
+    {
+      "t_start": 27.42,
+      "t_end": 30.23,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 872
+    },
+    {
+      "t_start": 30.24,
+      "t_end": 34.73,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 972
+    },
+    {
+      "t_start": 34.73,
+      "t_end": 36.93,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1080
+    }
+  ],
+  "strings": [
+    "Senza più alcun potere,\u0000",
+    "Saruman non è riuscito a prevalere sui coraggiosi che l'hanno sfidato...\u0000",
+    "...E così il suo tradimento è stato vendicato.\u0000",
+    "Ora Barbalbero è il signore di Orthanc\u0000",
+    "e gli abissi di Isengard sono stati mondati dalla feccia di Saruman.\u0000",
+    "Ma il potere dell'Oscuro Sire ancora resiste:\u0000",
+    "Saruman non era che una sua pedina,\u0000",
+    "una distrazione per fiaccare i confini di Gondor.\u0000",
+    "L'esercito di Sauron accresce il suo potere a Mordor,\u0000",
+    "la guerra è solo agli inizi.\u0000"
+  ]
+}

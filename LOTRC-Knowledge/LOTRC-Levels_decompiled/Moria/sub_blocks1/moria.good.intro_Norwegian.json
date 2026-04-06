@@ -1,0 +1,86 @@
+{
+  "vals": [
+    {
+      "t_start": 4.93,
+      "t_end": 9.94,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 204
+    },
+    {
+      "t_start": 9.94,
+      "t_end": 15.98,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 342
+    },
+    {
+      "t_start": 15.99,
+      "t_end": 19.22,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 472
+    },
+    {
+      "t_start": 19.23,
+      "t_end": 24.36,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 558
+    },
+    {
+      "t_start": 24.38,
+      "t_end": 28.55,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 732
+    },
+    {
+      "t_start": 28.55,
+      "t_end": 31.15,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 864
+    },
+    {
+      "t_start": 31.16,
+      "t_end": 35.82,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 926
+    },
+    {
+      "t_start": 35.82,
+      "t_end": 38.04,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1070
+    },
+    {
+      "t_start": 38.05,
+      "t_end": 42.56,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1134
+    },
+    {
+      "t_start": 42.56,
+      "t_end": 47.93,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1282
+    }
+  ],
+  "strings": [
+    "I nord har Morias Miner også vokst seg til å bli en større trussel. \u0000",
+    "Det var her Gandalv nedkjempet Balrogen etter mange dagers kamp.\u0000",
+    "Denne fryktelige kampen kostet ham livet, \u0000",
+    "men gjorde det mulig for Ringbæreren å rømme ut av disse mørke og skrekkelige hallene.\u0000",
+    "Men den store underjordiske byen Moria er fremdeles et ynglested \u0000",
+    "for tusser og annen styggedom.\u0000",
+    "Nå er tiden inne for at de frie folkeslagene omsider tar tilbake Moria,\u0000",
+    "og dvergen Gimli skal lede dem.\u0000",
+    "Likevel må alle forholde seg varsomme, for sprekker åpenbarer seg overalt\u0000",
+    "og Gandalv frykter at en ny type ondskap kan ha slått seg ned i disse eldgamle hallene.\u0000"
+  ]
+}

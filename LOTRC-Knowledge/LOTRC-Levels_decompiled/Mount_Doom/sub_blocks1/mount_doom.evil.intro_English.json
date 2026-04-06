@@ -1,0 +1,110 @@
+{
+  "vals": [
+    {
+      "t_start": 5.35,
+      "t_end": 11.09,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 264
+    },
+    {
+      "t_start": 11.09,
+      "t_end": 14.7,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 410
+    },
+    {
+      "t_start": 14.72,
+      "t_end": 19.18,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 516
+    },
+    {
+      "t_start": 19.19,
+      "t_end": 22.43,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 662
+    },
+    {
+      "t_start": 22.45,
+      "t_end": 28.92,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 764
+    },
+    {
+      "t_start": 28.93,
+      "t_end": 33.83,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 910
+    },
+    {
+      "t_start": 33.83,
+      "t_end": 36.39,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1044
+    },
+    {
+      "t_start": 36.42,
+      "t_end": 39.81,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1136
+    },
+    {
+      "t_start": 39.83,
+      "t_end": 45.7,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1212
+    },
+    {
+      "t_start": 45.72,
+      "t_end": 50.23,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1358
+    },
+    {
+      "t_start": 50.23,
+      "t_end": 55.44,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1488
+    },
+    {
+      "t_start": 55.44,
+      "t_end": 59.38,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1612
+    },
+    {
+      "t_start": 59.39,
+      "t_end": 63.18,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1716
+    }
+  ],
+  "strings": [
+    "Weakened by the One Ring's power, at last Frodo claims it for himself...\u0000",
+    "and the very foundations of Middle-earth are shaken.\u0000",
+    "The Dark Lord desperately hopes for his very body to be restored to him.\u0000",
+    "But to stride forth upon Middle-earth once more...\u0000",
+    "Sauron requires Frodo's Ring, and for this he will gladly pay any price.\u0000",
+    "At the Dark Lord's command, his Nazgûl now hasten to Mount Doom...\u0000",
+    "all other thoughts banished from their minds.\u0000",
+    "They obey but a single, deadly aim...\u0000",
+    "to slay Frodo and gain the Ring, now that it lies within Sauron's grasp.\u0000",
+    "Many Orc garrisons boldly dare to covet the Ring for themselves.\u0000",
+    "Rising up in riot and civil war and marching upon Mount Doom.\u0000",
+    "But the onrushing Nazgûl shall tolerate no delay...\u0000",
+    "and will slay any dark servant who dares block their path.\u0000"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "CloseIdle": "MST_PR_CitadelPlatformDoor_03_idle_closed",
+  "Bump": "MST_PR_CitadelPlatformDoor_03_idle_closed",
+  "OpenIdle": "MST_PR_CitadelPlatformDoor_03_idle_open",
+  "Open": "MST_PR_CitadelPlatformDoor_03_open",
+  "BumpIdle": "MST_PR_CitadelPlatformDoor_03_idle_closed"
+}

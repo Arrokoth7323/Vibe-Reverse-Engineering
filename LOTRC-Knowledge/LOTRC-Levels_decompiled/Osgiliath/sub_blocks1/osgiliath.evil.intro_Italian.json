@@ -1,0 +1,78 @@
+{
+  "vals": [
+    {
+      "t_start": 3.7,
+      "t_end": 8.06,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 184
+    },
+    {
+      "t_start": 8.18,
+      "t_end": 12.2,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 346
+    },
+    {
+      "t_start": 12.21,
+      "t_end": 16.33,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 474
+    },
+    {
+      "t_start": 16.45,
+      "t_end": 18.29,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 612
+    },
+    {
+      "t_start": 18.41,
+      "t_end": 22.02,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 672
+    },
+    {
+      "t_start": 22.02,
+      "t_end": 25.0,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 798
+    },
+    {
+      "t_start": 25.01,
+      "t_end": 30.67,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 866
+    },
+    {
+      "t_start": 30.67,
+      "t_end": 36.04,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1024
+    },
+    {
+      "t_start": 36.04,
+      "t_end": 40.29,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1194
+    }
+  ],
+  "strings": [
+    "Un gruppo di Orchetti, attraversato il fiume Anduin con il favore delle tenebre,\u0000",
+    "segna l'inizio del rinnovato assalto di Sauron al nostro mondo.\u0000",
+    "L'assalto degli Orchetti, silenzioso e letale, scatterà a mezzanotte\u0000",
+    "e colpirà Osgiliath al cuore.\u0000",
+    "Il colpo finale sarà inferto da un gruppo di guerrieri scelti,\u0000",
+    "che attende sulla sponda lontana.\u0000",
+    "Le loro macchine d'assedio sono pronte a vomitare fuoco sugli odiati Raminghi.\u0000",
+    "Gli Orchetti attendono il segnale dei loro esploratori, per identificare i bersagli.\u0000",
+    "Nei loro cuori, già sognano di ammirare Osgiliath in fiamme.\u0000"
+  ]
+}

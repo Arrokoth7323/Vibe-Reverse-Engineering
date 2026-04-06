@@ -1,0 +1,70 @@
+{
+  "vals": [
+    {
+      "t_start": 3.59,
+      "t_end": 6.13,
+      "unk_2": 16777215,
+      "unk_3": 2,
+      "off": 164
+    },
+    {
+      "t_start": 6.25,
+      "t_end": 10.21,
+      "unk_2": 16777215,
+      "unk_3": 2,
+      "off": 240
+    },
+    {
+      "t_start": 10.33,
+      "t_end": 14.08,
+      "unk_2": 16777215,
+      "unk_3": 2,
+      "off": 378
+    },
+    {
+      "t_start": 14.08,
+      "t_end": 15.97,
+      "unk_2": 16777215,
+      "unk_3": 2,
+      "off": 500
+    },
+    {
+      "t_start": 16.09,
+      "t_end": 18.56,
+      "unk_2": 16777215,
+      "unk_3": 2,
+      "off": 576
+    },
+    {
+      "t_start": 18.68,
+      "t_end": 21.22,
+      "unk_2": 16777215,
+      "unk_3": 2,
+      "off": 654
+    },
+    {
+      "t_start": 21.23,
+      "t_end": 25.49,
+      "unk_2": 16777215,
+      "unk_3": 2,
+      "off": 744
+    },
+    {
+      "t_start": 25.61,
+      "t_end": 31.28,
+      "unk_2": 16777215,
+      "unk_3": 2,
+      "off": 870
+    }
+  ],
+  "strings": [
+    "L'Oscuro Sire dev'essere compiaciuto,\u0000",
+    "ora che un'altra città giace in rovina sotto i piedi degli Orchetti.\u0000",
+    "Faramir e i suoi uomini non sono stati trattati con pietà...\u0000",
+    "non che si aspettassero diversamente.\u0000",
+    "Ora le orde di Sauron hanno nuovamente\u0000",
+    "la strada spianata verso il cuore di Gondor.\u0000",
+    "Ora, nei campi di Mordor, l'Oscuro Sire prepara nuove legioni.\u0000",
+    "Questa volta, coloro che oseranno opporsi a lui saranno schiantati senza pietà.\u0000"
+  ]
+}

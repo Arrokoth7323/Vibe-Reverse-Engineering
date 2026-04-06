@@ -1,0 +1,78 @@
+{
+  "vals": [
+    {
+      "t_start": 5.53,
+      "t_end": 6.94,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 184
+    },
+    {
+      "t_start": 6.95,
+      "t_end": 12.21,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 226
+    },
+    {
+      "t_start": 12.23,
+      "t_end": 18.2,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 366
+    },
+    {
+      "t_start": 18.2,
+      "t_end": 22.48,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 528
+    },
+    {
+      "t_start": 22.49,
+      "t_end": 24.99,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 648
+    },
+    {
+      "t_start": 25.0,
+      "t_end": 29.22,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 740
+    },
+    {
+      "t_start": 29.24,
+      "t_end": 32.47,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 838
+    },
+    {
+      "t_start": 32.48,
+      "t_end": 35.73,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 914
+    },
+    {
+      "t_start": 35.74,
+      "t_end": 37.63,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1008
+    }
+  ],
+  "strings": [
+    "W przeszłych wiekach\u0000",
+    "Władca Ciemności zajął Minas Morgul i zdeprawował je nikczemną magią.\u0000",
+    "Stało się przeklętym królestwem Króla Upiorów, oświetlanym jego trupim światłem.\u0000",
+    "Zarówno orkowie, jak i magia Saurona strzegą tej fortecy...\u0000",
+    "pożerając siły wszystkich, którzy się zbliżą.\u0000",
+    "A z powietrza strzegą miasta Upiory Pierścienia.\u0000",
+    "Sztuką oblężniczą i siłą swych ramion\u0000",
+    "Ludzie Zachodu muszą rozbić wrota tej twierdzy\u0000",
+    "i pokonać skryte w niej zło.\u0000"
+  ]
+}

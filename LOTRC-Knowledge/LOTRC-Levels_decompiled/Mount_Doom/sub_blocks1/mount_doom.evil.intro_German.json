@@ -1,0 +1,110 @@
+{
+  "vals": [
+    {
+      "t_start": 5.35,
+      "t_end": 10.37,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 264
+    },
+    {
+      "t_start": 10.49,
+      "t_end": 14.7,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 418
+    },
+    {
+      "t_start": 14.72,
+      "t_end": 18.9,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 522
+    },
+    {
+      "t_start": 19.45,
+      "t_end": 24.45,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 678
+    },
+    {
+      "t_start": 25.01,
+      "t_end": 28.43,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 830
+    },
+    {
+      "t_start": 28.85,
+      "t_end": 32.39,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 930
+    },
+    {
+      "t_start": 32.43,
+      "t_end": 36.39,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1046
+    },
+    {
+      "t_start": 36.42,
+      "t_end": 39.32,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1160
+    },
+    {
+      "t_start": 39.35,
+      "t_end": 45.7,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1236
+    },
+    {
+      "t_start": 45.72,
+      "t_end": 50.23,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1404
+    },
+    {
+      "t_start": 50.23,
+      "t_end": 55.44,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1532
+    },
+    {
+      "t_start": 55.44,
+      "t_end": 59.38,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1656
+    },
+    {
+      "t_start": 59.39,
+      "t_end": 62.91,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1752
+    }
+  ],
+  "strings": [
+    "Geschwächt von der Macht des Einen Ringes, erliegt Frodo seinen Verführungen\u0000",
+    "und die Grundfesten Mittelerdes werden erschüttert.\u0000",
+    "Der Dunkle Herrscher hofft verzweifelt, sein Körper möge zu ihm zurückkehren.\u0000",
+    "Doch Sauron braucht Frodos Ring, um Mittelerde aufs Neue zu unterwerfen ...\u0000",
+    "und dafür ist er bereit, jeden Preis zu bezahlen.\u0000",
+    "Auf den Befehl des Dunklen Herrschers eilen seine Nazgûl,\u0000",
+    "beseelt von einem einzigen Gedanken, zum Schicksalsberg.\u0000",
+    "Nur ein tödliches Ziel treibt sie an:\u0000",
+    "Frodo zu erschlagen und Sauron den Ring zu bringen, nun, da er zum Greifen nah ist.\u0000",
+    "Zahllose Ork-Garnisonen wagen es, den Ring für sich zu fordern,\u0000",
+    "und marschieren in einem offenen Aufstand zum Schicksalsberg.\u0000",
+    "Doch die nahenden Nazgûl dulden keinen Aufschub\u0000",
+    "und vernichten jeden, der sich ihnen in den Weg stellt.\u0000"
+  ]
+}

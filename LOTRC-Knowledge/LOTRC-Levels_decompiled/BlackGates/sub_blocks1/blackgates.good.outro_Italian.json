@@ -1,0 +1,134 @@
+{
+  "vals": [
+    {
+      "t_start": 4.56,
+      "t_end": 10.22,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 324
+    },
+    {
+      "t_start": 10.23,
+      "t_end": 12.72,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 502
+    },
+    {
+      "t_start": 12.74,
+      "t_end": 19.67,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 560
+    },
+    {
+      "t_start": 19.69,
+      "t_end": 24.37,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 764
+    },
+    {
+      "t_start": 24.38,
+      "t_end": 27.88,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 922
+    },
+    {
+      "t_start": 27.89,
+      "t_end": 31.24,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1040
+    },
+    {
+      "t_start": 31.26,
+      "t_end": 36.67,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1142
+    },
+    {
+      "t_start": 36.69,
+      "t_end": 41.25,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1310
+    },
+    {
+      "t_start": 41.27,
+      "t_end": 46.09,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1450
+    },
+    {
+      "t_start": 46.11,
+      "t_end": 52.09,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1568
+    },
+    {
+      "t_start": 52.11,
+      "t_end": 56.58,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1764
+    },
+    {
+      "t_start": 56.6,
+      "t_end": 60.55,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1848
+    },
+    {
+      "t_start": 60.57,
+      "t_end": 67.0,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1898
+    },
+    {
+      "t_start": 67.01,
+      "t_end": 70.47,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 2096
+    },
+    {
+      "t_start": 70.49,
+      "t_end": 75.44,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 2172
+    },
+    {
+      "t_start": 75.45,
+      "t_end": 77.9,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 2342
+    }
+  ],
+  "strings": [
+    "Non c'era alcuna speranza di salvezza nell'ora tarda, per tutti coloro che combattevano,\u0000",
+    "eppure essi non disperavano.\u0000",
+    "Anche se i nemici erano sempre più numerosi, e il loro esercito stanco, gli Uomini non avevano paura.\u0000",
+    "Il destino, però, decise che non era quella l'ora della fine del nostro mondo.\u0000",
+    "Perché il potere dell'Anello corrompe tutto ciò che tocca,\u0000",
+    "in modi sconosciuti anche al suo spirito malvagio.\u0000",
+    "In quell'ultimo, disperato momento, il Portatore dell'Anello compì la sua missione.\u0000",
+    "Nello spazio di un istante, l'Oscuro Sire, Sauron, cessò di esistere.\u0000",
+    "La vittoria finale fu dovuta a un evento invero minuscolo.\u0000",
+    "\"Il nostro fato era sospeso sulla lama di un coltello; quando la nostra speranza prevalse, però,\"\u0000",
+    "questa lama affondò nel cuore del nemico.\u0000",
+    "E la vittoria fu nostra.\u0000",
+    "Ricorda sempre che, in quei tetri campi di battaglia, i cuori delle Genti Libere non hanno esitato\u0000",
+    "e il loro coraggio non è venuto meno.\u0000",
+    "E fu grazie a loro che la Terza Era della Terra di Mezzo si concluse con un trionfo,\u0000",
+    "e non con la rovina.\u0000"
+  ]
+}

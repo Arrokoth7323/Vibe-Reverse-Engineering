@@ -1,0 +1,294 @@
+{
+  "info": {
+    "key": "MOR_PR_PrisonDoor_01_close",
+    "gamemodemask": 3,
+    "offset": 2507056,
+    "size": 208,
+    "kind": 3,
+    "unk_5": 1.1333333,
+    "vals_num": 4,
+    "vals2_num": 0,
+    "unk_8": 0,
+    "vala": 35,
+    "unk_10": 1,
+    "unk_11": 256,
+    "data_offset": 16,
+    "unk_13": 8.5,
+    "unk_14": 0.11764706,
+    "t_scale": 0.03333333,
+    "block_starts_offset": 0,
+    "block_starts_num": 1,
+    "block_starts2_offset": 4,
+    "block_starts2_num": 1,
+    "obj_c3_offset": 8,
+    "obj_c3_num": 0,
+    "obj_c4_offset": 8,
+    "obj_c4_num": 0,
+    "block_offset": 8,
+    "block_size": 128,
+    "obj3_num": 1,
+    "obj3_offset": 136,
+    "bones_num1": 4,
+    "unk_29": 4,
+    "obj1_num": 0,
+    "bones_offset": 180,
+    "unk_32": 539314077,
+    "obj1_offset": 0,
+    "obj2_offset": 0,
+    "obj2_num": 0,
+    "obj5_offset": 0
+  },
+  "obj1": [],
+  "obj2": [],
+  "events": [
+    {
+      "event": "SoundCue",
+      "t": 0.8333333,
+      "vals": [
+        {
+          "CRC": "Door_Close_Moria_Prision"
+        },
+        {
+          "CRC": ""
+        },
+        {
+          "CRC": ""
+        },
+        {
+          "Int": 0
+        },
+        {
+          "Int": 0
+        },
+        {
+          "Int": 0
+        },
+        {
+          "Int": 0
+        },
+        {
+          "Int": 0
+        },
+        {
+          "Int": 0
+        }
+      ]
+    }
+  ],
+  "bones": [
+    "",
+    "MOR_PR_PrisonDoor",
+    "Bone_all",
+    "Bone_door"
+  ],
+  "obj5_a": [],
+  "obj5_b": [],
+  "obj_c3": [],
+  "obj_c4": [],
+  "blocks": [
+    [
+      [
+        [
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ],
+        [
+          {
+            "nbytes": 100,
+            "flags": 32,
+            "s1": 27,
+            "s2": 1,
+            "data": [
+              0,
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              29,
+              31,
+              34,
+              34
+            ],
+            "vals_a": [
+              0.0,
+              5.649231
+            ],
+            "vals": {
+              "Type2": [
+                65535,
+                65464,
+                65249,
+                64883,
+                64362,
+                63678,
+                62824,
+                61793,
+                60577,
+                59166,
+                57550,
+                55717,
+                53654,
+                51346,
+                48777,
+                45926,
+                42771,
+                39282,
+                35426,
+                31158,
+                26421,
+                21136,
+                15182,
+                8343,
+                0,
+                434,
+                389,
+                0
+              ]
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals": {
+              "ThreeComp40": []
+            }
+          },
+          {
+            "nbytes": 0,
+            "flags": 0,
+            "s1": 0,
+            "s2": 0,
+            "data": [],
+            "vals_a": [],
+            "vals": {
+              "Type2": []
+            }
+          }
+        ]
+      ],
+      []
+    ]
+  ]
+}

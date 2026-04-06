@@ -1,0 +1,86 @@
+{
+  "vals": [
+    {
+      "t_start": 5.15,
+      "t_end": 6.11,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 204
+    },
+    {
+      "t_start": 6.13,
+      "t_end": 11.39,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 236
+    },
+    {
+      "t_start": 11.41,
+      "t_end": 14.56,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 404
+    },
+    {
+      "t_start": 14.68,
+      "t_end": 18.03,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 522
+    },
+    {
+      "t_start": 18.15,
+      "t_end": 22.27,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 622
+    },
+    {
+      "t_start": 22.29,
+      "t_end": 25.58,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 746
+    },
+    {
+      "t_start": 25.63,
+      "t_end": 29.6,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 848
+    },
+    {
+      "t_start": 29.64,
+      "t_end": 32.47,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 978
+    },
+    {
+      "t_start": 32.48,
+      "t_end": 36.36,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1078
+    },
+    {
+      "t_start": 36.39,
+      "t_end": 40.06,
+      "unk_2": 65535,
+      "unk_3": 2,
+      "off": 1218
+    }
+  ],
+  "strings": [
+    "Vor langer Zeit\u0000",
+    "eroberte der Dunkle Herrscher Minas Morgul und stürzte die Stadt in die Dunkelheit.\u0000",
+    "Seitdem herrscht der Hexenkönig über eine verderbte Stadt,\u0000",
+    "die nur von einem fahlen Totenlicht erhellt wird.\u0000",
+    "Diese Feste des Bösen, die jeden Feind seiner Stärke beraubt,\u0000",
+    "wird von Orks und Saurons dunkler Magie beschützt.\u0000",
+    "Und über der Stadt ziehen die mächtigen Ringgeister ihre Kreise.\u0000",
+    "Mit Belagerungsmaschinen und der Kraft ihrer Arme\u0000",
+    "müssen die Menschen des Westens die Tore der Zitadelle zerschmettern,\u0000",
+    "um das Böse darin zu bezwingen.\u0000"
+  ]
+}

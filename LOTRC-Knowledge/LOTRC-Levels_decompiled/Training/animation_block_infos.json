@@ -1,0 +1,24 @@
+[
+  {
+    "key": "goodcampaign",
+    "guid": 7055480,
+    "key_name": "New Campaign",
+    "offset": 4096,
+    "size": 5891056,
+    "size_comp": 3758169,
+    "unk_6": 0,
+    "unk_7": 0,
+    "unk_8": 0
+  },
+  {
+    "key": "Custom",
+    "guid": 117019669,
+    "key_name": "Art",
+    "offset": 3764224,
+    "size": 2346368,
+    "size_comp": 1470529,
+    "unk_6": 0,
+    "unk_7": 0,
+    "unk_8": 0
+  }
+]
