@@ -66,10 +66,17 @@ namespace comp
 		auto hr = S_OK;
 
 		if (ffp.is_enabled() && ffp.view_proj_valid() &&
-			ffp.last_decl() && !ffp.cur_decl_has_pos_t() && !ffp.cur_decl_is_skinned() &&
-			ffp.cur_decl_has_normal())
+			ffp.last_decl() && !ffp.cur_decl_has_pos_t() &&
+			(!ffp.cur_decl_is_skinned() || ffp.num_bones() <= 8) &&
+			ffp.cur_decl_has_normal() && !ffp.cur_decl_has_binormal() &&
+			!ffp.cur_draw_is_water())
 		{
 			ffp.engage(dev);
+			if (!ffp.cur_decl_has_texcoord())
+			{
+				static const D3DMATRIX identity = { 1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1 };
+				dev->SetTransform(D3DTS_WORLD, &identity);
+			}
 			ffp.setup_albedo_texture(dev);
 
 			hr = dev->DrawPrimitive(PrimitiveType, StartVertex, PrimitiveCount);
@@ -121,8 +128,8 @@ namespace comp
 		/*
 		 * FFP draw routing for indexed draws:
 		 *   Instanced foliage (TC1/TC2/TC3 on stream 1) → per-instance World loop
-		 *   Skinned + skinning module → CPU skinning
-		 *   Non-skinned + NORMAL → FFP rigid draw
+		 *   Skinned (>8 bones) + skinning module → CPU skinning
+		 *   Non-skinned (or ≤8 "bones", e.g. SpeedTree wind) + NORMAL → FFP rigid draw
 		 *   Everything else → shader passthrough
 		 */
 		if (ffp.is_enabled() && ffp.view_proj_valid() && ffp.is_instanced() &&
@@ -133,7 +140,7 @@ namespace comp
 			im->m_stats._drawcall_indexed_prim.track_single();
 		}
 		else if (ffp.is_enabled() && ffp.view_proj_valid() &&
-			ffp.cur_decl_is_skinned() &&
+			ffp.cur_decl_is_skinned() && ffp.num_bones() > 8 &&
 			!ffp.cur_decl_has_pos_t() && skinning::is_available())
 		{
 			hr = skinning::get()->draw_skinned_dip(dev, PrimitiveType, BaseVertexIndex,
@@ -141,10 +148,21 @@ namespace comp
 			im->m_stats._drawcall_indexed_prim.track_single();
 		}
 		else if (ffp.is_enabled() && ffp.view_proj_valid() &&
-			!ffp.cur_decl_is_skinned() && !ffp.cur_decl_has_pos_t() &&
-			ffp.cur_decl_has_normal())
+			(!ffp.cur_decl_is_skinned() || ffp.num_bones() <= 8) &&
+			!ffp.cur_decl_has_pos_t() &&
+			ffp.cur_decl_has_normal() && !ffp.cur_decl_has_binormal() &&
+			!ffp.cur_draw_is_water())
 		{
 			ffp.engage(dev);
+
+			// Terrain draws: positions are already world-space (no g__worldMatrix usage
+			// in terrain shaders). Override stale c178 with identity.
+			if (!ffp.cur_decl_has_texcoord())
+			{
+				static const D3DMATRIX identity = { 1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1 };
+				dev->SetTransform(D3DTS_WORLD, &identity);
+			}
+
 			ffp.setup_albedo_texture(dev);
 
 			hr = dev->DrawIndexedPrimitive(PrimitiveType, BaseVertexIndex, MinVertexIndex, NumVertices, startIndex, primCount);
@@ -180,9 +198,15 @@ namespace comp
 		ffp.increment_draw_count();
 
 		if (ffp.is_enabled() && ffp.view_proj_valid() &&
-			!ffp.cur_decl_has_pos_t() && ffp.cur_decl_has_normal())
+			!ffp.cur_decl_has_pos_t() && ffp.cur_decl_has_normal() &&
+			!ffp.cur_decl_has_binormal() && !ffp.cur_draw_is_water())
 		{
 			ffp.engage(dev);
+			if (!ffp.cur_decl_has_texcoord())
+			{
+				static const D3DMATRIX identity = { 1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1 };
+				dev->SetTransform(D3DTS_WORLD, &identity);
+			}
 			ffp.setup_albedo_texture(dev);
 			auto hr = dev->DrawPrimitiveUP(PrimitiveType, PrimitiveCount, pVertexStreamZeroData, VertexStreamZeroStride);
 			ffp.restore_textures(dev);
@@ -203,9 +227,15 @@ namespace comp
 		ffp.increment_draw_count();
 
 		if (ffp.is_enabled() && ffp.view_proj_valid() &&
-			!ffp.cur_decl_has_pos_t() && ffp.cur_decl_has_normal())
+			!ffp.cur_decl_has_pos_t() && ffp.cur_decl_has_normal() &&
+			!ffp.cur_decl_has_binormal() && !ffp.cur_draw_is_water())
 		{
 			ffp.engage(dev);
+			if (!ffp.cur_decl_has_texcoord())
+			{
+				static const D3DMATRIX identity = { 1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1 };
+				dev->SetTransform(D3DTS_WORLD, &identity);
+			}
 			ffp.setup_albedo_texture(dev);
 			auto hr = dev->DrawIndexedPrimitiveUP(PrimitiveType, MinVertexIndex, NumVertices, PrimitiveCount, pIndexData, IndexDataFormat, pVertexStreamZeroData, VertexStreamZeroStride);
 			ffp.restore_textures(dev);

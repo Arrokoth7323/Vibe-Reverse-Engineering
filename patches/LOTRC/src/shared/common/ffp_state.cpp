@@ -79,6 +79,14 @@ namespace shared::common
 			}
 		}
 
+		// Water detection: g__gerstnerWaveAmplitude at c233.
+		// Set when written with non-zero amplitudes, cleared on VS change.
+		if (start_reg <= 233 && end_reg > 233)
+		{
+			const float* amp = &vs_const_[233 * 4];
+			water_material_active_ = (amp[0] != 0 || amp[1] != 0 || amp[2] != 0 || amp[3] != 0);
+		}
+
 		for (UINT i = 0; i < count; i++)
 			vs_const_write_log_[start_reg + i] = 1;
 
@@ -107,6 +115,7 @@ namespace shared::common
 		if (last_vs_) last_vs_->Release();
 		last_vs_ = shader;
 		ffp_active_ = false;
+		water_material_active_ = false;
 	}
 
 	void ffp_state::on_set_pixel_shader(IDirect3DPixelShader9* shader)
@@ -145,6 +154,7 @@ namespace shared::common
 		cur_decl_has_texcoord_ = false;
 		cur_decl_has_normal_ = false;
 		cur_decl_has_color_ = false;
+		cur_decl_has_binormal_ = false;
 		cur_decl_has_pos_t_ = false;
 		cur_decl_texcoord_type_ = -1;
 		cur_decl_texcoord_off_ = 0;
@@ -238,6 +248,10 @@ namespace shared::common
 
 			case D3DDECLUSAGE_COLOR:
 				cur_decl_has_color_ = true;
+				break;
+
+			case D3DDECLUSAGE_BINORMAL:
+				cur_decl_has_binormal_ = true;
 				break;
 			}
 		}
@@ -340,6 +354,7 @@ namespace shared::common
 		cur_decl_has_texcoord_ = false;
 		cur_decl_has_normal_ = false;
 		cur_decl_has_color_ = false;
+		cur_decl_has_binormal_ = false;
 		cur_decl_has_pos_t_ = false;
 		fvf_pos_t_ = false;
 		cur_decl_has_texcoord5_ = false;

@@ -23,7 +23,7 @@ namespace comp
 
 	private:
 		static void build_world_matrix(const float* inst_pos, const float* orient,
-			const float* wind, float* world);
+			const float* wind, float time_y, float* world);
 
 		static IDirect3DVertexDeclaration9* s_ffp_decl;
 		static void ensure_ffp_decl(IDirect3DDevice9* dev);

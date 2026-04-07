@@ -58,6 +58,8 @@ namespace shared::common
 		bool cur_decl_has_pos_t() const { return cur_decl_has_pos_t_ || fvf_pos_t_; }
 		bool cur_decl_has_texcoord() const { return cur_decl_has_texcoord_; }
 		bool cur_decl_has_color() const { return cur_decl_has_color_; }
+		bool cur_decl_has_binormal() const { return cur_decl_has_binormal_; }
+		bool cur_draw_is_water() const { return water_material_active_; }
 		bool cur_decl_has_texcoord5() const { return cur_decl_has_texcoord5_; }
 		int cur_decl_texcoord_type() const { return cur_decl_texcoord_type_; }
 		int cur_decl_texcoord5_off() const { return cur_decl_texcoord5_off_; }
@@ -120,6 +122,9 @@ namespace shared::common
 		int cur_decl_normal_type() const { return cur_decl_normal_type_; }
 		int cur_decl_texcoord_off() const { return cur_decl_texcoord_off_; }
 
+		// Foliage wind: read g__time.y from c196 for sway computation
+		float time_y() const { return vs_const_[196 * 4 + 1]; }
+
 		void increment_draw_count() { draw_call_count_++; }
 
 		// --- Utility ---
@@ -159,8 +164,10 @@ namespace shared::common
 		bool cur_decl_has_texcoord_ = false;
 		bool cur_decl_has_normal_ = false;
 		bool cur_decl_has_color_ = false;
+		bool cur_decl_has_binormal_ = false;
 		bool cur_decl_has_pos_t_ = false;
 		bool fvf_pos_t_ = false;  // SetFVF with D3DFVF_XYZRHW
+		bool water_material_active_ = false;  // Gerstner wave constants written since last VS change
 		bool cur_decl_has_texcoord5_ = false;
 		int cur_decl_texcoord_type_ = -1;
 		int cur_decl_texcoord_off_ = 0;

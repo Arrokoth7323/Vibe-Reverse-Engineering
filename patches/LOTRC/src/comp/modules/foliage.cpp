@@ -37,10 +37,20 @@ namespace comp
 	}
 
 	void foliage::build_world_matrix(const float* inst_pos, const float* orient,
-		const float* wind, float* world)
+		const float* wind, float time_y, float* world)
 	{
 		constexpr float TWO_PI = 6.28318548f;
 		constexpr float PI = 3.14159274f;
+
+		// Wind sway: replicate the VS sincos wind from Mg_VP_Foliage.
+		// density = v4.y * 0.25; theta = time.y * 1.2566 + density
+		// sw = sin(theta_wrapped); wind_disp = sw * 0.125
+		// Applied as X-shear proportional to Y (height-attenuated).
+		float density = wind[1] * 0.25f;
+		float sw_theta = time_y * 1.2566371f + density;
+		sw_theta = sw_theta * 0.159154937f + 0.5f;
+		sw_theta = (sw_theta - std::floor(sw_theta)) * TWO_PI - PI;
+		float sw = std::sin(sw_theta) * 0.125f;
 
 		// Build basis frame from orientation
 		float bz[3] = { 1.0f, orient[0] * TWO_PI, 0.0f };
@@ -71,20 +81,20 @@ namespace comp
 		float cosT = std::cos(theta);
 
 		// Combined: RotY(theta) * BasisFrame
-		// Row 0 = cos*bx + sin*bz
-		world[0]  = cosT * bx[0] + sinT * bz[0];
-		world[1]  = cosT * bx[1] + sinT * bz[1];
-		world[2]  = cosT * bx[2] + sinT * bz[2];
+		// Row 0 = cos*bx + sin*bz + sw * by (wind shear: X offset proportional to Y)
+		world[0]  = cosT * bx[0] + sinT * bz[0] + sw * by[0];
+		world[1]  = cosT * bx[1] + sinT * bz[1] + sw * by[1];
+		world[2]  = cosT * bx[2] + sinT * bz[2] + sw * by[2];
 		world[3]  = 0.0f;
 		// Row 1 = by
 		world[4]  = by[0];
 		world[5]  = by[1];
 		world[6]  = by[2];
 		world[7]  = 0.0f;
-		// Row 2 = -sin*bx + cos*bz
-		world[8]  = -sinT * bx[0] + cosT * bz[0];
-		world[9]  = -sinT * bx[1] + cosT * bz[1];
-		world[10] = -sinT * bx[2] + cosT * bz[2];
+		// Row 2 = -sin*bx + cos*bz + sw * by (wind shear on Z too)
+		world[8]  = -sinT * bx[0] + cosT * bz[0] + sw * by[0];
+		world[9]  = -sinT * bx[1] + cosT * bz[1] + sw * by[1];
+		world[10] = -sinT * bx[2] + cosT * bz[2] + sw * by[2];
 		world[11] = 0.0f;
 		// Row 3 = translation
 		world[12] = inst_pos[0];
@@ -151,6 +161,8 @@ namespace comp
 
 		ffp.setup_albedo_texture(dev);
 
+		float time_y = ffp.time_y();
+
 		// Draw each instance with its own World matrix
 		HRESULT hr = S_OK;
 		for (UINT i = 0; i < inst_count; i++)
@@ -161,7 +173,7 @@ namespace comp
 			auto* wind = reinterpret_cast<const float*>(inst + tc3_off);
 
 			D3DMATRIX world_mat = {};
-			build_world_matrix(pos, ori, wind, reinterpret_cast<float*>(&world_mat));
+			build_world_matrix(pos, ori, wind, time_y, reinterpret_cast<float*>(&world_mat));
 			dev->SetTransform(D3DTS_WORLD, &world_mat);
 
 			hr = dev->DrawIndexedPrimitive(pt, base_vtx, min_vtx, num_verts, start_idx, prim_count);
