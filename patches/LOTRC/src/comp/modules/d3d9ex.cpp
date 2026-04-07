@@ -8,6 +8,7 @@
 #include "tracer.hpp"
 #include "diagnostics.hpp"
 #include "skinning.hpp"
+#include "terrain.hpp"
 #include "shared/common/shader_cache.hpp"
 
 using comp::tracer;

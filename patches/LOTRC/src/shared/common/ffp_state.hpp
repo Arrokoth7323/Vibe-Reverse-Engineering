@@ -39,6 +39,12 @@ namespace shared::common
 
 		void engage(IDirect3DDevice9* dev);
 		void disengage(IDirect3DDevice9* dev);
+		void reset_stale_transforms(IDirect3DDevice9* dev);
+
+		// Set camera VIEW/PROJ from decomposed VP constants (c239-c242) without
+		// touching WORLD or engaging FFP. For terrain: correct camera info for Remix
+		// while keeping original shaders active.
+		void apply_camera_transforms(IDirect3DDevice9* dev);
 
 		// Bind albedo texture to stage 0, NULL stages 1-7. Call before draw.
 		void setup_albedo_texture(IDirect3DDevice9* dev);
@@ -59,6 +65,8 @@ namespace shared::common
 		bool cur_decl_has_texcoord() const { return cur_decl_has_texcoord_; }
 		bool cur_decl_has_color() const { return cur_decl_has_color_; }
 		bool cur_decl_has_binormal() const { return cur_decl_has_binormal_; }
+		bool cur_decl_has_tangent() const { return cur_decl_has_tangent_; }
+		bool cur_decl_has_position1() const { return cur_decl_has_position1_; }
 		bool cur_draw_is_water() const { return water_material_active_; }
 		bool cur_decl_has_texcoord5() const { return cur_decl_has_texcoord5_; }
 		int cur_decl_texcoord_type() const { return cur_decl_texcoord_type_; }
@@ -127,6 +135,10 @@ namespace shared::common
 
 		void increment_draw_count() { draw_call_count_++; }
 
+		// Signal that D3D transforms were modified externally (e.g. terrain identity reset)
+		// so the next engage() re-applies the correct FFP transforms.
+		void mark_transforms_dirty() { world_dirty_ = true; view_proj_dirty_ = true; }
+
 		// --- Utility ---
 
 		static void mat4_transpose(float* dst, const float* src);
@@ -139,7 +151,7 @@ namespace shared::common
 
 		// VS/PS constant capture
 		float vs_const_[256 * 4] = {};
-		float ps_const_[32 * 4] = {};
+		float ps_const_[224 * 4] = {};
 
 		// Dirty tracking
 		bool world_dirty_ = false;
@@ -147,6 +159,7 @@ namespace shared::common
 		bool view_proj_valid_ = false;
 		bool ffp_active_ = false;
 		bool ffp_setup_ = false;
+		bool transforms_stale_ = false;
 
 		// SetTransform-captured View/Proj (for games that use D3D SetTransform directly)
 		D3DMATRIX st_view_ = {};
@@ -165,6 +178,8 @@ namespace shared::common
 		bool cur_decl_has_normal_ = false;
 		bool cur_decl_has_color_ = false;
 		bool cur_decl_has_binormal_ = false;
+		bool cur_decl_has_tangent_ = false;
+		bool cur_decl_has_position1_ = false;  // Morph target (POSITION with UsageIndex >= 1)
 		bool cur_decl_has_pos_t_ = false;
 		bool fvf_pos_t_ = false;  // SetFVF with D3DFVF_XYZRHW
 		bool water_material_active_ = false;  // Gerstner wave constants written since last VS change

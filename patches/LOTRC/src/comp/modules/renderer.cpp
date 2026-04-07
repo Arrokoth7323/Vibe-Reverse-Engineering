@@ -5,6 +5,7 @@
 #include "diagnostics.hpp"
 #include "skinning.hpp"
 #include "foliage.hpp"
+#include "terrain.hpp"
 #include "shared/common/ffp_state.hpp"
 
 namespace comp
@@ -67,22 +68,40 @@ namespace comp
 
 		if (ffp.is_enabled() && ffp.view_proj_valid() &&
 			ffp.last_decl() && !ffp.cur_decl_has_pos_t() &&
-			(!ffp.cur_decl_is_skinned() || ffp.num_bones() <= 8) &&
+			(ffp.cur_decl_has_position1() || ffp.cur_decl_is_skinned() ||
+			 ffp.cur_decl_has_tangent()))
+		{
+			// Skinned/morphable/normal-mapped objects: keep original VS.
+			// Normal-mapped draws (TANGENT) use multi-pass rendering that
+			// breaks if FFP strips their shaders.
+			ffp.disengage(dev);
+			dev->SetTransform(D3DTS_WORLD,
+				reinterpret_cast<const D3DMATRIX*>(&ffp.vs_const_data()[178 * 4]));
+			ffp.apply_camera_transforms(dev);
+			hr = dev->DrawPrimitive(PrimitiveType, StartVertex, PrimitiveCount);
+			ffp.mark_transforms_dirty();
+			im->m_stats._drawcall_prim.track_single();
+		}
+		else if (ffp.is_enabled() && ffp.view_proj_valid() &&
+			ffp.last_decl() && !ffp.cur_decl_has_pos_t() &&
+			!ffp.cur_decl_is_skinned() && !ffp.cur_decl_has_tangent() &&
 			ffp.cur_decl_has_normal() && !ffp.cur_decl_has_binormal() &&
-			!ffp.cur_draw_is_water())
+			!ffp.cur_draw_is_water() && ffp.cur_decl_has_texcoord())
 		{
 			ffp.engage(dev);
-			if (!ffp.cur_decl_has_texcoord())
-			{
-				static const D3DMATRIX identity = { 1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1 };
-				dev->SetTransform(D3DTS_WORLD, &identity);
-			}
 			ffp.setup_albedo_texture(dev);
 
 			hr = dev->DrawPrimitive(PrimitiveType, StartVertex, PrimitiveCount);
 			im->m_stats._drawcall_prim.track_single();
 
 			ffp.restore_textures(dev);
+		}
+		else if (ffp.is_enabled() && ffp.view_proj_valid() &&
+			ffp.last_decl() && !ffp.cur_decl_has_pos_t() &&
+			!ffp.cur_decl_has_texcoord() && ffp.cur_decl_has_normal())
+		{
+			hr = terrain::draw_terrain_dp(dev, PrimitiveType, StartVertex, PrimitiveCount);
+			im->m_stats._drawcall_prim.track_single();
 		}
 		else
 		{
@@ -129,7 +148,9 @@ namespace comp
 		 * FFP draw routing for indexed draws:
 		 *   Instanced foliage (TC1/TC2/TC3 on stream 1) → per-instance World loop
 		 *   Skinned (>8 bones) + skinning module → CPU skinning
-		 *   Non-skinned (or ≤8 "bones", e.g. SpeedTree wind) + NORMAL → FFP rigid draw
+		 *   Skinned/Morphable/Normal-mapped → shader passthrough with transform hints
+		 *   Non-skinned + NORMAL + UV (no tangent) → FFP rigid draw
+		 *   Terrain (NORMAL but no UV) → shader passthrough with identity World
 		 *   Everything else → shader passthrough
 		 */
 		if (ffp.is_enabled() && ffp.view_proj_valid() && ffp.is_instanced() &&
@@ -148,27 +169,42 @@ namespace comp
 			im->m_stats._drawcall_indexed_prim.track_single();
 		}
 		else if (ffp.is_enabled() && ffp.view_proj_valid() &&
-			(!ffp.cur_decl_is_skinned() || ffp.num_bones() <= 8) &&
+			!ffp.cur_decl_has_pos_t() &&
+			(ffp.cur_decl_has_position1() || ffp.cur_decl_is_skinned() ||
+			 ffp.cur_decl_has_tangent()))
+		{
+			// Skinned/morphable/normal-mapped objects: keep original VS.
+			// Normal-mapped draws (TANGENT) use multi-pass rendering that
+			// breaks if FFP strips their shaders.
+			ffp.disengage(dev);
+			dev->SetTransform(D3DTS_WORLD,
+				reinterpret_cast<const D3DMATRIX*>(&ffp.vs_const_data()[178 * 4]));
+			ffp.apply_camera_transforms(dev);
+			hr = dev->DrawIndexedPrimitive(PrimitiveType, BaseVertexIndex, MinVertexIndex, NumVertices, startIndex, primCount);
+			ffp.mark_transforms_dirty();
+			im->m_stats._drawcall_indexed_prim.track_single();
+		}
+		else if (ffp.is_enabled() && ffp.view_proj_valid() &&
+			!ffp.cur_decl_is_skinned() && !ffp.cur_decl_has_tangent() &&
 			!ffp.cur_decl_has_pos_t() &&
 			ffp.cur_decl_has_normal() && !ffp.cur_decl_has_binormal() &&
-			!ffp.cur_draw_is_water())
+			!ffp.cur_draw_is_water() && ffp.cur_decl_has_texcoord())
 		{
 			ffp.engage(dev);
-
-			// Terrain draws: positions are already world-space (no g__worldMatrix usage
-			// in terrain shaders). Override stale c178 with identity.
-			if (!ffp.cur_decl_has_texcoord())
-			{
-				static const D3DMATRIX identity = { 1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1 };
-				dev->SetTransform(D3DTS_WORLD, &identity);
-			}
-
 			ffp.setup_albedo_texture(dev);
 
 			hr = dev->DrawIndexedPrimitive(PrimitiveType, BaseVertexIndex, MinVertexIndex, NumVertices, startIndex, primCount);
 			im->m_stats._drawcall_indexed_prim.track_single();
 
 			ffp.restore_textures(dev);
+		}
+		else if (ffp.is_enabled() && ffp.view_proj_valid() &&
+			!ffp.cur_decl_has_pos_t() && !ffp.cur_decl_has_texcoord() &&
+			ffp.cur_decl_has_normal())
+		{
+			hr = terrain::draw_terrain_dip(dev, PrimitiveType, BaseVertexIndex,
+				MinVertexIndex, NumVertices, startIndex, primCount);
+			im->m_stats._drawcall_indexed_prim.track_single();
 		}
 		else
 		{
@@ -199,14 +235,10 @@ namespace comp
 
 		if (ffp.is_enabled() && ffp.view_proj_valid() &&
 			!ffp.cur_decl_has_pos_t() && ffp.cur_decl_has_normal() &&
-			!ffp.cur_decl_has_binormal() && !ffp.cur_draw_is_water())
+			!ffp.cur_decl_has_binormal() && !ffp.cur_draw_is_water() &&
+			ffp.cur_decl_has_texcoord())
 		{
 			ffp.engage(dev);
-			if (!ffp.cur_decl_has_texcoord())
-			{
-				static const D3DMATRIX identity = { 1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1 };
-				dev->SetTransform(D3DTS_WORLD, &identity);
-			}
 			ffp.setup_albedo_texture(dev);
 			auto hr = dev->DrawPrimitiveUP(PrimitiveType, PrimitiveCount, pVertexStreamZeroData, VertexStreamZeroStride);
 			ffp.restore_textures(dev);
@@ -228,14 +260,10 @@ namespace comp
 
 		if (ffp.is_enabled() && ffp.view_proj_valid() &&
 			!ffp.cur_decl_has_pos_t() && ffp.cur_decl_has_normal() &&
-			!ffp.cur_decl_has_binormal() && !ffp.cur_draw_is_water())
+			!ffp.cur_decl_has_binormal() && !ffp.cur_draw_is_water() &&
+			ffp.cur_decl_has_texcoord())
 		{
 			ffp.engage(dev);
-			if (!ffp.cur_decl_has_texcoord())
-			{
-				static const D3DMATRIX identity = { 1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1 };
-				dev->SetTransform(D3DTS_WORLD, &identity);
-			}
 			ffp.setup_albedo_texture(dev);
 			auto hr = dev->DrawIndexedPrimitiveUP(PrimitiveType, MinVertexIndex, NumVertices, PrimitiveCount, pIndexData, IndexDataFormat, pVertexStreamZeroData, VertexStreamZeroStride);
 			ffp.restore_textures(dev);

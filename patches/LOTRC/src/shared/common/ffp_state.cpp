@@ -104,7 +104,7 @@ namespace shared::common
 
 	void ffp_state::on_set_ps_const_f(UINT start_reg, const float* data, UINT count)
 	{
-		if (!data || start_reg + count > 32) return;
+		if (!data || start_reg + count > 224) return;
 
 		std::memcpy(&ps_const_[start_reg * 4], data, count * 4 * sizeof(float));
 	}
@@ -155,7 +155,9 @@ namespace shared::common
 		cur_decl_has_normal_ = false;
 		cur_decl_has_color_ = false;
 		cur_decl_has_binormal_ = false;
+		cur_decl_has_tangent_ = false;
 		cur_decl_has_pos_t_ = false;
+		cur_decl_has_position1_ = false;
 		cur_decl_texcoord_type_ = -1;
 		cur_decl_texcoord_off_ = 0;
 		cur_decl_has_texcoord5_ = false;
@@ -212,6 +214,8 @@ namespace shared::common
 			case D3DDECLUSAGE_POSITION:
 				if (el.Stream == 0)
 					cur_decl_pos_off_ = el.Offset;
+				if (el.UsageIndex >= 1)
+					cur_decl_has_position1_ = true;
 				break;
 
 			case D3DDECLUSAGE_NORMAL:
@@ -252,6 +256,10 @@ namespace shared::common
 
 			case D3DDECLUSAGE_BINORMAL:
 				cur_decl_has_binormal_ = true;
+				break;
+
+			case D3DDECLUSAGE_TANGENT:
+				cur_decl_has_tangent_ = true;
 				break;
 			}
 		}
@@ -343,6 +351,7 @@ namespace shared::common
 		world_dirty_ = false;
 		view_proj_dirty_ = false;
 		ffp_active_ = false;
+		transforms_stale_ = false;
 		bone_start_reg_ = 0;
 		num_bones_ = 0;
 		st_view_valid_ = false;
@@ -355,7 +364,9 @@ namespace shared::common
 		cur_decl_has_normal_ = false;
 		cur_decl_has_color_ = false;
 		cur_decl_has_binormal_ = false;
+		cur_decl_has_tangent_ = false;
 		cur_decl_has_pos_t_ = false;
+		cur_decl_has_position1_ = false;
 		fvf_pos_t_ = false;
 		cur_decl_has_texcoord5_ = false;
 		cur_decl_texcoord_type_ = -1;
@@ -403,6 +414,44 @@ namespace shared::common
 		dev->SetVertexShader(last_vs_);
 		dev->SetPixelShader(last_ps_);
 		ffp_active_ = false;
+	}
+
+	void ffp_state::reset_stale_transforms(IDirect3DDevice9* dev)
+	{
+		if (!transforms_stale_ || !dev) return;
+
+		// Only reset WORLD — leave VIEW/PROJ alone (Remix uses them for camera).
+		// This ensures passthrough draws see identity WORLD instead of a stale
+		// object matrix leaked from the previous FFP draw.
+		static const D3DMATRIX identity = {
+			1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1
+		};
+		dev->SetTransform(D3DTS_WORLD, &identity);
+		world_dirty_ = true;  // Next FFP draw must re-apply WORLD
+	}
+
+	void ffp_state::apply_camera_transforms(IDirect3DDevice9* dev)
+	{
+		if (!dev) return;
+		if (vs_reg_viewproj_start_ >= 0 && view_proj_valid_)
+		{
+			D3DMATRIX view_mat = {}, proj_mat = {};
+			decompose_view_proj(&vs_const_[vs_reg_viewproj_start_ * 4], view_mat, proj_mat);
+			dev->SetTransform(D3DTS_VIEW, &view_mat);
+			dev->SetTransform(D3DTS_PROJECTION, &proj_mat);
+		}
+		else if (vs_reg_view_start_ >= 0 && view_proj_valid_)
+		{
+			dev->SetTransform(D3DTS_VIEW,
+				reinterpret_cast<const D3DMATRIX*>(&vs_const_[vs_reg_view_start_ * 4]));
+			dev->SetTransform(D3DTS_PROJECTION,
+				reinterpret_cast<const D3DMATRIX*>(&vs_const_[vs_reg_proj_start_ * 4]));
+		}
+		else if (st_view_valid_ && st_proj_valid_)
+		{
+			dev->SetTransform(D3DTS_VIEW, &st_view_);
+			dev->SetTransform(D3DTS_PROJECTION, &st_proj_);
+		}
 	}
 
 	void ffp_state::setup_albedo_texture(IDirect3DDevice9* dev)
@@ -503,6 +552,7 @@ namespace shared::common
 				decompose_view_proj(&vs_const_[vs_reg_viewproj_start_ * 4], view_mat, proj_mat);
 				dev->SetTransform(D3DTS_VIEW, &view_mat);
 				dev->SetTransform(D3DTS_PROJECTION, &proj_mat);
+				transforms_stale_ = true;
 			}
 			else if (vs_reg_view_start_ >= 0 && view_proj_valid_)
 			{
@@ -510,11 +560,13 @@ namespace shared::common
 					reinterpret_cast<const D3DMATRIX*>(&vs_const_[vs_reg_view_start_ * 4]));
 				dev->SetTransform(D3DTS_PROJECTION,
 					reinterpret_cast<const D3DMATRIX*>(&vs_const_[vs_reg_proj_start_ * 4]));
+				transforms_stale_ = true;
 			}
 			else if (st_view_valid_ && st_proj_valid_)
 			{
 				dev->SetTransform(D3DTS_VIEW, &st_view_);
 				dev->SetTransform(D3DTS_PROJECTION, &st_proj_);
+				transforms_stale_ = true;
 			}
 
 			view_proj_dirty_ = false;
@@ -524,6 +576,7 @@ namespace shared::common
 		{
 			dev->SetTransform(D3DTS_WORLD,
 				reinterpret_cast<const D3DMATRIX*>(&vs_const_[vs_reg_world_start_ * 4]));
+			transforms_stale_ = true;
 			world_dirty_ = false;
 		}
 	}
