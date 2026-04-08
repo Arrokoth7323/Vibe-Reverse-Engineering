@@ -6,6 +6,7 @@
 #include "skinning.hpp"
 #include "foliage.hpp"
 #include "terrain.hpp"
+#include "spray.hpp"
 #include "shared/common/ffp_state.hpp"
 
 namespace comp
@@ -84,6 +85,13 @@ namespace comp
 		}
 		else if (ffp.is_enabled() && ffp.view_proj_valid() &&
 			ffp.last_decl() && !ffp.cur_decl_has_pos_t() &&
+			ffp.cur_decl_is_spray() && spray::is_available())
+		{
+			hr = spray::get()->draw_spray_dp(dev, PrimitiveType, StartVertex, PrimitiveCount);
+			im->m_stats._drawcall_prim.track_single();
+		}
+		else if (ffp.is_enabled() && ffp.view_proj_valid() &&
+			ffp.last_decl() && !ffp.cur_decl_has_pos_t() &&
 			!ffp.cur_decl_is_skinned() && !ffp.cur_decl_has_tangent() &&
 			ffp.cur_decl_has_normal() && !ffp.cur_decl_has_binormal() &&
 			!ffp.cur_draw_is_water() && ffp.cur_decl_has_texcoord())
@@ -149,6 +157,7 @@ namespace comp
 		 *   Instanced foliage (TC1/TC2/TC3 on stream 1) → per-instance World loop
 		 *   Skinned (>8 bones) + skinning module → CPU skinning
 		 *   Skinned/Morphable/Normal-mapped → shader passthrough with transform hints
+		 *   Spray billboard (Pos+Color+TC0-3, no normal) → CPU billboard expansion
 		 *   Non-skinned + NORMAL + UV (no tangent) → FFP rigid draw
 		 *   Terrain (NORMAL but no UV) → shader passthrough with identity World
 		 *   Everything else → shader passthrough
@@ -182,6 +191,14 @@ namespace comp
 			ffp.apply_camera_transforms(dev);
 			hr = dev->DrawIndexedPrimitive(PrimitiveType, BaseVertexIndex, MinVertexIndex, NumVertices, startIndex, primCount);
 			ffp.mark_transforms_dirty();
+			im->m_stats._drawcall_indexed_prim.track_single();
+		}
+		else if (ffp.is_enabled() && ffp.view_proj_valid() &&
+			!ffp.cur_decl_has_pos_t() && ffp.cur_decl_is_spray() &&
+			spray::is_available())
+		{
+			hr = spray::get()->draw_spray_dip(dev, PrimitiveType, BaseVertexIndex,
+				MinVertexIndex, NumVertices, startIndex, primCount);
 			im->m_stats._drawcall_indexed_prim.track_single();
 		}
 		else if (ffp.is_enabled() && ffp.view_proj_valid() &&

@@ -9,6 +9,7 @@
 #include "diagnostics.hpp"
 #include "skinning.hpp"
 #include "terrain.hpp"
+#include "spray.hpp"
 #include "shared/common/shader_cache.hpp"
 
 using comp::tracer;
@@ -131,6 +132,7 @@ namespace comp
 		if (auto* t = tracer::get()) t->on_reset();
 		shared::common::ffp_state::get().on_reset();
 		if (auto* s = skinning::get()) s->on_reset();
+		if (auto* sp = spray::get()) sp->on_reset();
 		shared::common::g_shader_cache.clear_cache();
 		tex_addons::init_texture_addons(true);
 		ImGui_ImplDX9_InvalidateDeviceObjects();

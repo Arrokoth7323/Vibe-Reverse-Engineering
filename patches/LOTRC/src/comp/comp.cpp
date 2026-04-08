@@ -4,6 +4,7 @@
 #include "modules/renderer.hpp"
 #include "modules/diagnostics.hpp"
 #include "modules/skinning.hpp"
+#include "modules/spray.hpp"
 #include "modules/tracer.hpp"
 #include "shared/common/remix_api.hpp"
 #include "shared/common/config.hpp"
@@ -102,6 +103,9 @@ namespace comp
 		// Skinning module (conditional on config)
 		if (cfg.skinning.enabled)
 			shared::common::loader::module_loader::register_module(std::make_unique<skinning>());
+
+		// Spray billboard module (CPU expansion for 2D crowd sprite sheets)
+		shared::common::loader::module_loader::register_module(std::make_unique<spray>());
 
 		// #Step 3: hook dinput if your game uses direct input (for ImGui) - ONLY USE ONE
 		//shared::common::loader::module_loader::register_module(std::make_unique<shared::common::dinput_v1>()); // v1: might cause issues with the Alt+X menu

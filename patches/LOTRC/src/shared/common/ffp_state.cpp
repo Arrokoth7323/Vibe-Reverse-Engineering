@@ -175,6 +175,11 @@ namespace shared::common
 		cur_decl_foliage_tc2_off_ = -1;
 		cur_decl_foliage_tc3_off_ = -1;
 		cur_decl_foliage_stream_ = -1;
+		cur_decl_is_spray_ = false;
+		cur_decl_color_off_ = 0;
+		cur_decl_tc1_off_ = -1;
+		cur_decl_tc2_off_ = -1;
+		cur_decl_tc3_off_ = -1;
 		fvf_pos_t_ = false;
 
 		if (!decl) return;
@@ -241,6 +246,13 @@ namespace shared::common
 					cur_decl_texcoord5_type_ = el.Type;
 					cur_decl_texcoord5_stream_ = el.Stream;
 				}
+				// Spray billboard: TC1/TC2/TC3 on stream 0 (FLOAT1 each)
+				if (el.Stream == 0)
+				{
+					if (el.UsageIndex == 1) cur_decl_tc1_off_ = el.Offset;
+					if (el.UsageIndex == 2) cur_decl_tc2_off_ = el.Offset;
+					if (el.UsageIndex == 3) cur_decl_tc3_off_ = el.Offset;
+				}
 				// Foliage instance data: TC1/TC2/TC3 on a non-zero stream
 				if (el.Stream != 0)
 				{
@@ -252,6 +264,8 @@ namespace shared::common
 
 			case D3DDECLUSAGE_COLOR:
 				cur_decl_has_color_ = true;
+				if (el.Stream == 0 && el.UsageIndex == 0)
+					cur_decl_color_off_ = el.Offset;
 				break;
 
 			case D3DDECLUSAGE_BINORMAL:
@@ -284,6 +298,14 @@ namespace shared::common
 			cur_decl_foliage_tc1_off_ >= 0 &&
 			cur_decl_foliage_tc2_off_ >= 0 &&
 			cur_decl_foliage_tc3_off_ >= 0;
+
+		// Spray billboard: single-stream Pos+Color+TC0(FLOAT2)+TC1+TC2+TC3, no Normal/Blend
+		cur_decl_is_spray_ = !cur_decl_has_normal_ &&
+			!has_blend_weight && !has_blend_indices &&
+			cur_decl_has_texcoord_ && cur_decl_has_color_ &&
+			cur_decl_tc1_off_ >= 0 &&
+			cur_decl_tc2_off_ >= 0 &&
+			cur_decl_tc3_off_ >= 0;
 	}
 
 	void ffp_state::on_set_fvf(DWORD fvf)
@@ -378,6 +400,11 @@ namespace shared::common
 		cur_decl_pos_off_ = 0;
 		cur_decl_normal_off_ = 0;
 		cur_decl_normal_type_ = -1;
+		cur_decl_is_spray_ = false;
+		cur_decl_color_off_ = 0;
+		cur_decl_tc1_off_ = -1;
+		cur_decl_tc2_off_ = -1;
+		cur_decl_tc3_off_ = -1;
 
 		std::memset(vs_const_write_log_, 0, sizeof(vs_const_write_log_));
 

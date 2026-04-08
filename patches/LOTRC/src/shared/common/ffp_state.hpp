@@ -68,6 +68,11 @@ namespace shared::common
 		bool cur_decl_has_tangent() const { return cur_decl_has_tangent_; }
 		bool cur_decl_has_position1() const { return cur_decl_has_position1_; }
 		bool cur_draw_is_water() const { return water_material_active_; }
+		bool cur_decl_is_spray() const { return cur_decl_is_spray_; }
+		int cur_decl_color_off() const { return cur_decl_color_off_; }
+		int cur_decl_tc1_off() const { return cur_decl_tc1_off_; }
+		int cur_decl_tc2_off() const { return cur_decl_tc2_off_; }
+		int cur_decl_tc3_off() const { return cur_decl_tc3_off_; }
 		bool cur_decl_has_texcoord5() const { return cur_decl_has_texcoord5_; }
 		int cur_decl_texcoord_type() const { return cur_decl_texcoord_type_; }
 		int cur_decl_texcoord5_off() const { return cur_decl_texcoord5_off_; }
@@ -234,6 +239,13 @@ namespace shared::common
 		int cur_decl_foliage_tc2_off_ = -1;
 		int cur_decl_foliage_tc3_off_ = -1;
 		int cur_decl_foliage_stream_ = -1;
+
+		// Spray billboard declaration (single-stream: Pos+Color+TC0+TC1+TC2+TC3, no Normal)
+		bool cur_decl_is_spray_ = false;
+		int cur_decl_color_off_ = 0;
+		int cur_decl_tc1_off_ = -1;
+		int cur_decl_tc2_off_ = -1;
+		int cur_decl_tc3_off_ = -1;
 
 		// Frame/draw counters
 		UINT frame_count_ = 0;
