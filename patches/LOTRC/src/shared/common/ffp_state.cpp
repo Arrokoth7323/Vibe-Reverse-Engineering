@@ -87,6 +87,41 @@ namespace shared::common
 			water_material_active_ = (amp[0] != 0 || amp[1] != 0 || amp[2] != 0 || amp[3] != 0);
 		}
 
+		// Sun detection: g__sunCol at c250, g__sunDir at c251.
+		// Snapshot the first non-zero write each frame (game may overwrite with zeros for non-sunlit draws).
+		if (start_reg <= 250 && end_reg > 250)
+		{
+			const float* col = &vs_const_[250 * 4];
+			if (col[0] != 0 || col[1] != 0 || col[2] != 0)
+			{
+				sun_valid_ = true;
+				if (!sun_seen_this_frame_)
+				{
+					sun_seen_this_frame_ = true;
+					sun_col_snapshot_[0] = col[0];
+					sun_col_snapshot_[1] = col[1];
+					sun_col_snapshot_[2] = col[2];
+					const float* dir = &vs_const_[251 * 4];
+					sun_dir_snapshot_[0] = dir[0];
+					sun_dir_snapshot_[1] = dir[1];
+					sun_dir_snapshot_[2] = dir[2];
+				}
+			}
+		}
+		// Also capture c251 if it arrives separately and we already have a valid sun color
+		if (start_reg <= 251 && end_reg > 251 && sun_seen_this_frame_)
+		{
+			const float* dir = &vs_const_[251 * 4];
+			sun_dir_snapshot_[0] = dir[0];
+			sun_dir_snapshot_[1] = dir[1];
+			sun_dir_snapshot_[2] = dir[2];
+		}
+
+		// Dynamic point light accumulation: c207-c230 (8 lights × 3 regs each).
+		// Game writes nearest 8 lights per draw — accumulate unique positions across the frame.
+		if (start_reg < 231 && end_reg > 207)
+			accumulate_point_lights();
+
 		for (UINT i = 0; i < count; i++)
 			vs_const_write_log_[start_reg + i] = 1;
 
@@ -107,6 +142,11 @@ namespace shared::common
 		if (!data || start_reg + count > 224) return;
 
 		std::memcpy(&ps_const_[start_reg * 4], data, count * 4 * sizeof(float));
+
+		// Dynamic point light accumulation from PS c100-c123 (8 lights × 3 regs each)
+		UINT end_reg = start_reg + count;
+		if (start_reg < 124 && end_reg > 100)
+			accumulate_point_lights_ps();
 	}
 
 	void ffp_state::on_set_vertex_shader(IDirect3DVertexShader9* shader)
@@ -338,12 +378,79 @@ namespace shared::common
 		}
 	}
 
+	void ffp_state::accumulate_point_lights_from(const float* const_buf, int dyn_start_reg, int max_lights)
+	{
+		constexpr int REGS_PER = 3;
+		// Quantization grid: positions within 2 units merge (same light source)
+		constexpr float QUANT = 0.5f;
+
+		for (int i = 0; i < max_lights; i++)
+		{
+			int base = (dyn_start_reg + i * REGS_PER) * 4;
+			const float* col = &const_buf[base];
+			const float* pos = &const_buf[base + 4];
+			const float* att = &const_buf[base + 8];
+
+			// Skip inactive (zero color)
+			if (std::abs(col[0]) < 0.0001f &&
+				std::abs(col[1]) < 0.0001f &&
+				std::abs(col[2]) < 0.0001f)
+				continue;
+
+			// Quantize position for deduplication
+			float qx = std::floor(pos[0] * QUANT + 0.5f);
+			float qy = std::floor(pos[1] * QUANT + 0.5f);
+			float qz = std::floor(pos[2] * QUANT + 0.5f);
+
+			// Check for duplicate position in existing accumulator
+			bool found = false;
+			for (int j = 0; j < accum_light_count_; j++)
+			{
+				float dx = std::floor(accum_lights_[j].pos[0] * QUANT + 0.5f) - qx;
+				float dy = std::floor(accum_lights_[j].pos[1] * QUANT + 0.5f) - qy;
+				float dz = std::floor(accum_lights_[j].pos[2] * QUANT + 0.5f) - qz;
+				if (dx == 0.0f && dy == 0.0f && dz == 0.0f)
+				{
+					// Refresh color (max per-channel)
+					for (int c = 0; c < 3; c++)
+						if (col[c] > accum_lights_[j].col[c])
+							accum_lights_[j].col[c] = col[c];
+					found = true;
+					break;
+				}
+			}
+
+			if (!found && accum_light_count_ < MAX_ACCUMULATED_LIGHTS)
+			{
+				auto& l = accum_lights_[accum_light_count_++];
+				l.pos[0] = pos[0]; l.pos[1] = pos[1]; l.pos[2] = pos[2];
+				l.col[0] = col[0]; l.col[1] = col[1]; l.col[2] = col[2];
+				l.att[0] = att[0]; l.att[1] = att[1]; l.att[2] = att[2]; l.att[3] = att[3];
+			}
+		}
+	}
+
+	void ffp_state::accumulate_point_lights()
+	{
+		// VS lights at c207-c230 (8 lights × 3 regs each)
+		accumulate_point_lights_from(vs_const_, 207, 8);
+	}
+
+	void ffp_state::accumulate_point_lights_ps()
+	{
+		// PS lights at c100-c123 (8 lights × 3 regs each)
+		accumulate_point_lights_from(ps_const_, 100, 8);
+	}
+
 	void ffp_state::on_present()
 	{
 		frame_count_++;
 		ffp_setup_ = false;
 		draw_call_count_ = 0;
 		scene_count_ = 0;
+		sun_seen_this_frame_ = false;
+		// Reset per-frame light collection — only lights written this frame survive
+		accum_light_count_ = 0;
 		// Safety net: restore shaders if a draw path exited without calling disengage.
 		disengage(shared::globals::d3d_device);
 		std::memset(vs_const_write_log_, 0, sizeof(vs_const_write_log_));
@@ -407,6 +514,11 @@ namespace shared::common
 		cur_decl_tc3_off_ = -1;
 
 		std::memset(vs_const_write_log_, 0, sizeof(vs_const_write_log_));
+
+		// Clear light accumulator and sun state on level change
+		accum_light_count_ = 0;
+		sun_valid_ = false;
+		sun_seen_this_frame_ = false;
 
 		log("FFP", "State reset");
 	}

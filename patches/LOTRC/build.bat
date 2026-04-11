@@ -220,7 +220,50 @@ if "!CUSTOM_COMP!"=="1" (
 )
 
 echo.
-echo === Build succeeded: %GAME_OUT%\d3d9.dll ===
+echo === 32-bit build succeeded: %GAME_OUT%\d3d9.dll ===
+
+:: -------------------------------------------------------
+:: Step 5: 64-bit server-side light emitter
+::         (remix_lights.dll + version.dll proxy)
+::         Runs in a child cmd.exe — vcvarsall can't switch
+::         from x86 to x64 inside the same process.
+:: -------------------------------------------------------
+echo [5/5] 64-bit light emitter
+
+set "S64=%ROOT%src\server64"
+set "OBJ64=%ROOT%build\obj\%CONFIG%\server64"
+set "OUT64=%ROOT%build\bin\%CONFIG%\server64"
+mkdir "%OBJ64%" 2>nul
+mkdir "%OUT64%" 2>nul
+
+:: Write x64 build commands to a temp script and run in a fresh cmd.exe
+:: (vcvarsall cannot switch architectures within one process)
+set "X64BAT=%ROOT%build\_build_x64.bat"
+> "%X64BAT%" echo @echo off
+>>"%X64BAT%" echo setlocal disabledelayedexpansion
+>>"%X64BAT%" echo call "%VCVARS%" x64 ^>nul 2^>^&1
+>>"%X64BAT%" echo if errorlevel 1 exit /b 1
+>>"%X64BAT%" echo echo   remix_lights.dll
+>>"%X64BAT%" echo cl /nologo /c /std:c++latest /W4 /O2 /MT /EHsc /I"%DEPS%\bridge_api" /I"%SRC%\shared\common" /DWIN32 /D_WINDOWS /DNDEBUG /Fo"%OBJ64%\remix_lights.obj" "%S64%\remix_lights.cpp"
+>>"%X64BAT%" echo if errorlevel 1 exit /b 1
+>>"%X64BAT%" echo link /nologo /DLL /SUBSYSTEM:WINDOWS /MACHINE:X64 /OUT:"%OUT64%\remix_lights.dll" "%OBJ64%\remix_lights.obj" kernel32.lib user32.lib
+>>"%X64BAT%" echo if errorlevel 1 exit /b 1
+>>"%X64BAT%" echo echo   version.dll
+>>"%X64BAT%" echo cl /nologo /c /std:c++latest /W4 /O2 /MT /EHsc /DWIN32 /D_WINDOWS /DNDEBUG /Fo"%OBJ64%\version_proxy.obj" "%S64%\version_proxy.cpp"
+>>"%X64BAT%" echo if errorlevel 1 exit /b 1
+>>"%X64BAT%" echo link /nologo /DLL /SUBSYSTEM:WINDOWS /MACHINE:X64 /DEF:"%S64%\version_proxy.def" /OUT:"%OUT64%\version.dll" "%OBJ64%\version_proxy.obj" kernel32.lib
+>>"%X64BAT%" echo if errorlevel 1 exit /b 1
+:: Disable delayed expansion before running the x64 build script,
+:: since vcvarsall.bat uses parentheses that break under !-expansion.
+:: Pass needed variables through the endlocal barrier.
+endlocal & set "X64BAT=%X64BAT%" & set "GAME_OUT=%GAME_OUT%" & set "OUT64=%OUT64%" & cmd.exe /c "%X64BAT%"
+if errorlevel 1 goto :fail
+del "%X64BAT%" 2>nul
+
+echo.
+echo === Build succeeded ===
+echo   32-bit: %GAME_OUT%\d3d9.dll
+echo   64-bit: %OUT64%\version.dll + remix_lights.dll
 exit /b 0
 
 :fail

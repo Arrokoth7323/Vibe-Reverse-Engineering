@@ -6,8 +6,8 @@
 #include "modules/skinning.hpp"
 #include "modules/spray.hpp"
 #include "modules/tracer.hpp"
-#include "shared/common/remix_api.hpp"
 #include "shared/common/config.hpp"
+#include "shared/common/remix_api.hpp"
 
 // see comment in main()
 //#include "shared/common/dinput_hook_v1.hpp"
@@ -85,9 +85,10 @@ namespace comp
 
 	void main()
 	{
-		// #Step 2: init remix api if you want to use it or comment it otherwise
-		// Requires "exposeRemixApi = True" in the "bridge.conf" that is located in the .trex folder
-		shared::common::remix_api::initialize(nullptr, nullptr, nullptr, false);
+		// Remix API init is deferred to BeginScene (see d3d9ex.cpp) because
+		// the bridge needs CreateDevice to complete before InitializeLibrary
+		// can succeed. Calling it here (before CreateDevice) always fails
+		// with error 11 (NOT_INITIALIZED).
 
 		// Core modules
 		shared::common::loader::module_loader::register_module(std::make_unique<tracer>());

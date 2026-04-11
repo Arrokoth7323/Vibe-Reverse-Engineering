@@ -68,6 +68,12 @@ namespace shared::common
 		bool cur_decl_has_tangent() const { return cur_decl_has_tangent_; }
 		bool cur_decl_has_position1() const { return cur_decl_has_position1_; }
 		bool cur_draw_is_water() const { return water_material_active_; }
+		bool sun_valid() const { return sun_valid_; }
+
+		// Per-frame sun snapshot: true if c250 was written non-zero this frame
+		bool sun_seen_this_frame() const { return sun_seen_this_frame_; }
+		const float* sun_col_snapshot() const { return sun_col_snapshot_; }
+		const float* sun_dir_snapshot() const { return sun_dir_snapshot_; }
 		bool cur_decl_is_spray() const { return cur_decl_is_spray_; }
 		int cur_decl_color_off() const { return cur_decl_color_off_; }
 		int cur_decl_tc1_off() const { return cur_decl_tc1_off_; }
@@ -138,6 +144,18 @@ namespace shared::common
 		// Foliage wind: read g__time.y from c196 for sway computation
 		float time_y() const { return vs_const_[196 * 4 + 1]; }
 
+		// Point light accumulator — collects unique lights across all draws, persists until level change
+		struct point_light
+		{
+			float pos[3];
+			float col[3];
+			float att[4];  // (innerRadius, ?, linear, quadratic)
+		};
+		static constexpr int MAX_ACCUMULATED_LIGHTS = 512;
+		int accumulated_light_count() const { return accum_light_count_; }
+		const point_light* accumulated_lights() const { return accum_lights_; }
+		void clear_accumulated_lights() { accum_light_count_ = 0; sun_valid_ = false; }
+
 		void increment_draw_count() { draw_call_count_++; }
 
 		// Signal that D3D transforms were modified externally (e.g. terrain identity reset)
@@ -188,6 +206,12 @@ namespace shared::common
 		bool cur_decl_has_pos_t_ = false;
 		bool fvf_pos_t_ = false;  // SetFVF with D3DFVF_XYZRHW
 		bool water_material_active_ = false;  // Gerstner wave constants written since last VS change
+		bool sun_valid_ = false;              // c250 written with non-zero sunCol (persists until reset)
+
+		// Per-frame sun snapshot: latched when c250 is written non-zero, cleared each Present
+		bool sun_seen_this_frame_ = false;
+		float sun_col_snapshot_[3] = {};
+		float sun_dir_snapshot_[3] = {};
 		bool cur_decl_has_texcoord5_ = false;
 		int cur_decl_texcoord_type_ = -1;
 		int cur_decl_texcoord_off_ = 0;
@@ -246,6 +270,13 @@ namespace shared::common
 		int cur_decl_tc1_off_ = -1;
 		int cur_decl_tc2_off_ = -1;
 		int cur_decl_tc3_off_ = -1;
+
+		// Point light accumulator (deduplicated across all draws per frame)
+		point_light accum_lights_[MAX_ACCUMULATED_LIGHTS] = {};
+		int accum_light_count_ = 0;
+		void accumulate_point_lights();
+		void accumulate_point_lights_ps();
+		void accumulate_point_lights_from(const float* const_buf, int dyn_start_reg, int max_lights);
 
 		// Frame/draw counters
 		UINT frame_count_ = 0;

@@ -5,8 +5,10 @@
 #include "renderer.hpp"
 #include "tracer.hpp"
 #include "diagnostics.hpp"
+#include "lighting.hpp"
 #include "shared/common/imgui_helper.hpp"
 #include "shared/common/ffp_state.hpp"
+#include "shared/common/remix_api.hpp"
 #include "shared/common/config.hpp"
 
 // Allow us to directly call the ImGui WndProc function.
@@ -277,6 +279,12 @@ namespace comp
 			ImGui::Text("ViewProj Valid: %s", ffp.view_proj_valid() ? "YES" : "no");
 			ImGui::Text("Frame: %u  Draws: %u  Scenes: %u",
 				ffp.frame_count(), ffp.draw_call_count(), ffp.scene_count());
+			ImGui::Text("Lights: %d emitted (%d accumulated)",
+				lighting::active_point_count(),
+				ffp.accumulated_light_count());
+			ImGui::Text("  Sun: %s  API: %s",
+				ffp.sun_valid() ? "YES" : "no",
+				shared::common::remix_api::is_initialized() ? "YES" : "no");
 			ImGui::Text("Decl: %s%s%s%s",
 				ffp.cur_decl_has_normal() ? "NORMAL " : "",
 				ffp.cur_decl_has_pos_t() ? "POSITIONT " : "",

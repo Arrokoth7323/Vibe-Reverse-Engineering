@@ -7,6 +7,7 @@
 #include "foliage.hpp"
 #include "terrain.hpp"
 #include "spray.hpp"
+#include "lighting.hpp"
 #include "shared/common/ffp_state.hpp"
 
 namespace comp
@@ -57,6 +58,8 @@ namespace comp
 		if (!is_initialized() || shared::globals::imgui_is_rendering) {
 			return dev->DrawPrimitive(PrimitiveType, StartVertex, PrimitiveCount);
 		}
+
+		lighting::ensure_lights_applied();
 
 		static auto im = imgui::get();
 		im->m_stats._drawcall_prim_incl_ignored.track_single();
@@ -135,6 +138,8 @@ namespace comp
 		if (!is_initialized() || shared::globals::imgui_is_rendering) {
 			return dev->DrawIndexedPrimitive(PrimitiveType, BaseVertexIndex, MinVertexIndex, NumVertices, startIndex, primCount);
 		}
+
+		lighting::ensure_lights_applied();
 
 		auto& ctx = setup_context(dev);
 		const auto im = imgui::get();

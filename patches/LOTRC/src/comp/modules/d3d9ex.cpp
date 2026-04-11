@@ -10,7 +10,9 @@
 #include "skinning.hpp"
 #include "terrain.hpp"
 #include "spray.hpp"
+#include "lighting.hpp"
 #include "shared/common/shader_cache.hpp"
+#include "shared/common/remix_api.hpp"
 
 using comp::tracer;
 #include "tracer_dispatch.inc"
@@ -133,6 +135,7 @@ namespace comp
 		shared::common::ffp_state::get().on_reset();
 		if (auto* s = skinning::get()) s->on_reset();
 		if (auto* sp = spray::get()) sp->on_reset();
+		lighting::on_reset();
 		shared::common::g_shader_cache.clear_cache();
 		tex_addons::init_texture_addons(true);
 		ImGui_ImplDX9_InvalidateDeviceObjects();
@@ -146,6 +149,17 @@ namespace comp
 	{
 		TRACE_IF_ACTIVE(trace_Present, pSourceRect, pDestRect, hDestWindowOverride, pDirtyRegion);
 		auto& ffp = shared::common::ffp_state::get();
+
+		// Deferred Remix API init — one attempt per Present (per frame).
+		// The bridge needs the 64-bit server to finish handshake after
+		// CreateDevice, which takes real wall-clock time (seconds, not ticks).
+		if (!shared::common::remix_api::is_initialized())
+			shared::common::remix_api::initialize(nullptr, nullptr, nullptr, false);
+
+		// Gather light candidates for D3D9 SetLight rotation.
+		// Merges dynamic (shader constants) + static (level_lights.h) candidates.
+		// ensure_lights_applied() emits 8 per frame; anti-culling accumulates all.
+		lighting::update_lights();
 
 		// F9 keybind: trigger on-demand diagnostics capture (3 frames)
 		if (auto* d = diagnostics::get())
@@ -305,6 +319,11 @@ namespace comp
 	HRESULT d3d9ex::D3D9Device::BeginScene()
 	{
 		TRACE_IF_ACTIVE_NOARGS(trace_BeginScene);
+
+		// Deferred Remix API init — retry until the bridge is ready.
+		if (!shared::common::remix_api::is_initialized())
+			shared::common::remix_api::initialize(nullptr, nullptr, nullptr, false);
+
 		shared::common::ffp_state::get().on_begin_scene();
 		if (auto* d = diagnostics::get()) d->on_begin_scene(shared::common::ffp_state::get().scene_count());
 
@@ -312,7 +331,12 @@ namespace comp
 			on_begin_scene_cb();
 		}
 
-		return m_pIDirect3DDevice9->BeginScene();
+		auto hr = m_pIDirect3DDevice9->BeginScene();
+
+		// Reset per-frame flag — lights will be injected before first draw
+		lighting::on_begin_scene();
+
+		return hr;
 	}
 
 	HRESULT d3d9ex::D3D9Device::EndScene()

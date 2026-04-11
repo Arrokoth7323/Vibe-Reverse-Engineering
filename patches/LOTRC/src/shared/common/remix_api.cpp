@@ -1,6 +1,7 @@
 #include "std_include.hpp"
 #include "remix_api.hpp"
 #include "bridge_remix_api.h"
+#include "../../comp/modules/lighting.hpp"
 
 namespace shared::common
 {
@@ -92,6 +93,9 @@ namespace shared::common
 					api.m_bridge.DrawLightInstance(fl.handle);
 				}
 			}
+
+			// Scene lights (sun + dynamic point lights)
+			comp::lighting::draw_light_instances();
 
 
 			// --
@@ -638,18 +642,41 @@ namespace shared::common
 		auto& instance = get();
 		if (instance.m_initialized) return;
 
-		// We ARE d3d9.dll, so bridge_initRemixApi's GetModuleHandleA("d3d9.dll")
-		// would find us instead of the Remix bridge. Use the proxy's chain module
-		// handle directly to reach the actual Remix bridge DLL.
+		static int s_retry_count = 0;
+		static bool s_abandoned = false;
+		if (s_abandoned) return;
+
 		HMODULE remix_module = shared::globals::d3d9_chain_module;
 		if (!remix_module) return;
+
+		// Force-enable exposeRemixApi flag in the bridge client.
+		// The bridge reads this from bridge.conf, but our proxy loads before
+		// the bridge's config system initializes, so the flag stays 0.
+		// Offset 0xC5E01 = the exposeRemixApi bool in d3d9_remix.dll's config object.
+		static bool s_flag_patched = false;
+		if (!s_flag_patched)
+		{
+			auto* flag_addr = reinterpret_cast<uint8_t*>(reinterpret_cast<uintptr_t>(remix_module) + 0xC5E01);
+			DWORD old_protect = 0;
+			if (VirtualProtect(flag_addr, 1, PAGE_READWRITE, &old_protect))
+			{
+				shared::common::log("RemixApi",
+					std::format("exposeRemixApi flag at {:p} was {:d}, forcing to 1",
+						static_cast<void*>(flag_addr), static_cast<int>(*flag_addr)),
+					shared::common::LOG_TYPE::LOG_TYPE_DEFAULT);
+				*flag_addr = 1;
+				VirtualProtect(flag_addr, 1, old_protect, &old_protect);
+			}
+			s_flag_patched = true;
+		}
 
 		auto pfn_init = (PFN_remixapi_InitializeLibrary)
 			GetProcAddress(remix_module, remixapi::exported_func_name::initRemixApi);
 		if (!pfn_init)
 		{
-			shared::common::log("RemixApi", "Remix bridge does not export remixapi_InitializeLibrary (not an RTX Remix DLL?)",
+			shared::common::log("RemixApi", "Remix bridge does not export remixapi_InitializeLibrary",
 				shared::common::LOG_TYPE::LOG_TYPE_WARN);
+			s_abandoned = true;
 			return;
 		}
 
@@ -662,9 +689,19 @@ namespace shared::common
 
 		if (status != REMIXAPI_ERROR_CODE_SUCCESS)
 		{
-			shared::common::log("RemixApi",
-				std::format("Failed to initialize the remixApi - Code: {:d}", static_cast<int>(status)),
-				shared::common::LOG_TYPE::LOG_TYPE_ERROR, true);
+			s_retry_count++;
+			if (s_retry_count == 1)
+				shared::common::log("RemixApi",
+					std::format("Remix API not ready (code {:d}), will retry each BeginScene...", static_cast<int>(status)),
+					shared::common::LOG_TYPE::LOG_TYPE_WARN);
+			if (s_retry_count >= 600)
+			{
+				s_abandoned = true;
+				shared::common::log("RemixApi",
+					std::format("Remix API failed after {:d} retries (code {:d}). Using D3D9 SetLight fallback.",
+						s_retry_count, static_cast<int>(status)),
+					shared::common::LOG_TYPE::LOG_TYPE_ERROR, true);
+			}
 			return;
 		}
 
@@ -673,17 +710,22 @@ namespace shared::common
 		instance.end_scene_callback_external = end_scene_callback;
 		instance.present_callback_external = present_callback;
 
-		// Register callbacks through the Remix bridge module
+		// Debug lines/circles initialized lazily on first use.
+		// Creating Remix objects during CreateDevice crashes the renderer.
+		instance.m_debug_circles.reserve(512);
+		instance.m_debug_circle_materials.reserve(512);
+		instance.m_initialized = true;
+
+		// Register callbacks after m_initialized=true so callbacks can use the API.
 		auto pfn_callbacks = (PFN_remixapi_RegisterCallbacks)
 			GetProcAddress(remix_module, remixapi::exported_func_name::registerCallbacks);
 		if (pfn_callbacks)
 			pfn_callbacks(begin_scene_callback_internal, end_scene_callback_internal, present_callback_internal);
 
-		instance.init_debug_lines();
-		instance.m_debug_circles.reserve(512);
-		instance.m_debug_circle_materials.reserve(512);
-		instance.m_initialized = true;
-
-		shared::common::log("RemixApi", "Initialized RemixApi", shared::common::LOG_TYPE::LOG_TYPE_STATUS, true);
+		shared::common::log("RemixApi",
+			s_retry_count > 0
+				? std::format("Initialized RemixApi (after {:d} retries)", s_retry_count)
+				: std::string("Initialized RemixApi"),
+			shared::common::LOG_TYPE::LOG_TYPE_STATUS, true);
 	}
 }
