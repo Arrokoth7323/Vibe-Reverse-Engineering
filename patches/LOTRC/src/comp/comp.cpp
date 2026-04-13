@@ -5,6 +5,7 @@
 #include "modules/diagnostics.hpp"
 #include "modules/skinning.hpp"
 #include "modules/spray.hpp"
+#include "modules/particle.hpp"
 #include "modules/tracer.hpp"
 #include "shared/common/config.hpp"
 #include "shared/common/remix_api.hpp"
@@ -107,6 +108,9 @@ namespace comp
 
 		// Spray billboard module (CPU expansion for 2D crowd sprite sheets)
 		shared::common::loader::module_loader::register_module(std::make_unique<spray>());
+
+		// Particle billboard module (CPU expansion for fire/magic/lightning particles)
+		shared::common::loader::module_loader::register_module(std::make_unique<particle>());
 
 		// #Step 3: hook dinput if your game uses direct input (for ImGui) - ONLY USE ONE
 		//shared::common::loader::module_loader::register_module(std::make_unique<shared::common::dinput_v1>()); // v1: might cause issues with the Alt+X menu

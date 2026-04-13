@@ -10,6 +10,7 @@
 #include "skinning.hpp"
 #include "terrain.hpp"
 #include "spray.hpp"
+#include "particle.hpp"
 #include "lighting.hpp"
 #include "shared/common/shader_cache.hpp"
 #include "shared/common/remix_api.hpp"
@@ -135,6 +136,7 @@ namespace comp
 		shared::common::ffp_state::get().on_reset();
 		if (auto* s = skinning::get()) s->on_reset();
 		if (auto* sp = spray::get()) sp->on_reset();
+		if (auto* pt = particle::get()) pt->on_reset();
 		lighting::on_reset();
 		shared::common::g_shader_cache.clear_cache();
 		tex_addons::init_texture_addons(true);

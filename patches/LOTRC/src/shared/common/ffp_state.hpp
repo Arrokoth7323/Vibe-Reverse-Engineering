@@ -75,10 +75,13 @@ namespace shared::common
 		const float* sun_col_snapshot() const { return sun_col_snapshot_; }
 		const float* sun_dir_snapshot() const { return sun_dir_snapshot_; }
 		bool cur_decl_is_spray() const { return cur_decl_is_spray_; }
+		bool cur_decl_is_billboard_particle() const { return cur_decl_is_billboard_particle_; }
+		bool cur_decl_is_simple_particle() const { return cur_decl_is_simple_particle_; }
 		int cur_decl_color_off() const { return cur_decl_color_off_; }
 		int cur_decl_tc1_off() const { return cur_decl_tc1_off_; }
 		int cur_decl_tc2_off() const { return cur_decl_tc2_off_; }
 		int cur_decl_tc3_off() const { return cur_decl_tc3_off_; }
+		int cur_decl_tc4_off() const { return cur_decl_tc4_off_; }
 		bool cur_decl_has_texcoord5() const { return cur_decl_has_texcoord5_; }
 		int cur_decl_texcoord_type() const { return cur_decl_texcoord_type_; }
 		int cur_decl_texcoord5_off() const { return cur_decl_texcoord5_off_; }
@@ -266,10 +269,15 @@ namespace shared::common
 
 		// Spray billboard declaration (single-stream: Pos+Color+TC0+TC1+TC2+TC3, no Normal)
 		bool cur_decl_is_spray_ = false;
+		// Billboard particle declaration (Pos+Color+TC0-TC6, no Normal — billboard expansion in VS)
+		bool cur_decl_is_billboard_particle_ = false;
+		// Simple particle declaration (Pos+Color only, no UV — billboard expansion in VS)
+		bool cur_decl_is_simple_particle_ = false;
 		int cur_decl_color_off_ = 0;
 		int cur_decl_tc1_off_ = -1;
 		int cur_decl_tc2_off_ = -1;
 		int cur_decl_tc3_off_ = -1;
+		int cur_decl_tc4_off_ = -1;
 
 		// Point light accumulator (deduplicated across all draws per frame)
 		point_light accum_lights_[MAX_ACCUMULATED_LIGHTS] = {};

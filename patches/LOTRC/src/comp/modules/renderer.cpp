@@ -7,6 +7,7 @@
 #include "foliage.hpp"
 #include "terrain.hpp"
 #include "spray.hpp"
+#include "particle.hpp"
 #include "lighting.hpp"
 #include "shared/common/ffp_state.hpp"
 
@@ -88,6 +89,13 @@ namespace comp
 		}
 		else if (ffp.is_enabled() && ffp.view_proj_valid() &&
 			ffp.last_decl() && !ffp.cur_decl_has_pos_t() &&
+			ffp.cur_decl_is_billboard_particle() && particle::is_available())
+		{
+			hr = particle::get()->draw_particle_dp(dev, PrimitiveType, StartVertex, PrimitiveCount);
+			im->m_stats._drawcall_prim.track_single();
+		}
+		else if (ffp.is_enabled() && ffp.view_proj_valid() &&
+			ffp.last_decl() && !ffp.cur_decl_has_pos_t() &&
 			ffp.cur_decl_is_spray() && spray::is_available())
 		{
 			hr = spray::get()->draw_spray_dp(dev, PrimitiveType, StartVertex, PrimitiveCount);
@@ -117,7 +125,17 @@ namespace comp
 		else
 		{
 			ffp.disengage(dev);
+			// Provide D3D transform hints for shader-based draws so Remix
+			// can position geometry correctly for raytracing.
+			if (ffp.is_enabled() && ffp.view_proj_valid() && !ffp.cur_decl_has_pos_t())
+			{
+				dev->SetTransform(D3DTS_WORLD,
+					reinterpret_cast<const D3DMATRIX*>(&ffp.vs_const_data()[178 * 4]));
+				ffp.apply_camera_transforms(dev);
+			}
 			hr = dev->DrawPrimitive(PrimitiveType, StartVertex, PrimitiveCount);
+			if (ffp.is_enabled() && ffp.view_proj_valid() && !ffp.cur_decl_has_pos_t())
+				ffp.mark_transforms_dirty();
 			im->m_stats._drawcall_prim.track_single();
 			im->m_stats._drawcall_using_vs.track_single();
 		}
@@ -231,7 +249,15 @@ namespace comp
 		else
 		{
 			ffp.disengage(dev);
+			if (ffp.is_enabled() && ffp.view_proj_valid() && !ffp.cur_decl_has_pos_t())
+			{
+				dev->SetTransform(D3DTS_WORLD,
+					reinterpret_cast<const D3DMATRIX*>(&ffp.vs_const_data()[178 * 4]));
+				ffp.apply_camera_transforms(dev);
+			}
 			hr = dev->DrawIndexedPrimitive(PrimitiveType, BaseVertexIndex, MinVertexIndex, NumVertices, startIndex, primCount);
+			if (ffp.is_enabled() && ffp.view_proj_valid() && !ffp.cur_decl_has_pos_t())
+				ffp.mark_transforms_dirty();
 			im->m_stats._drawcall_indexed_prim.track_single();
 			im->m_stats._drawcall_indexed_prim_using_vs.track_single();
 		}

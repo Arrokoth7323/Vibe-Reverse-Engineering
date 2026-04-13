@@ -216,10 +216,12 @@ namespace shared::common
 		cur_decl_foliage_tc3_off_ = -1;
 		cur_decl_foliage_stream_ = -1;
 		cur_decl_is_spray_ = false;
+		cur_decl_is_billboard_particle_ = false;
 		cur_decl_color_off_ = 0;
 		cur_decl_tc1_off_ = -1;
 		cur_decl_tc2_off_ = -1;
 		cur_decl_tc3_off_ = -1;
+		cur_decl_tc4_off_ = -1;
 		fvf_pos_t_ = false;
 
 		if (!decl) return;
@@ -292,6 +294,7 @@ namespace shared::common
 					if (el.UsageIndex == 1) cur_decl_tc1_off_ = el.Offset;
 					if (el.UsageIndex == 2) cur_decl_tc2_off_ = el.Offset;
 					if (el.UsageIndex == 3) cur_decl_tc3_off_ = el.Offset;
+					if (el.UsageIndex == 4) cur_decl_tc4_off_ = el.Offset;
 				}
 				// Foliage instance data: TC1/TC2/TC3 on a non-zero stream
 				if (el.Stream != 0)
@@ -340,12 +343,31 @@ namespace shared::common
 			cur_decl_foliage_tc3_off_ >= 0;
 
 		// Spray billboard: single-stream Pos+Color+TC0(FLOAT2)+TC1+TC2+TC3, no Normal/Blend
+		// Distinguished from billboard particles by NOT having TC4/TC5/TC6.
 		cur_decl_is_spray_ = !cur_decl_has_normal_ &&
 			!has_blend_weight && !has_blend_indices &&
 			cur_decl_has_texcoord_ && cur_decl_has_color_ &&
 			cur_decl_tc1_off_ >= 0 &&
 			cur_decl_tc2_off_ >= 0 &&
-			cur_decl_tc3_off_ >= 0;
+			cur_decl_tc3_off_ >= 0 &&
+			cur_decl_tc4_off_ < 0;  // spray has NO TC4
+
+		// Billboard particle: Pos+Color+TC0+TC1+TC2+TC3+TC4+TC5+TC6, no Normal/Blend.
+		// TC0 = (rotation, alphaMul, colorMul), TC1 = atlas UV, TC2 = cornerIndex,
+		// TC3 = halfW/halfH, TC4 = pivotX/pivotY, TC5 = sunScale, TC6 = alphaRef.
+		cur_decl_is_billboard_particle_ = !cur_decl_has_normal_ &&
+			!has_blend_weight && !has_blend_indices &&
+			cur_decl_has_texcoord_ && cur_decl_has_color_ &&
+			cur_decl_tc1_off_ >= 0 &&
+			cur_decl_tc2_off_ >= 0 &&
+			cur_decl_tc3_off_ >= 0 &&
+			cur_decl_tc4_off_ >= 0;  // TC4 (pivot) distinguishes from spray
+
+		// Simple particle: Pos+Color only (stride 16), no UV
+		cur_decl_is_simple_particle_ = !cur_decl_has_normal_ &&
+			!has_blend_weight && !has_blend_indices &&
+			!cur_decl_has_texcoord_ && cur_decl_has_color_ &&
+			!cur_decl_has_pos_t_ && !cur_decl_has_tangent_ && !cur_decl_has_binormal_;
 	}
 
 	void ffp_state::on_set_fvf(DWORD fvf)
@@ -508,10 +530,12 @@ namespace shared::common
 		cur_decl_normal_off_ = 0;
 		cur_decl_normal_type_ = -1;
 		cur_decl_is_spray_ = false;
+		cur_decl_is_billboard_particle_ = false;
 		cur_decl_color_off_ = 0;
 		cur_decl_tc1_off_ = -1;
 		cur_decl_tc2_off_ = -1;
 		cur_decl_tc3_off_ = -1;
+		cur_decl_tc4_off_ = -1;
 
 		std::memset(vs_const_write_log_, 0, sizeof(vs_const_write_log_));
 

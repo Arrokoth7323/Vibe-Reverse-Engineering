@@ -4,7 +4,7 @@
 #include <stdint.h>
 
 #define SHMEM_LIGHT_NAME "Local\\RemixLightData_LOTRC"
-#define SHMEM_MAX_LIGHTS 512
+#define SHMEM_MAX_LIGHTS 768
 
 #pragma pack(push, 1)
 
