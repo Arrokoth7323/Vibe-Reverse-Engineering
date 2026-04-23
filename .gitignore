@@ -1,1 +1,72 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Build artifacts
+*.obj
+*.o
+*.asi
+*.lib
+*.exp
+*.pdb
+*.ilk
+
+# Generated patch output (asi_patcher)
+patches/
+
+# D3D9 tracer runtime artifacts
+dxtrace_capture.trigger
+dxtrace_progress.txt
+dxtrace_frame.jsonl
+
+# livetools daemon state
+livetools/.state.json
+livetools/.daemon.log
+
+# IDE / Editor
+.vs/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Signature DB (downloaded via sigdb.py pull)
+retools/data/signatures.db
+retools/data/sources/
+*.db-shm
+*.db-wal
+
+# Ghidra + JDK (downloaded via verify_install.py --setup)
+tools/ghidra_*/
+tools/jdk-*/
+
+# Target binaries (not part of the toolkit)
+*.exe
+*.dll
+!graphics/directx/dx9/tracer/src/*.dll
+!rtx_remix_tools/dx/remix-comp-proxy/assets/*.dll
+
+
+# Research artifacts
+compass_artifact_*
+
+# Agent memory (machine-specific, regenerated per session)
+.claude/agent-memory/
+
+# Superpowers specs/plans (session artifacts)
+docs/
+
+# RenderDoc (bundled distribution)
+tools/renderdoc*/
+
+# Ignore ViewPort Source
 **/ZeroEngine3DViewport/
